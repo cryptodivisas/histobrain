@@ -70,6 +70,8 @@ export const CATEGORY_MAP: Record<string, Category> = {
   "Christopher Columbus": "Figures",
   "Cleopatra": "Figures",
   "Martin Luther King Jr.": "Figures",
+  "Galileo Galilei": "Figures",
+  "Marco Polo": "Figures",
   // Events
   "Apollo 11 Moon Landing": "Events",
   "Fall of the Berlin Wall": "Events",
@@ -93,6 +95,11 @@ export const CATEGORY_MAP: Record<string, Category> = {
   "United States Bill of Rights": "Documents",
   "Universal Declaration of Human Rights": "Documents",
   "US Constitution": "Documents",
+  "Atlantic Charter": "Documents",
+  "Bayeux Tapestry": "Documents",
+  "Dead Sea Scrolls": "Documents",
+  "Epic of Gilgamesh": "Documents",
+  "Twelve Tables": "Documents",
 };
 
 export function categoryOf(name: string): Category | null {

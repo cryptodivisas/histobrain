@@ -44,6 +44,7 @@ const TITLE_OVERRIDES = {
   "Women's Suffrage (19th Amendment)":
     "Nineteenth Amendment to the United States Constitution",
   "Invention of the Printing Press": "Printing press",
+  "Dead Sea Scrolls": "Qumran",
 };
 
 // Direct thumbnail URLs for topics where the Wikipedia summary API returns no

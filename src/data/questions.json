@@ -1006,5 +1006,117 @@
       }
     ],
     "fact": "Drafted in 1787 at the Philadelphia Convention and signed by 39 delegates including George Washington and Benjamin Franklin, it is the oldest written national constitution still in use."
+  },
+  {
+    "name": "Atlantic Charter",
+    "image": "/questions/689570e94c726d85.jpg",
+    "clue": "This 1941 joint declaration by Franklin D. Roosevelt and Winston Churchill outlined Allied war aims and principles for a post-war world of self-determination and free trade.",
+    "wrong_options": [
+      {
+        "name": "Treaty of Versailles",
+        "image": "/questions/c722d0e765f52b96.jpg"
+      },
+      {
+        "name": "Universal Declaration of Human Rights",
+        "image": "/questions/4969c435e2b8b72f.jpg"
+      }
+    ],
+    "fact": "Signed aboard warships anchored off Newfoundland in August 1941, it laid intellectual groundwork for the United Nations and NATO."
+  },
+  {
+    "name": "Bayeux Tapestry",
+    "image": "/questions/c4d24ffb121af8f0.png",
+    "clue": "This embroidered cloth nearly 70 meters long narrates the Norman conquest of England in more than fifty vivid scenes stitched in wool thread.",
+    "wrong_options": [
+      {
+        "name": "Magna Carta",
+        "image": "/questions/fbd70a7978561d5e.jpg"
+      },
+      {
+        "name": "Domesday Book",
+        "image": "/questions/8a402b2a7e54ee04.jpg"
+      }
+    ],
+    "fact": "Created in the 1070s, likely in England, it culminates in William the Conqueror's victory over King Harold at the Battle of Hastings in 1066 and is displayed today in Bayeux, France."
+  },
+  {
+    "name": "Dead Sea Scrolls",
+    "image": "/questions/fdd29a89f57da738.jpg",
+    "clue": "This collection of ancient Jewish manuscripts was discovered between 1947 and 1956 in caves at Qumran near the Dead Sea.",
+    "wrong_options": [
+      {
+        "name": "Rosetta Stone",
+        "image": "/questions/ee354c08770b6476.jpg"
+      },
+      {
+        "name": "Code of Hammurabi",
+        "image": "/questions/8a3d604abd3b9624.jpg"
+      }
+    ],
+    "fact": "Dated roughly from the 3rd century BCE to the 1st century CE, the scrolls include the oldest known manuscripts of books later included in the Hebrew Bible."
+  },
+  {
+    "name": "Epic of Gilgamesh",
+    "image": "/questions/1541cd65f879612e.jpg",
+    "clue": "This Mesopotamian poem recounts the adventures of a Sumerian king and his wild companion Enkidu and is often called the oldest surviving great work of literature.",
+    "wrong_options": [
+      {
+        "name": "Code of Hammurabi",
+        "image": "/questions/8a3d604abd3b9624.jpg"
+      },
+      {
+        "name": "Rosetta Stone",
+        "image": "/questions/ee354c08770b6476.jpg"
+      }
+    ],
+    "fact": "Written in Akkadian cuneiform on clay tablets around 2100–1200 BCE, the epic includes a flood narrative strikingly similar to the later biblical story of Noah."
+  },
+  {
+    "name": "Twelve Tables",
+    "image": "/questions/c63f0d6abcc3c826.png",
+    "clue": "Compiled around 451 BCE, this code of Roman law was the first written legal framework of the Roman Republic and formed the basis of later Roman jurisprudence.",
+    "wrong_options": [
+      {
+        "name": "Code of Hammurabi",
+        "image": "/questions/8a3d604abd3b9624.jpg"
+      },
+      {
+        "name": "Magna Carta",
+        "image": "/questions/fbd70a7978561d5e.jpg"
+      }
+    ],
+    "fact": "Originally inscribed on bronze tablets displayed in the Roman Forum, the Twelve Tables made Roman law publicly accessible and limited arbitrary rulings by patrician magistrates."
+  },
+  {
+    "name": "Galileo Galilei",
+    "image": "/questions/36ce720ca66099e4.jpg",
+    "clue": "This Italian astronomer and physicist championed the heliocentric model, improved the telescope, and was famously tried by the Roman Inquisition in 1633.",
+    "wrong_options": [
+      {
+        "name": "Isaac Newton",
+        "image": "/questions/5578e7e35aa131da.jpg"
+      },
+      {
+        "name": "Leonardo da Vinci",
+        "image": "/questions/d73b156dc0757ec4.png"
+      }
+    ],
+    "fact": "Galileo discovered Jupiter's four largest moons, the phases of Venus, and the rings of Saturn, earning him the nickname 'the father of modern science.'"
+  },
+  {
+    "name": "Marco Polo",
+    "image": "/questions/572bc58410ade6d6.jpg",
+    "clue": "This 13th-century Venetian merchant traveled the Silk Road to the court of Kublai Khan and described his journeys in a book that shaped European knowledge of Asia.",
+    "wrong_options": [
+      {
+        "name": "Christopher Columbus",
+        "image": "/questions/f78c023a58fa8d88.jpg"
+      },
+      {
+        "name": "Ferdinand Magellan",
+        "image": "/questions/5edfd27f1c4a6596.jpg"
+      }
+    ],
+    "fact": "His book, commonly known as 'The Travels of Marco Polo,' was dictated to a fellow prisoner in Genoa around 1298 and inspired later explorers, including Columbus."
   }
 ]
