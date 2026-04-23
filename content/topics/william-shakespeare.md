@@ -5,6 +5,7 @@ summary: English playwright and poet widely regarded as the greatest writer in t
 ---
 
 
+
 ## Overview
 
 William Shakespeare was an English playwright, poet, and actor, widely regarded as the greatest writer in the English language and one of the most influential figures in world literature. His works, including tragedies, comedies, and historical plays, have been performed and studied for over four centuries.
