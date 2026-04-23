@@ -114,12 +114,12 @@ export default async function TopicPage({
 
         <article className="bg-[var(--hb-panel)] pixel-border p-6 sm:p-8 flex flex-col gap-6 text-[var(--hb-text)]">
           {topic.image && (
-            <div className="relative w-full aspect-[16/10] overflow-hidden pixel-border">
+            <div className="relative w-full aspect-[4/3] overflow-hidden pixel-border bg-[var(--hb-bg)]">
               <Image
                 src={topic.image}
                 alt={topic.title}
                 fill
-                className="object-cover"
+                className="object-contain"
                 sizes="(max-width: 768px) 100vw, 768px"
                 priority
               />
