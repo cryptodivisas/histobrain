@@ -1,0 +1,410 @@
+@import "tailwindcss";
+
+/* ============================================================
+   THEME SYSTEM
+   Default = Synthwave (original look).
+   Themes override via [data-theme="..."] on <html>.
+   ============================================================ */
+
+:root,
+html[data-theme="synthwave"] {
+  --hb-bg: #0f0f1a;
+  --hb-panel: #1a1a2e;
+  --hb-panel-alt: #232340;
+  --hb-border: #2d2d44;
+  --hb-text: #e8e8f0;
+  --hb-muted: #8888a0;
+  --hb-accent: #00ffa3;
+  --hb-accent-dark: #00cc82;
+  --hb-accent-darker: #006b44;
+  --hb-accent-shadow: #003322;
+  --hb-accent-2: #ffcc00;
+  --hb-accent-3: #ff6ec7;
+  --hb-accent-4: #b28cff;
+  --hb-wrong: #ff3860;
+  --hb-glow1: 138, 43, 226;   /* rgb purple */
+  --hb-glow2: 0, 255, 163;    /* rgb green */
+  --hb-scanline: rgba(0, 0, 0, 0.25);
+
+  /* Category colors (default palette — used by synthwave, terminal, gameboy) */
+  --hb-cat-landmarks: #00ffa3;
+  --hb-cat-art: #ff6ec7;
+  --hb-cat-figures: #ffcc00;
+  --hb-cat-events: #6ea8ff;
+  --hb-cat-documents: #b28cff;
+}
+
+html[data-theme="terminal"] {
+  --hb-bg: #000800;
+  --hb-panel: #001a00;
+  --hb-panel-alt: #002800;
+  --hb-border: #00cc00;
+  --hb-text: #33ff33;
+  --hb-muted: #3d8a3d;
+  --hb-accent: #00ff00;
+  --hb-accent-dark: #00cc00;
+  --hb-accent-darker: #008800;
+  --hb-accent-shadow: #003300;
+  --hb-accent-2: #aaff33;
+  --hb-accent-3: #ffffff;
+  --hb-accent-4: #77ff77;
+  --hb-wrong: #ff5555;
+  --hb-glow1: 0, 255, 0;
+  --hb-glow2: 0, 200, 0;
+  --hb-scanline: rgba(0, 0, 0, 0.35);
+}
+
+html[data-theme="gameboy"] {
+  --hb-bg: #081820;
+  --hb-panel: #346856;
+  --hb-panel-alt: #346856;
+  --hb-border: #e0f8d0;
+  --hb-text: #ffffff;
+  --hb-muted: #e0f8d0;
+  --hb-accent: #e0f8d0;
+  --hb-accent-dark: #346856;
+  --hb-accent-darker: #081820;
+  --hb-accent-shadow: #081820;
+  --hb-accent-2: #ffffff;
+  --hb-accent-3: #e0f8d0;
+  --hb-accent-4: #346856;
+  --hb-wrong: #d62828;
+  --hb-glow1: 224, 248, 208;
+  --hb-glow2: 255, 255, 255;
+  --hb-scanline: rgba(8, 24, 32, 0.4);
+}
+
+html[data-theme="sakura"] {
+  --hb-bg: #fff0f5;
+  --hb-panel: #ffd6e7;
+  --hb-panel-alt: #ffc0d9;
+  --hb-border: #c8477a;
+  --hb-text: #4a1d3f;
+  --hb-muted: #b88ba8;
+  --hb-accent: #ff4d94;
+  --hb-accent-dark: #e63e82;
+  --hb-accent-darker: #c8477a;
+  --hb-accent-shadow: #4a1d3f;
+  --hb-accent-2: #ffb347;
+  --hb-accent-3: #c8477a;
+  --hb-accent-4: #b794f4;
+  --hb-wrong: #d63864;
+  --hb-glow1: 255, 77, 148;
+  --hb-glow2: 255, 179, 71;
+  --hb-scanline: rgba(74, 29, 63, 0.05);
+
+  /* Sakura category palette — warm pinks, peaches & plums */
+  --hb-cat-landmarks: #ff4d94;  /* hot pink */
+  --hb-cat-art: #b794f4;        /* lavender */
+  --hb-cat-figures: #ffb347;    /* peach-gold */
+  --hb-cat-events: #d4648c;     /* rose */
+  --hb-cat-documents: #c8477a;  /* berry */
+}
+
+@theme inline {
+  --color-background: var(--hb-bg);
+  --color-foreground: var(--hb-text);
+  --font-sans: var(--font-pixel);
+  --font-mono: var(--font-pixel);
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+body {
+  background: var(--hb-bg);
+  color: var(--hb-text);
+  background-image:
+    radial-gradient(circle at 20% 10%, rgba(var(--hb-glow1), 0.12), transparent 40%),
+    radial-gradient(circle at 80% 90%, rgba(var(--hb-glow2), 0.08), transparent 40%),
+    linear-gradient(rgba(255, 255, 255, 0.02) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.02) 1px, transparent 1px);
+  background-size: 100% 100%, 100% 100%, 24px 24px, 24px 24px;
+  min-height: 100vh;
+  image-rendering: pixelated;
+  transition: background-color 0.3s ease;
+}
+
+.pixel-font {
+  font-family: var(--font-pixel), monospace;
+  letter-spacing: 0.02em;
+}
+
+.pixel-border {
+  image-rendering: pixelated;
+  box-shadow:
+    0 -4px 0 0 var(--hb-border),
+    0 4px 0 0 var(--hb-border),
+    -4px 0 0 0 var(--hb-border),
+    4px 0 0 0 var(--hb-border);
+}
+
+.pixel-border-accent {
+  box-shadow:
+    0 -4px 0 0 var(--hb-accent),
+    0 4px 0 0 var(--hb-accent),
+    -4px 0 0 0 var(--hb-accent),
+    4px 0 0 0 var(--hb-accent),
+    0 0 30px rgba(var(--hb-glow2), 0.5);
+}
+
+.pixel-border-wrong {
+  box-shadow:
+    0 -4px 0 0 var(--hb-wrong),
+    0 4px 0 0 var(--hb-wrong),
+    -4px 0 0 0 var(--hb-wrong),
+    4px 0 0 0 var(--hb-wrong);
+}
+
+.pixel-btn {
+  font-family: var(--font-pixel), monospace;
+  background: var(--hb-accent);
+  color: var(--hb-bg);
+  padding: 14px 28px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-size: 14px;
+  box-shadow:
+    0 -4px 0 0 var(--hb-accent-dark),
+    0 4px 0 0 var(--hb-accent-darker),
+    -4px 0 0 0 var(--hb-accent-dark),
+    4px 0 0 0 var(--hb-accent-dark),
+    0 6px 0 0 var(--hb-accent-shadow);
+  transition: transform 0.1s ease, box-shadow 0.1s ease;
+  cursor: pointer;
+}
+
+.pixel-btn:hover {
+  transform: translateY(-2px);
+  box-shadow:
+    0 -4px 0 0 var(--hb-accent-dark),
+    0 4px 0 0 var(--hb-accent-darker),
+    -4px 0 0 0 var(--hb-accent-dark),
+    4px 0 0 0 var(--hb-accent-dark),
+    0 8px 0 0 var(--hb-accent-shadow),
+    0 0 20px rgba(var(--hb-glow2), 0.5);
+}
+
+.pixel-btn:active {
+  transform: translateY(4px);
+  box-shadow:
+    0 -4px 0 0 var(--hb-accent-dark),
+    0 4px 0 0 var(--hb-accent-darker),
+    -4px 0 0 0 var(--hb-accent-dark),
+    4px 0 0 0 var(--hb-accent-dark);
+}
+
+.scanlines::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: linear-gradient(
+    transparent 50%,
+    var(--hb-scanline) 50%
+  );
+  background-size: 100% 4px;
+  pointer-events: none;
+  z-index: 2;
+  mix-blend-mode: multiply;
+}
+
+.card-flip {
+  perspective: 1200px;
+}
+
+.card-flip-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.9s cubic-bezier(0.4, 0.2, 0.2, 1);
+  transform-style: preserve-3d;
+}
+
+.card-flip-inner.flipped {
+  transform: rotateY(540deg);
+}
+
+.card-face {
+  position: absolute;
+  inset: 0;
+  backface-visibility: hidden;
+  overflow: hidden;
+}
+
+.card-face-back {
+  transform: rotateY(180deg);
+}
+
+.glitch-text {
+  text-shadow:
+    2px 0 0 rgba(255, 0, 170, 0.7),
+    -2px 0 0 rgba(0, 255, 200, 0.7);
+}
+
+html[data-theme="terminal"] .glitch-text,
+html[data-theme="gameboy"] .glitch-text,
+html[data-theme="sakura"] .glitch-text {
+  text-shadow: none;
+}
+
+@keyframes shakeHit {
+  0%, 100% { transform: translate(0, 0); }
+  20% { transform: translate(-2px, 1px); }
+  40% { transform: translate(2px, -1px); }
+  60% { transform: translate(-1px, 2px); }
+  80% { transform: translate(1px, -1px); }
+}
+
+@keyframes shakeMiss {
+  0%, 100% { transform: translate(0, 0); }
+  10% { transform: translate(-6px, 0); }
+  20% { transform: translate(6px, 0); }
+  30% { transform: translate(-5px, 0); }
+  40% { transform: translate(5px, 0); }
+  50% { transform: translate(-3px, 0); }
+  60% { transform: translate(3px, 0); }
+  70% { transform: translate(-2px, 0); }
+  80% { transform: translate(2px, 0); }
+}
+
+.shake-hit { animation: shakeHit 0.3s ease-in-out; }
+.shake-miss { animation: shakeMiss 0.4s ease-in-out; }
+
+@keyframes popIn {
+  0% { transform: scale(0) rotate(-15deg); opacity: 0; }
+  60% { transform: scale(1.2) rotate(5deg); opacity: 1; }
+  100% { transform: scale(1) rotate(0deg); opacity: 1; }
+}
+
+.pop-in {
+  animation: popIn 0.4s cubic-bezier(0.34, 1.56, 0.64, 1) both;
+}
+
+@keyframes comboPop {
+  0% { transform: scale(0.6) translateY(10px); opacity: 0; }
+  60% { transform: scale(1.15) translateY(-2px); opacity: 1; }
+  100% { transform: scale(1) translateY(0); opacity: 1; }
+}
+
+.combo-pop {
+  animation: comboPop 0.35s cubic-bezier(0.34, 1.56, 0.64, 1) both;
+}
+
+@keyframes toastEnter {
+  0% { transform: translateX(120%); opacity: 0; }
+  60% { transform: translateX(-8%); opacity: 1; }
+  100% { transform: translateX(0); opacity: 1; }
+}
+
+@keyframes toastExit {
+  0% { transform: translateX(0); opacity: 1; }
+  100% { transform: translateX(120%); opacity: 0; }
+}
+
+.toast-enter {
+  animation: toastEnter 0.45s cubic-bezier(0.34, 1.56, 0.64, 1) both;
+}
+
+.toast-exit {
+  animation: toastExit 0.4s ease-in both;
+}
+
+@keyframes timerPulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.4; }
+}
+
+.timer-pulse {
+  animation: timerPulse 0.4s ease-in-out infinite;
+}
+
+@keyframes modalIn {
+  0% { transform: scale(0.9); opacity: 0; }
+  100% { transform: scale(1); opacity: 1; }
+}
+
+.modal-in {
+  animation: modalIn 0.25s cubic-bezier(0.34, 1.56, 0.64, 1) both;
+}
+
+@keyframes backdropIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.backdrop-in {
+  animation: backdropIn 0.2s ease-out both;
+}
+
+/* Pixel particle burst */
+.hb-particle {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  pointer-events: none;
+  will-change: transform, opacity;
+}
+
+/* Rendered markdown body on /topics/[slug] pages. */
+.topic-body h2 {
+  color: var(--hb-accent-2);
+  font-family: var(--font-pixel-heading), monospace;
+  font-size: 0.875rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  margin-top: 1rem;
+  margin-bottom: 0.25rem;
+}
+.topic-body h2::before {
+  content: "> ";
+  color: var(--hb-accent);
+}
+.topic-body h3 {
+  color: var(--hb-accent);
+  font-family: var(--font-pixel-heading), monospace;
+  font-size: 0.75rem;
+  letter-spacing: 0.15em;
+  margin-top: 0.75rem;
+  margin-bottom: 0.25rem;
+}
+.topic-body p {
+  color: var(--hb-text);
+  line-height: 1.7;
+}
+.topic-body ul {
+  list-style: none;
+  padding-left: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.topic-body ul li {
+  position: relative;
+  padding-left: 1.25rem;
+  color: var(--hb-text);
+}
+.topic-body ul li::before {
+  content: "▸";
+  position: absolute;
+  left: 0;
+  color: var(--hb-accent);
+}
+.topic-body strong {
+  color: var(--hb-accent-2);
+}
+.topic-body a {
+  color: var(--hb-accent);
+  text-decoration: underline;
+}
+.topic-body a:hover {
+  color: var(--hb-accent-2);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .card-flip-inner { transition: none !important; }
+  .shake-hit, .shake-miss, .pop-in, .combo-pop,
+  .toast-enter, .toast-exit, .timer-pulse,
+  .modal-in, .backdrop-in { animation: none !important; }
+}

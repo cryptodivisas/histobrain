@@ -1,0 +1,498 @@
+[
+  {
+    "name": "Taj Mahal",
+    "image": "/questions/00691b32575e329b.jpg",
+    "clue": "This ivory-white marble mausoleum was commissioned in 1632 by a Mughal emperor for his favorite wife.",
+    "wrong_options": [
+      {
+        "name": "Great Pyramid of Giza",
+        "image": "/questions/a979d91bc5e35afc.jpg"
+      },
+      {
+        "name": "Colosseum",
+        "image": "/questions/97d11ea642b329b4.jpg"
+      }
+    ],
+    "fact": "The Taj Mahal is located in Agra, India. It took about 20,000 artisans and 20 years to complete."
+  },
+  {
+    "name": "Mona Lisa",
+    "image": "/questions/15f79d9238e4d37b.jpg",
+    "clue": "This half-length portrait by Leonardo da Vinci is considered the most famous painting in the world.",
+    "wrong_options": [
+      {
+        "name": "The Starry Night",
+        "image": "/questions/81d451f6b417e15e.jpg"
+      },
+      {
+        "name": "The Scream",
+        "image": "/questions/079c3cd26f6d3ea6.jpg"
+      }
+    ],
+    "fact": "The Mona Lisa has been on permanent display at the Louvre in Paris since 1797. Her enigmatic smile has fascinated viewers for centuries."
+  },
+  {
+    "name": "Declaration of Independence",
+    "image": "/questions/38eca3c6a8c712e9.jpg",
+    "clue": "This document, adopted on July 4, 1776, announced the thirteen American colonies' separation from Great Britain.",
+    "wrong_options": [
+      {
+        "name": "Magna Carta",
+        "image": "/questions/fbd70a7978561d5e.jpg"
+      },
+      {
+        "name": "Emancipation Proclamation",
+        "image": "/questions/bcc6fb053d8655dd.jpg"
+      }
+    ],
+    "fact": "The Declaration of Independence was primarily written by Thomas Jefferson. It asserts that 'all men are created equal' with unalienable rights."
+  },
+  {
+    "name": "Napoleon Bonaparte",
+    "image": "/questions/eda65d78f5de7dac.jpg",
+    "clue": "This French military leader rose to prominence during the French Revolution and became Emperor of France in 1804.",
+    "wrong_options": [
+      {
+        "name": "Julius Caesar",
+        "image": "/questions/55f335a4fd00293b.jpg"
+      },
+      {
+        "name": "Winston Churchill",
+        "image": "/questions/c7e49120e6038889.jpg"
+      }
+    ],
+    "fact": "Napoleon dominated European affairs for nearly two decades while leading France against a series of coalitions in the Napoleonic Wars."
+  },
+  {
+    "name": "Wright Brothers",
+    "image": "/questions/1277c5f806e158e3.jpg",
+    "clue": "These two American siblings achieved the first powered, sustained, and controlled airplane flight in 1903.",
+    "wrong_options": [
+      {
+        "name": "Thomas Edison",
+        "image": "/questions/52f08a57150af258.jpg"
+      },
+      {
+        "name": "Henry Ford",
+        "image": "/questions/1e168b1b1659bfb4.png"
+      }
+    ],
+    "fact": "Orville and Wilbur Wright made the first flight on December 17, 1903 at Kitty Hawk, North Carolina. It lasted 12 seconds."
+  },
+  {
+    "name": "Eiffel Tower",
+    "image": "/questions/8ab7452248314ab7.jpg",
+    "clue": "This wrought-iron lattice tower was built for the 1889 World's Fair and was the tallest structure in the world for 41 years.",
+    "wrong_options": [
+      {
+        "name": "Big Ben",
+        "image": "/questions/dfe97d37e23cef28.jpg"
+      },
+      {
+        "name": "Empire State Building",
+        "image": "/questions/0dd37c2c22e23c6f.jpg"
+      }
+    ],
+    "fact": "Designed by Gustave Eiffel's company, the tower stands 330 meters tall and was originally intended to be dismantled after 20 years."
+  },
+  {
+    "name": "Statue of Liberty",
+    "image": "/questions/f963bc5030600c6a.jpg",
+    "clue": "This colossal neoclassical sculpture was a gift from France to the United States, dedicated in 1886.",
+    "wrong_options": [
+      {
+        "name": "Christ the Redeemer",
+        "image": "/questions/36a607f04ee8047e.jpg"
+      },
+      {
+        "name": "Motherland Calls",
+        "image": "/questions/fd841071db7ca5f2.jpg"
+      }
+    ],
+    "fact": "Designed by sculptor Frédéric Auguste Bartholdi, it stands on Liberty Island and has welcomed immigrants arriving from abroad for over a century."
+  },
+  {
+    "name": "Great Wall of China",
+    "image": "/questions/ef1258a045464fed.jpg",
+    "clue": "This series of fortifications stretches over 21,000 kilometers and was built to protect Chinese states from northern invasions.",
+    "wrong_options": [
+      {
+        "name": "Hadrian's Wall",
+        "image": "/questions/20d20ca5bd05e85f.png"
+      },
+      {
+        "name": "Berlin Wall",
+        "image": "/questions/df3f27a097e904a0.jpg"
+      }
+    ],
+    "fact": "Construction began in the 7th century BC. The best-known sections were built by the Ming dynasty between 1368 and 1644."
+  },
+  {
+    "name": "Stonehenge",
+    "image": "/questions/ab6a066ae36477c7.jpg",
+    "clue": "This prehistoric monument of standing stones in Wiltshire, England was constructed roughly 5,000 years ago.",
+    "wrong_options": [
+      {
+        "name": "Moai of Easter Island",
+        "image": "/questions/971e2b2445aeb4fb.jpg"
+      },
+      {
+        "name": "Carnac Stones",
+        "image": "/questions/3c40cc8673b9dabe.jpg"
+      }
+    ],
+    "fact": "Each of the larger sarsen stones weighs around 25 tons. How they were transported and erected remains partially a mystery."
+  },
+  {
+    "name": "Machu Picchu",
+    "image": "/questions/07e767f94941cc3f.jpg",
+    "clue": "This 15th-century Inca citadel sits 2,430 meters above sea level on a mountain ridge in southern Peru.",
+    "wrong_options": [
+      {
+        "name": "Chichen Itza",
+        "image": "/questions/dfca4b5c6e7a421b.jpg"
+      },
+      {
+        "name": "Tikal",
+        "image": "/questions/f6c44834e615a9df.jpg"
+      }
+    ],
+    "fact": "Built for the Inca emperor Pachacuti, Machu Picchu was abandoned during the Spanish conquest and rediscovered by Hiram Bingham in 1911."
+  },
+  {
+    "name": "Parthenon",
+    "image": "/questions/2aaa479907b695eb.jpg",
+    "clue": "This former temple on the Athenian Acropolis was dedicated to the goddess Athena in the 5th century BC.",
+    "wrong_options": [
+      {
+        "name": "Pantheon",
+        "image": "/questions/94ef73e7b43015f6.jpg"
+      },
+      {
+        "name": "Temple of Luxor",
+        "image": "/questions/49e540579b7895f5.jpg"
+      }
+    ],
+    "fact": "The Parthenon is considered the most important surviving building of Classical Greece and a symbol of ancient Athenian democracy."
+  },
+  {
+    "name": "Colosseum",
+    "image": "/questions/97d11ea642b329b4.jpg",
+    "clue": "This oval amphitheatre in Rome could hold 50,000 to 80,000 spectators and hosted gladiatorial contests and public spectacles.",
+    "wrong_options": [
+      {
+        "name": "Pula Arena",
+        "image": "/questions/1c5933c0e301876e.jpg"
+      },
+      {
+        "name": "Theatre of Dionysus",
+        "image": "/questions/15bb3455636bafd1.jpg"
+      }
+    ],
+    "fact": "Construction began under emperor Vespasian around AD 72 and was completed in AD 80 under his son Titus."
+  },
+  {
+    "name": "Great Pyramid of Giza",
+    "image": "/questions/a979d91bc5e35afc.jpg",
+    "clue": "The oldest and largest of the three pyramids in the Giza complex, it was built as a tomb for Pharaoh Khufu around 2560 BC.",
+    "wrong_options": [
+      {
+        "name": "Pyramid of the Sun",
+        "image": "/questions/d5ca25d54d319164.jpg"
+      },
+      {
+        "name": "Step Pyramid of Djoser",
+        "image": "/questions/9d7ce4719849cd36.jpg"
+      }
+    ],
+    "fact": "It stood as the tallest man-made structure in the world for over 3,800 years, originally reaching 146.6 meters."
+  },
+  {
+    "name": "The Starry Night",
+    "image": "/questions/81d451f6b417e15e.jpg",
+    "clue": "Painted in June 1889, this oil-on-canvas depicts a swirling night sky over a village, by a Dutch post-impressionist.",
+    "wrong_options": [
+      {
+        "name": "Impression, Sunrise",
+        "image": "/questions/bf8627caa480038c.jpg"
+      },
+      {
+        "name": "Water Lilies",
+        "image": "/questions/6d314dfbad74eda9.jpg"
+      }
+    ],
+    "fact": "Vincent van Gogh painted The Starry Night from the window of his room at the Saint-Paul-de-Mausole asylum in Saint-Rémy, France."
+  },
+  {
+    "name": "The Scream",
+    "image": "/questions/079c3cd26f6d3ea6.jpg",
+    "clue": "This iconic 1893 expressionist work by a Norwegian painter depicts an agonized figure against a blood-red sky.",
+    "wrong_options": [
+      {
+        "name": "The Persistence of Memory",
+        "image": "/questions/5d57f043663f766e.jpg"
+      },
+      {
+        "name": "The Kiss",
+        "image": "/questions/8762e9bebfaffc6f.jpg"
+      }
+    ],
+    "fact": "Edvard Munch created four versions of The Scream. He said the idea came to him during a sunset walk when he 'sensed an infinite scream passing through nature.'"
+  },
+  {
+    "name": "Albert Einstein",
+    "image": "/questions/b787643986e34d6b.jpg",
+    "clue": "This German-born theoretical physicist developed the theory of relativity and won the 1921 Nobel Prize in Physics.",
+    "wrong_options": [
+      {
+        "name": "Nikola Tesla",
+        "image": "/questions/337e88e50b088edf.jpg"
+      },
+      {
+        "name": "Isaac Newton",
+        "image": "/questions/5578e7e35aa131da.jpg"
+      }
+    ],
+    "fact": "Einstein's mass-energy equivalence formula E=mc² is one of the world's most famous equations. He emigrated to the U.S. in 1933."
+  },
+  {
+    "name": "Mahatma Gandhi",
+    "image": "/questions/d673a77933b81666.jpg",
+    "clue": "This Indian lawyer led the nonviolent resistance movement that secured India's independence from British rule.",
+    "wrong_options": [
+      {
+        "name": "Jawaharlal Nehru",
+        "image": "/questions/f5c09605eeec5d36.jpg"
+      },
+      {
+        "name": "Nelson Mandela",
+        "image": "/questions/99ce9a9041cd8d76.jpg"
+      }
+    ],
+    "fact": "Gandhi led the 1930 Salt March, a 240-mile protest against British salt taxes, becoming a symbol of peaceful resistance worldwide."
+  },
+  {
+    "name": "Abraham Lincoln",
+    "image": "/questions/bd09d496f7c264db.jpg",
+    "clue": "This 16th U.S. President led the country through the Civil War and signed the Emancipation Proclamation in 1863.",
+    "wrong_options": [
+      {
+        "name": "Ulysses S. Grant",
+        "image": "/questions/37af8df60643a45b.jpg"
+      },
+      {
+        "name": "Andrew Johnson",
+        "image": "/questions/a0820fe5ee9285ac.jpg"
+      }
+    ],
+    "fact": "Lincoln was assassinated at Ford's Theatre by John Wilkes Booth on April 14, 1865, just days after the Civil War ended."
+  },
+  {
+    "name": "Winston Churchill",
+    "image": "/questions/c7e49120e6038889.jpg",
+    "clue": "This British Prime Minister led the United Kingdom to victory in the Second World War with his defiant wartime speeches.",
+    "wrong_options": [
+      {
+        "name": "Neville Chamberlain",
+        "image": "/questions/9ccb5bc9ba4d242c.jpg"
+      },
+      {
+        "name": "Charles de Gaulle",
+        "image": "/questions/1f2d18ba6bfe6c31.jpg"
+      }
+    ],
+    "fact": "Churchill was also a prolific writer, winning the 1953 Nobel Prize in Literature for his historical works."
+  },
+  {
+    "name": "Julius Caesar",
+    "image": "/questions/55f335a4fd00293b.jpg",
+    "clue": "This Roman general and statesman crossed the Rubicon in 49 BC, sparking civil war and becoming dictator of Rome.",
+    "wrong_options": [
+      {
+        "name": "Augustus",
+        "image": "/questions/78196ac3176a4b87.jpg"
+      },
+      {
+        "name": "Marcus Aurelius",
+        "image": "/questions/7a9505b2b18a0845.jpg"
+      }
+    ],
+    "fact": "Caesar was assassinated on the Ides of March (March 15) in 44 BC by a group of senators led by Brutus and Cassius."
+  },
+  {
+    "name": "Leonardo da Vinci",
+    "image": "/questions/d73b156dc0757ec4.png",
+    "clue": "This Italian Renaissance polymath painted the Last Supper and filled thousands of notebook pages with inventions and studies.",
+    "wrong_options": [
+      {
+        "name": "Michelangelo",
+        "image": "/questions/b8c5aeebf14ee3fb.jpg"
+      },
+      {
+        "name": "Raphael",
+        "image": "/questions/b63f60c5db510a4e.jpg"
+      }
+    ],
+    "fact": "Leonardo designed flying machines, studied human anatomy through dissection, and engineered canals — centuries ahead of his time."
+  },
+  {
+    "name": "William Shakespeare",
+    "image": "/questions/12be2a28e5fb42c5.jpg",
+    "clue": "This English playwright and poet wrote Hamlet, Macbeth, and Romeo and Juliet in the late 16th and early 17th centuries.",
+    "wrong_options": [
+      {
+        "name": "Christopher Marlowe",
+        "image": "/questions/4163f171693176d3.jpg"
+      },
+      {
+        "name": "Geoffrey Chaucer",
+        "image": "/questions/8521fddc157a4666.jpg"
+      }
+    ],
+    "fact": "Shakespeare wrote 39 plays and 154 sonnets. His works have been translated into every major living language."
+  },
+  {
+    "name": "Apollo 11 Moon Landing",
+    "image": "/questions/ca37d9557c41fe6d.jpg",
+    "clue": "On July 20, 1969, humans walked on the lunar surface for the first time during this NASA mission.",
+    "wrong_options": [
+      {
+        "name": "Apollo 13",
+        "image": "/questions/61372afde2be7a6a.png"
+      },
+      {
+        "name": "Sputnik 1",
+        "image": "/questions/0b651a8157320352.jpg"
+      }
+    ],
+    "fact": "Neil Armstrong's first words on the Moon were 'That's one small step for man, one giant leap for mankind.' Buzz Aldrin followed 19 minutes later."
+  },
+  {
+    "name": "Fall of the Berlin Wall",
+    "image": "/questions/ad94497039219dec.jpg",
+    "clue": "On November 9, 1989, East Germans were allowed to cross freely, leading to the dismantling of this Cold War barrier.",
+    "wrong_options": [
+      {
+        "name": "Iron Curtain Checkpoint",
+        "image": "/questions/8d622a372cb8fbd9.jpg"
+      },
+      {
+        "name": "Korean DMZ",
+        "image": "/questions/3b2ca764030645b4.jpg"
+      }
+    ],
+    "fact": "The wall divided Berlin from 1961 to 1989. Its fall marked a turning point in the Cold War and led to German reunification in 1990."
+  },
+  {
+    "name": "RMS Titanic",
+    "image": "/questions/b009ee8a6e22c017.jpg",
+    "clue": "This British passenger liner sank in the North Atlantic in April 1912 after striking an iceberg on its maiden voyage.",
+    "wrong_options": [
+      {
+        "name": "RMS Lusitania",
+        "image": "/questions/c03d8e071cd89687.jpg"
+      },
+      {
+        "name": "USS Arizona",
+        "image": "/questions/2f44ce12476c1f72.jpg"
+      }
+    ],
+    "fact": "More than 1,500 of the 2,224 passengers and crew died. The wreck was discovered in 1985 about 3,800 meters below the surface."
+  },
+  {
+    "name": "Magna Carta",
+    "image": "/questions/fbd70a7978561d5e.jpg",
+    "clue": "This 1215 English charter limited the power of King John and became a foundational document of constitutional law.",
+    "wrong_options": [
+      {
+        "name": "Bill of Rights 1689",
+        "image": "/questions/7283dc95bfb2365d.png"
+      },
+      {
+        "name": "Domesday Book",
+        "image": "/questions/8a402b2a7e54ee04.jpg"
+      }
+    ],
+    "fact": "Sealed at Runnymede, Magna Carta established that the king was subject to the law. It influenced the U.S. Constitution centuries later."
+  },
+  {
+    "name": "Thomas Edison",
+    "image": "/questions/52f08a57150af258.jpg",
+    "clue": "This American inventor held 1,093 U.S. patents and developed a practical incandescent light bulb and the phonograph.",
+    "wrong_options": [
+      {
+        "name": "Alexander Graham Bell",
+        "image": "/questions/e66ab1c8cd2d542b.jpg"
+      },
+      {
+        "name": "Nikola Tesla",
+        "image": "/questions/337e88e50b088edf.jpg"
+      }
+    ],
+    "fact": "Edison founded the first industrial research laboratory in Menlo Park, New Jersey, pioneering the modern R&D system."
+  },
+  {
+    "name": "Marie Curie",
+    "image": "/questions/3403a772e72cffec.jpg",
+    "clue": "This Polish-French physicist and chemist pioneered research on radioactivity and was the first person to win Nobel Prizes in two sciences.",
+    "wrong_options": [
+      {
+        "name": "Rosalind Franklin",
+        "image": "/questions/396febd5226231e2.jpg"
+      },
+      {
+        "name": "Ada Lovelace",
+        "image": "/questions/a7b6de08bcd9ffd9.png"
+      }
+    ],
+    "fact": "Marie Curie discovered the elements polonium and radium. She won Nobel Prizes in Physics (1903) and Chemistry (1911)."
+  },
+  {
+    "name": "Christopher Columbus",
+    "image": "/questions/f78c023a58fa8d88.jpg",
+    "clue": "This Italian explorer completed four voyages across the Atlantic Ocean starting in 1492, opening the way for European colonization of the Americas.",
+    "wrong_options": [
+      {
+        "name": "Ferdinand Magellan",
+        "image": "/questions/5edfd27f1c4a6596.jpg"
+      },
+      {
+        "name": "Vasco da Gama",
+        "image": "/questions/d26b657f4cbb25c4.jpg"
+      }
+    ],
+    "fact": "Sponsored by the Catholic Monarchs of Spain, Columbus landed in the Bahamas on October 12, 1492, believing he had reached the East Indies."
+  },
+  {
+    "name": "Cleopatra",
+    "image": "/questions/9f7c2cbdb434f58e.jpg",
+    "clue": "This last active pharaoh of Ptolemaic Egypt famously aligned herself with Julius Caesar and later Mark Antony.",
+    "wrong_options": [
+      {
+        "name": "Nefertiti",
+        "image": "/questions/0d6c923b3a7b6ae7.jpg"
+      },
+      {
+        "name": "Hatshepsut",
+        "image": "/questions/7f61225e12ec5256.jpg"
+      }
+    ],
+    "fact": "Cleopatra VII ruled Egypt from 51 to 30 BC. Her death by suicide marked the end of the Ptolemaic Kingdom and its annexation by Rome."
+  },
+  {
+    "name": "Martin Luther King Jr.",
+    "image": "/questions/ea81e0db68452ade.jpg",
+    "clue": "This American Baptist minister led the civil rights movement and delivered the 'I Have a Dream' speech in 1963.",
+    "wrong_options": [
+      {
+        "name": "Malcolm X",
+        "image": "/questions/e04a3a80bc93f790.jpg"
+      },
+      {
+        "name": "Frederick Douglass",
+        "image": "/questions/75c6bd891ab0d980.jpg"
+      }
+    ],
+    "fact": "King won the Nobel Peace Prize in 1964 and was assassinated in Memphis, Tennessee on April 4, 1968."
+  }
+]
