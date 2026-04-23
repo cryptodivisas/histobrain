@@ -12,7 +12,7 @@ export const metadata: Metadata = {
 const hf = { fontFamily: "var(--font-pixel-heading), monospace" };
 
 // Primary contact email. Update this if the alias changes.
-const CONTACT_EMAIL = "hello@histobrain.com";
+const CONTACT_EMAIL = "info@henrymontilla.com";
 
 export default function ContactPage() {
   return (
