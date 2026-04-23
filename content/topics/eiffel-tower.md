@@ -5,6 +5,7 @@ summary: Wrought-iron lattice tower in Paris built for the 1889 World's Fair and
 ---
 
 
+
 ## Overview
 
 The Eiffel Tower is a 330-meter wrought-iron lattice tower on the Champ de Mars in Paris, France. Built as the entrance arch for the 1889 Exposition Universelle — the world's fair celebrating the centennial of the French Revolution — it was the tallest man-made structure on Earth for forty-one years. What began as a temporary exhibit has become the defining symbol of Paris and one of the most visited paid monuments in the world.

@@ -5,6 +5,7 @@ summary: American Baptist minister and civil rights leader whose nonviolent camp
 ---
 
 
+
 ## Overview
 
 Martin Luther King Jr. was the most recognizable leader of the American civil rights movement. Guided by Christian theology and the principles of nonviolent resistance, he organized boycotts, marches, and campaigns that dismantled legal segregation across the American South. His "I Have a Dream" speech, delivered at the 1963 March on Washington, became one of the defining moments of the twentieth century.

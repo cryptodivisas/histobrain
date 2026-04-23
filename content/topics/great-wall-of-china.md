@@ -5,6 +5,7 @@ summary: Vast system of fortifications built across northern China over more tha
 ---
 
 
+
 ## Overview
 
 The Great Wall of China is not a single wall but an enormous network of walls, watchtowers, beacon towers, barracks, and fortresses stretching across northern China. Built in stages by different dynasties between the seventh century BCE and the seventeenth century CE, the system was designed to protect agricultural Chinese states from nomadic peoples of the northern steppe. A 2012 survey by China's State Administration of Cultural Heritage put the total length — including all branches, natural barriers, and ruined sections — at more than 21,000 kilometers.

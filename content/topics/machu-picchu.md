@@ -5,6 +5,7 @@ summary: Fifteenth-century Incan royal estate high in the Andes of Peru, renowne
 ---
 
 
+
 ## Overview
 
 Machu Picchu is an Incan citadel perched on a mountain ridge 2,430 meters above sea level in southern Peru. Built in the mid-fifteenth century during the reign of the emperor Pachacuti, it is one of the finest surviving examples of Incan architecture and urban planning. Abandoned after the Spanish conquest and hidden by cloud and forest for centuries, it is now one of the most recognized archaeological sites in the world and was designated a UNESCO World Heritage Site in 1983.

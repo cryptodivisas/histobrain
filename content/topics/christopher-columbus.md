@@ -1,34 +1,29 @@
 ---
 title: Christopher Columbus
 era: 1451–1506
-summary: Explorer whose voyages across the Atlantic opened the way for European exploration of the Americas.
+summary: Genoese explorer whose 1492 voyage across the Atlantic opened sustained contact between Europe and the Americas.
 ---
-
 
 
 ## Overview
 
-Christopher Columbus was an Italian explorer whose voyages across the Atlantic Ocean in 1492 led to sustained European contact with the Americas. His journeys marked the beginning of a new era of exploration and global interaction.
+Christopher Columbus was a Genoese-born navigator whose 1492 voyage across the Atlantic Ocean established permanent contact between Europe and the Americas. Sailing under the flag of the Crown of Castile, he made four voyages to the Caribbean and the coasts of Central and South America, believing until his death that he had reached the eastern fringes of Asia. The consequences of his expeditions — for the Indigenous peoples of the Americas, for the kingdoms of Europe, and for the global transfer of plants, animals, microbes, and people — are among the most far-reaching in history.
 
-## Early Life
+## Early Life and the First Voyage
 
-Columbus was born in Genoa, Italy, around 1451. He developed an interest in navigation and exploration at a young age. He believed that sailing west would provide a direct route to Asia.
+Columbus was born in the Republic of Genoa in 1451, the son of a wool weaver, and went to sea as a teenager. By the 1480s he was lobbying European courts to fund an expedition west across the Atlantic, convinced — wrongly — that Asia lay only a few thousand miles away. Portugal, England, and France all turned him down, but in 1492, after the fall of Granada completed the *Reconquista*, the Catholic Monarchs Ferdinand and Isabella agreed to back him. He set out in August with three small ships — the *Niña*, the *Pinta*, and his flagship the *Santa María* — and made landfall on October 12 in the Bahamas, where he encountered the Taíno people. He called the region the "Indies," a name that persisted even after Europeans realized their mistake.
 
-## Voyages
+## Later Voyages and Governance
 
-With support from Spain, Columbus set sail in 1492 and reached islands in the Caribbean. Although he believed he had reached Asia, he had actually encountered the Americas. He made several voyages, exploring parts of the Caribbean and Central America.
+Columbus made three more voyages between 1493 and 1504, establishing Spanish settlements on Hispaniola, exploring Cuba, Jamaica, Puerto Rico, and the coasts of modern Venezuela, Honduras, and Panama. Appointed governor of the new colony, he proved a harsh and unpopular administrator. Settlers complained of mismanagement; Indigenous peoples were forced into labor systems that led to catastrophic death rates from violence, overwork, and introduced diseases. In 1500 the Crown sent a royal investigator who arrested Columbus and shipped him back to Spain in chains. He was released but lost most of his titles and privileges.
 
-## Impact
+## Legacy and Controversy
 
-Columbus’s voyages initiated widespread exploration and colonization by European powers. While his journeys led to global exchange, they also brought significant consequences for indigenous populations.
-
-## Legacy
-
-Columbus remains a controversial figure. He is recognized for his role in exploration but also criticized for the impacts of colonization.
+Columbus died in 1506 in Valladolid, Spain, still insisting he had reached Asia. The continents he had actually encountered were named not after him but after Amerigo Vespucci, whose 1503 letters argued — correctly — that this was a New World. For centuries Columbus was celebrated as a heroic discoverer; today, public reassessment has emphasized the violence and disease that accompanied contact and the transformation of Native American societies that followed. His voyages remain a pivotal turning point, triggering the Columbian Exchange and the long, uneven globalization of the modern era.
 
 ## Did You Know?
 
-- He never realized he had reached a new continent.  
-- He made four voyages across the Atlantic.  
-- His ships were the Niña, Pinta, and Santa María.  
-- His journeys began in 1492.  
+- Columbus never set foot on the mainland of what is now the United States.
+- He miscalculated the size of Earth, badly underestimating the distance to Asia.
+- He was briefly arrested and shipped back to Spain in chains in 1500.
+- The Americas are named after Amerigo Vespucci, not Columbus.

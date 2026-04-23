@@ -5,6 +5,7 @@ summary: Roman general, statesman, and dictator whose conquests and political re
 ---
 
 
+
 ## Overview
 
 Gaius Julius Caesar was a Roman general, politician, and writer whose career marked the turning point between the Roman Republic and the Roman Empire. He extended Roman rule across Gaul, seized power in a civil war, and ruled as dictator of Rome until his assassination on the Ides of March in 44 BCE. Through his political heir Octavian, later known as Augustus, Caesar's legacy became the foundation of more than five centuries of Roman imperial rule.

@@ -5,6 +5,7 @@ summary: American inventor and businessman whose laboratories produced the phono
 ---
 
 
+
 ## Overview
 
 Thomas Alva Edison was the most prolific inventor of his age and a defining figure in the rise of modern industrial technology. He developed or refined devices that shaped daily life in the late nineteenth and early twentieth centuries, including the phonograph, a practical incandescent light bulb, and the motion-picture camera. Just as important, he pioneered the modern research laboratory, turning invention itself into a disciplined, team-based industry.

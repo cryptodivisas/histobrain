@@ -5,6 +5,7 @@ summary: Italian Renaissance sculptor, painter, and architect whose works includ
 ---
 
 
+
 ## Overview
 
 Michelangelo Buonarroti was one of the towering figures of the Italian Renaissance and one of the most influential artists in Western history. A sculptor, painter, architect, and poet, he produced works that have defined the European visual imagination for five centuries. His contemporaries already called him *Il Divino* — "the Divine One" — for the sheer emotional and technical force of his art.

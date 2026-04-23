@@ -5,6 +5,7 @@ summary: American inventors who designed, built, and piloted the first successfu
 ---
 
 
+
 ## Overview
 
 Orville and Wilbur Wright were two American brothers from Dayton, Ohio, who made the first sustained, controlled, powered heavier-than-air flight on December 17, 1903. Self-taught engineers without a college degree between them, they solved problems that professional scientists, wealthy inventors, and European academies had spent decades failing to crack. Their breakthrough was not simply getting an aircraft off the ground but learning how to steer one — an insight that made practical aviation possible.

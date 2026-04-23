@@ -5,6 +5,7 @@ summary: Prehistoric stone circle in southern England, one of the most famous mo
 ---
 
 
+
 ## Overview
 
 Stonehenge is a ring of massive standing stones on Salisbury Plain in Wiltshire, England. Built in stages over more than a thousand years during the Neolithic and early Bronze Age, it is among the most studied archaeological sites on Earth. Scholars still debate its original function, but its scale, alignment, and craftsmanship make it one of the most remarkable achievements of prehistoric Europe.

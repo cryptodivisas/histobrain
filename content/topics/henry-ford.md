@@ -5,6 +5,7 @@ summary: American industrialist who founded the Ford Motor Company and transform
 ---
 
 
+
 ## Overview
 
 Henry Ford was the founder of the Ford Motor Company and one of the most consequential figures in twentieth-century industry. He did not invent the automobile, but he made it affordable, reliable, and central to modern life. By reorganizing the factory floor around the moving assembly line and paying his workers high enough wages to buy their own cars, Ford helped create the consumer economy that defined the United States and much of the world.
