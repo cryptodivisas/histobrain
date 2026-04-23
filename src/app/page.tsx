@@ -1241,13 +1241,6 @@ export default function Home() {
             >
               Henry Montilla
             </a>
-            {" · "}
-            <a
-              href="/privacy"
-              className="text-[var(--hb-accent)] hover:underline"
-            >
-              Privacy
-            </a>
           </div>
         </footer>
       </div>
