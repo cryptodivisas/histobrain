@@ -766,5 +766,245 @@
       }
     ],
     "fact": "A founding work of American Pop Art, the set is now owned by the Museum of Modern Art in New York."
+  },
+  {
+    "name": "Battle of Waterloo",
+    "image": "/questions/40fd4c2ce8147e74.png",
+    "clue": "This decisive 1815 battle in present-day Belgium ended the Napoleonic Wars when a coalition army defeated the French emperor for the final time.",
+    "wrong_options": [
+      {
+        "name": "Black Death",
+        "image": "/questions/454224e0ac9b258e.png"
+      },
+      {
+        "name": "Industrial Revolution",
+        "image": "/questions/2909ff725329a0b2.jpg"
+      }
+    ],
+    "fact": "Fought on June 18, 1815, Waterloo pitted Napoleon's army against forces led by the Duke of Wellington and Prussian general Blücher and ended Napoleon's rule within days."
+  },
+  {
+    "name": "Black Death",
+    "image": "/questions/454224e0ac9b258e.png",
+    "clue": "This mid-14th-century bubonic plague pandemic killed an estimated one-third of Europe's population and reshaped medieval society.",
+    "wrong_options": [
+      {
+        "name": "Industrial Revolution",
+        "image": "/questions/2909ff725329a0b2.jpg"
+      },
+      {
+        "name": "Invention of the Printing Press",
+        "image": "/questions/54121bd8a8fef44c.jpg"
+      }
+    ],
+    "fact": "Arriving in Europe via Genoese trading ships in 1347, the plague killed between 75 and 200 million people across Afro-Eurasia by 1353."
+  },
+  {
+    "name": "Chernobyl Disaster",
+    "image": "/questions/7e87856590da9e75.jpg",
+    "clue": "This 1986 nuclear accident in Soviet Ukraine became the worst civilian nuclear incident in history after a reactor exploded during a late-night safety test.",
+    "wrong_options": [
+      {
+        "name": "September 11 Attacks",
+        "image": "/questions/a0073c63d3eebb1f.jpg"
+      },
+      {
+        "name": "RMS Titanic",
+        "image": "/questions/b009ee8a6e22c017.jpg"
+      }
+    ],
+    "fact": "Reactor No. 4 at the Chernobyl Nuclear Power Plant exploded on April 26, 1986, releasing radioactive fallout across Europe and forcing the permanent evacuation of the city of Pripyat."
+  },
+  {
+    "name": "Industrial Revolution",
+    "image": "/questions/2909ff725329a0b2.jpg",
+    "clue": "This transformation of economies between roughly 1760 and 1840 replaced hand production with machines, beginning in Britain and spreading across Europe and North America.",
+    "wrong_options": [
+      {
+        "name": "Invention of the Printing Press",
+        "image": "/questions/54121bd8a8fef44c.jpg"
+      },
+      {
+        "name": "Black Death",
+        "image": "/questions/454224e0ac9b258e.png"
+      }
+    ],
+    "fact": "Innovations like the steam engine, power loom, and factory system drove mass urbanization, the rise of the working class, and modern capitalism."
+  },
+  {
+    "name": "Invention of the Printing Press",
+    "image": "/questions/54121bd8a8fef44c.jpg",
+    "clue": "Around 1440 in the German city of Mainz, this innovation paired movable metal type with an adapted wine press, making mass-produced books possible for the first time in Europe.",
+    "wrong_options": [
+      {
+        "name": "Industrial Revolution",
+        "image": "/questions/2909ff725329a0b2.jpg"
+      },
+      {
+        "name": "Gutenberg Bible",
+        "image": "/questions/0cfc087e7025e7d8.jpg"
+      }
+    ],
+    "fact": "Johannes Gutenberg's press produced the famous 42-line Bible around 1455 and set off a communications revolution that helped enable the Renaissance and Reformation."
+  },
+  {
+    "name": "September 11 Attacks",
+    "image": "/questions/a0073c63d3eebb1f.jpg",
+    "clue": "On this day in 2001, al-Qaeda hijackers crashed four commercial airliners into the Twin Towers, the Pentagon, and a Pennsylvania field, killing nearly 3,000 people.",
+    "wrong_options": [
+      {
+        "name": "Chernobyl Disaster",
+        "image": "/questions/7e87856590da9e75.jpg"
+      },
+      {
+        "name": "Fall of the Berlin Wall",
+        "image": "/questions/ad94497039219dec.jpg"
+      }
+    ],
+    "fact": "The attacks led the United States to launch the War on Terror, invade Afghanistan, and establish the Department of Homeland Security."
+  },
+  {
+    "name": "Women's Suffrage (19th Amendment)",
+    "image": "/questions/42a5513bacc0e4db.png",
+    "clue": "Ratified in 1920, this amendment to the US Constitution prohibited federal and state governments from denying the right to vote on the basis of sex.",
+    "wrong_options": [
+      {
+        "name": "Industrial Revolution",
+        "image": "/questions/2909ff725329a0b2.jpg"
+      },
+      {
+        "name": "Chernobyl Disaster",
+        "image": "/questions/7e87856590da9e75.jpg"
+      }
+    ],
+    "fact": "The amendment was the culmination of a decades-long movement led by activists like Susan B. Anthony, Elizabeth Cady Stanton, and Alice Paul."
+  },
+  {
+    "name": "Code of Hammurabi",
+    "image": "/questions/8a3d604abd3b9624.jpg",
+    "clue": "This Babylonian stele from around 1754 BCE records one of the oldest surviving law codes, famous for its 'an eye for an eye' principle of retaliation.",
+    "wrong_options": [
+      {
+        "name": "Rosetta Stone",
+        "image": "/questions/ee354c08770b6476.jpg"
+      },
+      {
+        "name": "Magna Carta",
+        "image": "/questions/fbd70a7978561d5e.jpg"
+      }
+    ],
+    "fact": "Inscribed in Akkadian cuneiform on a 7-foot basalt pillar by King Hammurabi of Babylon, the stele is now displayed at the Louvre in Paris."
+  },
+  {
+    "name": "Gettysburg Address",
+    "image": "/questions/39940d3ff1cb4142.jpg",
+    "clue": "Abraham Lincoln delivered this short 1863 speech at the dedication of a Union cemetery, recasting the American Civil War as a test of democracy.",
+    "wrong_options": [
+      {
+        "name": "Declaration of Independence",
+        "image": "/questions/38eca3c6a8c712e9.jpg"
+      },
+      {
+        "name": "Emancipation Proclamation",
+        "image": "/questions/bcc6fb053d8655dd.jpg"
+      }
+    ],
+    "fact": "Lasting roughly two minutes and about 270 words, it has become one of the most quoted speeches in American history."
+  },
+  {
+    "name": "Gutenberg Bible",
+    "image": "/questions/0cfc087e7025e7d8.jpg",
+    "clue": "This mid-15th-century printed edition of the Latin Vulgate Bible was the first major book produced in Europe using movable metal type.",
+    "wrong_options": [
+      {
+        "name": "Magna Carta",
+        "image": "/questions/fbd70a7978561d5e.jpg"
+      },
+      {
+        "name": "Domesday Book",
+        "image": "/questions/8a402b2a7e54ee04.jpg"
+      }
+    ],
+    "fact": "Johannes Gutenberg printed around 180 copies in Mainz around 1455. Roughly 49 are known to survive today, making them among the most valuable books in the world."
+  },
+  {
+    "name": "The Communist Manifesto",
+    "image": "/questions/2b731ed485e83e79.png",
+    "clue": "This short 1848 political pamphlet by Karl Marx and Friedrich Engels argued that all history is a struggle between social classes and called for proletarian revolution.",
+    "wrong_options": [
+      {
+        "name": "US Constitution",
+        "image": "/questions/cadc4d587dbdd155.jpg"
+      },
+      {
+        "name": "Universal Declaration of Human Rights",
+        "image": "/questions/4969c435e2b8b72f.jpg"
+      }
+    ],
+    "fact": "Commissioned by the Communist League and first published in London, the Manifesto opens with the famous line 'A spectre is haunting Europe—the spectre of communism.'"
+  },
+  {
+    "name": "Treaty of Versailles",
+    "image": "/questions/c722d0e765f52b96.jpg",
+    "clue": "Signed in 1919, this peace treaty formally ended World War I and imposed harsh territorial losses and reparations on Germany.",
+    "wrong_options": [
+      {
+        "name": "Universal Declaration of Human Rights",
+        "image": "/questions/4969c435e2b8b72f.jpg"
+      },
+      {
+        "name": "Declaration of Independence",
+        "image": "/questions/38eca3c6a8c712e9.jpg"
+      }
+    ],
+    "fact": "Negotiated at the Paris Peace Conference and signed in the Hall of Mirrors at the Palace of Versailles, its punitive terms are often cited as a cause of World War II."
+  },
+  {
+    "name": "United States Bill of Rights",
+    "image": "/questions/ea45f2f5d6fa5fb8.jpg",
+    "clue": "Ratified in 1791, these first ten amendments to the US Constitution guarantee fundamental civil liberties such as free speech, free press, and the right to a fair trial.",
+    "wrong_options": [
+      {
+        "name": "US Constitution",
+        "image": "/questions/cadc4d587dbdd155.jpg"
+      },
+      {
+        "name": "Declaration of Independence",
+        "image": "/questions/38eca3c6a8c712e9.jpg"
+      }
+    ],
+    "fact": "Drafted largely by James Madison, the Bill of Rights was added to address Anti-Federalist concerns that the original Constitution lacked explicit protections for individual freedoms."
+  },
+  {
+    "name": "Universal Declaration of Human Rights",
+    "image": "/questions/4969c435e2b8b72f.jpg",
+    "clue": "Adopted by the UN General Assembly in 1948, this post-war document set out fundamental rights belonging to every person regardless of nationality.",
+    "wrong_options": [
+      {
+        "name": "US Constitution",
+        "image": "/questions/cadc4d587dbdd155.jpg"
+      },
+      {
+        "name": "The Communist Manifesto",
+        "image": "/questions/2b731ed485e83e79.png"
+      }
+    ],
+    "fact": "Drafted by a committee chaired by Eleanor Roosevelt, the declaration has been translated into over 500 languages, more than any other document."
+  },
+  {
+    "name": "US Constitution",
+    "image": "/questions/cadc4d587dbdd155.jpg",
+    "clue": "Ratified in 1788, this founding document established the three branches of American federal government and replaced the weaker Articles of Confederation.",
+    "wrong_options": [
+      {
+        "name": "United States Bill of Rights",
+        "image": "/questions/ea45f2f5d6fa5fb8.jpg"
+      },
+      {
+        "name": "Declaration of Independence",
+        "image": "/questions/38eca3c6a8c712e9.jpg"
+      }
+    ],
+    "fact": "Drafted in 1787 at the Philadelphia Convention and signed by 39 delegates including George Washington and Benjamin Franklin, it is the oldest written national constitution still in use."
   }
 ]

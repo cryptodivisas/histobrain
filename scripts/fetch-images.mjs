@@ -40,6 +40,10 @@ const TITLE_OVERRIDES = {
   "The Last Supper": "The Last Supper (Leonardo)",
   "Pieta (Michelangelo)": "Pietà (Michelangelo)",
   Nighthawks: "Nighthawks (painting)",
+  "US Constitution": "Constitution of the United States",
+  "Women's Suffrage (19th Amendment)":
+    "Nineteenth Amendment to the United States Constitution",
+  "Invention of the Printing Press": "Printing press",
 };
 
 // Direct thumbnail URLs for topics where the Wikipedia summary API returns no

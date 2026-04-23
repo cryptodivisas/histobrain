@@ -74,11 +74,25 @@ export const CATEGORY_MAP: Record<string, Category> = {
   "Apollo 11 Moon Landing": "Events",
   "Fall of the Berlin Wall": "Events",
   "RMS Titanic": "Events",
+  "Battle of Waterloo": "Events",
+  "Black Death": "Events",
+  "Chernobyl Disaster": "Events",
+  "Industrial Revolution": "Events",
+  "Invention of the Printing Press": "Events",
+  "September 11 Attacks": "Events",
+  "Women's Suffrage (19th Amendment)": "Events",
   // Documents
   "Declaration of Independence": "Documents",
   "Magna Carta": "Documents",
   "Rosetta Stone": "Documents",
   "Code of Hammurabi": "Documents",
+  "Gettysburg Address": "Documents",
+  "Gutenberg Bible": "Documents",
+  "The Communist Manifesto": "Documents",
+  "Treaty of Versailles": "Documents",
+  "United States Bill of Rights": "Documents",
+  "Universal Declaration of Human Rights": "Documents",
+  "US Constitution": "Documents",
 };
 
 export function categoryOf(name: string): Category | null {
