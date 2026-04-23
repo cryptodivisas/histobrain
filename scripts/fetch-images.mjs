@@ -45,6 +45,15 @@ const TITLE_OVERRIDES = {
     "Nineteenth Amendment to the United States Constitution",
   "Invention of the Printing Press": "Printing press",
   "Dead Sea Scrolls": "Qumran",
+  "D-Day (Normandy Landings)": "Normandy landings",
+  "Hiroshima and Nagasaki Bombings":
+    "Atomic bombings of Hiroshima and Nagasaki",
+  "JFK Assassination": "Assassination of John F. Kennedy",
+  "Pearl Harbor Attack": "Attack on Pearl Harbor",
+  "Fall of the Roman Empire": "Fall of the Western Roman Empire",
+  "Discus Thrower (Discobolus)": "Discobolus",
+  "Assassination of Archduke Franz Ferdinand":
+    "Assassination of Archduke Franz Ferdinand of Austria",
 };
 
 // Direct thumbnail URLs for topics where the Wikipedia summary API returns no

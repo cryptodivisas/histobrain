@@ -1118,5 +1118,229 @@
       }
     ],
     "fact": "His book, commonly known as 'The Travels of Marco Polo,' was dictated to a fellow prisoner in Genoa around 1298 and inspired later explorers, including Columbus."
+  },
+  {
+    "name": "D-Day (Normandy Landings)",
+    "image": "/questions/a5cfa2156555a103.jpg",
+    "clue": "On June 6, 1944, Allied forces launched the largest seaborne invasion in history, landing on five beaches along the coast of Nazi-occupied Normandy, France.",
+    "wrong_options": [
+      {
+        "name": "World War II",
+        "image": "/questions/e0e4e2088dfbdd6e.jpg"
+      },
+      {
+        "name": "Pearl Harbor Attack",
+        "image": "/questions/f8942ed4e04c16e0.jpg"
+      }
+    ],
+    "fact": "Codenamed Operation Neptune, the landings involved nearly 160,000 troops, over 5,000 ships, and more than 11,000 aircraft, and opened the Western Front in Europe."
+  },
+  {
+    "name": "Assassination of Archduke Franz Ferdinand",
+    "image": "/questions/32c38f46b1e44835.jpg",
+    "clue": "The 1914 killing of the heir to the Austro-Hungarian throne in Sarajevo by a Bosnian Serb nationalist triggered the chain of events that led to World War I.",
+    "wrong_options": [
+      {
+        "name": "World War I",
+        "image": "/questions/5da84a2ddff888b2.jpg"
+      },
+      {
+        "name": "Cuban Missile Crisis",
+        "image": "/questions/90d97d72e30c5522.jpg"
+      }
+    ],
+    "fact": "Archduke Franz Ferdinand and his wife Sophie were shot by 19-year-old Gavrilo Princip on June 28, 1914. Within weeks, Europe's great powers had mobilized for war."
+  },
+  {
+    "name": "French Revolution",
+    "image": "/questions/a3750d96a7b94750.jpg",
+    "clue": "This 1789–1799 upheaval overthrew the French monarchy, abolished feudal privileges, and produced the Declaration of the Rights of Man and of the Citizen.",
+    "wrong_options": [
+      {
+        "name": "American Civil War",
+        "image": "/questions/11bfd469ee3942fa.png"
+      },
+      {
+        "name": "Boston Tea Party",
+        "image": "/questions/0a62300956d23921.jpg"
+      }
+    ],
+    "fact": "Sparked by the storming of the Bastille on July 14, 1789, the revolution led to the execution of King Louis XVI, the Reign of Terror, and eventually Napoleon's rise to power."
+  },
+  {
+    "name": "American Civil War",
+    "image": "/questions/11bfd469ee3942fa.png",
+    "clue": "This 1861–1865 conflict pitted the Union against eleven Southern states that had seceded as the Confederacy over disputes centered on slavery and states' rights.",
+    "wrong_options": [
+      {
+        "name": "Boston Tea Party",
+        "image": "/questions/0a62300956d23921.jpg"
+      },
+      {
+        "name": "French Revolution",
+        "image": "/questions/a3750d96a7b94750.jpg"
+      }
+    ],
+    "fact": "About 620,000 soldiers died, making it the deadliest war in American history. It ended with Confederate surrender at Appomattox and the abolition of slavery."
+  },
+  {
+    "name": "World War I",
+    "image": "/questions/5da84a2ddff888b2.jpg",
+    "clue": "This global conflict from 1914 to 1918 pitted the Allied Powers against the Central Powers and introduced industrial-scale trench warfare, tanks, and chemical weapons.",
+    "wrong_options": [
+      {
+        "name": "World War II",
+        "image": "/questions/e0e4e2088dfbdd6e.jpg"
+      },
+      {
+        "name": "Assassination of Archduke Franz Ferdinand",
+        "image": "/questions/32c38f46b1e44835.jpg"
+      }
+    ],
+    "fact": "Often called the Great War, it killed an estimated 20 million people and reshaped the map of Europe, ending the German, Austro-Hungarian, Russian, and Ottoman empires."
+  },
+  {
+    "name": "World War II",
+    "image": "/questions/e0e4e2088dfbdd6e.jpg",
+    "clue": "This 1939–1945 global conflict pitted the Allies against the Axis powers and became the deadliest war in human history, ending with the defeat of Nazi Germany and Imperial Japan.",
+    "wrong_options": [
+      {
+        "name": "World War I",
+        "image": "/questions/5da84a2ddff888b2.jpg"
+      },
+      {
+        "name": "D-Day (Normandy Landings)",
+        "image": "/questions/a5cfa2156555a103.jpg"
+      }
+    ],
+    "fact": "An estimated 70–85 million people died. The war ended in Europe in May 1945 and in the Pacific in September 1945 after the atomic bombings of Hiroshima and Nagasaki."
+  },
+  {
+    "name": "Cuban Missile Crisis",
+    "image": "/questions/90d97d72e30c5522.jpg",
+    "clue": "This tense 13-day 1962 standoff between the United States and Soviet Union over Soviet ballistic missiles in Cuba brought the world closer to nuclear war than any other Cold War event.",
+    "wrong_options": [
+      {
+        "name": "Fall of the Berlin Wall",
+        "image": "/questions/ad94497039219dec.jpg"
+      },
+      {
+        "name": "JFK Assassination",
+        "image": "/questions/e379de229580e3b4.jpg"
+      }
+    ],
+    "fact": "The crisis ended on October 28, 1962 when Soviet leader Nikita Khrushchev agreed to remove the missiles in exchange for a US pledge not to invade Cuba and a secret withdrawal of US missiles from Turkey."
+  },
+  {
+    "name": "JFK Assassination",
+    "image": "/questions/e379de229580e3b4.jpg",
+    "clue": "On November 22, 1963, US President John F. Kennedy was shot and killed while riding in a presidential motorcade through Dealey Plaza in Dallas, Texas.",
+    "wrong_options": [
+      {
+        "name": "Cuban Missile Crisis",
+        "image": "/questions/90d97d72e30c5522.jpg"
+      },
+      {
+        "name": "September 11 Attacks",
+        "image": "/questions/a0073c63d3eebb1f.jpg"
+      }
+    ],
+    "fact": "Lee Harvey Oswald was arrested within hours but was himself shot two days later by nightclub owner Jack Ruby. The Warren Commission concluded Oswald acted alone."
+  },
+  {
+    "name": "Pearl Harbor Attack",
+    "image": "/questions/f8942ed4e04c16e0.jpg",
+    "clue": "On December 7, 1941, the Imperial Japanese Navy launched a surprise aerial attack on the US Pacific Fleet anchored at this Hawaiian naval base, drawing America into World War II.",
+    "wrong_options": [
+      {
+        "name": "D-Day (Normandy Landings)",
+        "image": "/questions/a5cfa2156555a103.jpg"
+      },
+      {
+        "name": "Hiroshima and Nagasaki Bombings",
+        "image": "/questions/c446a46ebd058896.jpg"
+      }
+    ],
+    "fact": "The attack killed 2,403 Americans, damaged or sank 19 ships, and destroyed nearly 200 aircraft. The next day, President Roosevelt called it 'a date which will live in infamy.'"
+  },
+  {
+    "name": "Hiroshima and Nagasaki Bombings",
+    "image": "/questions/c446a46ebd058896.jpg",
+    "clue": "In August 1945, the United States dropped atomic bombs on these two Japanese cities, the first and only use of nuclear weapons in armed conflict.",
+    "wrong_options": [
+      {
+        "name": "Pearl Harbor Attack",
+        "image": "/questions/f8942ed4e04c16e0.jpg"
+      },
+      {
+        "name": "World War II",
+        "image": "/questions/e0e4e2088dfbdd6e.jpg"
+      }
+    ],
+    "fact": "'Little Boy' fell on Hiroshima on August 6 and 'Fat Man' on Nagasaki on August 9. Combined, the bombings killed an estimated 200,000 people and led to Japan's surrender days later."
+  },
+  {
+    "name": "Fall of the Roman Empire",
+    "image": "/questions/0472e54b7f9a8153.gif",
+    "clue": "The collapse of the Western Roman Empire is traditionally dated to 476 CE, when the Germanic chieftain Odoacer deposed the last emperor, Romulus Augustulus.",
+    "wrong_options": [
+      {
+        "name": "Battle of Hastings",
+        "image": "/questions/326e710f8ee49576.jpg"
+      },
+      {
+        "name": "Battle of Waterloo",
+        "image": "/questions/40fd4c2ce8147e74.png"
+      }
+    ],
+    "fact": "Centuries of political instability, economic strain, and repeated barbarian invasions gradually weakened Rome. The Eastern, or Byzantine, Empire endured nearly 1,000 years longer."
+  },
+  {
+    "name": "Boston Tea Party",
+    "image": "/questions/0a62300956d23921.jpg",
+    "clue": "On December 16, 1773, American colonists disguised as Mohawks boarded British ships in Boston Harbor and dumped 342 chests of tea into the water to protest British taxation.",
+    "wrong_options": [
+      {
+        "name": "American Civil War",
+        "image": "/questions/11bfd469ee3942fa.png"
+      },
+      {
+        "name": "French Revolution",
+        "image": "/questions/a3750d96a7b94750.jpg"
+      }
+    ],
+    "fact": "Organized by the Sons of Liberty, the protest escalated tensions with Britain and was a key event leading to the American Revolution."
+  },
+  {
+    "name": "Battle of Hastings",
+    "image": "/questions/326e710f8ee49576.jpg",
+    "clue": "On October 14, 1066, William the Conqueror's Norman forces defeated King Harold II's Anglo-Saxon army, permanently changing English history.",
+    "wrong_options": [
+      {
+        "name": "Battle of Waterloo",
+        "image": "/questions/40fd4c2ce8147e74.png"
+      },
+      {
+        "name": "Fall of the Roman Empire",
+        "image": "/questions/0472e54b7f9a8153.gif"
+      }
+    ],
+    "fact": "King Harold died on the battlefield, reportedly shot in the eye with an arrow. The Norman conquest transformed English law, language, and ruling class, and is commemorated in the Bayeux Tapestry."
+  },
+  {
+    "name": "Discus Thrower (Discobolus)",
+    "image": "/questions/bb6f23ec3bf2abce.jpg",
+    "clue": "This iconic ancient Greek sculpture captures a male athlete at the peak moment of hurling a discus, his body coiled and balanced.",
+    "wrong_options": [
+      {
+        "name": "Venus de Milo",
+        "image": "/questions/a3614f07b6892529.jpg"
+      },
+      {
+        "name": "The Thinker",
+        "image": "/questions/c3858625381a1809.jpg"
+      }
+    ],
+    "fact": "Originally cast in bronze around 450 BCE by the Athenian sculptor Myron, the work is known today only through Roman marble copies that survived in museums like the British Museum and the Palazzo Massimo in Rome."
   }
 ]
