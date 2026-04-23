@@ -1218,8 +1218,19 @@ export default function Home() {
           </div>
         )}
 
-        <footer className="mt-8 text-[var(--hb-muted)] text-xs tracking-widest flex flex-col items-center gap-2 text-center">
+        <footer className="mt-8 text-[var(--hb-muted)] text-xs tracking-widest flex flex-col items-center gap-3 text-center">
           <div>v4.0 · [1][2][3] PICK · [ENTER] NEXT · [M] MUTE · CFG THEME</div>
+          <nav className="flex flex-wrap justify-center gap-x-3 gap-y-1">
+            <a href="/about" className="hover:text-[var(--hb-accent)] transition-colors">About</a>
+            <span>·</span>
+            <a href="/how-it-works" className="hover:text-[var(--hb-accent)] transition-colors">How It Works</a>
+            <span>·</span>
+            <a href="/topics" className="hover:text-[var(--hb-accent)] transition-colors">Topics</a>
+            <span>·</span>
+            <a href="/contact" className="hover:text-[var(--hb-accent)] transition-colors">Contact</a>
+            <span>·</span>
+            <a href="/privacy" className="hover:text-[var(--hb-accent)] transition-colors">Privacy</a>
+          </nav>
           <div>
             © History Brain all right reserved - Created by{" "}
             <a

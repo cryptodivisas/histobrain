@@ -1,9 +1,12 @@
 import Link from "next/link";
 import type { Metadata } from "next";
+import { PageHeader } from "@/components/PageHeader";
+import { SiteFooter } from "@/components/SiteFooter";
 
 export const metadata: Metadata = {
   title: "Privacy Policy · History Brain",
-  description: "How History Brain handles your data.",
+  description: "How History Brain handles your data, cookies, and advertising.",
+  alternates: { canonical: "/privacy" },
 };
 
 const hf = { fontFamily: "var(--font-pixel-heading), monospace" };
@@ -12,22 +15,7 @@ export default function PrivacyPage() {
   return (
     <div className="min-h-screen flex flex-col items-center px-4 py-10 pixel-font">
       <div className="w-full max-w-3xl flex flex-col gap-6">
-        <header className="flex items-center justify-between">
-          <Link
-            href="/"
-            className="glitch-text text-[var(--hb-accent)] text-lg sm:text-2xl tracking-widest cursor-pointer"
-            style={hf}
-          >
-            HISTORY_BRAIN
-          </Link>
-          <Link
-            href="/"
-            className="border-2 border-[var(--hb-border)] hover:border-[var(--hb-accent)] text-[var(--hb-accent)] px-3 py-2 transition-colors cursor-pointer text-xs"
-            style={hf}
-          >
-            &lt; BACK
-          </Link>
-        </header>
+        <PageHeader />
 
         <div className="w-full h-1 bg-linear-to-r from-transparent via-[var(--hb-accent)] to-transparent opacity-60" />
 
@@ -45,11 +33,17 @@ export default function PrivacyPage() {
 
           <Section title="The Short Version">
             <p>
-              History Brain is a free, offline-friendly trivia game. We do{" "}
-              <strong>not</strong> collect personal data, we do{" "}
-              <strong>not</strong> use tracking cookies, and we do{" "}
-              <strong>not</strong> share information with third parties.
-              Everything about your progress stays on your own device.
+              History Brain is a free, browser-based trivia game. We do{" "}
+              <strong>not</strong> require an account, we do{" "}
+              <strong>not</strong> collect personal data for ourselves, and we
+              do <strong>not</strong> sell anything. Your game progress stays on
+              your own device.
+            </p>
+            <p>
+              If and when advertising is enabled on this site, third-party ad
+              partners (such as Google AdSense) may set cookies or use similar
+              technologies in your browser to serve and measure ads — the
+              details are below, and you can opt out at any time.
             </p>
           </Section>
 
@@ -73,11 +67,70 @@ export default function PrivacyPage() {
 
           <Section title="Cookies">
             <p>
-              History Brain does <strong>not</strong> use cookies for tracking,
-              advertising, or analytics. The only client-side storage used is{" "}
-              <code className="text-[var(--hb-accent)]">localStorage</code> for
-              saving your own game state (see above).
+              History Brain itself does <strong>not</strong> set cookies for
+              tracking or analytics. The only first-party client-side storage
+              we use is{" "}
+              <code className="text-[var(--hb-accent)]">localStorage</code>,
+              which holds your game progress, settings and best score locally.
             </p>
+            <p>
+              Third-party services embedded on the site — specifically ad
+              networks (see below) — may set their own cookies in your browser.
+              We do not control those cookies directly.
+            </p>
+          </Section>
+
+          <Section title="Advertising">
+            <p>
+              History Brain may display advertising served by{" "}
+              <strong>Google AdSense</strong> and its partner networks. When
+              ads are active:
+            </p>
+            <ul className="list-disc pl-6 flex flex-col gap-2">
+              <li>
+                Google, as a third-party vendor, uses cookies to serve ads on
+                this site. Google&apos;s use of advertising cookies enables it
+                and its partners to serve ads to you based on your visits to
+                this site and/or other sites on the Internet.
+              </li>
+              <li>
+                You can opt out of personalized advertising by visiting{" "}
+                <a
+                  href="https://www.google.com/settings/ads"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-[var(--hb-accent)] underline"
+                >
+                  Google Ads Settings
+                </a>
+                .
+              </li>
+              <li>
+                You can opt out of a third-party vendor&apos;s use of cookies
+                for personalized advertising by visiting{" "}
+                <a
+                  href="https://www.aboutads.info"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-[var(--hb-accent)] underline"
+                >
+                  aboutads.info
+                </a>
+                .
+              </li>
+              <li>
+                For users in the EEA, UK and Switzerland, a consent banner will
+                appear the first time you visit, letting you accept or reject
+                personalized advertising as required by GDPR / ePrivacy rules.
+              </li>
+              <li>
+                Third-party ad servers or ad networks may also use technologies
+                like cookies, JavaScript, or web beacons in the advertisements
+                and links that appear on History Brain, which are sent directly
+                to your browser. Their use is subject to their own privacy
+                policies.
+              </li>
+            </ul>
           </Section>
 
           <Section title="Third-Party Content">
@@ -108,9 +161,12 @@ export default function PrivacyPage() {
             </ul>
           </Section>
 
-          <Section title="Analytics & Advertising">
+          <Section title="Analytics">
             <p>
-              None. No Google Analytics, no ad networks, no trackers.
+              At present, History Brain does not run Google Analytics or any
+              other analytics platform. If analytics is added in the future,
+              this section will be updated and the &quot;Last updated&quot;
+              date at the top will change.
             </p>
           </Section>
 
@@ -139,33 +195,16 @@ export default function PrivacyPage() {
 
           <Section title="Contact">
             <p>
-              Questions? Reach out via{" "}
-              <a
-                href="https://www.henrymontilla.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-[var(--hb-accent)] underline"
-              >
-                henrymontilla.com
-              </a>
+              Privacy questions, data requests, or concerns? Please see our{" "}
+              <Link href="/contact" className="text-[var(--hb-accent)] underline">
+                contact page
+              </Link>
               .
             </p>
           </Section>
         </article>
 
-        <footer className="mt-4 text-[var(--hb-muted)] text-xs tracking-widest flex flex-col items-center gap-2 text-center">
-          <div>
-            © History Brain all right reserved - Created by{" "}
-            <a
-              href="https://www.henrymontilla.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-[var(--hb-accent)] hover:underline"
-            >
-              Henry Montilla
-            </a>
-          </div>
-        </footer>
+        <SiteFooter />
       </div>
     </div>
   );

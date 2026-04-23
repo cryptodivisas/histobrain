@@ -3,6 +3,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 
+import { SiteFooter } from "@/components/SiteFooter";
 import {
   getAllTopicSlugs,
   getAllTopics,
@@ -217,19 +218,7 @@ export default async function TopicPage({
           </section>
         )}
 
-        <footer className="mt-4 text-[var(--hb-muted)] text-xs tracking-widest flex flex-col items-center gap-2 text-center">
-          <div>
-            © History Brain all right reserved - Created by{" "}
-            <a
-              href="https://www.henrymontilla.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-[var(--hb-accent)] hover:underline"
-            >
-              Henry Montilla
-            </a>
-          </div>
-        </footer>
+        <SiteFooter />
       </div>
     </div>
   );
