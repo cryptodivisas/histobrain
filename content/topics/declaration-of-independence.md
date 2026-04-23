@@ -5,6 +5,7 @@ summary: Founding document of the United States, declaring the thirteen American
 ---
 
 
+
 ## Overview
 
 The Declaration of Independence is the founding document of the United States, adopted by the Second Continental Congress on July 4, 1776. It formally announced that the thirteen American colonies no longer considered themselves part of the British Empire and laid out the political philosophy on which the new nation would be built. Its best-known sentence — "We hold these truths to be self-evident, that all men are created equal" — has become one of the most quoted statements in modern political history.

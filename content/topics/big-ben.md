@@ -5,6 +5,7 @@ summary: Nickname for the Great Bell inside the Elizabeth Tower at the Palace of
 ---
 
 
+
 ## Overview
 
 Big Ben is the nickname of the Great Bell of the Great Clock of Westminster, housed at the top of the Elizabeth Tower at the north end of the Palace of Westminster in London. Although tourists and broadcasters often use "Big Ben" to refer to the entire clock tower, strictly speaking the name belongs only to the bell inside. The tower, the clock, and the bell together form one of the most famous landmarks in the United Kingdom and an enduring symbol of London.

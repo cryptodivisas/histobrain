@@ -5,6 +5,7 @@ summary: British ocean liner that sank on its maiden voyage in 1912 after striki
 ---
 
 
+
 ## Overview
 
 The RMS *Titanic* was a British passenger liner operated by the White Star Line that sank in the early hours of April 15, 1912, after striking an iceberg on her maiden voyage from Southampton to New York. Of the approximately 2,224 passengers and crew on board, more than 1,500 died — one of the deadliest peacetime maritime disasters in history. The *Titanic* had been advertised as "practically unsinkable," and the shock of her loss reshaped international maritime regulations and embedded the ship in popular culture for more than a century.

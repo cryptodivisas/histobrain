@@ -5,6 +5,7 @@ summary: Last active pharaoh of Ptolemaic Egypt, a shrewd diplomat whose allianc
 ---
 
 
+
 ## Overview
 
 Cleopatra VII Thea Philopator was the last active ruler of the Ptolemaic Kingdom of Egypt and one of the most skillful political operators of the ancient world. Famous for her romantic entanglements with the Roman leaders Julius Caesar and Mark Antony, she was also a capable administrator, linguist, and naval commander who kept Egypt independent for two decades while Rome swallowed almost every other Mediterranean power. Her suicide in 30 BCE ended the three-hundred-year Ptolemaic dynasty and the age of pharaohs.

@@ -5,6 +5,7 @@ summary: French general and emperor whose military campaigns and legal reforms r
 ---
 
 
+
 ## Overview
 
 Napoleon Bonaparte was a French military officer who rose from the provincial nobility of Corsica to become Emperor of the French and one of the most influential figures in European history. Between 1799 and 1815 he dominated continental Europe through a mix of battlefield genius, tireless administration, and ruthless political instinct. His career ended in defeat at Waterloo and exile, but his legal reforms, administrative structures, and military innovations shaped modern Europe for the next two centuries.

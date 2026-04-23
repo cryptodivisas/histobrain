@@ -5,6 +5,7 @@ summary: Colossal neoclassical copper statue on Liberty Island in New York Harbo
 ---
 
 
+
 ## Overview
 
 The Statue of Liberty is a 93-meter copper-and-steel colossus standing on Liberty Island in New York Harbor. Given to the United States by the people of France and dedicated in 1886, it depicts the Roman goddess Libertas holding a torch aloft and cradling a tablet inscribed with the date of American independence. More than a monument, it became the first sight for millions of immigrants arriving by ship through Ellis Island and has since grown into one of the most recognized symbols of liberty, democracy, and the immigrant experience in the world.

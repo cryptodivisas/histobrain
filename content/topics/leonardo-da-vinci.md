@@ -5,6 +5,7 @@ summary: Italian Renaissance polymath — painter, engineer, anatomist, and inve
 ---
 
 
+
 ## Overview
 
 Leonardo da Vinci was an Italian painter, draftsman, engineer, scientist, and inventor whose range of interests made him the archetype of the "Renaissance man." He produced two of the most famous paintings in Western art — the *Mona Lisa* and *The Last Supper* — while filling thousands of notebook pages with anatomical studies, engineering sketches, architectural plans, and scientific observations. His insatiable curiosity and the sheer breadth of his investigations still shape how we imagine creative genius today.

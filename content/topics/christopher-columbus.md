@@ -5,6 +5,7 @@ summary: Genoese explorer whose 1492 voyage across the Atlantic opened sustained
 ---
 
 
+
 ## Overview
 
 Christopher Columbus was a Genoese-born navigator whose 1492 voyage across the Atlantic Ocean established permanent contact between Europe and the Americas. Sailing under the flag of the Crown of Castile, he made four voyages to the Caribbean and the coasts of Central and South America, believing until his death that he had reached the eastern fringes of Asia. The consequences of his expeditions — for the Indigenous peoples of the Americas, for the kingdoms of Europe, and for the global transfer of plants, animals, microbes, and people — are among the most far-reaching in history.

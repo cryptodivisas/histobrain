@@ -5,6 +5,7 @@ summary: First crewed mission to land humans on the Moon, carrying Neil Armstron
 ---
 
 
+
 ## Overview
 
 Apollo 11 was the American spaceflight that on July 20, 1969, landed the first humans on the Moon. Commander Neil Armstrong and Lunar Module pilot Buzz Aldrin spent more than two and a half hours walking on the lunar surface while command module pilot Michael Collins orbited above them in the spacecraft *Columbia*. The mission fulfilled President John F. Kennedy's 1961 pledge to land a man on the Moon and return him safely to Earth before the end of the decade, and it remains one of the signature technological achievements of the twentieth century.

@@ -5,6 +5,7 @@ summary: Leonardo da Vinci's enigmatic Renaissance portrait, the most famous pai
 ---
 
 
+
 ## Overview
 
 The *Mona Lisa* is a half-length portrait painted by the Italian Renaissance polymath Leonardo da Vinci between roughly 1503 and 1519. Executed in oil on a poplar panel, it measures just 77 by 53 centimeters — smaller than most first-time visitors expect. Yet it is almost certainly the most famous painting in the world, studied by art historians, reproduced endlessly in popular culture, and viewed by an estimated ten million people every year at the Louvre Museum in Paris.
