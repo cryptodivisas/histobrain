@@ -526,5 +526,245 @@
       }
     ],
     "fact": "Discovered in 1799 by French soldiers in Egypt, the stone dates to 196 BCE. French scholar Jean-François Champollion cracked its hieroglyphic script in 1822."
+  },
+  {
+    "name": "The Last Supper",
+    "image": "/questions/2e8fa944b4c6a8e1.jpg",
+    "clue": "Leonardo da Vinci painted this late-15th-century mural of Jesus and the twelve apostles at their final meal, on a refectory wall of Santa Maria delle Grazie in Milan.",
+    "wrong_options": [
+      {
+        "name": "Mona Lisa",
+        "image": "/questions/15f79d9238e4d37b.jpg"
+      },
+      {
+        "name": "The Creation of Adam",
+        "image": "/questions/47514d4a2e87ae99.jpg"
+      }
+    ],
+    "fact": "Painted 1495–1498 using an experimental tempera-on-dry-plaster technique, the mural began deteriorating within decades and has undergone multiple major restorations."
+  },
+  {
+    "name": "The Creation of Adam",
+    "image": "/questions/47514d4a2e87ae99.jpg",
+    "clue": "This Michelangelo fresco on the Sistine Chapel ceiling shows God reaching out to give life to the first man, their fingertips nearly touching.",
+    "wrong_options": [
+      {
+        "name": "The Last Supper",
+        "image": "/questions/2e8fa944b4c6a8e1.jpg"
+      },
+      {
+        "name": "Pieta (Michelangelo)",
+        "image": "/questions/861ce0008ea09bf0.jpg"
+      }
+    ],
+    "fact": "Painted between 1508 and 1512 as part of the ceiling commissioned by Pope Julius II, the scene is the most reproduced religious image in Western art."
+  },
+  {
+    "name": "The Birth of Venus",
+    "image": "/questions/b8dd949a28613f03.jpg",
+    "clue": "Sandro Botticelli painted this large Renaissance tempera of the goddess of love emerging fully grown from a scallop shell on the sea.",
+    "wrong_options": [
+      {
+        "name": "The Last Supper",
+        "image": "/questions/2e8fa944b4c6a8e1.jpg"
+      },
+      {
+        "name": "Mona Lisa",
+        "image": "/questions/15f79d9238e4d37b.jpg"
+      }
+    ],
+    "fact": "Painted around 1485 for the Medici family in Florence, it hangs at the Uffizi Gallery alongside Botticelli's Primavera."
+  },
+  {
+    "name": "The Night Watch",
+    "image": "/questions/a457b7188d8dd589.jpg",
+    "clue": "Rembrandt's 1642 group portrait shows a Dutch civic militia company marching into action, painted on a scale of nearly twelve by fourteen feet.",
+    "wrong_options": [
+      {
+        "name": "Girl with a Pearl Earring",
+        "image": "/questions/c51dbfa4558a991b.jpg"
+      },
+      {
+        "name": "Las Meninas",
+        "image": "/questions/cc63eae2244f0bb4.jpg"
+      }
+    ],
+    "fact": "Its full original title is 'Militia Company of District II under the Command of Captain Frans Banninck Cocq.' It hangs at the Rijksmuseum in Amsterdam."
+  },
+  {
+    "name": "Girl with a Pearl Earring",
+    "image": "/questions/c51dbfa4558a991b.jpg",
+    "clue": "Johannes Vermeer painted this small tronie of an anonymous girl in a blue-and-yellow turban, glancing over her shoulder with a luminous pearl in her ear.",
+    "wrong_options": [
+      {
+        "name": "The Night Watch",
+        "image": "/questions/a457b7188d8dd589.jpg"
+      },
+      {
+        "name": "Mona Lisa",
+        "image": "/questions/15f79d9238e4d37b.jpg"
+      }
+    ],
+    "fact": "Painted around 1665, it has been called 'the Mona Lisa of the North' and is housed at the Mauritshuis museum in The Hague."
+  },
+  {
+    "name": "American Gothic",
+    "image": "/questions/b10bd64cdfec5c03.jpg",
+    "clue": "Grant Wood's 1930 painting depicts a stern farmer holding a pitchfork beside a woman, with a white Gothic-windowed Iowa farmhouse behind them.",
+    "wrong_options": [
+      {
+        "name": "Nighthawks",
+        "image": "/questions/5564f817cba76ac2.jpg"
+      },
+      {
+        "name": "The Persistence of Memory",
+        "image": "/questions/5d57f043663f766e.jpg"
+      }
+    ],
+    "fact": "The models were Wood's sister Nan and his dentist, not an actual farming couple. The work hangs at the Art Institute of Chicago."
+  },
+  {
+    "name": "The Great Wave off Kanagawa",
+    "image": "/questions/5c6544705a16b701.jpg",
+    "clue": "Katsushika Hokusai's ukiyo-e woodblock print shows a towering wave with claw-like foam about to crash over fishing boats, with Mount Fuji small in the distance.",
+    "wrong_options": [
+      {
+        "name": "The Starry Night",
+        "image": "/questions/81d451f6b417e15e.jpg"
+      },
+      {
+        "name": "Water Lilies",
+        "image": "/questions/6d314dfbad74eda9.jpg"
+      }
+    ],
+    "fact": "Part of his series Thirty-six Views of Mount Fuji, the print was created around 1831 and went on to inspire Impressionist and modern Western artists."
+  },
+  {
+    "name": "Las Meninas",
+    "image": "/questions/cc63eae2244f0bb4.jpg",
+    "clue": "Diego Velázquez painted this complex 1656 Spanish court scene centered on the Infanta Margarita, with the artist himself visible at his easel.",
+    "wrong_options": [
+      {
+        "name": "The Night Watch",
+        "image": "/questions/a457b7188d8dd589.jpg"
+      },
+      {
+        "name": "Girl with a Pearl Earring",
+        "image": "/questions/c51dbfa4558a991b.jpg"
+      }
+    ],
+    "fact": "A masterwork at the Museo del Prado in Madrid, it has been analyzed for centuries as a visual puzzle about perspective, power, and the act of painting."
+  },
+  {
+    "name": "The Garden of Earthly Delights",
+    "image": "/questions/e148f4e81d5d5d80.jpg",
+    "clue": "Hieronymus Bosch's massive triptych moves from Eden through a surreal carnival of sin to a grotesque, fiery hell.",
+    "wrong_options": [
+      {
+        "name": "The Birth of Venus",
+        "image": "/questions/b8dd949a28613f03.jpg"
+      },
+      {
+        "name": "The Last Supper",
+        "image": "/questions/2e8fa944b4c6a8e1.jpg"
+      }
+    ],
+    "fact": "Painted around 1490–1510 on oak panels, the work now hangs at the Prado in Madrid and remains one of art history's most enigmatic images."
+  },
+  {
+    "name": "Nighthawks",
+    "image": "/questions/5564f817cba76ac2.jpg",
+    "clue": "Edward Hopper's 1942 painting shows three customers and a soda jerk inside a brightly lit late-night diner on a deserted American city street corner.",
+    "wrong_options": [
+      {
+        "name": "American Gothic",
+        "image": "/questions/b10bd64cdfec5c03.jpg"
+      },
+      {
+        "name": "The Persistence of Memory",
+        "image": "/questions/5d57f043663f766e.jpg"
+      }
+    ],
+    "fact": "Set in Greenwich Village, it is one of the most recognized images of American urban loneliness and hangs at the Art Institute of Chicago."
+  },
+  {
+    "name": "The Thinker",
+    "image": "/questions/c3858625381a1809.jpg",
+    "clue": "Auguste Rodin sculpted this muscular seated male figure leaning forward with his chin on his hand in deep contemplation.",
+    "wrong_options": [
+      {
+        "name": "Venus de Milo",
+        "image": "/questions/a3614f07b6892529.jpg"
+      },
+      {
+        "name": "David (Michelangelo)",
+        "image": "/questions/c6394e773fb08ba8.jpg"
+      }
+    ],
+    "fact": "Originally conceived in 1880 as part of Rodin's Gates of Hell, large-scale bronze casts now stand at more than two dozen sites around the world."
+  },
+  {
+    "name": "Venus de Milo",
+    "image": "/questions/a3614f07b6892529.jpg",
+    "clue": "This ancient Greek marble statue of Aphrodite, missing both arms, was discovered on the Aegean island of Milos in 1820.",
+    "wrong_options": [
+      {
+        "name": "The Thinker",
+        "image": "/questions/c3858625381a1809.jpg"
+      },
+      {
+        "name": "David (Michelangelo)",
+        "image": "/questions/c6394e773fb08ba8.jpg"
+      }
+    ],
+    "fact": "Carved around 150–125 BCE and attributed to Alexandros of Antioch, it is one of the most famous holdings of the Louvre in Paris."
+  },
+  {
+    "name": "David (Michelangelo)",
+    "image": "/questions/c6394e773fb08ba8.jpg",
+    "clue": "Michelangelo carved this 17-foot Renaissance marble nude depicting the biblical hero poised with a sling before his battle with Goliath.",
+    "wrong_options": [
+      {
+        "name": "Pieta (Michelangelo)",
+        "image": "/questions/861ce0008ea09bf0.jpg"
+      },
+      {
+        "name": "Venus de Milo",
+        "image": "/questions/a3614f07b6892529.jpg"
+      }
+    ],
+    "fact": "Completed in 1504 from a single block of Carrara marble, the statue is the centerpiece of the Galleria dell'Accademia in Florence."
+  },
+  {
+    "name": "Pieta (Michelangelo)",
+    "image": "/questions/861ce0008ea09bf0.jpg",
+    "clue": "Michelangelo sculpted this white Carrara marble of the Virgin Mary cradling the dead body of Christ, completed in 1499 when he was only in his mid-twenties.",
+    "wrong_options": [
+      {
+        "name": "David (Michelangelo)",
+        "image": "/questions/c6394e773fb08ba8.jpg"
+      },
+      {
+        "name": "The Creation of Adam",
+        "image": "/questions/47514d4a2e87ae99.jpg"
+      }
+    ],
+    "fact": "Housed in St. Peter's Basilica at the Vatican, it is the only work Michelangelo ever signed, after overhearing the sculpture attributed to another artist."
+  },
+  {
+    "name": "Campbell's Soup Cans",
+    "image": "/questions/eedc148bef3cdc96.jpg",
+    "clue": "Andy Warhol exhibited these 32 canvases in 1962, each painted in near-identical style to depict a single variety of the mass-market American soup.",
+    "wrong_options": [
+      {
+        "name": "The Persistence of Memory",
+        "image": "/questions/5d57f043663f766e.jpg"
+      },
+      {
+        "name": "Guernica",
+        "image": "/questions/72ae18a70f67179b.jpg"
+      }
+    ],
+    "fact": "A founding work of American Pop Art, the set is now owned by the Museum of Modern Art in New York."
   }
 ]

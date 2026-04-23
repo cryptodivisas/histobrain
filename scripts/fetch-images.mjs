@@ -37,6 +37,9 @@ const TITLE_OVERRIDES = {
   "The Kiss": "The Kiss (Klimt)",
   "Apollo 11 Moon Landing": "Apollo 11",
   "Iron Curtain Checkpoint": "Checkpoint Charlie",
+  "The Last Supper": "The Last Supper (Leonardo)",
+  "Pieta (Michelangelo)": "Pietà (Michelangelo)",
+  Nighthawks: "Nighthawks (painting)",
 };
 
 // Direct thumbnail URLs for topics where the Wikipedia summary API returns no
