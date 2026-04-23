@@ -39,6 +39,7 @@ export const CATEGORY_MAP: Record<string, Category> = {
   "Mona Lisa": "Art",
   "The Starry Night": "Art",
   "The Scream": "Art",
+  "Guernica": "Art",
   // Figures
   "Napoleon Bonaparte": "Figures",
   "Wright Brothers": "Figures",
@@ -61,6 +62,8 @@ export const CATEGORY_MAP: Record<string, Category> = {
   // Documents
   "Declaration of Independence": "Documents",
   "Magna Carta": "Documents",
+  "Rosetta Stone": "Documents",
+  "Code of Hammurabi": "Documents",
 };
 
 export function categoryOf(name: string): Category | null {

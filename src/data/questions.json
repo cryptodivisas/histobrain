@@ -262,7 +262,7 @@
     "wrong_options": [
       {
         "name": "Jawaharlal Nehru",
-        "image": "/questions/f5c09605eeec5d36.jpg"
+        "image": "/questions/36fc357a6c29465d.jpg"
       },
       {
         "name": "Nelson Mandela",
@@ -494,5 +494,37 @@
       }
     ],
     "fact": "King won the Nobel Peace Prize in 1964 and was assassinated in Memphis, Tennessee on April 4, 1968."
+  },
+  {
+    "name": "Guernica",
+    "image": "/questions/72ae18a70f67179b.jpg",
+    "clue": "This monumental 1937 anti-war painting by Pablo Picasso was created in response to the bombing of a Basque town during the Spanish Civil War.",
+    "wrong_options": [
+      {
+        "name": "The Scream",
+        "image": "/questions/079c3cd26f6d3ea6.jpg"
+      },
+      {
+        "name": "The Persistence of Memory",
+        "image": "/questions/5d57f043663f766e.jpg"
+      }
+    ],
+    "fact": "Guernica is roughly 25 feet wide and painted entirely in black, white, and gray. It hangs at the Museo Reina Sofía in Madrid."
+  },
+  {
+    "name": "Rosetta Stone",
+    "image": "/questions/ee354c08770b6476.jpg",
+    "clue": "This granodiorite stele inscribed with a decree in three scripts became the key to deciphering Egyptian hieroglyphs.",
+    "wrong_options": [
+      {
+        "name": "Magna Carta",
+        "image": "/questions/fbd70a7978561d5e.jpg"
+      },
+      {
+        "name": "Code of Hammurabi",
+        "image": "/questions/8a3d604abd3b9624.jpg"
+      }
+    ],
+    "fact": "Discovered in 1799 by French soldiers in Egypt, the stone dates to 196 BCE. French scholar Jean-François Champollion cracked its hieroglyphic script in 1822."
   }
 ]
