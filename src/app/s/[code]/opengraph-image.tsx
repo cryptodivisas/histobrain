@@ -6,7 +6,10 @@ import {
   type SharePayload,
 } from "@/lib/share";
 
-export const runtime = "edge";
+// Node runtime is more reliable than edge for outbound fetches to Google
+// Fonts on Vercel. The endpoint is still cached by Next.js via the hash in
+// the image URL, so runtime cost is effectively one-shot per share code.
+export const runtime = "nodejs";
 export const alt = "History Brain — shared game result";
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
@@ -115,17 +118,65 @@ function scoreHeadline(p: SharePayload) {
   return { big: `${p.r}/${p.t}`, caption: "CORRECT" };
 }
 
+async function renderFallback(message: string): Promise<ImageResponse> {
+  return new ImageResponse(
+    (
+      <div
+        style={{
+          width: "100%",
+          height: "100%",
+          display: "flex",
+          flexDirection: "column",
+          alignItems: "center",
+          justifyContent: "center",
+          background: COLORS.bg,
+          color: COLORS.accent,
+          fontSize: 64,
+          textAlign: "center",
+          padding: 40,
+        }}
+      >
+        <div style={{ display: "flex" }}>HISTORY BRAIN</div>
+        <div
+          style={{
+            display: "flex",
+            color: COLORS.text,
+            fontSize: 32,
+            marginTop: 24,
+          }}
+        >
+          {message}
+        </div>
+      </div>
+    ),
+    size
+  );
+}
+
 export default async function Image({
   params,
 }: {
   params: Promise<{ code: string }>;
 }) {
+  try {
+    return await renderCard(params);
+  } catch (err) {
+    // Never let the endpoint return 0 bytes — social crawlers will cache the
+    // empty response and the share card will stay broken for that URL.
+    console.error("[opengraph-image] render failed:", err);
+    return renderFallback("Score card could not be rendered");
+  }
+}
+
+async function renderCard(
+  params: Promise<{ code: string }>
+): Promise<ImageResponse> {
   const { code } = await params;
   const payload = decodeShare(code);
 
   const [vt323, pressStart] = await Promise.all([
-    loadGoogleFont("VT323"),
-    loadGoogleFont("Press+Start+2P"),
+    loadGoogleFont("VT323").catch(() => null),
+    loadGoogleFont("Press+Start+2P").catch(() => null),
   ]);
 
   // Fallback image if code is invalid — still shows the brand, not broken.
