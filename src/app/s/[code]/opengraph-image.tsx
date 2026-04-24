@@ -1,3 +1,4 @@
+import { readFile } from "node:fs/promises";
 import { ImageResponse } from "next/og";
 import {
   accuracy,
@@ -9,6 +10,15 @@ import {
 export const alt = "History Brain — shared game result";
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
+
+async function loadFont(relativePath: string): Promise<ArrayBuffer> {
+  const url = new URL(relativePath, import.meta.url);
+  const buf = await readFile(url);
+  return buf.buffer.slice(
+    buf.byteOffset,
+    buf.byteOffset + buf.byteLength
+  ) as ArrayBuffer;
+}
 
 const COLORS = {
   bg: "#0f0f1a",
@@ -65,9 +75,10 @@ function Tile({
         style={{
           display: "flex",
           color: COLORS.muted,
-          fontSize: 18,
+          fontSize: 16,
           letterSpacing: 3,
-          marginBottom: 8,
+          marginBottom: 12,
+          fontFamily: "Press Start 2P",
         }}
       >
         {label}
@@ -106,6 +117,11 @@ export default async function Image({
   const acc = safe.t > 0 ? `${accuracy(safe)}%` : "—";
   const catColor = safe.c ? CATEGORY_COLOR[safe.c] ?? COLORS.accent : null;
 
+  const [pressStart, vt323] = await Promise.all([
+    loadFont("./PressStart2P-Regular.ttf"),
+    loadFont("./VT323-Regular.ttf"),
+  ]);
+
   return new ImageResponse(
     (
       <div
@@ -118,6 +134,7 @@ export default async function Image({
           background: COLORS.bg,
           padding: 56,
           color: COLORS.text,
+          fontFamily: "VT323",
         }}
       >
         {/* Top row */}
@@ -133,8 +150,9 @@ export default async function Image({
             style={{
               display: "flex",
               color: COLORS.accent,
-              fontSize: 40,
+              fontSize: 36,
               letterSpacing: 4,
+              fontFamily: "Press Start 2P",
             }}
           >
             HISTORY BRAIN
@@ -143,8 +161,9 @@ export default async function Image({
             style={{
               display: "flex",
               color: COLORS.muted,
-              fontSize: 28,
+              fontSize: 22,
               letterSpacing: 3,
+              fontFamily: "Press Start 2P",
             }}
           >
             historybrain.com
@@ -164,9 +183,10 @@ export default async function Image({
             style={{
               display: "flex",
               color: COLORS.muted,
-              fontSize: 28,
+              fontSize: 24,
               letterSpacing: 6,
-              marginBottom: 8,
+              marginBottom: 12,
+              fontFamily: "Press Start 2P",
             }}
           >
             {head.caption}
@@ -191,11 +211,12 @@ export default async function Image({
             <div
               style={{
                 display: "flex",
-                padding: "10px 20px",
+                padding: "12px 20px",
                 border: `3px solid ${COLORS.accent}`,
                 color: COLORS.accent,
-                fontSize: 26,
+                fontSize: 20,
                 letterSpacing: 3,
+                fontFamily: "Press Start 2P",
               }}
             >
               {modeLabel(safe).toUpperCase()}
@@ -204,11 +225,12 @@ export default async function Image({
               <div
                 style={{
                   display: "flex",
-                  padding: "10px 20px",
+                  padding: "12px 20px",
                   border: `3px solid ${catColor}`,
                   color: catColor,
-                  fontSize: 26,
+                  fontSize: 20,
                   letterSpacing: 3,
+                  fontFamily: "Press Start 2P",
                 }}
               >
                 {safe.c.toUpperCase()}
@@ -245,8 +267,9 @@ export default async function Image({
               flexDirection: "column",
               alignItems: "flex-end",
               color: COLORS.accent3,
-              fontSize: 36,
-              lineHeight: 1.1,
+              fontSize: 26,
+              lineHeight: 1.4,
+              fontFamily: "Press Start 2P",
             }}
           >
             <div style={{ display: "flex" }}>Can you</div>
@@ -254,7 +277,7 @@ export default async function Image({
               style={{
                 display: "flex",
                 color: COLORS.accent2,
-                fontSize: 48,
+                fontSize: 34,
               }}
             >
               beat me?
@@ -263,6 +286,22 @@ export default async function Image({
         </div>
       </div>
     ),
-    size
+    {
+      ...size,
+      fonts: [
+        {
+          name: "Press Start 2P",
+          data: pressStart,
+          style: "normal",
+          weight: 400,
+        },
+        {
+          name: "VT323",
+          data: vt323,
+          style: "normal",
+          weight: 400,
+        },
+      ],
+    }
   );
 }
