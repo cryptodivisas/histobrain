@@ -1,4 +1,3 @@
-import { readFile } from "node:fs/promises";
 import { ImageResponse } from "next/og";
 import {
   accuracy,
@@ -11,13 +10,20 @@ export const alt = "History Brain — shared game result";
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
 
-async function loadFont(relativePath: string): Promise<ArrayBuffer> {
-  const url = new URL(relativePath, import.meta.url);
-  const buf = await readFile(url);
-  return buf.buffer.slice(
-    buf.byteOffset,
-    buf.byteOffset + buf.byteLength
-  ) as ArrayBuffer;
+function siteOrigin(): string {
+  if (process.env.NEXT_PUBLIC_SITE_URL) return process.env.NEXT_PUBLIC_SITE_URL;
+  if (process.env.VERCEL_URL) return `https://${process.env.VERCEL_URL}`;
+  return "https://histobrain.com";
+}
+
+async function tryLoadFont(fileName: string): Promise<ArrayBuffer | null> {
+  try {
+    const res = await fetch(`${siteOrigin()}/fonts/${fileName}`);
+    if (!res.ok) return null;
+    return await res.arrayBuffer();
+  } catch {
+    return null;
+  }
 }
 
 const COLORS = {
@@ -118,9 +124,27 @@ export default async function Image({
   const catColor = safe.c ? CATEGORY_COLOR[safe.c] ?? COLORS.accent : null;
 
   const [pressStart, vt323] = await Promise.all([
-    loadFont("./PressStart2P-Regular.ttf"),
-    loadFont("./VT323-Regular.ttf"),
+    tryLoadFont("PressStart2P-Regular.ttf"),
+    tryLoadFont("VT323-Regular.ttf"),
   ]);
+
+  const fonts: {
+    name: string;
+    data: ArrayBuffer;
+    style: "normal";
+    weight: 400;
+  }[] = [];
+  if (pressStart) {
+    fonts.push({
+      name: "Press Start 2P",
+      data: pressStart,
+      style: "normal",
+      weight: 400,
+    });
+  }
+  if (vt323) {
+    fonts.push({ name: "VT323", data: vt323, style: "normal", weight: 400 });
+  }
 
   return new ImageResponse(
     (
@@ -288,20 +312,7 @@ export default async function Image({
     ),
     {
       ...size,
-      fonts: [
-        {
-          name: "Press Start 2P",
-          data: pressStart,
-          style: "normal",
-          weight: 400,
-        },
-        {
-          name: "VT323",
-          data: vt323,
-          style: "normal",
-          weight: 400,
-        },
-      ],
+      fonts,
     }
   );
 }
