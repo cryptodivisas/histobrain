@@ -9,6 +9,8 @@ import StatsPanel from "@/components/StatsPanel";
 import AchievementToast from "@/components/AchievementToast";
 import Particles from "@/components/Particles";
 import SettingsModal from "@/components/SettingsModal";
+import { ShareScoreButton } from "@/components/ShareScoreButton";
+import type { SharePayload } from "@/lib/share";
 import { initSound, sfx, isMuted, toggleMute } from "@/lib/sounds";
 import {
   mulberry32,
@@ -1200,6 +1202,29 @@ export default function Home() {
                   </button>
                 </>
               )}
+              {(() => {
+                const correct = results.filter(Boolean).length;
+                const gameCategory =
+                  mode === "category" && questions.length > 0
+                    ? categoryOf(questions[0].name)
+                    : null;
+                const payload: SharePayload = {
+                  s: score,
+                  r: mode === "endless" ? endlessRound : correct,
+                  t: mode === "endless" ? 0 : results.length || CLASSIC_QUESTIONS,
+                  m: mode,
+                  b: bestCombo,
+                  ...(gameCategory ? { c: gameCategory } : {}),
+                  ...(mode === "endless" ? { er: endlessRound } : {}),
+                  ...(mode === "daily" ? { dn: dailyNumber } : {}),
+                };
+                return (
+                  <ShareScoreButton
+                    payload={payload}
+                    onClick={() => sfx.click()}
+                  />
+                );
+              })()}
               <button
                 onClick={replayMode}
                 className="pixel-btn"
