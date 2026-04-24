@@ -28,7 +28,7 @@ export default function PrivacyPage() {
           </h1>
 
           <p className="text-sm text-[var(--hb-muted)] tracking-wider" style={hf}>
-            Last updated: April 2026
+            Last updated: April 24, 2026
           </p>
 
           <Section title="The Short Version">
@@ -67,17 +67,28 @@ export default function PrivacyPage() {
 
           <Section title="Cookies">
             <p>
-              History Brain itself does <strong>not</strong> set cookies for
-              tracking or analytics. The only first-party client-side storage
-              we use is{" "}
+              History Brain itself does <strong>not</strong> set first-party
+              cookies for tracking. Our own client-side storage is limited to{" "}
               <code className="text-[var(--hb-accent)]">localStorage</code>,
               which holds your game progress, settings and best score locally.
             </p>
             <p>
-              Third-party services embedded on the site — specifically ad
-              networks (see below) — may set their own cookies in your browser.
-              We do not control those cookies directly.
+              Third-party services embedded on the site set their own cookies
+              in your browser:
             </p>
+            <ul className="list-disc pl-6 flex flex-col gap-2">
+              <li>
+                <strong>Google Analytics 4</strong> sets the{" "}
+                <code className="text-[var(--hb-accent)]">_ga</code> and{" "}
+                <code className="text-[var(--hb-accent)]">_ga_*</code>{" "}
+                cookies to measure aggregated site usage (see the Analytics
+                section below).
+              </li>
+              <li>
+                Ad networks (see the Advertising section below) may set their
+                own cookies. We do not control those cookies directly.
+              </li>
+            </ul>
           </Section>
 
           <Section title="Advertising">
@@ -163,11 +174,41 @@ export default function PrivacyPage() {
 
           <Section title="Analytics">
             <p>
-              At present, History Brain does not run Google Analytics or any
-              other analytics platform. If analytics is added in the future,
-              this section will be updated and the &quot;Last updated&quot;
-              date at the top will change.
+              History Brain uses{" "}
+              <strong>Google Analytics 4 (GA4)</strong> to understand how the
+              site is used in aggregate — for example, which game modes are
+              popular, which topics attract the most visits, and roughly where
+              in the world our visitors come from.
             </p>
+            <ul className="list-disc pl-6 flex flex-col gap-2">
+              <li>
+                GA4 collects usage data such as pages viewed, session length,
+                approximate geographic location (derived from IP and then
+                discarded), device/browser information, and referrer.
+              </li>
+              <li>
+                We do <strong>not</strong> ask GA4 to collect any personal
+                identifiers, and IP addresses are anonymised by Google before
+                storage.
+              </li>
+              <li>
+                You can opt out of Google Analytics across all sites by
+                installing the{" "}
+                <a
+                  href="https://tools.google.com/dlpage/gaoptout"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-[var(--hb-accent)] underline"
+                >
+                  Google Analytics Opt-out Browser Add-on
+                </a>
+                .
+              </li>
+              <li>
+                You can also block analytics cookies via your browser settings
+                or any privacy extension of your choice.
+              </li>
+            </ul>
           </Section>
 
           <Section title="Children">
