@@ -27,6 +27,15 @@ export function ShareScoreButton({ payload, onClick }: Props) {
     const url = `${origin}/s/${code}`;
     const text = summaryLine(payload);
 
+    // Desktop Chrome exposes navigator.share but its native share sheet is
+    // unreliable and frequently shows a "Try that again" error. Only invoke
+    // the Web Share API on touch-first devices where it actually works well
+    // (iOS Safari, Android Chrome, Samsung Internet, etc.).
+    const isTouchDevice =
+      typeof window !== "undefined" &&
+      typeof window.matchMedia === "function" &&
+      window.matchMedia("(pointer: coarse)").matches;
+
     const shareData: ShareData = {
       title: "History Brain",
       text,
@@ -35,6 +44,7 @@ export function ShareScoreButton({ payload, onClick }: Props) {
 
     try {
       if (
+        isTouchDevice &&
         typeof navigator !== "undefined" &&
         typeof navigator.share === "function" &&
         (typeof navigator.canShare !== "function" ||
@@ -52,10 +62,22 @@ export function ShareScoreButton({ payload, onClick }: Props) {
         setState("error");
       }
     } catch (err: unknown) {
-      // Users cancelling the native share sheet throw AbortError — treat as noop.
+      // User cancelled the native share sheet — treat as no-op.
       if (err instanceof Error && err.name === "AbortError") {
         setState("idle");
         return;
+      }
+      // Native share failed for any other reason: fall back to clipboard so
+      // the user still gets something useful.
+      try {
+        if (navigator.clipboard?.writeText) {
+          await navigator.clipboard.writeText(`${text} ${url}`);
+          setState("copied");
+          setTimeout(() => setState("idle"), 2000);
+          return;
+        }
+      } catch {
+        // fall through to error state
       }
       setState("error");
     } finally {
