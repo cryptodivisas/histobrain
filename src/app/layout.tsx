@@ -3,6 +3,7 @@ import { Press_Start_2P, VT323 } from "next/font/google";
 import "./globals.css";
 import { SITE_URL } from "@/lib/site";
 import GoogleAnalytics from "@/components/GoogleAnalytics";
+import GoogleAdsense from "@/components/GoogleAdsense";
 import ConsentBanner from "@/components/ConsentBanner";
 
 const pressStart = Press_Start_2P({
@@ -46,6 +47,7 @@ export default function RootLayout({
         {children}
         <ConsentBanner />
         <GoogleAnalytics />
+        <GoogleAdsense />
       </body>
     </html>
   );
