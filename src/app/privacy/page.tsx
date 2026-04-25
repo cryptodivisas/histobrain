@@ -2,6 +2,7 @@ import Link from "next/link";
 import type { Metadata } from "next";
 import { PageHeader } from "@/components/PageHeader";
 import { SiteFooter } from "@/components/SiteFooter";
+import ManageConsent from "@/components/ManageConsent";
 
 export const metadata: Metadata = {
   title: "Privacy Policy · History Brain",
@@ -28,8 +29,24 @@ export default function PrivacyPage() {
           </h1>
 
           <p className="text-sm text-[var(--hb-muted)] tracking-wider" style={hf}>
-            Last updated: April 24, 2026
+            Last updated: April 25, 2026
           </p>
+
+          <Section title="Your Choices">
+            <p>
+              History Brain treats analytics and advertising cookies as
+              opt-in. On your first visit a banner asks whether to{" "}
+              <strong>Accept All</strong> or <strong>Reject All</strong>; we
+              implement this with Google&apos;s{" "}
+              <strong>Consent Mode v2</strong>, so when you reject, Google
+              Analytics and (in the future) Google AdSense only receive
+              anonymous, cookieless signals.
+            </p>
+            <p>
+              You can change your choice at any time from this page:
+            </p>
+            <ManageConsent />
+          </Section>
 
           <Section title="The Short Version">
             <p>
@@ -178,7 +195,10 @@ export default function PrivacyPage() {
               <strong>Google Analytics 4 (GA4)</strong> to understand how the
               site is used in aggregate — for example, which game modes are
               popular, which topics attract the most visits, and roughly where
-              in the world our visitors come from.
+              in the world our visitors come from. GA4 is wired with{" "}
+              <strong>Google Consent Mode v2</strong> and starts in a
+              denied-by-default state; it only switches to full tracking if
+              you click <strong>Accept All</strong>.
             </p>
             <ul className="list-disc pl-6 flex flex-col gap-2">
               <li>

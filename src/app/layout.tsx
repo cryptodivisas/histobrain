@@ -3,6 +3,7 @@ import { Press_Start_2P, VT323 } from "next/font/google";
 import "./globals.css";
 import { SITE_URL } from "@/lib/site";
 import GoogleAnalytics from "@/components/GoogleAnalytics";
+import ConsentBanner from "@/components/ConsentBanner";
 
 const pressStart = Press_Start_2P({
   variable: "--font-pixel-heading",
@@ -43,6 +44,7 @@ export default function RootLayout({
     >
       <body className="min-h-full flex flex-col">
         {children}
+        <ConsentBanner />
         <GoogleAnalytics />
       </body>
     </html>
