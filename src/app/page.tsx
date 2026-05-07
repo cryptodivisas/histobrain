@@ -47,16 +47,17 @@ import { generateShareCard, downloadBlob } from "@/lib/shareCard";
 
 interface Option {
   name: string;
-  image: string;
+  image?: string;
   correct: boolean;
 }
 
 interface Question {
   name: string;
-  image: string;
+  image?: string;
   clue: string;
-  wrong_options: { name: string; image: string }[];
+  wrong_options: { name: string; image?: string }[];
   fact: string;
+  category?: Category;
 }
 
 type Mode = "classic" | "daily" | "category" | "endless";
@@ -84,7 +85,7 @@ function buildClassicSession(): Question[] {
 
 function buildCategorySession(cat: Category): Question[] {
   const pool = (questionsData as Question[]).filter(
-    (q) => categoryOf(q.name) === cat
+    (q) => categoryOf(q) === cat
   );
   const count = Math.min(CLASSIC_QUESTIONS, pool.length);
   return shuffleArray(pool).slice(0, count);
@@ -377,7 +378,7 @@ export default function Home() {
       setParticleTrigger((t) => t + 1);
 
       // update profile + achievements
-      const cat = categoryOf(questions[currentIndex].name);
+      const cat = categoryOf(questions[currentIndex]);
       const updated = commitProfile((p) => ({
         ...p,
         totalCorrect: p.totalCorrect + 1,
@@ -838,9 +839,8 @@ export default function Home() {
                   </span>
                   <span className="text-[var(--hb-muted)] text-sm">
                     {
-                      (questionsData as Question[]).filter(
-                        (q) => categoryOf(q.name) === cat
-                      ).length
+                      (questionsData as Question[]).filter((q) => categoryOf(q) === cat)
+                        .length
                     }{" "}
                     items in pool
                   </span>
@@ -949,13 +949,17 @@ export default function Home() {
                           }`}
                         >
                           <div className="card-face bg-[var(--hb-bg)] scanlines">
-                            <Image
-                              src={option.image}
-                              alt=""
-                              fill
-                              className="object-cover blur-lg scale-110 opacity-90"
-                              sizes="(max-width: 640px) 33vw, 33vw"
-                            />
+                            {option.image ? (
+                              <Image
+                                src={option.image}
+                                alt=""
+                                fill
+                                className="object-cover blur-lg scale-110 opacity-90"
+                                sizes="(max-width: 640px) 33vw, 33vw"
+                              />
+                            ) : (
+                              <div className="absolute inset-0 bg-[var(--hb-panel-alt)]" />
+                            )}
                             <div className="absolute inset-0 bg-linear-to-b from-[var(--hb-accent)]/5 via-transparent to-[#8a2be2]/10" />
                             <div className="absolute inset-0 flex items-center justify-center">
                               <span
@@ -968,13 +972,24 @@ export default function Home() {
                           </div>
 
                           <div className="card-face card-face-back bg-[var(--hb-bg)]">
-                            <Image
-                              src={option.image}
-                              alt={option.name}
-                              fill
-                              className="object-cover"
-                              sizes="(max-width: 640px) 33vw, 33vw"
-                            />
+                            {option.image ? (
+                              <Image
+                                src={option.image}
+                                alt={option.name}
+                                fill
+                                className="object-cover"
+                                sizes="(max-width: 640px) 33vw, 33vw"
+                              />
+                            ) : (
+                              <div className="absolute inset-0 flex items-center justify-center bg-[var(--hb-bg)] p-3 text-center">
+                                <span
+                                  className="text-[var(--hb-accent)] text-[10px] sm:text-sm tracking-wider leading-relaxed"
+                                  style={hf}
+                                >
+                                  {option.name}
+                                </span>
+                              </div>
+                            )}
                           </div>
                         </div>
                       </div>
@@ -1026,7 +1041,7 @@ export default function Home() {
               {/* FACT + NEXT */}
               {gameState === "answered" && (() => {
                 const era = eraOf(currentQuestion.name);
-                const cat = categoryOf(currentQuestion.name);
+                const cat = categoryOf(currentQuestion);
                 const topicUrl = `/topics/${slugify(currentQuestion.name)}`;
                 return (
                 <div className="flex flex-col items-center gap-4 sm:gap-6 w-full max-w-3xl mt-3 sm:mt-4 animate-[fadeIn_0.5s_ease-out]">
@@ -1079,13 +1094,15 @@ export default function Home() {
                       </p>
                     </div>
 
-                    <a
-                      href={topicUrl}
-                      className="self-start text-xs tracking-widest text-[var(--hb-accent)] hover:underline"
-                      style={hf}
-                    >
-                      &gt; LEARN MORE →
-                    </a>
+                    {(currentQuestion.image || currentQuestion.category === "Citizenship") && (
+                      <a
+                        href={topicUrl}
+                        className="self-start text-xs tracking-widest text-[var(--hb-accent)] hover:underline"
+                        style={hf}
+                      >
+                        &gt; LEARN MORE →
+                      </a>
+                    )}
                   </div>
                   <button onClick={nextQuestion} className="pixel-btn">
                     {mode === "endless"

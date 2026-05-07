@@ -1342,5 +1342,1797 @@
       }
     ],
     "fact": "Originally cast in bronze around 450 BCE by the Athenian sculptor Myron, the work is known today only through Roman marble copies that survived in museums like the British Museum and the Palazzo Massimo in Rome."
+  },
+  {
+    "name": "Republic",
+    "category": "Citizenship",
+    "clue": "USCIS civics question 1: What is the form of government of the United States?",
+    "wrong_options": [
+      {
+        "name": "(U.S.) Congress"
+      },
+      {
+        "name": "(Because of) the 22nd Amendment"
+      }
+    ],
+    "fact": "Accepted USCIS answers: Republic; Constitution-based federal republic; Representative democracy."
+  },
+  {
+    "name": "(U.S.) Constitution",
+    "category": "Citizenship",
+    "clue": "USCIS civics question 2: What is the supreme law of the land?",
+    "wrong_options": [
+      {
+        "name": "Senate and House (of Representatives)"
+      },
+      {
+        "name": "Visit uscis.gov/citizenship/testupdates for the name of the President of the United States."
+      }
+    ],
+    "fact": "Accepted USCIS answer: (U.S.) Constitution."
+  },
+  {
+    "name": "Forms the government",
+    "category": "Citizenship",
+    "clue": "USCIS civics question 3: Name one thing the U.S. Constitution does.",
+    "wrong_options": [
+      {
+        "name": "Writes laws"
+      },
+      {
+        "name": "Visit uscis.gov/citizenship/testupdates for the name of the Vice President of the United States."
+      }
+    ],
+    "fact": "Accepted USCIS answers: Forms the government; Defines powers of government; Defines the parts of government; Protects the rights of the people."
+  },
+  {
+    "name": "Self-government",
+    "category": "Citizenship",
+    "clue": "USCIS civics question 4: The U.S. Constitution starts with the words “We the People.” What does “We the People” mean?",
+    "wrong_options": [
+      {
+        "name": "One hundred (100)"
+      },
+      {
+        "name": "The Vice President (of the United States)"
+      }
+    ],
+    "fact": "Accepted USCIS answers: Self-government; Popular sovereignty; Consent of the governed; People should govern themselves; (Example of) social contract."
+  },
+  {
+    "name": "Amendments",
+    "category": "Citizenship",
+    "clue": "USCIS civics question 5: How are changes made to the U.S. Constitution?",
+    "wrong_options": [
+      {
+        "name": "Six (6) years"
+      },
+      {
+        "name": "Signs bills into law"
+      }
+    ],
+    "fact": "Accepted USCIS answers: Amendments; The amendment process."
+  },
+  {
+    "name": "(The basic) rights of Americans",
+    "category": "Citizenship",
+    "clue": "USCIS civics question 6: What does the Bill of Rights protect?",
+    "wrong_options": [
+      {
+        "name": "Answers will vary. District of Columbia residents and residents of U.S. territories should answer that D.C. or the territory where the applicant lives has no U.S. senators."
+      },
+      {
+        "name": "The President (of the United States)"
+      }
+    ],
+    "fact": "Accepted USCIS answers: (The basic) rights of Americans; (The basic) rights of people living in the United States."
+  },
+  {
+    "name": "Twenty-seven (27)",
+    "category": "Citizenship",
+    "clue": "USCIS civics question 7: How many amendments does the U.S. Constitution have?",
+    "wrong_options": [
+      {
+        "name": "Four hundred thirty-five (435)"
+      },
+      {
+        "name": "The President (of the United States)"
+      }
+    ],
+    "fact": "Accepted USCIS answer: Twenty-seven (27)."
+  },
+  {
+    "name": "It says America is free from British control.",
+    "category": "Citizenship",
+    "clue": "USCIS civics question 8: Why is the Declaration of Independence important?",
+    "wrong_options": [
+      {
+        "name": "Two (2) years"
+      },
+      {
+        "name": "The President (of the United States)"
+      }
+    ],
+    "fact": "Accepted USCIS answers: It says America is free from British control.; It says all people are created equal.; It identifies inherent rights.; It identifies individual freedoms.."
+  },
+  {
+    "name": "Declaration of Independence",
+    "category": "Citizenship",
+    "clue": "USCIS civics question 9: What founding document said the American colonies were free from Britain?",
+    "wrong_options": [
+      {
+        "name": "To more closely follow public opinion"
+      },
+      {
+        "name": "The President (of the United States)"
+      }
+    ],
+    "fact": "Accepted USCIS answer: Declaration of Independence."
+  },
+  {
+    "name": "Equality",
+    "category": "Citizenship",
+    "clue": "USCIS civics question 10: Name two important ideas from the Declaration of Independence and the U.S. Constitution.",
+    "wrong_options": [
+      {
+        "name": "Two (2)"
+      },
+      {
+        "name": "President (of the United States)"
+      }
+    ],
+    "fact": "Accepted USCIS answers: Equality; Liberty; Social contract; Natural rights; Limited government; Self-government."
+  },
+  {
+    "name": "Declaration of Independence",
+    "category": "Citizenship",
+    "clue": "USCIS civics question 11: The words “Life, Liberty, and the pursuit of Happiness” are in what founding document?",
+    "wrong_options": [
+      {
+        "name": "Equal representation (for small states)"
+      },
+      {
+        "name": "Advises the President (of the United States)"
+      }
+    ],
+    "fact": "Accepted USCIS answer: Declaration of Independence."
+  },
+  {
+    "name": "Capitalism",
+    "category": "Citizenship",
+    "clue": "USCIS civics question 12: What is the economic system of the United States?",
+    "wrong_options": [
+      {
+        "name": "Answers will vary. Residents of territories with nonvoting Delegates or Resident Commissioners may provide the name of that Delegate or Commissioner."
+      },
+      {
+        "name": "Attorney General"
+      }
+    ],
+    "fact": "Accepted USCIS answers: Capitalism; Free market economy."
+  },
+  {
+    "name": "Everyone must follow the law.",
+    "category": "Citizenship",
+    "clue": "USCIS civics question 13: What is the rule of law?",
+    "wrong_options": [
+      {
+        "name": "Mike Johnson"
+      },
+      {
+        "name": "It decides who is elected president."
+      }
+    ],
+    "fact": "Accepted USCIS answers: Everyone must follow the law.; Leaders must obey the law.; Government must obey the law.; No one is above the law.."
+  },
+  {
+    "name": "Declaration of Independence",
+    "category": "Citizenship",
+    "clue": "USCIS civics question 14: Many documents influenced the U.S. Constitution. Name one.",
+    "wrong_options": [
+      {
+        "name": "Citizens of their state"
+      },
+      {
+        "name": "Supreme Court"
+      }
+    ],
+    "fact": "Accepted USCIS answers: Declaration of Independence; Articles of Confederation; Federalist Papers; Anti-Federalist Papers; Virginia Declaration of Rights; Fundamental Orders of Connecticut; Mayflower Compact; Iroquois Great Law of Peace."
+  },
+  {
+    "name": "So one part does not become too powerful",
+    "category": "Citizenship",
+    "clue": "USCIS civics question 15: There are three branches of government. Why?",
+    "wrong_options": [
+      {
+        "name": "Citizens from their state"
+      },
+      {
+        "name": "Reviews laws"
+      }
+    ],
+    "fact": "Accepted USCIS answers: So one part does not become too powerful; Checks and balances; Separation of powers."
+  },
+  {
+    "name": "Legislative, executive, and judicial",
+    "category": "Citizenship",
+    "clue": "USCIS civics question 16: Name the three branches of government.",
+    "wrong_options": [
+      {
+        "name": "Citizens in their (congressional) district"
+      },
+      {
+        "name": "Supreme Court"
+      }
+    ],
+    "fact": "Accepted USCIS answers: Legislative, executive, and judicial; Congress, president, and the courts."
+  },
+  {
+    "name": "Executive branch",
+    "category": "Citizenship",
+    "clue": "USCIS civics question 17: The President of the United States is in charge of which branch of government?",
+    "wrong_options": [
+      {
+        "name": "Citizens from their (congressional) district"
+      },
+      {
+        "name": "Nine (9)"
+      }
+    ],
+    "fact": "Accepted USCIS answer: Executive branch."
+  },
+  {
+    "name": "(U.S.) Congress",
+    "category": "Citizenship",
+    "clue": "USCIS civics question 18: What part of the federal government writes laws?",
+    "wrong_options": [
+      {
+        "name": "(Because of) the state’s population"
+      },
+      {
+        "name": "Five (5)"
+      }
+    ],
+    "fact": "Accepted USCIS answers: (U.S.) Congress; (U.S. or national) legislature; Legislative branch."
+  },
+  {
+    "name": "Senate and House (of Representatives)",
+    "category": "Citizenship",
+    "clue": "USCIS civics question 19: What are the two parts of the U.S. Congress?",
+    "wrong_options": [
+      {
+        "name": "Four (4) years"
+      },
+      {
+        "name": "(For) life"
+      }
+    ],
+    "fact": "Accepted USCIS answer: Senate and House (of Representatives)."
+  },
+  {
+    "name": "Writes laws",
+    "category": "Citizenship",
+    "clue": "USCIS civics question 20: Name one power of the U.S. Congress.",
+    "wrong_options": [
+      {
+        "name": "(Because of) the 22nd Amendment"
+      },
+      {
+        "name": "To be independent (of politics)"
+      }
+    ],
+    "fact": "Accepted USCIS answers: Writes laws; Declares war; Makes the federal budget."
+  },
+  {
+    "name": "One hundred (100)",
+    "category": "Citizenship",
+    "clue": "USCIS civics question 21: How many U.S. senators are there?",
+    "wrong_options": [
+      {
+        "name": "Visit uscis.gov/citizenship/testupdates for the name of the President of the United States."
+      },
+      {
+        "name": "Visit uscis.gov/citizenship/testupdates for the name of the Chief Justice of the United States."
+      }
+    ],
+    "fact": "Accepted USCIS answer: One hundred (100)."
+  },
+  {
+    "name": "Six (6) years",
+    "category": "Citizenship",
+    "clue": "USCIS civics question 22: How long is a term for a U.S. senator?",
+    "wrong_options": [
+      {
+        "name": "Visit uscis.gov/citizenship/testupdates for the name of the Vice President of the United States."
+      },
+      {
+        "name": "Print paper money"
+      }
+    ],
+    "fact": "Accepted USCIS answer: Six (6) years."
+  },
+  {
+    "name": "Answers will vary. District of Columbia residents and residents of U.S. territories should answer that D.C. or the territory where the applicant lives has no U.S. senators.",
+    "category": "Citizenship",
+    "clue": "USCIS civics question 23: Who is one of your state’s U.S. senators now?",
+    "wrong_options": [
+      {
+        "name": "The Vice President (of the United States)"
+      },
+      {
+        "name": "Provide schooling and education"
+      }
+    ],
+    "fact": "Accepted USCIS answer: Answers will vary. District of Columbia residents and residents of U.S. territories should answer that D.C. or the territory where the applicant lives has no U.S. senators.."
+  },
+  {
+    "name": "Four hundred thirty-five (435)",
+    "category": "Citizenship",
+    "clue": "USCIS civics question 24: How many voting members are in the House of Representatives?",
+    "wrong_options": [
+      {
+        "name": "Signs bills into law"
+      },
+      {
+        "name": "(It states that the) powers not given to the federal government belong to the states or to the people."
+      }
+    ],
+    "fact": "Accepted USCIS answer: Four hundred thirty-five (435)."
+  },
+  {
+    "name": "Two (2) years",
+    "category": "Citizenship",
+    "clue": "USCIS civics question 25: How long is a term for a member of the House of Representatives?",
+    "wrong_options": [
+      {
+        "name": "The President (of the United States)"
+      },
+      {
+        "name": "Answers will vary. District of Columbia residents should answer that D.C. does not have a governor."
+      }
+    ],
+    "fact": "Accepted USCIS answer: Two (2) years."
+  },
+  {
+    "name": "To more closely follow public opinion",
+    "category": "Citizenship",
+    "clue": "USCIS civics question 26: Why do U.S. representatives serve shorter terms than U.S. senators?",
+    "wrong_options": [
+      {
+        "name": "The President (of the United States)"
+      },
+      {
+        "name": "Answers will vary. District of Columbia residents should answer that D.C. is not a state and does not have a capital. Residents of U.S. territories should name the capital of the territory."
+      }
+    ],
+    "fact": "Accepted USCIS answer: To more closely follow public opinion."
+  },
+  {
+    "name": "Two (2)",
+    "category": "Citizenship",
+    "clue": "USCIS civics question 27: How many senators does each state have?",
+    "wrong_options": [
+      {
+        "name": "The President (of the United States)"
+      },
+      {
+        "name": "Citizens eighteen (18) and older (can vote)."
+      }
+    ],
+    "fact": "Accepted USCIS answer: Two (2)."
+  },
+  {
+    "name": "Equal representation (for small states)",
+    "category": "Citizenship",
+    "clue": "USCIS civics question 28: Why does each state have two senators?",
+    "wrong_options": [
+      {
+        "name": "The President (of the United States)"
+      },
+      {
+        "name": "Citizens"
+      }
+    ],
+    "fact": "Accepted USCIS answers: Equal representation (for small states); The Great Compromise (Connecticut Compromise)."
+  },
+  {
+    "name": "Answers will vary. Residents of territories with nonvoting Delegates or Resident Commissioners may provide the name of that Delegate or Commissioner.",
+    "category": "Citizenship",
+    "clue": "USCIS civics question 29: Name your U.S. representative.",
+    "wrong_options": [
+      {
+        "name": "President (of the United States)"
+      },
+      {
+        "name": "Freedom of expression"
+      }
+    ],
+    "fact": "Accepted USCIS answer: Answers will vary. Residents of territories with nonvoting Delegates or Resident Commissioners may provide the name of that Delegate or Commissioner.."
+  },
+  {
+    "name": "Mike Johnson",
+    "category": "Citizenship",
+    "clue": "USCIS civics question 30: What is the name of the Speaker of the House of Representatives now?",
+    "wrong_options": [
+      {
+        "name": "Advises the President (of the United States)"
+      },
+      {
+        "name": "The United States"
+      }
+    ],
+    "fact": "Current answer: Mike Johnson. USCIS notes that this answer may change after elections or appointments; update this answer when the Speaker of the House changes."
+  },
+  {
+    "name": "Citizens of their state",
+    "category": "Citizenship",
+    "clue": "USCIS civics question 31: Who does a U.S. senator represent?",
+    "wrong_options": [
+      {
+        "name": "Attorney General"
+      },
+      {
+        "name": "Give up loyalty to other countries"
+      }
+    ],
+    "fact": "Accepted USCIS answers: Citizens of their state; People of their state."
+  },
+  {
+    "name": "Citizens from their state",
+    "category": "Citizenship",
+    "clue": "USCIS civics question 32: Who elects U.S. senators?",
+    "wrong_options": [
+      {
+        "name": "It decides who is elected president."
+      },
+      {
+        "name": "Be born in the United States, under the conditions set by the 14th Amendment"
+      }
+    ],
+    "fact": "Accepted USCIS answer: Citizens from their state."
+  },
+  {
+    "name": "Citizens in their (congressional) district",
+    "category": "Citizenship",
+    "clue": "USCIS civics question 33: Who does a member of the House of Representatives represent?",
+    "wrong_options": [
+      {
+        "name": "Supreme Court"
+      },
+      {
+        "name": "Vote"
+      }
+    ],
+    "fact": "Accepted USCIS answers: Citizens in their (congressional) district; Citizens in their district; People from their (congressional) district; People in their district."
+  },
+  {
+    "name": "Citizens from their (congressional) district",
+    "category": "Citizenship",
+    "clue": "USCIS civics question 34: Who elects members of the House of Representatives?",
+    "wrong_options": [
+      {
+        "name": "Reviews laws"
+      },
+      {
+        "name": "Vote"
+      }
+    ],
+    "fact": "Accepted USCIS answer: Citizens from their (congressional) district."
+  },
+  {
+    "name": "(Because of) the state’s population",
+    "category": "Citizenship",
+    "clue": "USCIS civics question 35: Some states have more representatives than other states. Why?",
+    "wrong_options": [
+      {
+        "name": "Supreme Court"
+      },
+      {
+        "name": "Required by law"
+      }
+    ],
+    "fact": "Accepted USCIS answers: (Because of) the state’s population; (Because) they have more people; (Because) some states have more people."
+  },
+  {
+    "name": "Four (4) years",
+    "category": "Citizenship",
+    "clue": "USCIS civics question 36: The President of the United States is elected for how many years?",
+    "wrong_options": [
+      {
+        "name": "Nine (9)"
+      },
+      {
+        "name": "Required by law"
+      }
+    ],
+    "fact": "Accepted USCIS answer: Four (4) years."
+  },
+  {
+    "name": "(Because of) the 22nd Amendment",
+    "category": "Citizenship",
+    "clue": "USCIS civics question 37: The President of the United States can serve only two terms. Why?",
+    "wrong_options": [
+      {
+        "name": "Five (5)"
+      },
+      {
+        "name": "Freedom"
+      }
+    ],
+    "fact": "Accepted USCIS answers: (Because of) the 22nd Amendment; To keep the president from becoming too powerful."
+  },
+  {
+    "name": "Visit uscis.gov/citizenship/testupdates for the name of the President of the United States.",
+    "category": "Citizenship",
+    "clue": "USCIS civics question 38: What is the name of the President of the United States now?",
+    "wrong_options": [
+      {
+        "name": "(For) life"
+      },
+      {
+        "name": "American Indians"
+      }
+    ],
+    "fact": "Accepted USCIS answer: Visit uscis.gov/citizenship/testupdates for the name of the President of the United States.."
+  },
+  {
+    "name": "Visit uscis.gov/citizenship/testupdates for the name of the Vice President of the United States.",
+    "category": "Citizenship",
+    "clue": "USCIS civics question 39: What is the name of the Vice President of the United States now?",
+    "wrong_options": [
+      {
+        "name": "To be independent (of politics)"
+      },
+      {
+        "name": "Africans"
+      }
+    ],
+    "fact": "Accepted USCIS answer: Visit uscis.gov/citizenship/testupdates for the name of the Vice President of the United States.."
+  },
+  {
+    "name": "The Vice President (of the United States)",
+    "category": "Citizenship",
+    "clue": "USCIS civics question 40: If the president can no longer serve, who becomes president?",
+    "wrong_options": [
+      {
+        "name": "Visit uscis.gov/citizenship/testupdates for the name of the Chief Justice of the United States."
+      },
+      {
+        "name": "American Revolution"
+      }
+    ],
+    "fact": "Accepted USCIS answer: The Vice President (of the United States)."
+  },
+  {
+    "name": "Signs bills into law",
+    "category": "Citizenship",
+    "clue": "USCIS civics question 41: Name one power of the president.",
+    "wrong_options": [
+      {
+        "name": "Print paper money"
+      },
+      {
+        "name": "High taxes"
+      }
+    ],
+    "fact": "Accepted USCIS answers: Signs bills into law; Vetoes bills; Enforces laws; Commander in Chief (of the military); Chief diplomat; Appoints federal judges."
+  },
+  {
+    "name": "The President (of the United States)",
+    "category": "Citizenship",
+    "clue": "USCIS civics question 42: Who is Commander in Chief of the U.S. military?",
+    "wrong_options": [
+      {
+        "name": "Provide schooling and education"
+      },
+      {
+        "name": "(Thomas) Jefferson"
+      }
+    ],
+    "fact": "Accepted USCIS answer: The President (of the United States)."
+  },
+  {
+    "name": "The President (of the United States)",
+    "category": "Citizenship",
+    "clue": "USCIS civics question 43: Who signs bills to become laws?",
+    "wrong_options": [
+      {
+        "name": "(It states that the) powers not given to the federal government belong to the states or to the people."
+      },
+      {
+        "name": "July 4, 1776"
+      }
+    ],
+    "fact": "Accepted USCIS answer: The President (of the United States)."
+  },
+  {
+    "name": "The President (of the United States)",
+    "category": "Citizenship",
+    "clue": "USCIS civics question 44: Who vetoes bills?",
+    "wrong_options": [
+      {
+        "name": "Answers will vary. District of Columbia residents should answer that D.C. does not have a governor."
+      },
+      {
+        "name": "(Battle of) Bunker Hill"
+      }
+    ],
+    "fact": "Accepted USCIS answer: The President (of the United States)."
+  },
+  {
+    "name": "The President (of the United States)",
+    "category": "Citizenship",
+    "clue": "USCIS civics question 45: Who appoints federal judges?",
+    "wrong_options": [
+      {
+        "name": "Answers will vary. District of Columbia residents should answer that D.C. is not a state and does not have a capital. Residents of U.S. territories should name the capital of the territory."
+      },
+      {
+        "name": "New Hampshire"
+      }
+    ],
+    "fact": "Accepted USCIS answer: The President (of the United States)."
+  },
+  {
+    "name": "President (of the United States)",
+    "category": "Citizenship",
+    "clue": "USCIS civics question 46: The executive branch has many parts. Name one.",
+    "wrong_options": [
+      {
+        "name": "Citizens eighteen (18) and older (can vote)."
+      },
+      {
+        "name": "(U.S.) Constitution"
+      }
+    ],
+    "fact": "Accepted USCIS answers: President (of the United States); Cabinet; Federal departments and agencies."
+  },
+  {
+    "name": "Advises the President (of the United States)",
+    "category": "Citizenship",
+    "clue": "USCIS civics question 47: What does the President’s Cabinet do?",
+    "wrong_options": [
+      {
+        "name": "Citizens"
+      },
+      {
+        "name": "(James) Madison"
+      }
+    ],
+    "fact": "Accepted USCIS answer: Advises the President (of the United States)."
+  },
+  {
+    "name": "Attorney General",
+    "category": "Citizenship",
+    "clue": "USCIS civics question 48: What are two Cabinet-level positions?",
+    "wrong_options": [
+      {
+        "name": "Freedom of expression"
+      },
+      {
+        "name": "They helped people understand the (U.S.) Constitution."
+      }
+    ],
+    "fact": "Accepted USCIS answers: Attorney General; Secretary of Agriculture; Secretary of Commerce; Secretary of Education; Secretary of Energy; Secretary of Health and Human Services; Secretary of Homeland Security; Secretary of Housing and Urban Development; Secretary of the Interior; Secretary of Labor; Secretary of State; Secretary of Transportation; Secretary of the Treasury; Secretary of Veterans Affairs; Secretary of War (Defense); Vice-President; Administrator of the Environmental Protection Agency; Administrator of the Small Business Administration; Director of the Central Intelligence Agency; Director of the Office of Management and Budget; Director of National Intelligence; United States Trade Representative."
+  },
+  {
+    "name": "It decides who is elected president.",
+    "category": "Citizenship",
+    "clue": "USCIS civics question 49: Why is the Electoral College important?",
+    "wrong_options": [
+      {
+        "name": "The United States"
+      },
+      {
+        "name": "Founded the first free public libraries"
+      }
+    ],
+    "fact": "Accepted USCIS answers: It decides who is elected president.; It provides a compromise between the popular election of the president and congressional selection.."
+  },
+  {
+    "name": "Supreme Court",
+    "category": "Citizenship",
+    "clue": "USCIS civics question 50: What is one part of the judicial branch?",
+    "wrong_options": [
+      {
+        "name": "Give up loyalty to other countries"
+      },
+      {
+        "name": "“Father of Our Country”"
+      }
+    ],
+    "fact": "Accepted USCIS answers: Supreme Court; Federal Courts."
+  },
+  {
+    "name": "Reviews laws",
+    "category": "Citizenship",
+    "clue": "USCIS civics question 51: What does the judicial branch do?",
+    "wrong_options": [
+      {
+        "name": "Be born in the United States, under the conditions set by the 14th Amendment"
+      },
+      {
+        "name": "Writer of the Declaration of Independence"
+      }
+    ],
+    "fact": "Accepted USCIS answers: Reviews laws; Explains laws; Resolves disputes (disagreements) about the law; Decides if a law goes against the (U.S.) Constitution."
+  },
+  {
+    "name": "Supreme Court",
+    "category": "Citizenship",
+    "clue": "USCIS civics question 52: What is the highest court in the United States?",
+    "wrong_options": [
+      {
+        "name": "Vote"
+      },
+      {
+        "name": "“Father of the Constitution”"
+      }
+    ],
+    "fact": "Accepted USCIS answer: Supreme Court."
+  },
+  {
+    "name": "Nine (9)",
+    "category": "Citizenship",
+    "clue": "USCIS civics question 53: How many seats are on the Supreme Court?",
+    "wrong_options": [
+      {
+        "name": "Vote"
+      },
+      {
+        "name": "First Secretary of the Treasury"
+      }
+    ],
+    "fact": "Accepted USCIS answer: Nine (9)."
+  },
+  {
+    "name": "Five (5)",
+    "category": "Citizenship",
+    "clue": "USCIS civics question 54: How many Supreme Court justices are usually needed to decide a case?",
+    "wrong_options": [
+      {
+        "name": "Required by law"
+      },
+      {
+        "name": "Louisiana Territory"
+      }
+    ],
+    "fact": "Accepted USCIS answer: Five (5)."
+  },
+  {
+    "name": "(For) life",
+    "category": "Citizenship",
+    "clue": "USCIS civics question 55: How long do Supreme Court justices serve?",
+    "wrong_options": [
+      {
+        "name": "Required by law"
+      },
+      {
+        "name": "War of 1812"
+      }
+    ],
+    "fact": "Accepted USCIS answers: (For) life; Lifetime appointment; (Until) retirement."
+  },
+  {
+    "name": "To be independent (of politics)",
+    "category": "Citizenship",
+    "clue": "USCIS civics question 56: Supreme Court justices serve for life. Why?",
+    "wrong_options": [
+      {
+        "name": "Freedom"
+      },
+      {
+        "name": "The Civil War"
+      }
+    ],
+    "fact": "Accepted USCIS answers: To be independent (of politics); To limit outside (political) influence."
+  },
+  {
+    "name": "Visit uscis.gov/citizenship/testupdates for the name of the Chief Justice of the United States.",
+    "category": "Citizenship",
+    "clue": "USCIS civics question 57: Who is the Chief Justice of the United States now?",
+    "wrong_options": [
+      {
+        "name": "American Indians"
+      },
+      {
+        "name": "(Battle of) Fort Sumter"
+      }
+    ],
+    "fact": "Accepted USCIS answer: Visit uscis.gov/citizenship/testupdates for the name of the Chief Justice of the United States.."
+  },
+  {
+    "name": "Print paper money",
+    "category": "Citizenship",
+    "clue": "USCIS civics question 58: Name one power that is only for the federal government.",
+    "wrong_options": [
+      {
+        "name": "Africans"
+      },
+      {
+        "name": "Freed the slaves (Emancipation Proclamation)"
+      }
+    ],
+    "fact": "Accepted USCIS answers: Print paper money; Mint coins; Declare war; Create an army; Make treaties; Set foreign policy."
+  },
+  {
+    "name": "Provide schooling and education",
+    "category": "Citizenship",
+    "clue": "USCIS civics question 59: Name one power that is only for the states.",
+    "wrong_options": [
+      {
+        "name": "American Revolution"
+      },
+      {
+        "name": "Freed the slaves"
+      }
+    ],
+    "fact": "Accepted USCIS answers: Provide schooling and education; Provide protection (police); Provide safety (fire departments); Give a driver’s license; Approve zoning and land use."
+  },
+  {
+    "name": "(It states that the) powers not given to the federal government belong to the states or to the people.",
+    "category": "Citizenship",
+    "clue": "USCIS civics question 60: What is the purpose of the 10th Amendment?",
+    "wrong_options": [
+      {
+        "name": "High taxes"
+      },
+      {
+        "name": "The Civil War"
+      }
+    ],
+    "fact": "Accepted USCIS answer: (It states that the) powers not given to the federal government belong to the states or to the people.."
+  },
+  {
+    "name": "Answers will vary. District of Columbia residents should answer that D.C. does not have a governor.",
+    "category": "Citizenship",
+    "clue": "USCIS civics question 61: Who is the governor of your state now?",
+    "wrong_options": [
+      {
+        "name": "(Thomas) Jefferson"
+      },
+      {
+        "name": "14th Amendment"
+      }
+    ],
+    "fact": "Accepted USCIS answer: Answers will vary. District of Columbia residents should answer that D.C. does not have a governor.."
+  },
+  {
+    "name": "Answers will vary. District of Columbia residents should answer that D.C. is not a state and does not have a capital. Residents of U.S. territories should name the capital of the territory.",
+    "category": "Citizenship",
+    "clue": "USCIS civics question 62: What is the capital of your state?",
+    "wrong_options": [
+      {
+        "name": "July 4, 1776"
+      },
+      {
+        "name": "After the Civil War"
+      }
+    ],
+    "fact": "Accepted USCIS answer: Answers will vary. District of Columbia residents should answer that D.C. is not a state and does not have a capital. Residents of U.S. territories should name the capital of the territory.."
+  },
+  {
+    "name": "Citizens eighteen (18) and older (can vote).",
+    "category": "Citizenship",
+    "clue": "USCIS civics question 63: There are four amendments to the U.S. Constitution about who can vote. Describe one of them.",
+    "wrong_options": [
+      {
+        "name": "(Battle of) Bunker Hill"
+      },
+      {
+        "name": "Susan B. Anthony"
+      }
+    ],
+    "fact": "Accepted USCIS answers: Citizens eighteen (18) and older (can vote).; You don’t have to pay (a poll tax) to vote.; Any citizen can vote. (Women and men can vote.); A male citizen of any race (can vote).."
+  },
+  {
+    "name": "Citizens",
+    "category": "Citizenship",
+    "clue": "USCIS civics question 64: Who can vote in federal elections, run for federal office, and serve on a jury in the United States?",
+    "wrong_options": [
+      {
+        "name": "New Hampshire"
+      },
+      {
+        "name": "World War I"
+      }
+    ],
+    "fact": "Accepted USCIS answers: Citizens; Citizens of the United States; U.S. citizens."
+  },
+  {
+    "name": "Freedom of expression",
+    "category": "Citizenship",
+    "clue": "USCIS civics question 65: What are three rights of everyone living in the United States?",
+    "wrong_options": [
+      {
+        "name": "(U.S.) Constitution"
+      },
+      {
+        "name": "Because Germany attacked U.S. (civilian) ships"
+      }
+    ],
+    "fact": "Accepted USCIS answers: Freedom of expression; Freedom of speech; Freedom of assembly; Freedom to petition the government; Freedom of religion; The right to bear arms."
+  },
+  {
+    "name": "The United States",
+    "category": "Citizenship",
+    "clue": "USCIS civics question 66: What do we show loyalty to when we say the Pledge of Allegiance?",
+    "wrong_options": [
+      {
+        "name": "(James) Madison"
+      },
+      {
+        "name": "1920"
+      }
+    ],
+    "fact": "Accepted USCIS answers: The United States; The flag."
+  },
+  {
+    "name": "Give up loyalty to other countries",
+    "category": "Citizenship",
+    "clue": "USCIS civics question 67: Name two promises that new citizens make in the Oath of Allegiance.",
+    "wrong_options": [
+      {
+        "name": "They helped people understand the (U.S.) Constitution."
+      },
+      {
+        "name": "Longest economic recession in modern history"
+      }
+    ],
+    "fact": "Accepted USCIS answers: Give up loyalty to other countries; Defend the (U.S.) Constitution; Obey the laws of the United States; Serve in the military (if needed); Serve (help, do important work for) the nation (if needed); Be loyal to the United States."
+  },
+  {
+    "name": "Be born in the United States, under the conditions set by the 14th Amendment",
+    "category": "Citizenship",
+    "clue": "USCIS civics question 68: How can people become United States citizens?",
+    "wrong_options": [
+      {
+        "name": "Founded the first free public libraries"
+      },
+      {
+        "name": "The Great Crash (1929)"
+      }
+    ],
+    "fact": "Accepted USCIS answers: Be born in the United States, under the conditions set by the 14th Amendment; Naturalize; Derive citizenship (under conditions set by Congress)."
+  },
+  {
+    "name": "Vote",
+    "category": "Citizenship",
+    "clue": "USCIS civics question 69: What are two examples of civic participation in the United States?",
+    "wrong_options": [
+      {
+        "name": "“Father of Our Country”"
+      },
+      {
+        "name": "(Franklin) Roosevelt"
+      }
+    ],
+    "fact": "Accepted USCIS answers: Vote; Run for office; Join a political party; Help with a campaign; Join a civic group; Join a community group; Give an elected official your opinion (on an issue); Contact elected officials; Support or oppose an issue or policy; Write to a newspaper."
+  },
+  {
+    "name": "Vote",
+    "category": "Citizenship",
+    "clue": "USCIS civics question 70: What is one way Americans can serve their country?",
+    "wrong_options": [
+      {
+        "name": "Writer of the Declaration of Independence"
+      },
+      {
+        "name": "(Bombing of) Pearl Harbor"
+      }
+    ],
+    "fact": "Accepted USCIS answers: Vote; Pay taxes; Obey the law; Serve in the military; Run for office; Work for local, state, or federal government."
+  },
+  {
+    "name": "Required by law",
+    "category": "Citizenship",
+    "clue": "USCIS civics question 71: Why is it important to pay federal taxes?",
+    "wrong_options": [
+      {
+        "name": "“Father of the Constitution”"
+      },
+      {
+        "name": "General during World War II"
+      }
+    ],
+    "fact": "Accepted USCIS answers: Required by law; All people pay to fund the federal government; Required by the (U.S.) Constitution (16th Amendment); Civic duty."
+  },
+  {
+    "name": "Required by law",
+    "category": "Citizenship",
+    "clue": "USCIS civics question 72: It is important for all men age 18 through 25 to register for the Selective Service. Name one reason why.",
+    "wrong_options": [
+      {
+        "name": "First Secretary of the Treasury"
+      },
+      {
+        "name": "Soviet Union"
+      }
+    ],
+    "fact": "Accepted USCIS answers: Required by law; Civic duty; Makes the draft fair, if needed."
+  },
+  {
+    "name": "Freedom",
+    "category": "Citizenship",
+    "clue": "USCIS civics question 73: The colonists came to America for many reasons. Name one.",
+    "wrong_options": [
+      {
+        "name": "Louisiana Territory"
+      },
+      {
+        "name": "Communism"
+      }
+    ],
+    "fact": "Accepted USCIS answers: Freedom; Political liberty; Religious freedom; Economic opportunity; Escape persecution."
+  },
+  {
+    "name": "American Indians",
+    "category": "Citizenship",
+    "clue": "USCIS civics question 74: Who lived in America before the Europeans arrived?",
+    "wrong_options": [
+      {
+        "name": "War of 1812"
+      },
+      {
+        "name": "To stop the spread of communism"
+      }
+    ],
+    "fact": "Accepted USCIS answers: American Indians; Native Americans."
+  },
+  {
+    "name": "Africans",
+    "category": "Citizenship",
+    "clue": "USCIS civics question 75: What group of people was taken and sold as slaves?",
+    "wrong_options": [
+      {
+        "name": "The Civil War"
+      },
+      {
+        "name": "To stop the spread of communism"
+      }
+    ],
+    "fact": "Accepted USCIS answers: Africans; People from Africa."
+  },
+  {
+    "name": "American Revolution",
+    "category": "Citizenship",
+    "clue": "USCIS civics question 76: What war did the Americans fight to win independence from Britain?",
+    "wrong_options": [
+      {
+        "name": "(Battle of) Fort Sumter"
+      },
+      {
+        "name": "Fought to end racial discrimination"
+      }
+    ],
+    "fact": "Accepted USCIS answers: American Revolution; The (American) Revolutionary War; War for (American) Independence."
+  },
+  {
+    "name": "High taxes",
+    "category": "Citizenship",
+    "clue": "USCIS civics question 77: Name one reason why the Americans declared independence from Britain.",
+    "wrong_options": [
+      {
+        "name": "Freed the slaves (Emancipation Proclamation)"
+      },
+      {
+        "name": "Fought for civil rights"
+      }
+    ],
+    "fact": "Accepted USCIS answers: High taxes; Taxation without representation; British soldiers stayed in Americans’ houses (boarding, quartering); They did not have self-government; Boston Massacre; Boston Tea Party (Tea Act); Stamp Act; Sugar Act; Townshend Acts; Intolerable (Coercive) Acts."
+  },
+  {
+    "name": "(Thomas) Jefferson",
+    "category": "Citizenship",
+    "clue": "USCIS civics question 78: Who wrote the Declaration of Independence?",
+    "wrong_options": [
+      {
+        "name": "Freed the slaves"
+      },
+      {
+        "name": "To force the Iraqi military from Kuwait"
+      }
+    ],
+    "fact": "Accepted USCIS answer: (Thomas) Jefferson."
+  },
+  {
+    "name": "July 4, 1776",
+    "category": "Citizenship",
+    "clue": "USCIS civics question 79: When was the Declaration of Independence adopted?",
+    "wrong_options": [
+      {
+        "name": "The Civil War"
+      },
+      {
+        "name": "Terrorists attacked the United States"
+      }
+    ],
+    "fact": "Accepted USCIS answer: July 4, 1776."
+  },
+  {
+    "name": "(Battle of) Bunker Hill",
+    "category": "Citizenship",
+    "clue": "USCIS civics question 80: The American Revolution had many important events. Name one.",
+    "wrong_options": [
+      {
+        "name": "14th Amendment"
+      },
+      {
+        "name": "(Global) War on Terror"
+      }
+    ],
+    "fact": "Accepted USCIS answers: (Battle of) Bunker Hill; Declaration of Independence; Washington Crossing the Delaware (Battle of Trenton); (Battle of) Saratoga; Valley Forge (Encampment); (Battle of) Yorktown (British surrender at Yorktown)."
+  },
+  {
+    "name": "New Hampshire",
+    "category": "Citizenship",
+    "clue": "USCIS civics question 81: There were 13 original states. Name five.",
+    "wrong_options": [
+      {
+        "name": "After the Civil War"
+      },
+      {
+        "name": "Apache"
+      }
+    ],
+    "fact": "Accepted USCIS answers: New Hampshire; Massachusetts; Rhode Island; Connecticut; New York; New Jersey; Pennsylvania; Delaware; Maryland; Virginia; North Carolina; South Carolina; Georgia."
+  },
+  {
+    "name": "(U.S.) Constitution",
+    "category": "Citizenship",
+    "clue": "USCIS civics question 82: What founding document was written in 1787?",
+    "wrong_options": [
+      {
+        "name": "Susan B. Anthony"
+      },
+      {
+        "name": "Light bulb"
+      }
+    ],
+    "fact": "Accepted USCIS answer: (U.S.) Constitution."
+  },
+  {
+    "name": "(James) Madison",
+    "category": "Citizenship",
+    "clue": "USCIS civics question 83: The Federalist Papers supported the passage of the U.S. Constitution. Name one of the writers.",
+    "wrong_options": [
+      {
+        "name": "World War I"
+      },
+      {
+        "name": "Washington, D.C."
+      }
+    ],
+    "fact": "Accepted USCIS answers: (James) Madison; (Alexander) Hamilton; (John) Jay; Publius."
+  },
+  {
+    "name": "They helped people understand the (U.S.) Constitution.",
+    "category": "Citizenship",
+    "clue": "USCIS civics question 84: Why were the Federalist Papers important?",
+    "wrong_options": [
+      {
+        "name": "Because Germany attacked U.S. (civilian) ships"
+      },
+      {
+        "name": "New York (Harbor)"
+      }
+    ],
+    "fact": "Accepted USCIS answers: They helped people understand the (U.S.) Constitution.; They supported passing the (U.S.) Constitution.."
+  },
+  {
+    "name": "Founded the first free public libraries",
+    "category": "Citizenship",
+    "clue": "USCIS civics question 85: Benjamin Franklin is famous for many things. Name one.",
+    "wrong_options": [
+      {
+        "name": "1920"
+      },
+      {
+        "name": "(Because there were) 13 original colonies"
+      }
+    ],
+    "fact": "Accepted USCIS answers: Founded the first free public libraries; First Postmaster General of the United States; Helped write the Declaration of Independence; Inventor; U.S. diplomat."
+  },
+  {
+    "name": "“Father of Our Country”",
+    "category": "Citizenship",
+    "clue": "USCIS civics question 86: George Washington is famous for many things. Name one.",
+    "wrong_options": [
+      {
+        "name": "Longest economic recession in modern history"
+      },
+      {
+        "name": "(Because there is) one star for each state"
+      }
+    ],
+    "fact": "Accepted USCIS answers: “Father of Our Country”; First president of the United States; General of the Continental Army; President of the Constitutional Convention."
+  },
+  {
+    "name": "Writer of the Declaration of Independence",
+    "category": "Citizenship",
+    "clue": "USCIS civics question 87: Thomas Jefferson is famous for many things. Name one.",
+    "wrong_options": [
+      {
+        "name": "The Great Crash (1929)"
+      },
+      {
+        "name": "The Star-Spangled Banner"
+      }
+    ],
+    "fact": "Accepted USCIS answers: Writer of the Declaration of Independence; Third president of the United States; Doubled the size of the United States (Louisiana Purchase); First Secretary of State; Founded the University of Virginia; Writer of the Virginia Statute on Religious Freedom."
+  },
+  {
+    "name": "“Father of the Constitution”",
+    "category": "Citizenship",
+    "clue": "USCIS civics question 88: James Madison is famous for many things. Name one.",
+    "wrong_options": [
+      {
+        "name": "(Franklin) Roosevelt"
+      },
+      {
+        "name": "Out of many, one"
+      }
+    ],
+    "fact": "Accepted USCIS answers: “Father of the Constitution”; Fourth president of the United States; President during the War of 1812; One of the writers of the Federalist Papers."
+  },
+  {
+    "name": "First Secretary of the Treasury",
+    "category": "Citizenship",
+    "clue": "USCIS civics question 89: Alexander Hamilton is famous for many things. Name one.",
+    "wrong_options": [
+      {
+        "name": "(Bombing of) Pearl Harbor"
+      },
+      {
+        "name": "A holiday to celebrate U.S. independence (from Britain)"
+      }
+    ],
+    "fact": "Accepted USCIS answers: First Secretary of the Treasury; One of the writers of the Federalist Papers; Helped establish the First Bank of the United States; Aide to General George Washington; Member of the Continental Congress."
+  },
+  {
+    "name": "Louisiana Territory",
+    "category": "Citizenship",
+    "clue": "USCIS civics question 90: What territory did the United States buy from France in 1803?",
+    "wrong_options": [
+      {
+        "name": "General during World War II"
+      },
+      {
+        "name": "New Year’s Day"
+      }
+    ],
+    "fact": "Accepted USCIS answers: Louisiana Territory; Louisiana."
+  },
+  {
+    "name": "War of 1812",
+    "category": "Citizenship",
+    "clue": "USCIS civics question 91: Name one war fought by the United States in the 1800s.",
+    "wrong_options": [
+      {
+        "name": "Soviet Union"
+      },
+      {
+        "name": "A holiday to honor soldiers who died in military service"
+      }
+    ],
+    "fact": "Accepted USCIS answers: War of 1812; Mexican-American War; Civil War; Spanish-American War."
+  },
+  {
+    "name": "The Civil War",
+    "category": "Citizenship",
+    "clue": "USCIS civics question 92: Name the U.S. war between the North and the South.",
+    "wrong_options": [
+      {
+        "name": "Communism"
+      },
+      {
+        "name": "A holiday to honor people in the (U.S.) military"
+      }
+    ],
+    "fact": "Accepted USCIS answer: The Civil War."
+  },
+  {
+    "name": "(Battle of) Fort Sumter",
+    "category": "Citizenship",
+    "clue": "USCIS civics question 93: The Civil War had many important events. Name one.",
+    "wrong_options": [
+      {
+        "name": "To stop the spread of communism"
+      },
+      {
+        "name": "Republic"
+      }
+    ],
+    "fact": "Accepted USCIS answers: (Battle of) Fort Sumter; Emancipation Proclamation; (Battle of) Vicksburg; (Battle of) Gettysburg; Sherman’s March; (Surrender at) Appomattox; (Battle of) Antietam/Sharpsburg; Lincoln was assassinated.."
+  },
+  {
+    "name": "Freed the slaves (Emancipation Proclamation)",
+    "category": "Citizenship",
+    "clue": "USCIS civics question 94: Abraham Lincoln is famous for many things. Name one.",
+    "wrong_options": [
+      {
+        "name": "To stop the spread of communism"
+      },
+      {
+        "name": "(U.S.) Constitution"
+      }
+    ],
+    "fact": "Accepted USCIS answers: Freed the slaves (Emancipation Proclamation); Saved (or preserved) the Union; Led the United States during the Civil War; 16th president of the United States; Delivered the Gettysburg Address."
+  },
+  {
+    "name": "Freed the slaves",
+    "category": "Citizenship",
+    "clue": "USCIS civics question 95: What did the Emancipation Proclamation do?",
+    "wrong_options": [
+      {
+        "name": "Fought to end racial discrimination"
+      },
+      {
+        "name": "Forms the government"
+      }
+    ],
+    "fact": "Accepted USCIS answers: Freed the slaves; Freed slaves in the Confederacy; Freed slaves in the Confederate states; Freed slaves in most Southern states."
+  },
+  {
+    "name": "The Civil War",
+    "category": "Citizenship",
+    "clue": "USCIS civics question 96: What U.S. war ended slavery?",
+    "wrong_options": [
+      {
+        "name": "Fought for civil rights"
+      },
+      {
+        "name": "Self-government"
+      }
+    ],
+    "fact": "Accepted USCIS answer: The Civil War."
+  },
+  {
+    "name": "14th Amendment",
+    "category": "Citizenship",
+    "clue": "USCIS civics question 97: What amendment says all persons born or naturalized in the United States, and subject to the jurisdiction thereof, are U.S. citizens?",
+    "wrong_options": [
+      {
+        "name": "To force the Iraqi military from Kuwait"
+      },
+      {
+        "name": "Amendments"
+      }
+    ],
+    "fact": "Accepted USCIS answer: 14th Amendment."
+  },
+  {
+    "name": "After the Civil War",
+    "category": "Citizenship",
+    "clue": "USCIS civics question 98: When did all men get the right to vote?",
+    "wrong_options": [
+      {
+        "name": "Terrorists attacked the United States"
+      },
+      {
+        "name": "(The basic) rights of Americans"
+      }
+    ],
+    "fact": "Accepted USCIS answers: After the Civil War; During Reconstruction; (With the) 15th Amendment; 1870."
+  },
+  {
+    "name": "Susan B. Anthony",
+    "category": "Citizenship",
+    "clue": "USCIS civics question 99: Name one leader of the women’s rights movement in the 1800s.",
+    "wrong_options": [
+      {
+        "name": "(Global) War on Terror"
+      },
+      {
+        "name": "Twenty-seven (27)"
+      }
+    ],
+    "fact": "Accepted USCIS answers: Susan B. Anthony; Elizabeth Cady Stanton; Sojourner Truth; Harriet Tubman; Lucretia Mott; Lucy Stone."
+  },
+  {
+    "name": "World War I",
+    "category": "Citizenship",
+    "clue": "USCIS civics question 100: Name one war fought by the United States in the 1900s.",
+    "wrong_options": [
+      {
+        "name": "Apache"
+      },
+      {
+        "name": "It says America is free from British control."
+      }
+    ],
+    "fact": "Accepted USCIS answers: World War I; World War II; Korean War; Vietnam War; (Persian) Gulf War."
+  },
+  {
+    "name": "Because Germany attacked U.S. (civilian) ships",
+    "category": "Citizenship",
+    "clue": "USCIS civics question 101: Why did the United States enter World War I?",
+    "wrong_options": [
+      {
+        "name": "Light bulb"
+      },
+      {
+        "name": "Declaration of Independence"
+      }
+    ],
+    "fact": "Accepted USCIS answers: Because Germany attacked U.S. (civilian) ships; To support the Allied Powers (England, France, Italy, and Russia); To oppose the Central Powers (Germany, Austria-Hungary, the Ottoman Empire, and Bulgaria)."
+  },
+  {
+    "name": "1920",
+    "category": "Citizenship",
+    "clue": "USCIS civics question 102: When did all women get the right to vote?",
+    "wrong_options": [
+      {
+        "name": "Washington, D.C."
+      },
+      {
+        "name": "Equality"
+      }
+    ],
+    "fact": "Accepted USCIS answers: 1920; After World War I; (With the) 19th Amendment."
+  },
+  {
+    "name": "Longest economic recession in modern history",
+    "category": "Citizenship",
+    "clue": "USCIS civics question 103: What was the Great Depression?",
+    "wrong_options": [
+      {
+        "name": "New York (Harbor)"
+      },
+      {
+        "name": "Declaration of Independence"
+      }
+    ],
+    "fact": "Accepted USCIS answer: Longest economic recession in modern history."
+  },
+  {
+    "name": "The Great Crash (1929)",
+    "category": "Citizenship",
+    "clue": "USCIS civics question 104: When did the Great Depression start?",
+    "wrong_options": [
+      {
+        "name": "(Because there were) 13 original colonies"
+      },
+      {
+        "name": "Capitalism"
+      }
+    ],
+    "fact": "Accepted USCIS answers: The Great Crash (1929); Stock market crash of 1929."
+  },
+  {
+    "name": "(Franklin) Roosevelt",
+    "category": "Citizenship",
+    "clue": "USCIS civics question 105: Who was president during the Great Depression and World War II?",
+    "wrong_options": [
+      {
+        "name": "(Because there is) one star for each state"
+      },
+      {
+        "name": "Everyone must follow the law."
+      }
+    ],
+    "fact": "Accepted USCIS answer: (Franklin) Roosevelt."
+  },
+  {
+    "name": "(Bombing of) Pearl Harbor",
+    "category": "Citizenship",
+    "clue": "USCIS civics question 106: Why did the United States enter World War II?",
+    "wrong_options": [
+      {
+        "name": "The Star-Spangled Banner"
+      },
+      {
+        "name": "Declaration of Independence"
+      }
+    ],
+    "fact": "Accepted USCIS answers: (Bombing of) Pearl Harbor; Japanese attacked Pearl Harbor; To support the Allied Powers (England, France, and Russia); To oppose the Axis Powers (Germany, Italy, and Japan)."
+  },
+  {
+    "name": "General during World War II",
+    "category": "Citizenship",
+    "clue": "USCIS civics question 107: Dwight Eisenhower is famous for many things. Name one.",
+    "wrong_options": [
+      {
+        "name": "Out of many, one"
+      },
+      {
+        "name": "So one part does not become too powerful"
+      }
+    ],
+    "fact": "Accepted USCIS answers: General during World War II; President at the end of (during) the Korean War; 34th president of the United States; Signed the Federal-Aid Highway Act of 1956 (Created the Interstate System)."
+  },
+  {
+    "name": "Soviet Union",
+    "category": "Citizenship",
+    "clue": "USCIS civics question 108: Who was the United States’ main rival during the Cold War?",
+    "wrong_options": [
+      {
+        "name": "A holiday to celebrate U.S. independence (from Britain)"
+      },
+      {
+        "name": "Legislative, executive, and judicial"
+      }
+    ],
+    "fact": "Accepted USCIS answers: Soviet Union; USSR; Russia."
+  },
+  {
+    "name": "Communism",
+    "category": "Citizenship",
+    "clue": "USCIS civics question 109: During the Cold War, what was one main concern of the United States?",
+    "wrong_options": [
+      {
+        "name": "New Year’s Day"
+      },
+      {
+        "name": "Executive branch"
+      }
+    ],
+    "fact": "Accepted USCIS answers: Communism; Nuclear war."
+  },
+  {
+    "name": "To stop the spread of communism",
+    "category": "Citizenship",
+    "clue": "USCIS civics question 110: Why did the United States enter the Korean War?",
+    "wrong_options": [
+      {
+        "name": "A holiday to honor soldiers who died in military service"
+      },
+      {
+        "name": "(U.S.) Congress"
+      }
+    ],
+    "fact": "Accepted USCIS answer: To stop the spread of communism."
+  },
+  {
+    "name": "To stop the spread of communism",
+    "category": "Citizenship",
+    "clue": "USCIS civics question 111: Why did the United States enter the Vietnam War?",
+    "wrong_options": [
+      {
+        "name": "A holiday to honor people in the (U.S.) military"
+      },
+      {
+        "name": "Senate and House (of Representatives)"
+      }
+    ],
+    "fact": "Accepted USCIS answer: To stop the spread of communism."
+  },
+  {
+    "name": "Fought to end racial discrimination",
+    "category": "Citizenship",
+    "clue": "USCIS civics question 112: What did the civil rights movement do?",
+    "wrong_options": [
+      {
+        "name": "Republic"
+      },
+      {
+        "name": "Writes laws"
+      }
+    ],
+    "fact": "Accepted USCIS answer: Fought to end racial discrimination."
+  },
+  {
+    "name": "Fought for civil rights",
+    "category": "Citizenship",
+    "clue": "USCIS civics question 113: Martin Luther King, Jr. is famous for many things. Name one.",
+    "wrong_options": [
+      {
+        "name": "(U.S.) Constitution"
+      },
+      {
+        "name": "One hundred (100)"
+      }
+    ],
+    "fact": "Accepted USCIS answers: Fought for civil rights; Worked for equality for all Americans; Worked to ensure that people would “not be judged by the color of their skin, but by the content of their character”."
+  },
+  {
+    "name": "To force the Iraqi military from Kuwait",
+    "category": "Citizenship",
+    "clue": "USCIS civics question 114: Why did the United States enter the Persian Gulf War?",
+    "wrong_options": [
+      {
+        "name": "Forms the government"
+      },
+      {
+        "name": "Six (6) years"
+      }
+    ],
+    "fact": "Accepted USCIS answer: To force the Iraqi military from Kuwait."
+  },
+  {
+    "name": "Terrorists attacked the United States",
+    "category": "Citizenship",
+    "clue": "USCIS civics question 115: What major event happened on September 11, 2001 in the United States?",
+    "wrong_options": [
+      {
+        "name": "Self-government"
+      },
+      {
+        "name": "Answers will vary. District of Columbia residents and residents of U.S. territories should answer that D.C. or the territory where the applicant lives has no U.S. senators."
+      }
+    ],
+    "fact": "Accepted USCIS answers: Terrorists attacked the United States; Terrorists took over two planes and crashed them into the World Trade Center in New York City; Terrorists took over a plane and crashed into the Pentagon in Arlington, Virginia; Terrorists took over a plane originally aimed at Washington, D.C., and crashed in a field in Pennsylvania."
+  },
+  {
+    "name": "(Global) War on Terror",
+    "category": "Citizenship",
+    "clue": "USCIS civics question 116: Name one U.S. military conflict after the September 11, 2001 attacks.",
+    "wrong_options": [
+      {
+        "name": "Amendments"
+      },
+      {
+        "name": "Four hundred thirty-five (435)"
+      }
+    ],
+    "fact": "Accepted USCIS answers: (Global) War on Terror; War in Afghanistan; War in Iraq."
+  },
+  {
+    "name": "Apache",
+    "category": "Citizenship",
+    "clue": "USCIS civics question 117: Name one American Indian tribe in the United States.",
+    "wrong_options": [
+      {
+        "name": "(The basic) rights of Americans"
+      },
+      {
+        "name": "Two (2) years"
+      }
+    ],
+    "fact": "Accepted USCIS answers: Apache; Blackfeet; Cayuga; Cherokee; Cheyenne; Chippewa; Choctaw; Creek; Crow; Hopi; Huron; Inupiat; Lakota; Mohawk; Mohegan; Navajo; Oneida; Onondaga; Pueblo; Seminole; Seneca; Shawnee; Sioux; Teton; Tuscarora."
+  },
+  {
+    "name": "Light bulb",
+    "category": "Citizenship",
+    "clue": "USCIS civics question 118: Name one example of an American innovation.",
+    "wrong_options": [
+      {
+        "name": "Twenty-seven (27)"
+      },
+      {
+        "name": "To more closely follow public opinion"
+      }
+    ],
+    "fact": "Accepted USCIS answers: Light bulb; Automobile (cars, internal combustion engine); Skyscrapers; Airplane; Assembly line; Landing on the moon; Integrated circuit (IC)."
+  },
+  {
+    "name": "Washington, D.C.",
+    "category": "Citizenship",
+    "clue": "USCIS civics question 119: What is the capital of the United States?",
+    "wrong_options": [
+      {
+        "name": "It says America is free from British control."
+      },
+      {
+        "name": "Two (2)"
+      }
+    ],
+    "fact": "Accepted USCIS answer: Washington, D.C.."
+  },
+  {
+    "name": "New York (Harbor)",
+    "category": "Citizenship",
+    "clue": "USCIS civics question 120: Where is the Statue of Liberty?",
+    "wrong_options": [
+      {
+        "name": "Declaration of Independence"
+      },
+      {
+        "name": "Equal representation (for small states)"
+      }
+    ],
+    "fact": "Accepted USCIS answers: New York (Harbor); Liberty Island; New Jersey; near New York City; on the Hudson (River)."
+  },
+  {
+    "name": "(Because there were) 13 original colonies",
+    "category": "Citizenship",
+    "clue": "USCIS civics question 121: Why does the flag have 13 stripes?",
+    "wrong_options": [
+      {
+        "name": "Equality"
+      },
+      {
+        "name": "Answers will vary. Residents of territories with nonvoting Delegates or Resident Commissioners may provide the name of that Delegate or Commissioner."
+      }
+    ],
+    "fact": "Accepted USCIS answers: (Because there were) 13 original colonies; (Because the stripes) represent the original colonies."
+  },
+  {
+    "name": "(Because there is) one star for each state",
+    "category": "Citizenship",
+    "clue": "USCIS civics question 122: Why does the flag have 50 stars?",
+    "wrong_options": [
+      {
+        "name": "Declaration of Independence"
+      },
+      {
+        "name": "Mike Johnson"
+      }
+    ],
+    "fact": "Accepted USCIS answers: (Because there is) one star for each state; (Because) each star represents a state; (Because there are) 50 states."
+  },
+  {
+    "name": "The Star-Spangled Banner",
+    "category": "Citizenship",
+    "clue": "USCIS civics question 123: What is the name of the national anthem?",
+    "wrong_options": [
+      {
+        "name": "Capitalism"
+      },
+      {
+        "name": "Citizens of their state"
+      }
+    ],
+    "fact": "Accepted USCIS answer: The Star-Spangled Banner."
+  },
+  {
+    "name": "Out of many, one",
+    "category": "Citizenship",
+    "clue": "USCIS civics question 124: The Nation’s first motto was “E Pluribus Unum.” What does that mean?",
+    "wrong_options": [
+      {
+        "name": "Everyone must follow the law."
+      },
+      {
+        "name": "Citizens from their state"
+      }
+    ],
+    "fact": "Accepted USCIS answers: Out of many, one; We all become one."
+  },
+  {
+    "name": "A holiday to celebrate U.S. independence (from Britain)",
+    "category": "Citizenship",
+    "clue": "USCIS civics question 125: What is Independence Day?",
+    "wrong_options": [
+      {
+        "name": "Declaration of Independence"
+      },
+      {
+        "name": "Citizens in their (congressional) district"
+      }
+    ],
+    "fact": "Accepted USCIS answers: A holiday to celebrate U.S. independence (from Britain); The country’s birthday."
+  },
+  {
+    "name": "New Year’s Day",
+    "category": "Citizenship",
+    "clue": "USCIS civics question 126: Name three national U.S. holidays.",
+    "wrong_options": [
+      {
+        "name": "So one part does not become too powerful"
+      },
+      {
+        "name": "Citizens from their (congressional) district"
+      }
+    ],
+    "fact": "Accepted USCIS answers: New Year’s Day; Martin Luther King, Jr. Day; Presidents Day (Washington’s Birthday); Memorial Day; Juneteenth; Independence Day; Labor Day; Columbus Day; Veterans Day; Thanksgiving Day; Christmas Day."
+  },
+  {
+    "name": "A holiday to honor soldiers who died in military service",
+    "category": "Citizenship",
+    "clue": "USCIS civics question 127: What is Memorial Day?",
+    "wrong_options": [
+      {
+        "name": "Legislative, executive, and judicial"
+      },
+      {
+        "name": "(Because of) the state’s population"
+      }
+    ],
+    "fact": "Accepted USCIS answer: A holiday to honor soldiers who died in military service."
+  },
+  {
+    "name": "A holiday to honor people in the (U.S.) military",
+    "category": "Citizenship",
+    "clue": "USCIS civics question 128: What is Veterans Day?",
+    "wrong_options": [
+      {
+        "name": "Executive branch"
+      },
+      {
+        "name": "Four (4) years"
+      }
+    ],
+    "fact": "Accepted USCIS answers: A holiday to honor people in the (U.S.) military; A holiday to honor people who have served in the (U.S.) military."
   }
 ]

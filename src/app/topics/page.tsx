@@ -38,11 +38,12 @@ export default async function TopicsIndexPage() {
     Figures: [],
     Events: [],
     Documents: [],
+    Citizenship: [],
     [UNCATEGORIZED]: [],
   };
   for (const t of topics) {
     const name = nameForSlug(t.slug);
-    const cat = name ? categoryOf(name) : null;
+    const cat = t.category ?? (name ? categoryOf(name) : null);
     buckets[cat ?? UNCATEGORIZED].push(t);
   }
   for (const key of Object.keys(buckets) as Bucket[]) {

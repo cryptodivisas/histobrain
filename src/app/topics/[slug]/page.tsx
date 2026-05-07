@@ -67,7 +67,7 @@ export default async function TopicPage({
 
   const name = nameForSlug(slug);
   const eraInfo = name ? eraOf(name) : null;
-  const category = name ? categoryOf(name) : null;
+  const category = topic.category ?? (name ? categoryOf(name) : null);
   const related = await getRelatedTopics(slug, category);
 
   const jsonLd = {
@@ -238,7 +238,7 @@ async function getRelatedTopics(
   if (category) {
     const sameCat = others.filter((t) => {
       const name = nameForSlug(t.slug);
-      return name ? categoryOf(name) === category : false;
+      return (t.category ?? (name ? categoryOf(name) : null)) === category;
     });
     if (sameCat.length >= 3) return sameCat.slice(0, 6);
     // Mix same-category + a few random to reach 6.

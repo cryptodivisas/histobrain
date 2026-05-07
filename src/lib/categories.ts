@@ -6,7 +6,8 @@ export type Category =
   | "Art"
   | "Figures"
   | "Events"
-  | "Documents";
+  | "Documents"
+  | "Citizenship";
 
 export const CATEGORIES: Category[] = [
   "Landmarks",
@@ -14,6 +15,7 @@ export const CATEGORIES: Category[] = [
   "Figures",
   "Events",
   "Documents",
+  "Citizenship",
 ];
 
 export const CATEGORY_COLORS: Record<Category, string> = {
@@ -22,6 +24,7 @@ export const CATEGORY_COLORS: Record<Category, string> = {
   Figures: "var(--hb-cat-figures)",
   Events: "var(--hb-cat-events)",
   Documents: "var(--hb-cat-documents)",
+  Citizenship: "var(--hb-cat-citizenship)",
 };
 
 export const CATEGORY_MAP: Record<string, Category> = {
@@ -116,6 +119,10 @@ export const CATEGORY_MAP: Record<string, Category> = {
   "Twelve Tables": "Documents",
 };
 
-export function categoryOf(name: string): Category | null {
+export function categoryOf(
+  entry: string | { name: string; category?: Category }
+): Category | null {
+  if (typeof entry !== "string" && entry.category) return entry.category;
+  const name = typeof entry === "string" ? entry : entry.name;
   return CATEGORY_MAP[name] ?? null;
 }

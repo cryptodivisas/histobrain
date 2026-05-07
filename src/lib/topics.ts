@@ -13,6 +13,7 @@ import html from "remark-html";
 
 import questionsData from "@/data/questions.json";
 import { slugify } from "@/lib/slug";
+import type { Category } from "@/lib/categories";
 
 export { slugify };
 
@@ -30,23 +31,27 @@ export interface Topic extends TopicFrontmatter {
   excerpt: string;
   /** Local /questions/<hash>.jpg image path if the topic exists in questions.json. */
   image: string | null;
+  category?: Category;
 }
 
 const CONTENT_DIR = path.join(process.cwd(), "content", "topics");
 
 interface QuestionEntry {
   name: string;
-  image: string;
-  wrong_options?: Array<{ name: string; image: string }>;
+  image?: string;
+  clue?: string;
+  fact?: string;
+  category?: Category;
+  wrong_options?: Array<{ name: string; image?: string }>;
 }
 
 /** Map of name -> image path, built once from questions.json. */
 const NAME_TO_IMAGE: Record<string, string> = (() => {
   const map: Record<string, string> = {};
   for (const q of questionsData as QuestionEntry[]) {
-    map[q.name] = q.image;
+    if (q.image) map[q.name] = q.image;
     for (const wo of q.wrong_options ?? []) {
-      map[wo.name] = wo.image;
+      if (wo.image) map[wo.name] = wo.image;
     }
   }
   return map;
@@ -55,8 +60,22 @@ const NAME_TO_IMAGE: Record<string, string> = (() => {
 /** Map of slug -> original name, so we can reverse-lookup images/categories. */
 const SLUG_TO_NAME: Record<string, string> = (() => {
   const map: Record<string, string> = {};
-  for (const name of Object.keys(NAME_TO_IMAGE)) {
-    map[slugify(name)] = name;
+  for (const q of questionsData as QuestionEntry[]) {
+    if (!map[slugify(q.name)]) map[slugify(q.name)] = q.name;
+    for (const wo of q.wrong_options ?? []) {
+      if (!map[slugify(wo.name)]) map[slugify(wo.name)] = wo.name;
+    }
+  }
+  return map;
+})();
+
+const CITIZENSHIP_BY_SLUG: Record<string, QuestionEntry[]> = (() => {
+  const map: Record<string, QuestionEntry[]> = {};
+  for (const q of questionsData as QuestionEntry[]) {
+    if (q.category !== "Citizenship") continue;
+    const slug = slugify(q.name);
+    map[slug] ??= [];
+    map[slug].push(q);
   }
   return map;
 })();
@@ -78,6 +97,37 @@ function readTopicFile(slug: string): string | null {
 async function renderMarkdown(body: string): Promise<string> {
   const processed = await remark().use(html).process(body);
   return processed.toString();
+}
+
+function generatedCitizenshipMarkdown(name: string, entries: QuestionEntry[]): string {
+  const prompts = entries
+    .map((entry) => {
+      const clue = entry.clue?.replace(/^USCIS civics question \d+:\s*/, "");
+      return clue ? `- ${clue}` : null;
+    })
+    .filter(Boolean)
+    .join("\n");
+  const facts = entries
+    .map((entry) => (entry.fact ? `- ${entry.fact}` : null))
+    .filter(Boolean)
+    .join("\n");
+
+  return `## Overview
+
+${name} is an accepted answer in the USCIS 2025 civics test. These questions help applicants study American government, rights and responsibilities, history, symbols, and national holidays.
+
+## Civics test prompt${entries.length > 1 ? "s" : ""}
+
+${prompts}
+
+## Accepted answer
+
+${name}
+
+## Study notes
+
+${facts}
+`;
 }
 
 function extractExcerpt(body: string): string {
@@ -109,18 +159,37 @@ function extractExcerpt(body: string): string {
 
 /** Return the list of all slugs that have a content file on disk. */
 export function getAllTopicSlugs(): string[] {
-  if (!fs.existsSync(CONTENT_DIR)) return [];
-  return fs
-    .readdirSync(CONTENT_DIR)
-    .filter((f) => f.endsWith(".md") && f !== "README.md")
-    .map((f) => f.replace(/\.md$/, ""))
-    .sort();
+  const fileSlugs = fs.existsSync(CONTENT_DIR)
+    ? fs
+        .readdirSync(CONTENT_DIR)
+        .filter((f) => f.endsWith(".md") && f !== "README.md")
+        .map((f) => f.replace(/\.md$/, ""))
+    : [];
+  return Array.from(new Set([...fileSlugs, ...Object.keys(CITIZENSHIP_BY_SLUG)])).sort();
 }
 
 /** Load a single topic by slug. Returns null if the file is missing. */
 export async function getTopicBySlug(slug: string): Promise<Topic | null> {
   const raw = readTopicFile(slug);
-  if (!raw) return null;
+  if (!raw) {
+    const citizenshipEntries = CITIZENSHIP_BY_SLUG[slug];
+    if (!citizenshipEntries) return null;
+
+    const name = SLUG_TO_NAME[slug] ?? citizenshipEntries[0].name;
+    const body = generatedCitizenshipMarkdown(name, citizenshipEntries);
+    const contentHtml = await renderMarkdown(body);
+    const excerpt = extractExcerpt(body);
+
+    return {
+      slug,
+      title: name,
+      summary: `USCIS 2025 civics test answer: ${name}`,
+      contentHtml,
+      excerpt,
+      image: NAME_TO_IMAGE[name] ?? null,
+      category: "Citizenship",
+    };
+  }
 
   const { data, content } = matter(raw);
   const fm = data as TopicFrontmatter;
