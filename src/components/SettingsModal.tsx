@@ -39,17 +39,17 @@ export default function SettingsModal({
 
   return (
     <div
-      className="fixed inset-0 z-50 flex items-center justify-center p-4 backdrop-in"
+      className="fixed inset-0 z-50 flex items-center justify-center p-3 sm:p-4 backdrop-in"
       style={{ background: "rgba(0,0,0,0.75)" }}
       onClick={onClose}
     >
       <div
-        className="bg-[var(--hb-panel)] pixel-border p-6 max-w-2xl w-full max-h-[90vh] overflow-y-auto modal-in"
+        className="bg-[var(--hb-panel)] pixel-border p-4 sm:p-6 max-w-2xl w-full max-h-[90vh] overflow-y-auto modal-in"
         onClick={(e) => e.stopPropagation()}
       >
-        <div className="flex items-center justify-between mb-6">
+        <div className="flex items-center justify-between gap-3 mb-5 sm:mb-6">
           <h2
-            className="glitch-text text-[var(--hb-accent)] text-xl tracking-widest"
+            className="glitch-text text-[var(--hb-accent)] text-lg sm:text-xl tracking-widest"
             style={hf}
           >
             &gt; SETTINGS
@@ -60,7 +60,7 @@ export default function SettingsModal({
             className="border-2 border-[var(--hb-border)] hover:border-[var(--hb-accent)] text-[var(--hb-accent)] px-3 py-1 text-xs cursor-pointer"
             style={hf}
           >
-            X [ESC]
+            X
           </button>
         </div>
 
@@ -151,7 +151,7 @@ export default function SettingsModal({
           </h3>
           <button
             onClick={onToggleMotion}
-            className="w-full flex items-center justify-between p-3 border-2 border-[var(--hb-border)] hover:border-[var(--hb-accent)] cursor-pointer"
+            className="w-full flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3 p-3 border-2 border-[var(--hb-border)] hover:border-[var(--hb-accent)] cursor-pointer"
           >
             <div className="flex flex-col items-start gap-1">
               <span className="text-[var(--hb-text)] text-sm" style={hf}>

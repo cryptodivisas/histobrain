@@ -16,8 +16,8 @@ export default function StatsPanel({ profile }: Props) {
   const hf = "var(--font-pixel-heading), monospace";
 
   return (
-    <div className="bg-[var(--hb-panel)] pixel-border p-6 w-full flex flex-col gap-4">
-      <div className="flex items-center justify-between">
+    <div className="bg-[var(--hb-panel)] pixel-border p-4 sm:p-6 w-full flex flex-col gap-3 sm:gap-4">
+      <div className="flex flex-col gap-2 sm:flex-row sm:items-center sm:justify-between">
         <span
           className="text-[var(--hb-accent)] text-sm tracking-widest"
           style={{ fontFamily: hf }}
@@ -37,7 +37,7 @@ export default function StatsPanel({ profile }: Props) {
         </div>
       </div>
 
-      <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
+      <div className="grid grid-cols-2 sm:grid-cols-4 gap-2 sm:gap-3">
         <Stat label="Games" value={profile.gamesPlayed} color="var(--hb-accent)" />
         <Stat label="Accuracy" value={`${acc}%`} color="var(--hb-accent-2)" />
         <Stat
@@ -52,7 +52,7 @@ export default function StatsPanel({ profile }: Props) {
         />
       </div>
 
-      <div className="grid grid-cols-2 sm:grid-cols-3 gap-3">
+      <div className="grid grid-cols-2 sm:grid-cols-3 gap-2 sm:gap-3">
         <Stat
           label="Endless"
           value={profile.endlessBest > 0 ? `R${profile.endlessBest}` : "—"}
@@ -87,12 +87,12 @@ function Stat({
   color: string;
 }) {
   return (
-    <div className="bg-[var(--hb-bg)] p-3 flex flex-col gap-1">
+    <div className="bg-[var(--hb-bg)] p-2.5 sm:p-3 flex flex-col gap-1 min-w-0">
       <span className="text-[10px] text-[var(--hb-muted)] tracking-widest uppercase">
         {label}
       </span>
       <span
-        className="text-lg"
+        className="text-base sm:text-lg break-words"
         style={{
           color,
           fontFamily: "var(--font-pixel-heading), monospace",

@@ -661,7 +661,7 @@ export default function Home() {
 
   return (
     <div
-      className={`min-h-screen flex flex-col items-center px-4 py-6 pixel-font ${
+      className={`min-h-screen flex flex-col items-center px-3 py-3 sm:px-4 sm:py-6 pixel-font ${
         shake === "hit" ? "shake-hit" : shake === "miss" ? "shake-miss" : ""
       }`}
     >
@@ -684,21 +684,21 @@ export default function Home() {
         />
       )}
 
-      <div className="w-full max-w-6xl flex flex-col items-center gap-6">
+      <div className="w-full max-w-6xl flex flex-col items-center gap-4 sm:gap-6">
         {/* HEADER */}
-        <header className="w-full flex items-center justify-between px-2 py-3">
+        <header className="w-full flex flex-col gap-3 px-1 py-2 sm:flex-row sm:items-center sm:justify-between sm:px-2 sm:py-3">
           <button
             onClick={gameState === "menu" ? undefined : backToMenu}
-            className="glitch-text text-[var(--hb-accent)] text-lg sm:text-2xl tracking-widest cursor-pointer"
+            className="glitch-text text-[var(--hb-accent)] text-lg sm:text-2xl tracking-widest cursor-pointer self-start"
             style={hf}
           >
             HISTORY_BRAIN
           </button>
-          <div className="flex items-center gap-3 sm:gap-5 text-[var(--hb-text)]">
+          <div className="flex w-full flex-wrap items-center justify-end gap-2 sm:w-auto sm:gap-5 text-[var(--hb-text)]">
             {(gameState === "playing" || gameState === "answered") && (
               <>
                 <div className="flex flex-col items-end">
-                  <span className="text-[10px] text-[var(--hb-muted)] uppercase tracking-widest">
+                  <span className="text-[9px] sm:text-[10px] text-[var(--hb-muted)] uppercase tracking-widest">
                     {mode === "daily"
                       ? `Day #${dailyNumber}`
                       : mode === "endless"
@@ -706,7 +706,7 @@ export default function Home() {
                       : "Level"}
                   </span>
                   <span
-                    className="text-sm sm:text-lg text-[var(--hb-accent)]"
+                    className="text-xs sm:text-lg text-[var(--hb-accent)]"
                     style={hf}
                   >
                     {mode === "endless"
@@ -716,11 +716,11 @@ export default function Home() {
                 </div>
                 {combo >= 2 && (
                   <div className="flex flex-col items-end">
-                    <span className="text-[10px] text-[var(--hb-muted)] uppercase tracking-widest">
+                    <span className="text-[9px] sm:text-[10px] text-[var(--hb-muted)] uppercase tracking-widest">
                       Combo
                     </span>
                     <span
-                      className="text-sm sm:text-lg text-[var(--hb-accent-2)]"
+                      className="text-xs sm:text-lg text-[var(--hb-accent-2)]"
                       style={hf}
                     >
                       x{multiplier}
@@ -728,13 +728,13 @@ export default function Home() {
                   </div>
                 )}
                 <div className="flex flex-col items-end">
-                  <span className="text-[10px] text-[var(--hb-muted)] uppercase tracking-widest">
+                  <span className="text-[9px] sm:text-[10px] text-[var(--hb-muted)] uppercase tracking-widest">
                     Score
                   </span>
                   <AnimatedNumber
                     value={score}
                     pad={4}
-                    className="text-sm sm:text-lg text-[var(--hb-accent-2)]"
+                    className="text-xs sm:text-lg text-[var(--hb-accent-2)]"
                     style={hf}
                   />
                 </div>
@@ -743,7 +743,7 @@ export default function Home() {
             <button
               onClick={onToggleMute}
               aria-label="Toggle sound"
-              className="border-2 border-[var(--hb-border)] hover:border-[var(--hb-accent)] text-[var(--hb-accent)] px-3 py-2 transition-colors cursor-pointer"
+              className="border-2 border-[var(--hb-border)] hover:border-[var(--hb-accent)] text-[var(--hb-accent)] px-2 py-2 sm:px-3 transition-colors cursor-pointer"
               style={hf}
             >
               <span className="text-xs">{muted ? "SFX:OFF" : "SFX:ON"}</span>
@@ -754,7 +754,7 @@ export default function Home() {
                 setSettingsOpen(true);
               }}
               aria-label="Open settings"
-              className="border-2 border-[var(--hb-border)] hover:border-[var(--hb-accent)] text-[var(--hb-accent)] px-3 py-2 transition-colors cursor-pointer"
+              className="border-2 border-[var(--hb-border)] hover:border-[var(--hb-accent)] text-[var(--hb-accent)] px-2 py-2 sm:px-3 transition-colors cursor-pointer"
               style={hf}
             >
               <span className="text-xs">CFG</span>
@@ -766,17 +766,17 @@ export default function Home() {
 
         {/* MENU */}
         {gameState === "menu" && (
-          <div className="flex flex-col items-center gap-6 mt-4 w-full animate-[fadeIn_0.5s_ease-out]">
+          <div className="flex flex-col items-center gap-4 sm:gap-6 sm:mt-4 w-full animate-[fadeIn_0.5s_ease-out]">
             <StatsPanel profile={profile} />
 
             <h2
-              className="glitch-text text-[var(--hb-accent)] text-2xl sm:text-4xl tracking-widest text-center mt-2"
+              className="glitch-text text-[var(--hb-accent)] text-xl sm:text-4xl tracking-widest text-center mt-2"
               style={hf}
             >
               SELECT MODE
             </h2>
 
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-5 w-full">
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 sm:gap-5 w-full">
               <ModeCard
                 onClick={startClassic}
                 color="var(--hb-accent)"
@@ -807,27 +807,28 @@ export default function Home() {
               />
             </div>
 
-            <div className="text-[var(--hb-muted)] text-sm tracking-widest mt-2 text-center">
-              [1][2][3] PICK · [ENTER] CONTINUE · [M] MUTE · [ESC] BACK
+            <div className="text-[var(--hb-muted)] text-xs sm:text-sm tracking-widest mt-2 text-center">
+              <span className="sm:hidden">TAP A CARD · CFG THEME · SFX TOGGLE</span>
+              <span className="hidden sm:inline">[1][2][3] PICK · [ENTER] CONTINUE · [M] MUTE · [ESC] BACK</span>
             </div>
           </div>
         )}
 
         {/* CATEGORY SELECT */}
         {gameState === "category-select" && (
-          <div className="flex flex-col items-center gap-6 mt-4 w-full max-w-3xl animate-[fadeIn_0.4s_ease-out]">
+          <div className="flex flex-col items-center gap-4 sm:gap-6 sm:mt-4 w-full max-w-3xl animate-[fadeIn_0.4s_ease-out]">
             <h2
-              className="glitch-text text-[var(--hb-accent-3)] text-2xl sm:text-3xl tracking-widest text-center"
+              className="glitch-text text-[var(--hb-accent-3)] text-xl sm:text-3xl tracking-widest text-center"
               style={hf}
             >
               CHOOSE CATEGORY
             </h2>
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 w-full">
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 sm:gap-4 w-full">
               {CATEGORIES.map((cat) => (
                 <button
                   key={cat}
                   onClick={() => startCategory(cat)}
-                  className="bg-[var(--hb-panel)] pixel-border p-5 flex flex-col items-start gap-2 text-left hover:-translate-y-1 hover:bg-[var(--hb-panel-alt)] transition-all cursor-pointer"
+                  className="bg-[var(--hb-panel)] pixel-border p-4 sm:p-5 flex flex-col items-start gap-2 text-left hover:-translate-y-1 hover:bg-[var(--hb-panel-alt)] transition-all cursor-pointer"
                 >
                   <span
                     className="text-base tracking-widest"
@@ -858,15 +859,15 @@ export default function Home() {
             <>
               {/* CLUE + TIMER */}
               <div className="w-full max-w-3xl flex flex-col gap-3">
-                <div className="bg-[var(--hb-panel)] pixel-border p-6 relative">
-                  <div className="flex items-start gap-3">
+                <div className="bg-[var(--hb-panel)] pixel-border p-4 sm:p-6 relative">
+                  <div className="flex flex-col gap-2 sm:flex-row sm:items-start sm:gap-3">
                     <span
-                      className="text-[var(--hb-accent)] text-xs tracking-widest shrink-0 mt-1"
+                      className="text-[var(--hb-accent)] text-[10px] sm:text-xs tracking-widest shrink-0 sm:mt-1"
                       style={hf}
                     >
                       &gt; CLUE
                     </span>
-                    <p className="text-[var(--hb-text)] text-xl sm:text-2xl leading-snug">
+                    <p className="text-[var(--hb-text)] text-lg sm:text-2xl leading-snug">
                       {currentQuestion.clue}
                       <span className="inline-block w-2 h-5 bg-[var(--hb-accent)] ml-1 animate-pulse align-middle" />
                     </p>
@@ -892,7 +893,7 @@ export default function Home() {
               )}
 
               {/* CARDS */}
-              <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 w-full max-w-5xl mt-2">
+              <div className="grid grid-cols-3 gap-2 sm:gap-4 lg:gap-6 w-full max-w-5xl mt-1 sm:mt-2">
                 {options.map((option, idx) => {
                   const isCorrect = option.correct;
                   const isSelected = selectedIndex === idx;
@@ -913,10 +914,10 @@ export default function Home() {
                       }}
                       onMouseEnter={() => !revealed && sfx.hover()}
                       disabled={revealed}
-                      className={`group relative flex flex-col items-stretch bg-[var(--hb-panel)] p-3 cursor-pointer transition-all duration-300
+                      className={`group relative flex flex-col items-stretch bg-[var(--hb-panel)] p-2 sm:p-3 cursor-pointer transition-all duration-300
                         ${
                           showCorrect
-                            ? "pixel-border-accent -translate-y-2"
+                            ? "pixel-border-accent sm:-translate-y-2"
                             : showWrong
                             ? "pixel-border-wrong"
                             : "pixel-border"
@@ -924,24 +925,24 @@ export default function Home() {
                         ${isDimmed ? "opacity-40" : ""}
                         ${
                           !revealed
-                            ? "hover:-translate-y-2 hover:bg-[var(--hb-panel-alt)]"
+                            ? "hover:-translate-y-1 sm:hover:-translate-y-2 hover:bg-[var(--hb-panel-alt)]"
                             : ""
                         }
                       `}
                     >
-                      <div className="flex items-center justify-between mb-3 px-1">
+                      <div className="flex items-center justify-between mb-2 px-0.5 sm:mb-3 sm:px-1">
                         <span
                           className="text-[var(--hb-accent)] text-[10px] tracking-widest"
                           style={hf}
                         >
                           [0{idx + 1}]
                         </span>
-                        <span className="text-[var(--hb-muted)] text-[10px] tracking-widest uppercase">
+                        <span className="hidden sm:inline text-[var(--hb-muted)] text-[10px] tracking-widest uppercase">
                           {revealed ? "Revealed" : "Locked"}
                         </span>
                       </div>
 
-                      <div className="card-flip w-full aspect-3/4">
+                      <div className="card-flip w-full aspect-[4/5] sm:aspect-3/4">
                         <div
                           className={`card-flip-inner ${
                             revealed ? "flipped" : ""
@@ -953,12 +954,12 @@ export default function Home() {
                               alt=""
                               fill
                               className="object-cover blur-lg scale-110 opacity-90"
-                              sizes="(max-width: 640px) 100vw, 33vw"
+                              sizes="(max-width: 640px) 33vw, 33vw"
                             />
                             <div className="absolute inset-0 bg-linear-to-b from-[var(--hb-accent)]/5 via-transparent to-[#8a2be2]/10" />
                             <div className="absolute inset-0 flex items-center justify-center">
                               <span
-                                className="text-[var(--hb-accent)] text-5xl opacity-80"
+                                className="text-[var(--hb-accent)] text-3xl sm:text-5xl opacity-80"
                                 style={hf}
                               >
                                 ?
@@ -972,14 +973,14 @@ export default function Home() {
                               alt={option.name}
                               fill
                               className="object-cover"
-                              sizes="(max-width: 640px) 100vw, 33vw"
+                              sizes="(max-width: 640px) 33vw, 33vw"
                             />
                           </div>
                         </div>
                       </div>
 
                       <div
-                        className={`mt-3 py-2 px-2 text-center transition-colors
+                        className={`mt-2 py-1.5 px-1 text-center transition-colors sm:mt-3 sm:py-2 sm:px-2
                         ${
                           showCorrect
                             ? "bg-[var(--hb-accent)] text-[var(--hb-bg)]"
@@ -990,7 +991,7 @@ export default function Home() {
                       `}
                       >
                         <span
-                          className="text-xs sm:text-sm tracking-wider"
+                          className="text-[9px] sm:text-sm tracking-wider leading-tight"
                           style={hf}
                         >
                           {option.name}
@@ -1028,8 +1029,8 @@ export default function Home() {
                 const cat = categoryOf(currentQuestion.name);
                 const topicUrl = `/topics/${slugify(currentQuestion.name)}`;
                 return (
-                <div className="flex flex-col items-center gap-6 w-full max-w-3xl mt-4 animate-[fadeIn_0.5s_ease-out]">
-                  <div className="bg-[var(--hb-panel)] pixel-border p-6 w-full flex flex-col gap-4">
+                <div className="flex flex-col items-center gap-4 sm:gap-6 w-full max-w-3xl mt-3 sm:mt-4 animate-[fadeIn_0.5s_ease-out]">
+                  <div className="bg-[var(--hb-panel)] pixel-border p-4 sm:p-6 w-full flex flex-col gap-4">
                     {/* Badges */}
                     <div className="flex items-center gap-2 flex-wrap">
                       <span
@@ -1064,14 +1065,14 @@ export default function Home() {
                       )}
                     </div>
 
-                    <div className="flex items-start gap-3">
+                    <div className="flex flex-col gap-2 sm:flex-row sm:items-start sm:gap-3">
                       <span
-                        className="text-[var(--hb-accent-2)] text-xs tracking-widest shrink-0 mt-1"
+                        className="text-[var(--hb-accent-2)] text-[10px] sm:text-xs tracking-widest shrink-0 sm:mt-1"
                         style={hf}
                       >
                         &gt; LOG
                       </span>
-                      <p className="text-[var(--hb-text)] text-xl leading-snug">
+                      <p className="text-[var(--hb-text)] text-lg sm:text-xl leading-snug">
                         {selectedIndex === -1
                           ? `TIME'S UP! The answer was ${currentQuestion.name}. ${currentQuestion.fact}`
                           : currentQuestion.fact}
@@ -1103,22 +1104,22 @@ export default function Home() {
 
         {/* FINISHED */}
         {gameState === "finished" && (
-          <div className="flex flex-col items-center text-center gap-6 mt-4 w-full max-w-2xl animate-[fadeIn_0.6s_ease-out]">
+          <div className="flex flex-col items-center text-center gap-4 sm:gap-6 sm:mt-4 w-full max-w-2xl animate-[fadeIn_0.6s_ease-out]">
             <h2
-              className="glitch-text text-[var(--hb-accent)] text-3xl sm:text-4xl tracking-widest"
+              className="glitch-text text-[var(--hb-accent)] text-2xl sm:text-4xl tracking-widest"
               style={hf}
             >
               {mode === "endless" ? "RUN OVER" : "GAME OVER"}
             </h2>
 
-            <div className="bg-[var(--hb-panel)] pixel-border p-8 flex flex-col items-center gap-3 w-full">
+            <div className="bg-[var(--hb-panel)] pixel-border p-5 sm:p-8 flex flex-col items-center gap-3 w-full">
               <span className="text-[var(--hb-muted)] text-xs tracking-widest uppercase">
                 Final Score
               </span>
               <AnimatedNumber
                 value={score}
                 duration={900}
-                className="text-6xl sm:text-7xl text-[var(--hb-accent-2)]"
+                className="text-5xl sm:text-7xl text-[var(--hb-accent-2)]"
                 style={hf}
               />
 
@@ -1136,7 +1137,7 @@ export default function Home() {
                 </div>
               )}
 
-              <div className="grid grid-cols-2 gap-4 w-full mt-4 text-left">
+              <div className="grid grid-cols-2 gap-3 sm:gap-4 w-full mt-4 text-left">
                 <div className="bg-[var(--hb-bg)] p-3">
                   <div className="text-[10px] text-[var(--hb-muted)] tracking-widest uppercase">
                     {mode === "endless" ? "Rounds" : "Accuracy"}
@@ -1186,7 +1187,7 @@ export default function Home() {
               </div>
             )}
 
-            <div className="flex flex-col sm:flex-row gap-4 items-center flex-wrap justify-center">
+            <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 items-stretch sm:items-center flex-wrap justify-center w-full">
               {mode === "daily" && (
                 <>
                   <button onClick={copyShare} className="pixel-btn">
@@ -1243,7 +1244,7 @@ export default function Home() {
           </div>
         )}
 
-        <footer className="mt-8 text-[var(--hb-muted)] text-xs tracking-widest flex flex-col items-center gap-3 text-center">
+        <footer className="mt-6 sm:mt-8 text-[var(--hb-muted)] text-[10px] sm:text-xs tracking-widest flex flex-col items-center gap-3 text-center">
           <div>v4.0 · [1][2][3] PICK · [ENTER] NEXT · [M] MUTE · CFG THEME</div>
           <nav className="flex flex-wrap justify-center gap-x-3 gap-y-1">
             <a href="/about" className="hover:text-[var(--hb-accent)] transition-colors">About</a>
@@ -1291,16 +1292,16 @@ function ModeCard({
   return (
     <button
       onClick={onClick}
-      className="bg-[var(--hb-panel)] pixel-border p-6 flex flex-col items-start gap-3 text-left hover:-translate-y-1 hover:bg-[var(--hb-panel-alt)] transition-all cursor-pointer"
+      className="bg-[var(--hb-panel)] pixel-border p-4 sm:p-6 flex flex-col items-start gap-2 sm:gap-3 text-left hover:-translate-y-1 hover:bg-[var(--hb-panel-alt)] transition-all cursor-pointer"
     >
       <span
-        className="text-lg tracking-widest"
+        className="text-base sm:text-lg tracking-widest"
         style={{ ...hf, color }}
       >
         {label}
       </span>
-      <p className="text-[var(--hb-text)] text-xl leading-snug">{desc}</p>
-      <span className="text-[var(--hb-muted)] text-sm mt-2">{shortcut}</span>
+      <p className="text-[var(--hb-text)] text-base sm:text-xl leading-snug">{desc}</p>
+      <span className="text-[var(--hb-muted)] text-xs sm:text-sm sm:mt-2">{shortcut}</span>
     </button>
   );
 }

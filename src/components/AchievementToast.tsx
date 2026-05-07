@@ -37,13 +37,13 @@ export default function AchievementToast({ queue, onDismiss }: Props) {
 
   return (
     <div
-      className={`fixed top-6 right-6 z-50 bg-[var(--hb-panel)] pixel-border-accent p-4 flex items-center gap-4 max-w-sm ${
+      className={`fixed inset-x-3 top-3 sm:inset-x-auto sm:top-6 sm:right-6 z-50 bg-[var(--hb-panel)] pixel-border-accent p-3 sm:p-4 flex items-center gap-3 sm:gap-4 sm:max-w-sm ${
         exiting ? "toast-exit" : "toast-enter"
       }`}
       role="status"
     >
       <div
-        className="bg-[var(--hb-accent)] text-[var(--hb-bg)] w-14 h-14 flex items-center justify-center text-3xl shrink-0"
+        className="bg-[var(--hb-accent)] text-[var(--hb-bg)] w-11 h-11 sm:w-14 sm:h-14 flex items-center justify-center text-2xl sm:text-3xl shrink-0"
         style={{ fontFamily: "var(--font-pixel-heading), monospace" }}
       >
         {ach.icon}
@@ -61,7 +61,7 @@ export default function AchievementToast({ queue, onDismiss }: Props) {
         >
           {ach.title}
         </span>
-        <span className="text-[var(--hb-text)] text-sm leading-tight">
+        <span className="text-[var(--hb-text)] text-xs sm:text-sm leading-tight">
           {ach.description}
         </span>
       </div>
