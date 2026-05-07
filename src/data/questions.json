@@ -1366,7 +1366,7 @@
         "name": "Senate and House (of Representatives)"
       },
       {
-        "name": "Visit uscis.gov/citizenship/testupdates for the name of the President of the United States."
+        "name": "Donald Trump"
       }
     ],
     "fact": "Accepted USCIS answer: (U.S.) Constitution."
@@ -1380,7 +1380,7 @@
         "name": "Writes laws"
       },
       {
-        "name": "Visit uscis.gov/citizenship/testupdates for the name of the Vice President of the United States."
+        "name": "JD Vance"
       }
     ],
     "fact": "Accepted USCIS answers: Forms the government; Defines powers of government; Defines the parts of government; Protects the rights of the people."
@@ -1419,7 +1419,7 @@
     "clue": "USCIS civics question 6: What does the Bill of Rights protect?",
     "wrong_options": [
       {
-        "name": "Answers will vary. District of Columbia residents and residents of U.S. territories should answer that D.C. or the territory where the applicant lives has no U.S. senators."
+        "name": "Answers will vary"
       },
       {
         "name": "The President (of the United States)"
@@ -1503,7 +1503,7 @@
     "clue": "USCIS civics question 12: What is the economic system of the United States?",
     "wrong_options": [
       {
-        "name": "Answers will vary. Residents of territories with nonvoting Delegates or Resident Commissioners may provide the name of that Delegate or Commissioner."
+        "name": "Answers will vary"
       },
       {
         "name": "Attorney General"
@@ -1629,10 +1629,10 @@
     "clue": "USCIS civics question 21: How many U.S. senators are there?",
     "wrong_options": [
       {
-        "name": "Visit uscis.gov/citizenship/testupdates for the name of the President of the United States."
+        "name": "Donald Trump"
       },
       {
-        "name": "Visit uscis.gov/citizenship/testupdates for the name of the Chief Justice of the United States."
+        "name": "John Roberts"
       }
     ],
     "fact": "Accepted USCIS answer: One hundred (100)."
@@ -1643,7 +1643,7 @@
     "clue": "USCIS civics question 22: How long is a term for a U.S. senator?",
     "wrong_options": [
       {
-        "name": "Visit uscis.gov/citizenship/testupdates for the name of the Vice President of the United States."
+        "name": "JD Vance"
       },
       {
         "name": "Print paper money"
@@ -1652,7 +1652,7 @@
     "fact": "Accepted USCIS answer: Six (6) years."
   },
   {
-    "name": "Answers will vary. District of Columbia residents and residents of U.S. territories should answer that D.C. or the territory where the applicant lives has no U.S. senators.",
+    "name": "Answers will vary",
     "category": "Citizenship",
     "clue": "USCIS civics question 23: Who is one of your state’s U.S. senators now?",
     "wrong_options": [
@@ -1688,7 +1688,7 @@
         "name": "The President (of the United States)"
       },
       {
-        "name": "Answers will vary. District of Columbia residents should answer that D.C. does not have a governor."
+        "name": "Answers will vary"
       }
     ],
     "fact": "Accepted USCIS answer: Two (2) years."
@@ -1702,7 +1702,7 @@
         "name": "The President (of the United States)"
       },
       {
-        "name": "Answers will vary. District of Columbia residents should answer that D.C. is not a state and does not have a capital. Residents of U.S. territories should name the capital of the territory."
+        "name": "Answers will vary"
       }
     ],
     "fact": "Accepted USCIS answer: To more closely follow public opinion."
@@ -1736,7 +1736,7 @@
     "fact": "Accepted USCIS answers: Equal representation (for small states); The Great Compromise (Connecticut Compromise)."
   },
   {
-    "name": "Answers will vary. Residents of territories with nonvoting Delegates or Resident Commissioners may provide the name of that Delegate or Commissioner.",
+    "name": "Answers will vary",
     "category": "Citizenship",
     "clue": "USCIS civics question 29: Name your U.S. representative.",
     "wrong_options": [
@@ -1862,7 +1862,7 @@
     "fact": "Accepted USCIS answers: (Because of) the 22nd Amendment; To keep the president from becoming too powerful."
   },
   {
-    "name": "Visit uscis.gov/citizenship/testupdates for the name of the President of the United States.",
+    "name": "Donald Trump",
     "category": "Citizenship",
     "clue": "USCIS civics question 38: What is the name of the President of the United States now?",
     "wrong_options": [
@@ -1873,10 +1873,10 @@
         "name": "American Indians"
       }
     ],
-    "fact": "Accepted USCIS answer: Visit uscis.gov/citizenship/testupdates for the name of the President of the United States.."
+    "fact": "Current answer: Donald Trump. USCIS notes that this answer may change after elections or appointments; update this answer when the President changes."
   },
   {
-    "name": "Visit uscis.gov/citizenship/testupdates for the name of the Vice President of the United States.",
+    "name": "JD Vance",
     "category": "Citizenship",
     "clue": "USCIS civics question 39: What is the name of the Vice President of the United States now?",
     "wrong_options": [
@@ -1887,7 +1887,7 @@
         "name": "Africans"
       }
     ],
-    "fact": "Accepted USCIS answer: Visit uscis.gov/citizenship/testupdates for the name of the Vice President of the United States.."
+    "fact": "Current answer: JD Vance. USCIS notes that this answer may change after elections or appointments; update this answer when the Vice President changes."
   },
   {
     "name": "The Vice President (of the United States)",
@@ -1895,7 +1895,7 @@
     "clue": "USCIS civics question 40: If the president can no longer serve, who becomes president?",
     "wrong_options": [
       {
-        "name": "Visit uscis.gov/citizenship/testupdates for the name of the Chief Justice of the United States."
+        "name": "John Roberts"
       },
       {
         "name": "American Revolution"
@@ -1951,7 +1951,7 @@
     "clue": "USCIS civics question 44: Who vetoes bills?",
     "wrong_options": [
       {
-        "name": "Answers will vary. District of Columbia residents should answer that D.C. does not have a governor."
+        "name": "Answers will vary"
       },
       {
         "name": "(Battle of) Bunker Hill"
@@ -1965,7 +1965,7 @@
     "clue": "USCIS civics question 45: Who appoints federal judges?",
     "wrong_options": [
       {
-        "name": "Answers will vary. District of Columbia residents should answer that D.C. is not a state and does not have a capital. Residents of U.S. territories should name the capital of the territory."
+        "name": "Answers will vary"
       },
       {
         "name": "New Hampshire"
@@ -2128,7 +2128,7 @@
     "fact": "Accepted USCIS answers: To be independent (of politics); To limit outside (political) influence."
   },
   {
-    "name": "Visit uscis.gov/citizenship/testupdates for the name of the Chief Justice of the United States.",
+    "name": "John Roberts",
     "category": "Citizenship",
     "clue": "USCIS civics question 57: Who is the Chief Justice of the United States now?",
     "wrong_options": [
@@ -2139,7 +2139,7 @@
         "name": "(Battle of) Fort Sumter"
       }
     ],
-    "fact": "Accepted USCIS answer: Visit uscis.gov/citizenship/testupdates for the name of the Chief Justice of the United States.."
+    "fact": "Current answer: John Roberts. USCIS notes that this answer may change after appointments; update this answer when the Chief Justice changes."
   },
   {
     "name": "Print paper money",
@@ -2184,7 +2184,7 @@
     "fact": "Accepted USCIS answer: (It states that the) powers not given to the federal government belong to the states or to the people.."
   },
   {
-    "name": "Answers will vary. District of Columbia residents should answer that D.C. does not have a governor.",
+    "name": "Answers will vary",
     "category": "Citizenship",
     "clue": "USCIS civics question 61: Who is the governor of your state now?",
     "wrong_options": [
@@ -2198,7 +2198,7 @@
     "fact": "Accepted USCIS answer: Answers will vary. District of Columbia residents should answer that D.C. does not have a governor.."
   },
   {
-    "name": "Answers will vary. District of Columbia residents should answer that D.C. is not a state and does not have a capital. Residents of U.S. territories should name the capital of the territory.",
+    "name": "Answers will vary",
     "category": "Citizenship",
     "clue": "USCIS civics question 62: What is the capital of your state?",
     "wrong_options": [
@@ -2948,7 +2948,7 @@
         "name": "Self-government"
       },
       {
-        "name": "Answers will vary. District of Columbia residents and residents of U.S. territories should answer that D.C. or the territory where the applicant lives has no U.S. senators."
+        "name": "Answers will vary"
       }
     ],
     "fact": "Accepted USCIS answers: Terrorists attacked the United States; Terrorists took over two planes and crashed them into the World Trade Center in New York City; Terrorists took over a plane and crashed into the Pentagon in Arlington, Virginia; Terrorists took over a plane originally aimed at Washington, D.C., and crashed in a field in Pennsylvania."
@@ -3032,7 +3032,7 @@
         "name": "Equality"
       },
       {
-        "name": "Answers will vary. Residents of territories with nonvoting Delegates or Resident Commissioners may provide the name of that Delegate or Commissioner."
+        "name": "Answers will vary"
       }
     ],
     "fact": "Accepted USCIS answers: (Because there were) 13 original colonies; (Because the stripes) represent the original colonies."
