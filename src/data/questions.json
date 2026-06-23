@@ -3134,5 +3134,260 @@
       }
     ],
     "fact": "Accepted USCIS answers: A holiday to honor people in the (U.S.) military; A holiday to honor people who have served in the (U.S.) military."
+  },
+  {
+    "name": "Big Ben",
+    "category": "Landmarks",
+    "image": "/questions/dfe97d37e23cef28.jpg",
+    "clue": "This famous clock tower rises above the Palace of Westminster and has become one of London’s most recognizable symbols.",
+    "wrong_options": [
+      {
+        "name": "Empire State Building",
+        "image": "/questions/0dd37c2c22e23c6f.jpg"
+      },
+      {
+        "name": "Christ the Redeemer",
+        "image": "/questions/36a607f04ee8047e.jpg"
+      }
+    ],
+    "fact": "Big Ben is the nickname for the Great Bell inside Elizabeth Tower in London. The tower was completed in 1859."
+  },
+  {
+    "name": "Empire State Building",
+    "category": "Landmarks",
+    "image": "/questions/0dd37c2c22e23c6f.jpg",
+    "clue": "This Art Deco skyscraper opened in Manhattan in 1931 and became an icon of the New York City skyline.",
+    "wrong_options": [
+      {
+        "name": "Big Ben",
+        "image": "/questions/dfe97d37e23cef28.jpg"
+      },
+      {
+        "name": "Pula Arena",
+        "image": "/questions/1c5933c0e301876e.jpg"
+      }
+    ],
+    "fact": "The Empire State Building was the tallest building in the world when it opened and remains one of New York City’s most famous landmarks."
+  },
+  {
+    "name": "Christ the Redeemer",
+    "category": "Landmarks",
+    "image": "/questions/36a607f04ee8047e.jpg",
+    "clue": "This massive statue of Jesus stands atop Mount Corcovado overlooking Rio de Janeiro.",
+    "wrong_options": [
+      {
+        "name": "Motherland Calls",
+        "image": "/questions/fd841071db7ca5f2.jpg"
+      },
+      {
+        "name": "Statue of Liberty",
+        "image": "/questions/f963bc5030600c6a.jpg"
+      }
+    ],
+    "fact": "Christ the Redeemer was completed in 1931 and is one of Brazil’s most recognizable monuments."
+  },
+  {
+    "name": "Motherland Calls",
+    "category": "Landmarks",
+    "image": "/questions/fd841071db7ca5f2.jpg",
+    "clue": "This towering sword-bearing statue commemorates the Battle of Stalingrad in Volgograd, Russia.",
+    "wrong_options": [
+      {
+        "name": "Christ the Redeemer",
+        "image": "/questions/36a607f04ee8047e.jpg"
+      },
+      {
+        "name": "Moai of Easter Island",
+        "image": "/questions/971e2b2445aeb4fb.jpg"
+      }
+    ],
+    "fact": "The Motherland Calls was unveiled in 1967 as the centerpiece of a memorial complex honoring the Battle of Stalingrad."
+  },
+  {
+    "name": "Berlin Wall",
+    "category": "Landmarks",
+    "image": "/questions/df3f27a097e904a0.jpg",
+    "clue": "This concrete barrier divided a major European capital from 1961 until its fall in 1989.",
+    "wrong_options": [
+      {
+        "name": "Hadrian's Wall",
+        "image": "/questions/20d20ca5bd05e85f.png"
+      },
+      {
+        "name": "Iron Curtain Checkpoint",
+        "image": "/questions/8d622a372cb8fbd9.jpg"
+      }
+    ],
+    "fact": "The Berlin Wall divided East and West Berlin during the Cold War. Its fall in 1989 became a symbol of the end of the Cold War era."
+  },
+  {
+    "name": "Moai of Easter Island",
+    "category": "Landmarks",
+    "image": "/questions/971e2b2445aeb4fb.jpg",
+    "clue": "These monumental stone figures were carved by the Rapa Nui people on a remote Pacific island.",
+    "wrong_options": [
+      {
+        "name": "Carnac Stones",
+        "image": "/questions/3c40cc8673b9dabe.jpg"
+      },
+      {
+        "name": "Stonehenge",
+        "image": "/questions/ab6a066ae36477c7.jpg"
+      }
+    ],
+    "fact": "The moai of Easter Island were carved between roughly the 13th and 16th centuries and are famous for their oversized heads and torsos."
+  },
+  {
+    "name": "Carnac Stones",
+    "category": "Landmarks",
+    "image": "/questions/3c40cc8673b9dabe.jpg",
+    "clue": "These prehistoric rows of standing stones stretch across Brittany in northwestern France.",
+    "wrong_options": [
+      {
+        "name": "Moai of Easter Island",
+        "image": "/questions/971e2b2445aeb4fb.jpg"
+      },
+      {
+        "name": "Stonehenge",
+        "image": "/questions/ab6a066ae36477c7.jpg"
+      }
+    ],
+    "fact": "The Carnac Stones are one of the world’s largest collections of megalithic standing stones, with thousands of stones arranged in lines."
+  },
+  {
+    "name": "Chichen Itza",
+    "category": "Landmarks",
+    "image": "/questions/dfca4b5c6e7a421b.jpg",
+    "clue": "This Maya city on Mexico’s Yucatán Peninsula is famous for the stepped pyramid known as El Castillo.",
+    "wrong_options": [
+      {
+        "name": "Tikal",
+        "image": "/questions/f6c44834e615a9df.jpg"
+      },
+      {
+        "name": "Pyramid of the Sun",
+        "image": "/questions/d5ca25d54d319164.jpg"
+      }
+    ],
+    "fact": "Chichen Itza was a major Maya center and includes the Temple of Kukulcán, also known as El Castillo."
+  },
+  {
+    "name": "Tikal",
+    "category": "Landmarks",
+    "image": "/questions/f6c44834e615a9df.jpg",
+    "clue": "This ancient Maya city in Guatemala is known for its towering temples rising above the rainforest.",
+    "wrong_options": [
+      {
+        "name": "Chichen Itza",
+        "image": "/questions/dfca4b5c6e7a421b.jpg"
+      },
+      {
+        "name": "Temple of Luxor",
+        "image": "/questions/49e540579b7895f5.jpg"
+      }
+    ],
+    "fact": "Tikal was one of the most powerful cities of the ancient Maya civilization and is now a UNESCO World Heritage Site."
+  },
+  {
+    "name": "Pantheon",
+    "category": "Landmarks",
+    "image": "/questions/94ef73e7b43015f6.jpg",
+    "clue": "This ancient Roman temple is famous for its massive dome and central oculus.",
+    "wrong_options": [
+      {
+        "name": "Parthenon",
+        "image": "/questions/2aaa479907b695eb.jpg"
+      },
+      {
+        "name": "Pula Arena",
+        "image": "/questions/1c5933c0e301876e.jpg"
+      }
+    ],
+    "fact": "The Pantheon in Rome was rebuilt under Emperor Hadrian and remains one of the best-preserved buildings from ancient Rome."
+  },
+  {
+    "name": "Temple of Luxor",
+    "category": "Landmarks",
+    "image": "/questions/49e540579b7895f5.jpg",
+    "clue": "This ancient Egyptian temple complex stands on the east bank of the Nile in a city once known as Thebes.",
+    "wrong_options": [
+      {
+        "name": "Step Pyramid of Djoser",
+        "image": "/questions/9d7ce4719849cd36.jpg"
+      },
+      {
+        "name": "Pantheon",
+        "image": "/questions/94ef73e7b43015f6.jpg"
+      }
+    ],
+    "fact": "The Temple of Luxor was built over centuries by pharaohs including Amenhotep III and Ramesses II."
+  },
+  {
+    "name": "Pula Arena",
+    "category": "Landmarks",
+    "image": "/questions/1c5933c0e301876e.jpg",
+    "clue": "This remarkably preserved Roman amphitheater stands in modern-day Croatia.",
+    "wrong_options": [
+      {
+        "name": "Colosseum",
+        "image": "/questions/97d11ea642b329b4.jpg"
+      },
+      {
+        "name": "Theatre of Dionysus",
+        "image": "/questions/15bb3455636bafd1.jpg"
+      }
+    ],
+    "fact": "The Pula Arena is one of the best-preserved Roman amphitheaters and could hold thousands of spectators."
+  },
+  {
+    "name": "Theatre of Dionysus",
+    "category": "Landmarks",
+    "image": "/questions/15bb3455636bafd1.jpg",
+    "clue": "This ancient Greek theater on the slope of the Acropolis is associated with the birth of Greek drama.",
+    "wrong_options": [
+      {
+        "name": "Pula Arena",
+        "image": "/questions/1c5933c0e301876e.jpg"
+      },
+      {
+        "name": "Parthenon",
+        "image": "/questions/2aaa479907b695eb.jpg"
+      }
+    ],
+    "fact": "The Theatre of Dionysus in Athens hosted dramatic festivals and performances by playwrights such as Sophocles, Euripides, and Aristophanes."
+  },
+  {
+    "name": "Pyramid of the Sun",
+    "category": "Landmarks",
+    "image": "/questions/d5ca25d54d319164.jpg",
+    "clue": "This huge stepped pyramid dominates the ancient city of Teotihuacan near modern Mexico City.",
+    "wrong_options": [
+      {
+        "name": "Great Pyramid of Giza",
+        "image": "/questions/a979d91bc5e35afc.jpg"
+      },
+      {
+        "name": "Step Pyramid of Djoser",
+        "image": "/questions/9d7ce4719849cd36.jpg"
+      }
+    ],
+    "fact": "The Pyramid of the Sun is one of the largest pyramids in the world and was built by the civilization of Teotihuacan."
+  },
+  {
+    "name": "Step Pyramid of Djoser",
+    "category": "Landmarks",
+    "image": "/questions/9d7ce4719849cd36.jpg",
+    "clue": "This early Egyptian pyramid at Saqqara was designed for Pharaoh Djoser by the architect Imhotep.",
+    "wrong_options": [
+      {
+        "name": "Pyramid of the Sun",
+        "image": "/questions/d5ca25d54d319164.jpg"
+      },
+      {
+        "name": "Great Pyramid of Giza",
+        "image": "/questions/a979d91bc5e35afc.jpg"
+      }
+    ],
+    "fact": "The Step Pyramid of Djoser dates to Egypt’s Third Dynasty and is considered one of the earliest large stone monuments in history."
   }
 ]
