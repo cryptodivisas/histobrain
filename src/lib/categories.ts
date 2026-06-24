@@ -7,7 +7,10 @@ export type Category =
   | "Figures"
   | "Events"
   | "Documents"
-  | "Citizenship";
+  | "Citizenship"
+  | "Music"
+  | "Movies"
+  | "TV Series";
 
 export const CATEGORIES: Category[] = [
   "Landmarks",
@@ -16,6 +19,9 @@ export const CATEGORIES: Category[] = [
   "Events",
   "Documents",
   "Citizenship",
+  "Music",
+  "Movies",
+  "TV Series",
 ];
 
 export const CATEGORY_COLORS: Record<Category, string> = {
@@ -25,6 +31,9 @@ export const CATEGORY_COLORS: Record<Category, string> = {
   Events: "var(--hb-cat-events)",
   Documents: "var(--hb-cat-documents)",
   Citizenship: "var(--hb-cat-citizenship)",
+  Music: "var(--hb-cat-music)",
+  Movies: "var(--hb-cat-movies)",
+  "TV Series": "var(--hb-cat-tv-series)",
 };
 
 export const CATEGORY_MAP: Record<string, Category> = {

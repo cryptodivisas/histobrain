@@ -21,7 +21,7 @@ const hf = { fontFamily: "var(--font-pixel-heading), monospace" };
 export const metadata: Metadata = {
   title: "All Topics · History Brain",
   description:
-    "Browse the full History Brain library — every landmark, work of art, historical figure, event and document covered in the game, organized by category.",
+    "Browse the full History Brain library — landmarks, art, figures, events, documents, civics, music, movies, and TV series covered in the game, organized by category.",
   alternates: { canonical: "/topics" },
 };
 
@@ -32,15 +32,9 @@ export default async function TopicsIndexPage() {
   const topics = await getAllTopics();
 
   // Bucket by category.
-  const buckets: Record<Bucket, Topic[]> = {
-    Landmarks: [],
-    Art: [],
-    Figures: [],
-    Events: [],
-    Documents: [],
-    Citizenship: [],
-    [UNCATEGORIZED]: [],
-  };
+  const buckets = Object.fromEntries(
+    [...CATEGORIES, UNCATEGORIZED].map((category) => [category, [] as Topic[]])
+  ) as Record<Bucket, Topic[]>;
   for (const t of topics) {
     const name = nameForSlug(t.slug);
     const cat = t.category ?? (name ? categoryOf(name) : null);
@@ -71,8 +65,9 @@ export default async function TopicsIndexPage() {
             {totalTopics} articles · organized by category
           </p>
           <p className="text-base leading-relaxed">
-            The full library of people, places, events and artifacts covered on
-            History Brain. Pick any topic to read its deep-dive article, or{" "}
+            The full library of people, places, events, artifacts, music,
+            movies, and TV series covered on History Brain. Pick any topic to
+            read its deep-dive article, or{" "}
             <Link href="/" className="text-[var(--hb-accent)] underline">
               jump back into the game
             </Link>

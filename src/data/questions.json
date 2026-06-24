@@ -3389,5 +3389,425 @@
       }
     ],
     "fact": "The Step Pyramid of Djoser dates to Egypt’s Third Dynasty and is considered one of the earliest large stone monuments in history."
+  },
+  {
+    "name": "Ludwig van Beethoven",
+    "category": "Music",
+    "clue": "This German composer wrote Symphony No. 9 after becoming almost completely deaf.",
+    "wrong_options": [
+      {
+        "name": "Wolfgang Amadeus Mozart"
+      },
+      {
+        "name": "Johann Sebastian Bach"
+      }
+    ],
+    "fact": "Beethoven helped bridge the Classical and Romantic eras of Western music, and his Ninth Symphony includes the famous “Ode to Joy.”"
+  },
+  {
+    "name": "Wolfgang Amadeus Mozart",
+    "category": "Music",
+    "clue": "This Austrian child prodigy composed The Magic Flute and Don Giovanni before dying at age 35.",
+    "wrong_options": [
+      {
+        "name": "Ludwig van Beethoven"
+      },
+      {
+        "name": "Franz Schubert"
+      }
+    ],
+    "fact": "Mozart composed more than 600 works, including operas, symphonies, concertos, and chamber music."
+  },
+  {
+    "name": "Johann Sebastian Bach",
+    "category": "Music",
+    "clue": "This Baroque composer is known for the Brandenburg Concertos, The Well-Tempered Clavier, and complex fugues.",
+    "wrong_options": [
+      {
+        "name": "George Frideric Handel"
+      },
+      {
+        "name": "Antonio Vivaldi"
+      }
+    ],
+    "fact": "Bach’s music is admired for its technical mastery, counterpoint, and deep influence on later composers."
+  },
+  {
+    "name": "The Beatles",
+    "category": "Music",
+    "clue": "This Liverpool band included John, Paul, George, and Ringo and became one of the most influential groups in popular music.",
+    "wrong_options": [
+      {
+        "name": "The Rolling Stones"
+      },
+      {
+        "name": "Queen"
+      }
+    ],
+    "fact": "The Beatles transformed pop and rock music during the 1960s with albums such as Revolver, Sgt. Pepper’s Lonely Hearts Club Band, and Abbey Road."
+  },
+  {
+    "name": "Michael Jackson",
+    "category": "Music",
+    "clue": "This performer was known as the “King of Pop” and released Thriller, one of the best-selling albums of all time.",
+    "wrong_options": [
+      {
+        "name": "Prince"
+      },
+      {
+        "name": "Stevie Wonder"
+      }
+    ],
+    "fact": "Michael Jackson became famous for his distinctive voice, elaborate music videos, and signature dance moves including the moonwalk."
+  },
+  {
+    "name": "Madonna",
+    "category": "Music",
+    "clue": "This pop star became known as the “Queen of Pop” with hits like Like a Virgin, Vogue, and Like a Prayer.",
+    "wrong_options": [
+      {
+        "name": "Whitney Houston"
+      },
+      {
+        "name": "Cyndi Lauper"
+      }
+    ],
+    "fact": "Madonna is known for reinvention, visual style, and a long career that reshaped pop music and music videos."
+  },
+  {
+    "name": "Bob Marley",
+    "category": "Music",
+    "clue": "This Jamaican musician helped popularize reggae worldwide with songs such as One Love and No Woman, No Cry.",
+    "wrong_options": [
+      {
+        "name": "Peter Tosh"
+      },
+      {
+        "name": "Jimmy Cliff"
+      }
+    ],
+    "fact": "Bob Marley’s music brought reggae and Rastafari themes to a global audience."
+  },
+  {
+    "name": "Elvis Presley",
+    "category": "Music",
+    "clue": "This singer from Tupelo, Mississippi became known as the “King of Rock and Roll.”",
+    "wrong_options": [
+      {
+        "name": "Chuck Berry"
+      },
+      {
+        "name": "Little Richard"
+      }
+    ],
+    "fact": "Elvis Presley blended country, blues, gospel, and rhythm and blues into a style that helped define early rock and roll."
+  },
+  {
+    "name": "Aretha Franklin",
+    "category": "Music",
+    "clue": "This soul singer became famous for Respect and was known as the “Queen of Soul.”",
+    "wrong_options": [
+      {
+        "name": "Diana Ross"
+      },
+      {
+        "name": "Etta James"
+      }
+    ],
+    "fact": "Aretha Franklin’s powerful voice and gospel roots made her one of the most celebrated singers in American music."
+  },
+  {
+    "name": "Queen",
+    "category": "Music",
+    "clue": "This British rock band, fronted by Freddie Mercury, recorded Bohemian Rhapsody and We Will Rock You.",
+    "wrong_options": [
+      {
+        "name": "The Beatles"
+      },
+      {
+        "name": "Led Zeppelin"
+      }
+    ],
+    "fact": "Queen became famous for theatrical performances, layered harmonies, and anthemic rock songs."
+  },
+  {
+    "name": "The Godfather",
+    "category": "Movies",
+    "clue": "This 1972 film follows the Corleone crime family and features Marlon Brando as Vito Corleone.",
+    "wrong_options": [
+      {
+        "name": "Goodfellas"
+      },
+      {
+        "name": "Scarface"
+      }
+    ],
+    "fact": "The Godfather was directed by Francis Ford Coppola and is widely considered one of the greatest films ever made."
+  },
+  {
+    "name": "Star Wars: A New Hope",
+    "category": "Movies",
+    "clue": "This 1977 space opera introduced Luke Skywalker, Princess Leia, Han Solo, Darth Vader, and the Force.",
+    "wrong_options": [
+      {
+        "name": "Star Trek: The Motion Picture"
+      },
+      {
+        "name": "Blade Runner"
+      }
+    ],
+    "fact": "Star Wars: A New Hope changed blockbuster filmmaking and launched one of cinema’s most famous franchises."
+  },
+  {
+    "name": "Titanic",
+    "category": "Movies",
+    "clue": "This 1997 James Cameron film tells a fictional romance aboard a real ocean liner that sank in 1912.",
+    "wrong_options": [
+      {
+        "name": "Pearl Harbor"
+      },
+      {
+        "name": "The Poseidon Adventure"
+      }
+    ],
+    "fact": "Titanic won 11 Academy Awards and became one of the highest-grossing films in history."
+  },
+  {
+    "name": "Jurassic Park",
+    "category": "Movies",
+    "clue": "This Steven Spielberg film imagines a theme park filled with cloned dinosaurs.",
+    "wrong_options": [
+      {
+        "name": "King Kong"
+      },
+      {
+        "name": "Godzilla"
+      }
+    ],
+    "fact": "Jurassic Park was released in 1993 and became famous for its groundbreaking visual effects and animatronics."
+  },
+  {
+    "name": "The Wizard of Oz",
+    "category": "Movies",
+    "clue": "This classic film follows Dorothy from Kansas to a magical land with a yellow brick road.",
+    "wrong_options": [
+      {
+        "name": "Mary Poppins"
+      },
+      {
+        "name": "Alice in Wonderland"
+      }
+    ],
+    "fact": "The Wizard of Oz was released in 1939 and is remembered for its songs, Technicolor fantasy scenes, and iconic characters."
+  },
+  {
+    "name": "Casablanca",
+    "category": "Movies",
+    "clue": "This World War II-era romance stars Humphrey Bogart and Ingrid Bergman in a Moroccan nightclub setting.",
+    "wrong_options": [
+      {
+        "name": "Citizen Kane"
+      },
+      {
+        "name": "Gone with the Wind"
+      }
+    ],
+    "fact": "Casablanca won the Academy Award for Best Picture and is known for memorable lines and wartime atmosphere."
+  },
+  {
+    "name": "Black Panther",
+    "category": "Movies",
+    "clue": "This superhero film introduced many viewers to Wakanda and starred Chadwick Boseman as T’Challa.",
+    "wrong_options": [
+      {
+        "name": "Iron Man"
+      },
+      {
+        "name": "Doctor Strange"
+      }
+    ],
+    "fact": "Black Panther was released in 2018 and became a major cultural and commercial success for Marvel Studios."
+  },
+  {
+    "name": "Spirited Away",
+    "category": "Movies",
+    "clue": "This Studio Ghibli film follows Chihiro into a mysterious spirit world after her parents are transformed.",
+    "wrong_options": [
+      {
+        "name": "My Neighbor Totoro"
+      },
+      {
+        "name": "Princess Mononoke"
+      }
+    ],
+    "fact": "Spirited Away was directed by Hayao Miyazaki and won the Academy Award for Best Animated Feature."
+  },
+  {
+    "name": "Parasite",
+    "category": "Movies",
+    "clue": "This South Korean thriller about class conflict won the Academy Award for Best Picture in 2020.",
+    "wrong_options": [
+      {
+        "name": "Oldboy"
+      },
+      {
+        "name": "Train to Busan"
+      }
+    ],
+    "fact": "Parasite was directed by Bong Joon Ho and became the first non-English-language film to win Best Picture at the Oscars."
+  },
+  {
+    "name": "Jaws",
+    "category": "Movies",
+    "clue": "This 1975 thriller about a great white shark threatening a beach town helped define the summer blockbuster.",
+    "wrong_options": [
+      {
+        "name": "Alien"
+      },
+      {
+        "name": "The Birds"
+      }
+    ],
+    "fact": "Jaws was directed by Steven Spielberg and used suspenseful music by John Williams to build tension."
+  },
+  {
+    "name": "Friends",
+    "category": "TV Series",
+    "clue": "This sitcom follows six friends living in New York City and often meeting at Central Perk.",
+    "wrong_options": [
+      {
+        "name": "Seinfeld"
+      },
+      {
+        "name": "How I Met Your Mother"
+      }
+    ],
+    "fact": "Friends aired from 1994 to 2004 and became one of the most recognizable sitcoms in television history."
+  },
+  {
+    "name": "The Office",
+    "category": "TV Series",
+    "clue": "This mockumentary sitcom follows employees at the Scranton branch of Dunder Mifflin.",
+    "wrong_options": [
+      {
+        "name": "Parks and Recreation"
+      },
+      {
+        "name": "30 Rock"
+      }
+    ],
+    "fact": "The U.S. version of The Office starred Steve Carell as Michael Scott and popularized awkward workplace comedy."
+  },
+  {
+    "name": "Game of Thrones",
+    "category": "TV Series",
+    "clue": "This fantasy series features noble houses competing for the Iron Throne in Westeros.",
+    "wrong_options": [
+      {
+        "name": "The Witcher"
+      },
+      {
+        "name": "The Lord of the Rings: The Rings of Power"
+      }
+    ],
+    "fact": "Game of Thrones was based on George R. R. Martin’s A Song of Ice and Fire novels and became known for political intrigue and large-scale battles."
+  },
+  {
+    "name": "Breaking Bad",
+    "category": "TV Series",
+    "clue": "This drama follows Walter White, a chemistry teacher who becomes involved in the methamphetamine trade.",
+    "wrong_options": [
+      {
+        "name": "Better Call Saul"
+      },
+      {
+        "name": "The Sopranos"
+      }
+    ],
+    "fact": "Breaking Bad starred Bryan Cranston and Aaron Paul and is often praised for its writing, acting, and character transformation."
+  },
+  {
+    "name": "The Simpsons",
+    "category": "TV Series",
+    "clue": "This animated series follows Homer, Marge, Bart, Lisa, and Maggie in the town of Springfield.",
+    "wrong_options": [
+      {
+        "name": "Family Guy"
+      },
+      {
+        "name": "Futurama"
+      }
+    ],
+    "fact": "The Simpsons became the longest-running American scripted primetime television series."
+  },
+  {
+    "name": "Doctor Who",
+    "category": "TV Series",
+    "clue": "This British science-fiction series follows a time-traveling alien known as the Doctor.",
+    "wrong_options": [
+      {
+        "name": "Star Trek"
+      },
+      {
+        "name": "The X-Files"
+      }
+    ],
+    "fact": "Doctor Who first aired in 1963 and is known for regeneration, the TARDIS, and long-running science-fiction storytelling."
+  },
+  {
+    "name": "The Crown",
+    "category": "TV Series",
+    "clue": "This historical drama follows the reign of Queen Elizabeth II and the British royal family.",
+    "wrong_options": [
+      {
+        "name": "Downton Abbey"
+      },
+      {
+        "name": "Victoria"
+      }
+    ],
+    "fact": "The Crown dramatizes political, personal, and public events across decades of the British monarchy."
+  },
+  {
+    "name": "Stranger Things",
+    "category": "TV Series",
+    "clue": "This science-fiction series begins with a missing boy, a girl called Eleven, and strange events in Hawkins, Indiana.",
+    "wrong_options": [
+      {
+        "name": "Dark"
+      },
+      {
+        "name": "The Umbrella Academy"
+      }
+    ],
+    "fact": "Stranger Things blends 1980s pop culture, supernatural mystery, friendship, and horror influences."
+  },
+  {
+    "name": "Seinfeld",
+    "category": "TV Series",
+    "clue": "This sitcom starring Jerry Seinfeld is often described as a show about nothing.",
+    "wrong_options": [
+      {
+        "name": "Friends"
+      },
+      {
+        "name": "Frasier"
+      }
+    ],
+    "fact": "Seinfeld aired from 1989 to 1998 and became influential for observational humor and everyday social conflicts."
+  },
+  {
+    "name": "The Sopranos",
+    "category": "TV Series",
+    "clue": "This HBO drama follows New Jersey mob boss Tony Soprano as he balances crime, family, and therapy.",
+    "wrong_options": [
+      {
+        "name": "Breaking Bad"
+      },
+      {
+        "name": "Boardwalk Empire"
+      }
+    ],
+    "fact": "The Sopranos helped define prestige television and is widely considered one of the greatest TV dramas."
   }
 ]

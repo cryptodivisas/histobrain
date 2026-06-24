@@ -33,6 +33,9 @@ html[data-theme="synthwave"] {
   --hb-cat-events: #6ea8ff;
   --hb-cat-documents: #b28cff;
   --hb-cat-citizenship: #ff8c42;
+  --hb-cat-music: #00d9ff;
+  --hb-cat-movies: #ff4d6d;
+  --hb-cat-tv-series: #ffd166;
 }
 
 html[data-theme="terminal"] {
@@ -101,6 +104,9 @@ html[data-theme="sakura"] {
   --hb-cat-events: #d4648c;     /* rose */
   --hb-cat-documents: #c8477a;  /* berry */
   --hb-cat-citizenship: #ff7f50;
+  --hb-cat-music: #4cc9f0;
+  --hb-cat-movies: #ff5d8f;
+  --hb-cat-tv-series: #f7c948;
 }
 
 @theme inline {

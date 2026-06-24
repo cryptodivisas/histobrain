@@ -69,10 +69,17 @@ const SLUG_TO_NAME: Record<string, string> = (() => {
   return map;
 })();
 
-const CITIZENSHIP_BY_SLUG: Record<string, QuestionEntry[]> = (() => {
+const GENERATED_TOPIC_CATEGORIES = new Set<Category>([
+  "Citizenship",
+  "Music",
+  "Movies",
+  "TV Series",
+]);
+
+const GENERATED_BY_SLUG: Record<string, QuestionEntry[]> = (() => {
   const map: Record<string, QuestionEntry[]> = {};
   for (const q of questionsData as QuestionEntry[]) {
-    if (q.category !== "Citizenship") continue;
+    if (!q.category || !GENERATED_TOPIC_CATEGORIES.has(q.category)) continue;
     const slug = slugify(q.name);
     map[slug] ??= [];
     map[slug].push(q);
@@ -99,7 +106,11 @@ async function renderMarkdown(body: string): Promise<string> {
   return processed.toString();
 }
 
-function generatedCitizenshipMarkdown(name: string, entries: QuestionEntry[]): string {
+function generatedTopicMarkdown(
+  name: string,
+  category: Category,
+  entries: QuestionEntry[]
+): string {
   const prompts = entries
     .map((entry) => {
       const clue = entry.clue?.replace(/^USCIS civics question \d+:\s*/, "");
@@ -112,7 +123,8 @@ function generatedCitizenshipMarkdown(name: string, entries: QuestionEntry[]): s
     .filter(Boolean)
     .join("\n");
 
-  return `## Overview
+  if (category === "Citizenship") {
+    return `## Overview
 
 ${name} is an accepted answer in the USCIS 2025 civics test. These questions help applicants study American government, rights and responsibilities, history, symbols, and national holidays.
 
@@ -121,6 +133,24 @@ ${name} is an accepted answer in the USCIS 2025 civics test. These questions hel
 ${prompts}
 
 ## Accepted answer
+
+${name}
+
+## Study notes
+
+${facts}
+`;
+  }
+
+  return `## Overview
+
+${name} is a ${category.toLowerCase()} topic in History Brain. This page gives players quick context for the answer, the clue used in the game, and the key fact shown after answering.
+
+## Trivia prompt${entries.length > 1 ? "s" : ""}
+
+${prompts}
+
+## Correct answer
 
 ${name}
 
@@ -165,29 +195,35 @@ export function getAllTopicSlugs(): string[] {
         .filter((f) => f.endsWith(".md") && f !== "README.md")
         .map((f) => f.replace(/\.md$/, ""))
     : [];
-  return Array.from(new Set([...fileSlugs, ...Object.keys(CITIZENSHIP_BY_SLUG)])).sort();
+  return Array.from(new Set([...fileSlugs, ...Object.keys(GENERATED_BY_SLUG)])).sort();
 }
 
 /** Load a single topic by slug. Returns null if the file is missing. */
 export async function getTopicBySlug(slug: string): Promise<Topic | null> {
   const raw = readTopicFile(slug);
   if (!raw) {
-    const citizenshipEntries = CITIZENSHIP_BY_SLUG[slug];
-    if (!citizenshipEntries) return null;
+    const generatedEntries = GENERATED_BY_SLUG[slug];
+    if (!generatedEntries) return null;
 
-    const name = SLUG_TO_NAME[slug] ?? citizenshipEntries[0].name;
-    const body = generatedCitizenshipMarkdown(name, citizenshipEntries);
+    const name = SLUG_TO_NAME[slug] ?? generatedEntries[0].name;
+    const category = generatedEntries[0].category;
+    if (!category) return null;
+
+    const body = generatedTopicMarkdown(name, category, generatedEntries);
     const contentHtml = await renderMarkdown(body);
     const excerpt = extractExcerpt(body);
 
     return {
       slug,
       title: name,
-      summary: `USCIS 2025 civics test answer: ${name}`,
+      summary:
+        category === "Citizenship"
+          ? `USCIS 2025 civics test answer: ${name}`
+          : `${category} trivia topic: ${name}`,
       contentHtml,
       excerpt,
       image: NAME_TO_IMAGE[name] ?? null,
-      category: "Citizenship",
+      category,
     };
   }
 

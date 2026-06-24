@@ -69,6 +69,12 @@ const TIMER_MS = 20000;
 const MAX_SPEED_BONUS = 50;
 
 const hf = { fontFamily: "var(--font-pixel-heading), monospace" };
+const GENERATED_TOPIC_CATEGORIES = new Set<Category>([
+  "Citizenship",
+  "Music",
+  "Movies",
+  "TV Series",
+]);
 
 function shuffleArray<T>(arr: T[]): T[] {
   const a = [...arr];
@@ -1094,7 +1100,7 @@ export default function Home() {
                       </p>
                     </div>
 
-                    {(currentQuestion.image || currentQuestion.category === "Citizenship") && (
+                    {(currentQuestion.image || (cat && GENERATED_TOPIC_CATEGORIES.has(cat))) && (
                       <a
                         href={topicUrl}
                         className="self-start text-xs tracking-widest text-[var(--hb-accent)] hover:underline"
