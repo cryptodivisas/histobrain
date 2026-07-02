@@ -26,8 +26,10 @@ export default function ManageConsent() {
   const [ready, setReady] = useState(false);
 
   useEffect(() => {
-    setRec(readConsent());
-    setReady(true);
+    window.setTimeout(() => {
+      setRec(readConsent());
+      setReady(true);
+    }, 0);
     const onChange = (e: Event) => {
       setRec((e as CustomEvent<ConsentRecord | null>).detail ?? null);
     };

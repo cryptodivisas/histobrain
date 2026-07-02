@@ -97,7 +97,7 @@
   },
   {
     "name": "Statue of Liberty",
-    "image": "/questions/f963bc5030600c6a.jpg",
+    "image": "/questions/3a5f5b5d9422cc8b.jpg",
     "clue": "This colossal neoclassical sculpture was a gift from France to the United States, dedicated in 1886.",
     "wrong_options": [
       {
@@ -202,7 +202,7 @@
       },
       {
         "name": "Step Pyramid of Djoser",
-        "image": "/questions/9d7ce4719849cd36.jpg"
+        "image": "/questions/bea13b1ee62e3a0a.jpg"
       }
     ],
     "fact": "It stood as the tallest man-made structure in the world for over 3,800 years, originally reaching 146.6 meters."
@@ -298,7 +298,7 @@
       },
       {
         "name": "Charles de Gaulle",
-        "image": "/questions/1f2d18ba6bfe6c31.jpg"
+        "image": "/questions/3b65ba8c18982986.jpg"
       }
     ],
     "fact": "Churchill was also a prolific writer, winning the 1953 Nobel Prize in Literature for his historical works."
@@ -353,7 +353,7 @@
   },
   {
     "name": "Apollo 11 Moon Landing",
-    "image": "/questions/ca37d9557c41fe6d.jpg",
+    "image": "/questions/0719509d0e2e4b8f.jpg",
     "clue": "On July 20, 1969, humans walked on the lunar surface for the first time during this NASA mission.",
     "wrong_options": [
       {
@@ -1105,7 +1105,7 @@
   },
   {
     "name": "Marco Polo",
-    "image": "/questions/572bc58410ade6d6.jpg",
+    "image": "/questions/42246d3209c655c5.png",
     "clue": "This 13th-century Venetian merchant traveled the Silk Road to the court of Kublai Khan and described his journeys in a book that shaped European knowledge of Asia.",
     "wrong_options": [
       {
@@ -1349,13 +1349,16 @@
     "clue": "USCIS civics question 1: What is the form of government of the United States?",
     "wrong_options": [
       {
-        "name": "(U.S.) Congress"
+        "name": "(U.S.) Congress",
+        "image": "/questions/42a5513bacc0e4db.png"
       },
       {
-        "name": "(Because of) the 22nd Amendment"
+        "name": "(Because of) the 22nd Amendment",
+        "image": "/questions/42a5513bacc0e4db.png"
       }
     ],
-    "fact": "Accepted USCIS answers: Republic; Constitution-based federal republic; Representative democracy."
+    "fact": "Accepted USCIS answers: Republic; Constitution-based federal republic; Representative democracy.",
+    "image": "/questions/92588343dc90ca59.jpg"
   },
   {
     "name": "(U.S.) Constitution",
@@ -1363,13 +1366,16 @@
     "clue": "USCIS civics question 2: What is the supreme law of the land?",
     "wrong_options": [
       {
-        "name": "Senate and House (of Representatives)"
+        "name": "Senate and House (of Representatives)",
+        "image": "/questions/42a5513bacc0e4db.png"
       },
       {
-        "name": "Donald Trump"
+        "name": "Donald Trump",
+        "image": "/questions/89b6526ee1296681.webp"
       }
     ],
-    "fact": "Accepted USCIS answer: (U.S.) Constitution."
+    "fact": "Accepted USCIS answer: (U.S.) Constitution.",
+    "image": "/questions/cadc4d587dbdd155.jpg"
   },
   {
     "name": "Forms the government",
@@ -1377,13 +1383,16 @@
     "clue": "USCIS civics question 3: Name one thing the U.S. Constitution does.",
     "wrong_options": [
       {
-        "name": "Writes laws"
+        "name": "Writes laws",
+        "image": "/questions/42a5513bacc0e4db.png"
       },
       {
-        "name": "JD Vance"
+        "name": "JD Vance",
+        "image": "/questions/dc46b7657b0a1e0b.jpg"
       }
     ],
-    "fact": "Accepted USCIS answers: Forms the government; Defines powers of government; Defines the parts of government; Protects the rights of the people."
+    "fact": "Accepted USCIS answers: Forms the government; Defines powers of government; Defines the parts of government; Protects the rights of the people.",
+    "image": "/questions/42a5513bacc0e4db.png"
   },
   {
     "name": "Self-government",
@@ -1391,13 +1400,16 @@
     "clue": "USCIS civics question 4: The U.S. Constitution starts with the words “We the People.” What does “We the People” mean?",
     "wrong_options": [
       {
-        "name": "One hundred (100)"
+        "name": "One hundred (100)",
+        "image": "/questions/1e9d15efe22f851e.webp"
       },
       {
-        "name": "The Vice President (of the United States)"
+        "name": "The Vice President (of the United States)",
+        "image": "/questions/2325e29bd14bff86.webp"
       }
     ],
-    "fact": "Accepted USCIS answers: Self-government; Popular sovereignty; Consent of the governed; People should govern themselves; (Example of) social contract."
+    "fact": "Accepted USCIS answers: Self-government; Popular sovereignty; Consent of the governed; People should govern themselves; (Example of) social contract.",
+    "image": "/questions/a61bade88e08fa1e.jpg"
   },
   {
     "name": "Amendments",
@@ -1405,13 +1417,16 @@
     "clue": "USCIS civics question 5: How are changes made to the U.S. Constitution?",
     "wrong_options": [
       {
-        "name": "Six (6) years"
+        "name": "Six (6) years",
+        "image": "/questions/1e9d15efe22f851e.webp"
       },
       {
-        "name": "Signs bills into law"
+        "name": "Signs bills into law",
+        "image": "/questions/88072a757c817e68.webp"
       }
     ],
-    "fact": "Accepted USCIS answers: Amendments; The amendment process."
+    "fact": "Accepted USCIS answers: Amendments; The amendment process.",
+    "image": "/questions/42a5513bacc0e4db.png"
   },
   {
     "name": "(The basic) rights of Americans",
@@ -1419,13 +1434,16 @@
     "clue": "USCIS civics question 6: What does the Bill of Rights protect?",
     "wrong_options": [
       {
-        "name": "Answers will vary"
+        "name": "Answers will vary",
+        "image": "/questions/44b987b60ffd4fa7.webp"
       },
       {
-        "name": "The President (of the United States)"
+        "name": "The President (of the United States)",
+        "image": "/questions/88072a757c817e68.webp"
       }
     ],
-    "fact": "Accepted USCIS answers: (The basic) rights of Americans; (The basic) rights of people living in the United States."
+    "fact": "Accepted USCIS answers: (The basic) rights of Americans; (The basic) rights of people living in the United States.",
+    "image": "/questions/ea45f2f5d6fa5fb8.jpg"
   },
   {
     "name": "Twenty-seven (27)",
@@ -1433,13 +1451,16 @@
     "clue": "USCIS civics question 7: How many amendments does the U.S. Constitution have?",
     "wrong_options": [
       {
-        "name": "Four hundred thirty-five (435)"
+        "name": "Four hundred thirty-five (435)",
+        "image": "/questions/8a59a3ab826d5f86.webp"
       },
       {
-        "name": "The President (of the United States)"
+        "name": "The President (of the United States)",
+        "image": "/questions/88072a757c817e68.webp"
       }
     ],
-    "fact": "Accepted USCIS answer: Twenty-seven (27)."
+    "fact": "Accepted USCIS answer: Twenty-seven (27).",
+    "image": "/questions/42a5513bacc0e4db.png"
   },
   {
     "name": "It says America is free from British control.",
@@ -1447,13 +1468,16 @@
     "clue": "USCIS civics question 8: Why is the Declaration of Independence important?",
     "wrong_options": [
       {
-        "name": "Two (2) years"
+        "name": "Two (2) years",
+        "image": "/questions/8a59a3ab826d5f86.webp"
       },
       {
-        "name": "The President (of the United States)"
+        "name": "The President (of the United States)",
+        "image": "/questions/88072a757c817e68.webp"
       }
     ],
-    "fact": "Accepted USCIS answers: It says America is free from British control.; It says all people are created equal.; It identifies inherent rights.; It identifies individual freedoms.."
+    "fact": "Accepted USCIS answers: It says America is free from British control.; It says all people are created equal.; It identifies inherent rights.; It identifies individual freedoms..",
+    "image": "/questions/38eca3c6a8c712e9.jpg"
   },
   {
     "name": "Declaration of Independence",
@@ -1461,13 +1485,16 @@
     "clue": "USCIS civics question 9: What founding document said the American colonies were free from Britain?",
     "wrong_options": [
       {
-        "name": "To more closely follow public opinion"
+        "name": "To more closely follow public opinion",
+        "image": "/questions/8a59a3ab826d5f86.webp"
       },
       {
-        "name": "The President (of the United States)"
+        "name": "The President (of the United States)",
+        "image": "/questions/88072a757c817e68.webp"
       }
     ],
-    "fact": "Accepted USCIS answer: Declaration of Independence."
+    "fact": "Accepted USCIS answer: Declaration of Independence.",
+    "image": "/questions/38eca3c6a8c712e9.jpg"
   },
   {
     "name": "Equality",
@@ -1475,13 +1502,16 @@
     "clue": "USCIS civics question 10: Name two important ideas from the Declaration of Independence and the U.S. Constitution.",
     "wrong_options": [
       {
-        "name": "Two (2)"
+        "name": "Two (2)",
+        "image": "/questions/1e9d15efe22f851e.webp"
       },
       {
-        "name": "President (of the United States)"
+        "name": "President (of the United States)",
+        "image": "/questions/88072a757c817e68.webp"
       }
     ],
-    "fact": "Accepted USCIS answers: Equality; Liberty; Social contract; Natural rights; Limited government; Self-government."
+    "fact": "Accepted USCIS answers: Equality; Liberty; Social contract; Natural rights; Limited government; Self-government.",
+    "image": "/questions/3a5f5b5d9422cc8b.jpg"
   },
   {
     "name": "Declaration of Independence",
@@ -1489,13 +1519,16 @@
     "clue": "USCIS civics question 11: The words “Life, Liberty, and the pursuit of Happiness” are in what founding document?",
     "wrong_options": [
       {
-        "name": "Equal representation (for small states)"
+        "name": "Equal representation (for small states)",
+        "image": "/questions/a8efdc5e8f89f855.jpg"
       },
       {
-        "name": "Advises the President (of the United States)"
+        "name": "Advises the President (of the United States)",
+        "image": "/questions/c1e4153f27140af3.jpg"
       }
     ],
-    "fact": "Accepted USCIS answer: Declaration of Independence."
+    "fact": "Accepted USCIS answer: Declaration of Independence.",
+    "image": "/questions/38eca3c6a8c712e9.jpg"
   },
   {
     "name": "Capitalism",
@@ -1503,13 +1536,16 @@
     "clue": "USCIS civics question 12: What is the economic system of the United States?",
     "wrong_options": [
       {
-        "name": "Answers will vary"
+        "name": "Answers will vary",
+        "image": "/questions/44b987b60ffd4fa7.webp"
       },
       {
-        "name": "Attorney General"
+        "name": "Attorney General",
+        "image": "/questions/e9e5c6389a63a558.webp"
       }
     ],
-    "fact": "Accepted USCIS answers: Capitalism; Free market economy."
+    "fact": "Accepted USCIS answers: Capitalism; Free market economy.",
+    "image": "/questions/265e7fc20cf841cb.jpg"
   },
   {
     "name": "Everyone must follow the law.",
@@ -1517,13 +1553,16 @@
     "clue": "USCIS civics question 13: What is the rule of law?",
     "wrong_options": [
       {
-        "name": "Mike Johnson"
+        "name": "Mike Johnson",
+        "image": "/questions/bb41c0b72e2e467d.jpg"
       },
       {
-        "name": "It decides who is elected president."
+        "name": "It decides who is elected president.",
+        "image": "/questions/06bf8ab9f6f802ed.webp"
       }
     ],
-    "fact": "Accepted USCIS answers: Everyone must follow the law.; Leaders must obey the law.; Government must obey the law.; No one is above the law.."
+    "fact": "Accepted USCIS answers: Everyone must follow the law.; Leaders must obey the law.; Government must obey the law.; No one is above the law..",
+    "image": "/questions/1518fc4333b19847.jpg"
   },
   {
     "name": "Declaration of Independence",
@@ -1531,13 +1570,16 @@
     "clue": "USCIS civics question 14: Many documents influenced the U.S. Constitution. Name one.",
     "wrong_options": [
       {
-        "name": "Citizens of their state"
+        "name": "Citizens of their state",
+        "image": "/questions/1e9d15efe22f851e.webp"
       },
       {
-        "name": "Supreme Court"
+        "name": "Supreme Court",
+        "image": "/questions/d8363045d5ae5dbe.jpg"
       }
     ],
-    "fact": "Accepted USCIS answers: Declaration of Independence; Articles of Confederation; Federalist Papers; Anti-Federalist Papers; Virginia Declaration of Rights; Fundamental Orders of Connecticut; Mayflower Compact; Iroquois Great Law of Peace."
+    "fact": "Accepted USCIS answers: Declaration of Independence; Articles of Confederation; Federalist Papers; Anti-Federalist Papers; Virginia Declaration of Rights; Fundamental Orders of Connecticut; Mayflower Compact; Iroquois Great Law of Peace.",
+    "image": "/questions/38eca3c6a8c712e9.jpg"
   },
   {
     "name": "So one part does not become too powerful",
@@ -1545,13 +1587,16 @@
     "clue": "USCIS civics question 15: There are three branches of government. Why?",
     "wrong_options": [
       {
-        "name": "Citizens from their state"
+        "name": "Citizens from their state",
+        "image": "/questions/1e9d15efe22f851e.webp"
       },
       {
-        "name": "Reviews laws"
+        "name": "Reviews laws",
+        "image": "/questions/7e8d9d7ed79dbe30.jpg"
       }
     ],
-    "fact": "Accepted USCIS answers: So one part does not become too powerful; Checks and balances; Separation of powers."
+    "fact": "Accepted USCIS answers: So one part does not become too powerful; Checks and balances; Separation of powers.",
+    "image": "/questions/92588343dc90ca59.jpg"
   },
   {
     "name": "Legislative, executive, and judicial",
@@ -1559,13 +1604,16 @@
     "clue": "USCIS civics question 16: Name the three branches of government.",
     "wrong_options": [
       {
-        "name": "Citizens in their (congressional) district"
+        "name": "Citizens in their (congressional) district",
+        "image": "/questions/8a59a3ab826d5f86.webp"
       },
       {
-        "name": "Supreme Court"
+        "name": "Supreme Court",
+        "image": "/questions/d8363045d5ae5dbe.jpg"
       }
     ],
-    "fact": "Accepted USCIS answers: Legislative, executive, and judicial; Congress, president, and the courts."
+    "fact": "Accepted USCIS answers: Legislative, executive, and judicial; Congress, president, and the courts.",
+    "image": "/questions/42a5513bacc0e4db.png"
   },
   {
     "name": "Executive branch",
@@ -1573,13 +1621,16 @@
     "clue": "USCIS civics question 17: The President of the United States is in charge of which branch of government?",
     "wrong_options": [
       {
-        "name": "Citizens from their (congressional) district"
+        "name": "Citizens from their (congressional) district",
+        "image": "/questions/8a59a3ab826d5f86.webp"
       },
       {
-        "name": "Nine (9)"
+        "name": "Nine (9)",
+        "image": "/questions/dd8c277aa9f56589.webp"
       }
     ],
-    "fact": "Accepted USCIS answer: Executive branch."
+    "fact": "Accepted USCIS answer: Executive branch.",
+    "image": "/questions/42a5513bacc0e4db.png"
   },
   {
     "name": "(U.S.) Congress",
@@ -1587,13 +1638,16 @@
     "clue": "USCIS civics question 18: What part of the federal government writes laws?",
     "wrong_options": [
       {
-        "name": "(Because of) the state’s population"
+        "name": "(Because of) the state’s population",
+        "image": "/questions/794fb3cca2962191.webp"
       },
       {
-        "name": "Five (5)"
+        "name": "Five (5)",
+        "image": "/questions/dd8c277aa9f56589.webp"
       }
     ],
-    "fact": "Accepted USCIS answers: (U.S.) Congress; (U.S. or national) legislature; Legislative branch."
+    "fact": "Accepted USCIS answers: (U.S.) Congress; (U.S. or national) legislature; Legislative branch.",
+    "image": "/questions/42a5513bacc0e4db.png"
   },
   {
     "name": "Senate and House (of Representatives)",
@@ -1601,13 +1655,16 @@
     "clue": "USCIS civics question 19: What are the two parts of the U.S. Congress?",
     "wrong_options": [
       {
-        "name": "Four (4) years"
+        "name": "Four (4) years",
+        "image": "/questions/88072a757c817e68.webp"
       },
       {
-        "name": "(For) life"
+        "name": "(For) life",
+        "image": "/questions/dd8c277aa9f56589.webp"
       }
     ],
-    "fact": "Accepted USCIS answer: Senate and House (of Representatives)."
+    "fact": "Accepted USCIS answer: Senate and House (of Representatives).",
+    "image": "/questions/42a5513bacc0e4db.png"
   },
   {
     "name": "Writes laws",
@@ -1615,13 +1672,16 @@
     "clue": "USCIS civics question 20: Name one power of the U.S. Congress.",
     "wrong_options": [
       {
-        "name": "(Because of) the 22nd Amendment"
+        "name": "(Because of) the 22nd Amendment",
+        "image": "/questions/42a5513bacc0e4db.png"
       },
       {
-        "name": "To be independent (of politics)"
+        "name": "To be independent (of politics)",
+        "image": "/questions/8df59d7c677451e8.jpg"
       }
     ],
-    "fact": "Accepted USCIS answers: Writes laws; Declares war; Makes the federal budget."
+    "fact": "Accepted USCIS answers: Writes laws; Declares war; Makes the federal budget.",
+    "image": "/questions/42a5513bacc0e4db.png"
   },
   {
     "name": "One hundred (100)",
@@ -1629,13 +1689,16 @@
     "clue": "USCIS civics question 21: How many U.S. senators are there?",
     "wrong_options": [
       {
-        "name": "Donald Trump"
+        "name": "Donald Trump",
+        "image": "/questions/89b6526ee1296681.webp"
       },
       {
-        "name": "John Roberts"
+        "name": "John Roberts",
+        "image": "/questions/a736993339bb7c3f.jpg"
       }
     ],
-    "fact": "Accepted USCIS answer: One hundred (100)."
+    "fact": "Accepted USCIS answer: One hundred (100).",
+    "image": "/questions/1e9d15efe22f851e.webp"
   },
   {
     "name": "Six (6) years",
@@ -1643,13 +1706,16 @@
     "clue": "USCIS civics question 22: How long is a term for a U.S. senator?",
     "wrong_options": [
       {
-        "name": "JD Vance"
+        "name": "JD Vance",
+        "image": "/questions/dc46b7657b0a1e0b.jpg"
       },
       {
-        "name": "Print paper money"
+        "name": "Print paper money",
+        "image": "/questions/c82b76c83052a3d6.jpg"
       }
     ],
-    "fact": "Accepted USCIS answer: Six (6) years."
+    "fact": "Accepted USCIS answer: Six (6) years.",
+    "image": "/questions/1e9d15efe22f851e.webp"
   },
   {
     "name": "Answers will vary",
@@ -1657,13 +1723,16 @@
     "clue": "USCIS civics question 23: Who is one of your state’s U.S. senators now?",
     "wrong_options": [
       {
-        "name": "The Vice President (of the United States)"
+        "name": "The Vice President (of the United States)",
+        "image": "/questions/2325e29bd14bff86.webp"
       },
       {
-        "name": "Provide schooling and education"
+        "name": "Provide schooling and education",
+        "image": "/questions/75d6945fa6bc902b.jpg"
       }
     ],
-    "fact": "Accepted USCIS answer: Answers will vary. District of Columbia residents and residents of U.S. territories should answer that D.C. or the territory where the applicant lives has no U.S. senators.."
+    "fact": "Accepted USCIS answer: Answers will vary. District of Columbia residents and residents of U.S. territories should answer that D.C. or the territory where the applicant lives has no U.S. senators..",
+    "image": "/questions/44b987b60ffd4fa7.webp"
   },
   {
     "name": "Four hundred thirty-five (435)",
@@ -1671,13 +1740,16 @@
     "clue": "USCIS civics question 24: How many voting members are in the House of Representatives?",
     "wrong_options": [
       {
-        "name": "Signs bills into law"
+        "name": "Signs bills into law",
+        "image": "/questions/88072a757c817e68.webp"
       },
       {
-        "name": "(It states that the) powers not given to the federal government belong to the states or to the people."
+        "name": "(It states that the) powers not given to the federal government belong to the states or to the people.",
+        "image": "/questions/42a5513bacc0e4db.png"
       }
     ],
-    "fact": "Accepted USCIS answer: Four hundred thirty-five (435)."
+    "fact": "Accepted USCIS answer: Four hundred thirty-five (435).",
+    "image": "/questions/8a59a3ab826d5f86.webp"
   },
   {
     "name": "Two (2) years",
@@ -1685,13 +1757,16 @@
     "clue": "USCIS civics question 25: How long is a term for a member of the House of Representatives?",
     "wrong_options": [
       {
-        "name": "The President (of the United States)"
+        "name": "The President (of the United States)",
+        "image": "/questions/88072a757c817e68.webp"
       },
       {
-        "name": "Answers will vary"
+        "name": "Answers will vary",
+        "image": "/questions/44b987b60ffd4fa7.webp"
       }
     ],
-    "fact": "Accepted USCIS answer: Two (2) years."
+    "fact": "Accepted USCIS answer: Two (2) years.",
+    "image": "/questions/8a59a3ab826d5f86.webp"
   },
   {
     "name": "To more closely follow public opinion",
@@ -1699,13 +1774,16 @@
     "clue": "USCIS civics question 26: Why do U.S. representatives serve shorter terms than U.S. senators?",
     "wrong_options": [
       {
-        "name": "The President (of the United States)"
+        "name": "The President (of the United States)",
+        "image": "/questions/88072a757c817e68.webp"
       },
       {
-        "name": "Answers will vary"
+        "name": "Answers will vary",
+        "image": "/questions/44b987b60ffd4fa7.webp"
       }
     ],
-    "fact": "Accepted USCIS answer: To more closely follow public opinion."
+    "fact": "Accepted USCIS answer: To more closely follow public opinion.",
+    "image": "/questions/8a59a3ab826d5f86.webp"
   },
   {
     "name": "Two (2)",
@@ -1713,13 +1791,16 @@
     "clue": "USCIS civics question 27: How many senators does each state have?",
     "wrong_options": [
       {
-        "name": "The President (of the United States)"
+        "name": "The President (of the United States)",
+        "image": "/questions/88072a757c817e68.webp"
       },
       {
-        "name": "Citizens eighteen (18) and older (can vote)."
+        "name": "Citizens eighteen (18) and older (can vote).",
+        "image": "/questions/42a5513bacc0e4db.png"
       }
     ],
-    "fact": "Accepted USCIS answer: Two (2)."
+    "fact": "Accepted USCIS answer: Two (2).",
+    "image": "/questions/1e9d15efe22f851e.webp"
   },
   {
     "name": "Equal representation (for small states)",
@@ -1727,13 +1808,16 @@
     "clue": "USCIS civics question 28: Why does each state have two senators?",
     "wrong_options": [
       {
-        "name": "The President (of the United States)"
+        "name": "The President (of the United States)",
+        "image": "/questions/88072a757c817e68.webp"
       },
       {
-        "name": "Citizens"
+        "name": "Citizens",
+        "image": "/questions/faa7846be45da4f1.webp"
       }
     ],
-    "fact": "Accepted USCIS answers: Equal representation (for small states); The Great Compromise (Connecticut Compromise)."
+    "fact": "Accepted USCIS answers: Equal representation (for small states); The Great Compromise (Connecticut Compromise).",
+    "image": "/questions/a8efdc5e8f89f855.jpg"
   },
   {
     "name": "Answers will vary",
@@ -1741,13 +1825,16 @@
     "clue": "USCIS civics question 29: Name your U.S. representative.",
     "wrong_options": [
       {
-        "name": "President (of the United States)"
+        "name": "President (of the United States)",
+        "image": "/questions/88072a757c817e68.webp"
       },
       {
-        "name": "Freedom of expression"
+        "name": "Freedom of expression",
+        "image": "/questions/6cdc947e1b209262.jpg"
       }
     ],
-    "fact": "Accepted USCIS answer: Answers will vary. Residents of territories with nonvoting Delegates or Resident Commissioners may provide the name of that Delegate or Commissioner.."
+    "fact": "Accepted USCIS answer: Answers will vary. Residents of territories with nonvoting Delegates or Resident Commissioners may provide the name of that Delegate or Commissioner..",
+    "image": "/questions/44b987b60ffd4fa7.webp"
   },
   {
     "name": "Mike Johnson",
@@ -1755,13 +1842,16 @@
     "clue": "USCIS civics question 30: What is the name of the Speaker of the House of Representatives now?",
     "wrong_options": [
       {
-        "name": "Advises the President (of the United States)"
+        "name": "Advises the President (of the United States)",
+        "image": "/questions/c1e4153f27140af3.jpg"
       },
       {
-        "name": "The United States"
+        "name": "The United States",
+        "image": "/questions/44b987b60ffd4fa7.webp"
       }
     ],
-    "fact": "Current answer: Mike Johnson. USCIS notes that this answer may change after elections or appointments; update this answer when the Speaker of the House changes."
+    "fact": "Current answer: Mike Johnson. USCIS notes that this answer may change after elections or appointments; update this answer when the Speaker of the House changes.",
+    "image": "/questions/bb41c0b72e2e467d.jpg"
   },
   {
     "name": "Citizens of their state",
@@ -1769,13 +1859,16 @@
     "clue": "USCIS civics question 31: Who does a U.S. senator represent?",
     "wrong_options": [
       {
-        "name": "Attorney General"
+        "name": "Attorney General",
+        "image": "/questions/e9e5c6389a63a558.webp"
       },
       {
-        "name": "Give up loyalty to other countries"
+        "name": "Give up loyalty to other countries",
+        "image": "/questions/96c11e7d85932f6a.jpg"
       }
     ],
-    "fact": "Accepted USCIS answers: Citizens of their state; People of their state."
+    "fact": "Accepted USCIS answers: Citizens of their state; People of their state.",
+    "image": "/questions/1e9d15efe22f851e.webp"
   },
   {
     "name": "Citizens from their state",
@@ -1783,13 +1876,16 @@
     "clue": "USCIS civics question 32: Who elects U.S. senators?",
     "wrong_options": [
       {
-        "name": "It decides who is elected president."
+        "name": "It decides who is elected president.",
+        "image": "/questions/06bf8ab9f6f802ed.webp"
       },
       {
-        "name": "Be born in the United States, under the conditions set by the 14th Amendment"
+        "name": "Be born in the United States, under the conditions set by the 14th Amendment",
+        "image": "/questions/42a5513bacc0e4db.png"
       }
     ],
-    "fact": "Accepted USCIS answer: Citizens from their state."
+    "fact": "Accepted USCIS answer: Citizens from their state.",
+    "image": "/questions/1e9d15efe22f851e.webp"
   },
   {
     "name": "Citizens in their (congressional) district",
@@ -1797,13 +1893,16 @@
     "clue": "USCIS civics question 33: Who does a member of the House of Representatives represent?",
     "wrong_options": [
       {
-        "name": "Supreme Court"
+        "name": "Supreme Court",
+        "image": "/questions/d8363045d5ae5dbe.jpg"
       },
       {
-        "name": "Vote"
+        "name": "Vote",
+        "image": "/questions/64a46dd412177c96.jpg"
       }
     ],
-    "fact": "Accepted USCIS answers: Citizens in their (congressional) district; Citizens in their district; People from their (congressional) district; People in their district."
+    "fact": "Accepted USCIS answers: Citizens in their (congressional) district; Citizens in their district; People from their (congressional) district; People in their district.",
+    "image": "/questions/8a59a3ab826d5f86.webp"
   },
   {
     "name": "Citizens from their (congressional) district",
@@ -1811,13 +1910,16 @@
     "clue": "USCIS civics question 34: Who elects members of the House of Representatives?",
     "wrong_options": [
       {
-        "name": "Reviews laws"
+        "name": "Reviews laws",
+        "image": "/questions/7e8d9d7ed79dbe30.jpg"
       },
       {
-        "name": "Vote"
+        "name": "Vote",
+        "image": "/questions/64a46dd412177c96.jpg"
       }
     ],
-    "fact": "Accepted USCIS answer: Citizens from their (congressional) district."
+    "fact": "Accepted USCIS answer: Citizens from their (congressional) district.",
+    "image": "/questions/8a59a3ab826d5f86.webp"
   },
   {
     "name": "(Because of) the state’s population",
@@ -1825,13 +1927,16 @@
     "clue": "USCIS civics question 35: Some states have more representatives than other states. Why?",
     "wrong_options": [
       {
-        "name": "Supreme Court"
+        "name": "Supreme Court",
+        "image": "/questions/d8363045d5ae5dbe.jpg"
       },
       {
-        "name": "Required by law"
+        "name": "Required by law",
+        "image": "/questions/cadc4d587dbdd155.jpg"
       }
     ],
-    "fact": "Accepted USCIS answers: (Because of) the state’s population; (Because) they have more people; (Because) some states have more people."
+    "fact": "Accepted USCIS answers: (Because of) the state’s population; (Because) they have more people; (Because) some states have more people.",
+    "image": "/questions/794fb3cca2962191.webp"
   },
   {
     "name": "Four (4) years",
@@ -1839,13 +1944,16 @@
     "clue": "USCIS civics question 36: The President of the United States is elected for how many years?",
     "wrong_options": [
       {
-        "name": "Nine (9)"
+        "name": "Nine (9)",
+        "image": "/questions/dd8c277aa9f56589.webp"
       },
       {
-        "name": "Required by law"
+        "name": "Required by law",
+        "image": "/questions/cadc4d587dbdd155.jpg"
       }
     ],
-    "fact": "Accepted USCIS answer: Four (4) years."
+    "fact": "Accepted USCIS answer: Four (4) years.",
+    "image": "/questions/88072a757c817e68.webp"
   },
   {
     "name": "(Because of) the 22nd Amendment",
@@ -1853,13 +1961,16 @@
     "clue": "USCIS civics question 37: The President of the United States can serve only two terms. Why?",
     "wrong_options": [
       {
-        "name": "Five (5)"
+        "name": "Five (5)",
+        "image": "/questions/dd8c277aa9f56589.webp"
       },
       {
-        "name": "Freedom"
+        "name": "Freedom",
+        "image": "/questions/d647e42a00c4958c.jpg"
       }
     ],
-    "fact": "Accepted USCIS answers: (Because of) the 22nd Amendment; To keep the president from becoming too powerful."
+    "fact": "Accepted USCIS answers: (Because of) the 22nd Amendment; To keep the president from becoming too powerful.",
+    "image": "/questions/42a5513bacc0e4db.png"
   },
   {
     "name": "Donald Trump",
@@ -1867,13 +1978,16 @@
     "clue": "USCIS civics question 38: What is the name of the President of the United States now?",
     "wrong_options": [
       {
-        "name": "(For) life"
+        "name": "(For) life",
+        "image": "/questions/dd8c277aa9f56589.webp"
       },
       {
-        "name": "American Indians"
+        "name": "American Indians",
+        "image": "/questions/39bbb8a6af1cef00.png"
       }
     ],
-    "fact": "Current answer: Donald Trump. USCIS notes that this answer may change after elections or appointments; update this answer when the President changes."
+    "fact": "Current answer: Donald Trump. USCIS notes that this answer may change after elections or appointments; update this answer when the President changes.",
+    "image": "/questions/89b6526ee1296681.webp"
   },
   {
     "name": "JD Vance",
@@ -1881,13 +1995,16 @@
     "clue": "USCIS civics question 39: What is the name of the Vice President of the United States now?",
     "wrong_options": [
       {
-        "name": "To be independent (of politics)"
+        "name": "To be independent (of politics)",
+        "image": "/questions/8df59d7c677451e8.jpg"
       },
       {
-        "name": "Africans"
+        "name": "Africans",
+        "image": "/questions/9dc27fd78a31ca2e.webp"
       }
     ],
-    "fact": "Current answer: JD Vance. USCIS notes that this answer may change after elections or appointments; update this answer when the Vice President changes."
+    "fact": "Current answer: JD Vance. USCIS notes that this answer may change after elections or appointments; update this answer when the Vice President changes.",
+    "image": "/questions/dc46b7657b0a1e0b.jpg"
   },
   {
     "name": "The Vice President (of the United States)",
@@ -1895,13 +2012,16 @@
     "clue": "USCIS civics question 40: If the president can no longer serve, who becomes president?",
     "wrong_options": [
       {
-        "name": "John Roberts"
+        "name": "John Roberts",
+        "image": "/questions/a736993339bb7c3f.jpg"
       },
       {
-        "name": "American Revolution"
+        "name": "American Revolution",
+        "image": "/questions/c08d6103b77a6a68.webp"
       }
     ],
-    "fact": "Accepted USCIS answer: The Vice President (of the United States)."
+    "fact": "Accepted USCIS answer: The Vice President (of the United States).",
+    "image": "/questions/2325e29bd14bff86.webp"
   },
   {
     "name": "Signs bills into law",
@@ -1909,13 +2029,16 @@
     "clue": "USCIS civics question 41: Name one power of the president.",
     "wrong_options": [
       {
-        "name": "Print paper money"
+        "name": "Print paper money",
+        "image": "/questions/c82b76c83052a3d6.jpg"
       },
       {
-        "name": "High taxes"
+        "name": "High taxes",
+        "image": "/questions/c08d6103b77a6a68.webp"
       }
     ],
-    "fact": "Accepted USCIS answers: Signs bills into law; Vetoes bills; Enforces laws; Commander in Chief (of the military); Chief diplomat; Appoints federal judges."
+    "fact": "Accepted USCIS answers: Signs bills into law; Vetoes bills; Enforces laws; Commander in Chief (of the military); Chief diplomat; Appoints federal judges.",
+    "image": "/questions/88072a757c817e68.webp"
   },
   {
     "name": "The President (of the United States)",
@@ -1923,13 +2046,16 @@
     "clue": "USCIS civics question 42: Who is Commander in Chief of the U.S. military?",
     "wrong_options": [
       {
-        "name": "Provide schooling and education"
+        "name": "Provide schooling and education",
+        "image": "/questions/75d6945fa6bc902b.jpg"
       },
       {
-        "name": "(Thomas) Jefferson"
+        "name": "(Thomas) Jefferson",
+        "image": "/questions/2ca9ace746178e07.jpg"
       }
     ],
-    "fact": "Accepted USCIS answer: The President (of the United States)."
+    "fact": "Accepted USCIS answer: The President (of the United States).",
+    "image": "/questions/88072a757c817e68.webp"
   },
   {
     "name": "The President (of the United States)",
@@ -1937,13 +2063,16 @@
     "clue": "USCIS civics question 43: Who signs bills to become laws?",
     "wrong_options": [
       {
-        "name": "(It states that the) powers not given to the federal government belong to the states or to the people."
+        "name": "(It states that the) powers not given to the federal government belong to the states or to the people.",
+        "image": "/questions/42a5513bacc0e4db.png"
       },
       {
-        "name": "July 4, 1776"
+        "name": "July 4, 1776",
+        "image": "/questions/928eb944d92a8e06.jpg"
       }
     ],
-    "fact": "Accepted USCIS answer: The President (of the United States)."
+    "fact": "Accepted USCIS answer: The President (of the United States).",
+    "image": "/questions/88072a757c817e68.webp"
   },
   {
     "name": "The President (of the United States)",
@@ -1951,13 +2080,16 @@
     "clue": "USCIS civics question 44: Who vetoes bills?",
     "wrong_options": [
       {
-        "name": "Answers will vary"
+        "name": "Answers will vary",
+        "image": "/questions/44b987b60ffd4fa7.webp"
       },
       {
-        "name": "(Battle of) Bunker Hill"
+        "name": "(Battle of) Bunker Hill",
+        "image": "/questions/7d9fa85a5a8b1be0.jpg"
       }
     ],
-    "fact": "Accepted USCIS answer: The President (of the United States)."
+    "fact": "Accepted USCIS answer: The President (of the United States).",
+    "image": "/questions/88072a757c817e68.webp"
   },
   {
     "name": "The President (of the United States)",
@@ -1965,13 +2097,16 @@
     "clue": "USCIS civics question 45: Who appoints federal judges?",
     "wrong_options": [
       {
-        "name": "Answers will vary"
+        "name": "Answers will vary",
+        "image": "/questions/44b987b60ffd4fa7.webp"
       },
       {
-        "name": "New Hampshire"
+        "name": "New Hampshire",
+        "image": "/questions/e67a11340e4cb5c1.webp"
       }
     ],
-    "fact": "Accepted USCIS answer: The President (of the United States)."
+    "fact": "Accepted USCIS answer: The President (of the United States).",
+    "image": "/questions/88072a757c817e68.webp"
   },
   {
     "name": "President (of the United States)",
@@ -1979,13 +2114,16 @@
     "clue": "USCIS civics question 46: The executive branch has many parts. Name one.",
     "wrong_options": [
       {
-        "name": "Citizens eighteen (18) and older (can vote)."
+        "name": "Citizens eighteen (18) and older (can vote).",
+        "image": "/questions/42a5513bacc0e4db.png"
       },
       {
-        "name": "(U.S.) Constitution"
+        "name": "(U.S.) Constitution",
+        "image": "/questions/cadc4d587dbdd155.jpg"
       }
     ],
-    "fact": "Accepted USCIS answers: President (of the United States); Cabinet; Federal departments and agencies."
+    "fact": "Accepted USCIS answers: President (of the United States); Cabinet; Federal departments and agencies.",
+    "image": "/questions/88072a757c817e68.webp"
   },
   {
     "name": "Advises the President (of the United States)",
@@ -1993,13 +2131,16 @@
     "clue": "USCIS civics question 47: What does the President’s Cabinet do?",
     "wrong_options": [
       {
-        "name": "Citizens"
+        "name": "Citizens",
+        "image": "/questions/faa7846be45da4f1.webp"
       },
       {
-        "name": "(James) Madison"
+        "name": "(James) Madison",
+        "image": "/questions/7f03c7e62bea5cd2.jpg"
       }
     ],
-    "fact": "Accepted USCIS answer: Advises the President (of the United States)."
+    "fact": "Accepted USCIS answer: Advises the President (of the United States).",
+    "image": "/questions/c1e4153f27140af3.jpg"
   },
   {
     "name": "Attorney General",
@@ -2007,13 +2148,16 @@
     "clue": "USCIS civics question 48: What are two Cabinet-level positions?",
     "wrong_options": [
       {
-        "name": "Freedom of expression"
+        "name": "Freedom of expression",
+        "image": "/questions/6cdc947e1b209262.jpg"
       },
       {
-        "name": "They helped people understand the (U.S.) Constitution."
+        "name": "They helped people understand the (U.S.) Constitution.",
+        "image": "/questions/f23d570378f55308.jpg"
       }
     ],
-    "fact": "Accepted USCIS answers: Attorney General; Secretary of Agriculture; Secretary of Commerce; Secretary of Education; Secretary of Energy; Secretary of Health and Human Services; Secretary of Homeland Security; Secretary of Housing and Urban Development; Secretary of the Interior; Secretary of Labor; Secretary of State; Secretary of Transportation; Secretary of the Treasury; Secretary of Veterans Affairs; Secretary of War (Defense); Vice-President; Administrator of the Environmental Protection Agency; Administrator of the Small Business Administration; Director of the Central Intelligence Agency; Director of the Office of Management and Budget; Director of National Intelligence; United States Trade Representative."
+    "fact": "Accepted USCIS answers: Attorney General; Secretary of Agriculture; Secretary of Commerce; Secretary of Education; Secretary of Energy; Secretary of Health and Human Services; Secretary of Homeland Security; Secretary of Housing and Urban Development; Secretary of the Interior; Secretary of Labor; Secretary of State; Secretary of Transportation; Secretary of the Treasury; Secretary of Veterans Affairs; Secretary of War (Defense); Vice-President; Administrator of the Environmental Protection Agency; Administrator of the Small Business Administration; Director of the Central Intelligence Agency; Director of the Office of Management and Budget; Director of National Intelligence; United States Trade Representative.",
+    "image": "/questions/e9e5c6389a63a558.webp"
   },
   {
     "name": "It decides who is elected president.",
@@ -2021,13 +2165,16 @@
     "clue": "USCIS civics question 49: Why is the Electoral College important?",
     "wrong_options": [
       {
-        "name": "The United States"
+        "name": "The United States",
+        "image": "/questions/44b987b60ffd4fa7.webp"
       },
       {
-        "name": "Founded the first free public libraries"
+        "name": "Founded the first free public libraries",
+        "image": "/questions/a17387b1caa775cd.jpg"
       }
     ],
-    "fact": "Accepted USCIS answers: It decides who is elected president.; It provides a compromise between the popular election of the president and congressional selection.."
+    "fact": "Accepted USCIS answers: It decides who is elected president.; It provides a compromise between the popular election of the president and congressional selection..",
+    "image": "/questions/06bf8ab9f6f802ed.webp"
   },
   {
     "name": "Supreme Court",
@@ -2035,13 +2182,16 @@
     "clue": "USCIS civics question 50: What is one part of the judicial branch?",
     "wrong_options": [
       {
-        "name": "Give up loyalty to other countries"
+        "name": "Give up loyalty to other countries",
+        "image": "/questions/96c11e7d85932f6a.jpg"
       },
       {
-        "name": "“Father of Our Country”"
+        "name": "“Father of Our Country”",
+        "image": "/questions/4bd1e9459fdf4665.webp"
       }
     ],
-    "fact": "Accepted USCIS answers: Supreme Court; Federal Courts."
+    "fact": "Accepted USCIS answers: Supreme Court; Federal Courts.",
+    "image": "/questions/d8363045d5ae5dbe.jpg"
   },
   {
     "name": "Reviews laws",
@@ -2049,13 +2199,16 @@
     "clue": "USCIS civics question 51: What does the judicial branch do?",
     "wrong_options": [
       {
-        "name": "Be born in the United States, under the conditions set by the 14th Amendment"
+        "name": "Be born in the United States, under the conditions set by the 14th Amendment",
+        "image": "/questions/42a5513bacc0e4db.png"
       },
       {
-        "name": "Writer of the Declaration of Independence"
+        "name": "Writer of the Declaration of Independence",
+        "image": "/questions/2ca9ace746178e07.jpg"
       }
     ],
-    "fact": "Accepted USCIS answers: Reviews laws; Explains laws; Resolves disputes (disagreements) about the law; Decides if a law goes against the (U.S.) Constitution."
+    "fact": "Accepted USCIS answers: Reviews laws; Explains laws; Resolves disputes (disagreements) about the law; Decides if a law goes against the (U.S.) Constitution.",
+    "image": "/questions/7e8d9d7ed79dbe30.jpg"
   },
   {
     "name": "Supreme Court",
@@ -2063,13 +2216,16 @@
     "clue": "USCIS civics question 52: What is the highest court in the United States?",
     "wrong_options": [
       {
-        "name": "Vote"
+        "name": "Vote",
+        "image": "/questions/64a46dd412177c96.jpg"
       },
       {
-        "name": "“Father of the Constitution”"
+        "name": "“Father of the Constitution”",
+        "image": "/questions/7f03c7e62bea5cd2.jpg"
       }
     ],
-    "fact": "Accepted USCIS answer: Supreme Court."
+    "fact": "Accepted USCIS answer: Supreme Court.",
+    "image": "/questions/d8363045d5ae5dbe.jpg"
   },
   {
     "name": "Nine (9)",
@@ -2077,13 +2233,16 @@
     "clue": "USCIS civics question 53: How many seats are on the Supreme Court?",
     "wrong_options": [
       {
-        "name": "Vote"
+        "name": "Vote",
+        "image": "/questions/64a46dd412177c96.jpg"
       },
       {
-        "name": "First Secretary of the Treasury"
+        "name": "First Secretary of the Treasury",
+        "image": "/questions/32170ba7f0f381c0.jpg"
       }
     ],
-    "fact": "Accepted USCIS answer: Nine (9)."
+    "fact": "Accepted USCIS answer: Nine (9).",
+    "image": "/questions/dd8c277aa9f56589.webp"
   },
   {
     "name": "Five (5)",
@@ -2091,13 +2250,16 @@
     "clue": "USCIS civics question 54: How many Supreme Court justices are usually needed to decide a case?",
     "wrong_options": [
       {
-        "name": "Required by law"
+        "name": "Required by law",
+        "image": "/questions/cadc4d587dbdd155.jpg"
       },
       {
-        "name": "Louisiana Territory"
+        "name": "Louisiana Territory",
+        "image": "/questions/5c05377faaee1a17.webp"
       }
     ],
-    "fact": "Accepted USCIS answer: Five (5)."
+    "fact": "Accepted USCIS answer: Five (5).",
+    "image": "/questions/dd8c277aa9f56589.webp"
   },
   {
     "name": "(For) life",
@@ -2105,13 +2267,16 @@
     "clue": "USCIS civics question 55: How long do Supreme Court justices serve?",
     "wrong_options": [
       {
-        "name": "Required by law"
+        "name": "Required by law",
+        "image": "/questions/cadc4d587dbdd155.jpg"
       },
       {
-        "name": "War of 1812"
+        "name": "War of 1812",
+        "image": "/questions/3699b54c7caa2755.jpg"
       }
     ],
-    "fact": "Accepted USCIS answers: (For) life; Lifetime appointment; (Until) retirement."
+    "fact": "Accepted USCIS answers: (For) life; Lifetime appointment; (Until) retirement.",
+    "image": "/questions/dd8c277aa9f56589.webp"
   },
   {
     "name": "To be independent (of politics)",
@@ -2119,13 +2284,16 @@
     "clue": "USCIS civics question 56: Supreme Court justices serve for life. Why?",
     "wrong_options": [
       {
-        "name": "Freedom"
+        "name": "Freedom",
+        "image": "/questions/d647e42a00c4958c.jpg"
       },
       {
-        "name": "The Civil War"
+        "name": "The Civil War",
+        "image": "/questions/11bfd469ee3942fa.png"
       }
     ],
-    "fact": "Accepted USCIS answers: To be independent (of politics); To limit outside (political) influence."
+    "fact": "Accepted USCIS answers: To be independent (of politics); To limit outside (political) influence.",
+    "image": "/questions/8df59d7c677451e8.jpg"
   },
   {
     "name": "John Roberts",
@@ -2133,13 +2301,16 @@
     "clue": "USCIS civics question 57: Who is the Chief Justice of the United States now?",
     "wrong_options": [
       {
-        "name": "American Indians"
+        "name": "American Indians",
+        "image": "/questions/39bbb8a6af1cef00.png"
       },
       {
-        "name": "(Battle of) Fort Sumter"
+        "name": "(Battle of) Fort Sumter",
+        "image": "/questions/bad84e3123a8d885.jpg"
       }
     ],
-    "fact": "Current answer: John Roberts. USCIS notes that this answer may change after appointments; update this answer when the Chief Justice changes."
+    "fact": "Current answer: John Roberts. USCIS notes that this answer may change after appointments; update this answer when the Chief Justice changes.",
+    "image": "/questions/a736993339bb7c3f.jpg"
   },
   {
     "name": "Print paper money",
@@ -2147,13 +2318,16 @@
     "clue": "USCIS civics question 58: Name one power that is only for the federal government.",
     "wrong_options": [
       {
-        "name": "Africans"
+        "name": "Africans",
+        "image": "/questions/9dc27fd78a31ca2e.webp"
       },
       {
-        "name": "Freed the slaves (Emancipation Proclamation)"
+        "name": "Freed the slaves (Emancipation Proclamation)",
+        "image": "/questions/bcc6fb053d8655dd.jpg"
       }
     ],
-    "fact": "Accepted USCIS answers: Print paper money; Mint coins; Declare war; Create an army; Make treaties; Set foreign policy."
+    "fact": "Accepted USCIS answers: Print paper money; Mint coins; Declare war; Create an army; Make treaties; Set foreign policy.",
+    "image": "/questions/c82b76c83052a3d6.jpg"
   },
   {
     "name": "Provide schooling and education",
@@ -2161,13 +2335,16 @@
     "clue": "USCIS civics question 59: Name one power that is only for the states.",
     "wrong_options": [
       {
-        "name": "American Revolution"
+        "name": "American Revolution",
+        "image": "/questions/c08d6103b77a6a68.webp"
       },
       {
-        "name": "Freed the slaves"
+        "name": "Freed the slaves",
+        "image": "/questions/bcc6fb053d8655dd.jpg"
       }
     ],
-    "fact": "Accepted USCIS answers: Provide schooling and education; Provide protection (police); Provide safety (fire departments); Give a driver’s license; Approve zoning and land use."
+    "fact": "Accepted USCIS answers: Provide schooling and education; Provide protection (police); Provide safety (fire departments); Give a driver’s license; Approve zoning and land use.",
+    "image": "/questions/75d6945fa6bc902b.jpg"
   },
   {
     "name": "(It states that the) powers not given to the federal government belong to the states or to the people.",
@@ -2175,13 +2352,16 @@
     "clue": "USCIS civics question 60: What is the purpose of the 10th Amendment?",
     "wrong_options": [
       {
-        "name": "High taxes"
+        "name": "High taxes",
+        "image": "/questions/c08d6103b77a6a68.webp"
       },
       {
-        "name": "The Civil War"
+        "name": "The Civil War",
+        "image": "/questions/11bfd469ee3942fa.png"
       }
     ],
-    "fact": "Accepted USCIS answer: (It states that the) powers not given to the federal government belong to the states or to the people.."
+    "fact": "Accepted USCIS answer: (It states that the) powers not given to the federal government belong to the states or to the people..",
+    "image": "/questions/42a5513bacc0e4db.png"
   },
   {
     "name": "Answers will vary",
@@ -2189,13 +2369,16 @@
     "clue": "USCIS civics question 61: Who is the governor of your state now?",
     "wrong_options": [
       {
-        "name": "(Thomas) Jefferson"
+        "name": "(Thomas) Jefferson",
+        "image": "/questions/2ca9ace746178e07.jpg"
       },
       {
-        "name": "14th Amendment"
+        "name": "14th Amendment",
+        "image": "/questions/42a5513bacc0e4db.png"
       }
     ],
-    "fact": "Accepted USCIS answer: Answers will vary. District of Columbia residents should answer that D.C. does not have a governor.."
+    "fact": "Accepted USCIS answer: Answers will vary. District of Columbia residents should answer that D.C. does not have a governor..",
+    "image": "/questions/44b987b60ffd4fa7.webp"
   },
   {
     "name": "Answers will vary",
@@ -2203,13 +2386,16 @@
     "clue": "USCIS civics question 62: What is the capital of your state?",
     "wrong_options": [
       {
-        "name": "July 4, 1776"
+        "name": "July 4, 1776",
+        "image": "/questions/928eb944d92a8e06.jpg"
       },
       {
-        "name": "After the Civil War"
+        "name": "After the Civil War",
+        "image": "/questions/78104b8896880030.png"
       }
     ],
-    "fact": "Accepted USCIS answer: Answers will vary. District of Columbia residents should answer that D.C. is not a state and does not have a capital. Residents of U.S. territories should name the capital of the territory.."
+    "fact": "Accepted USCIS answer: Answers will vary. District of Columbia residents should answer that D.C. is not a state and does not have a capital. Residents of U.S. territories should name the capital of the territory..",
+    "image": "/questions/44b987b60ffd4fa7.webp"
   },
   {
     "name": "Citizens eighteen (18) and older (can vote).",
@@ -2217,13 +2403,16 @@
     "clue": "USCIS civics question 63: There are four amendments to the U.S. Constitution about who can vote. Describe one of them.",
     "wrong_options": [
       {
-        "name": "(Battle of) Bunker Hill"
+        "name": "(Battle of) Bunker Hill",
+        "image": "/questions/7d9fa85a5a8b1be0.jpg"
       },
       {
-        "name": "Susan B. Anthony"
+        "name": "Susan B. Anthony",
+        "image": "/questions/62a827ed05de3e33.jpg"
       }
     ],
-    "fact": "Accepted USCIS answers: Citizens eighteen (18) and older (can vote).; You don’t have to pay (a poll tax) to vote.; Any citizen can vote. (Women and men can vote.); A male citizen of any race (can vote).."
+    "fact": "Accepted USCIS answers: Citizens eighteen (18) and older (can vote).; You don’t have to pay (a poll tax) to vote.; Any citizen can vote. (Women and men can vote.); A male citizen of any race (can vote)..",
+    "image": "/questions/42a5513bacc0e4db.png"
   },
   {
     "name": "Citizens",
@@ -2231,13 +2420,16 @@
     "clue": "USCIS civics question 64: Who can vote in federal elections, run for federal office, and serve on a jury in the United States?",
     "wrong_options": [
       {
-        "name": "New Hampshire"
+        "name": "New Hampshire",
+        "image": "/questions/e67a11340e4cb5c1.webp"
       },
       {
-        "name": "World War I"
+        "name": "World War I",
+        "image": "/questions/5da84a2ddff888b2.jpg"
       }
     ],
-    "fact": "Accepted USCIS answers: Citizens; Citizens of the United States; U.S. citizens."
+    "fact": "Accepted USCIS answers: Citizens; Citizens of the United States; U.S. citizens.",
+    "image": "/questions/faa7846be45da4f1.webp"
   },
   {
     "name": "Freedom of expression",
@@ -2245,13 +2437,16 @@
     "clue": "USCIS civics question 65: What are three rights of everyone living in the United States?",
     "wrong_options": [
       {
-        "name": "(U.S.) Constitution"
+        "name": "(U.S.) Constitution",
+        "image": "/questions/cadc4d587dbdd155.jpg"
       },
       {
-        "name": "Because Germany attacked U.S. (civilian) ships"
+        "name": "Because Germany attacked U.S. (civilian) ships",
+        "image": "/questions/ee46e8ac93bedc99.jpg"
       }
     ],
-    "fact": "Accepted USCIS answers: Freedom of expression; Freedom of speech; Freedom of assembly; Freedom to petition the government; Freedom of religion; The right to bear arms."
+    "fact": "Accepted USCIS answers: Freedom of expression; Freedom of speech; Freedom of assembly; Freedom to petition the government; Freedom of religion; The right to bear arms.",
+    "image": "/questions/6cdc947e1b209262.jpg"
   },
   {
     "name": "The United States",
@@ -2259,13 +2454,16 @@
     "clue": "USCIS civics question 66: What do we show loyalty to when we say the Pledge of Allegiance?",
     "wrong_options": [
       {
-        "name": "(James) Madison"
+        "name": "(James) Madison",
+        "image": "/questions/7f03c7e62bea5cd2.jpg"
       },
       {
-        "name": "1920"
+        "name": "1920",
+        "image": "/questions/a26773f27f236e26.jpg"
       }
     ],
-    "fact": "Accepted USCIS answers: The United States; The flag."
+    "fact": "Accepted USCIS answers: The United States; The flag.",
+    "image": "/questions/44b987b60ffd4fa7.webp"
   },
   {
     "name": "Give up loyalty to other countries",
@@ -2273,13 +2471,16 @@
     "clue": "USCIS civics question 67: Name two promises that new citizens make in the Oath of Allegiance.",
     "wrong_options": [
       {
-        "name": "They helped people understand the (U.S.) Constitution."
+        "name": "They helped people understand the (U.S.) Constitution.",
+        "image": "/questions/f23d570378f55308.jpg"
       },
       {
-        "name": "Longest economic recession in modern history"
+        "name": "Longest economic recession in modern history",
+        "image": "/questions/30fe4497f5e791ba.jpg"
       }
     ],
-    "fact": "Accepted USCIS answers: Give up loyalty to other countries; Defend the (U.S.) Constitution; Obey the laws of the United States; Serve in the military (if needed); Serve (help, do important work for) the nation (if needed); Be loyal to the United States."
+    "fact": "Accepted USCIS answers: Give up loyalty to other countries; Defend the (U.S.) Constitution; Obey the laws of the United States; Serve in the military (if needed); Serve (help, do important work for) the nation (if needed); Be loyal to the United States.",
+    "image": "/questions/96c11e7d85932f6a.jpg"
   },
   {
     "name": "Be born in the United States, under the conditions set by the 14th Amendment",
@@ -2287,13 +2488,16 @@
     "clue": "USCIS civics question 68: How can people become United States citizens?",
     "wrong_options": [
       {
-        "name": "Founded the first free public libraries"
+        "name": "Founded the first free public libraries",
+        "image": "/questions/a17387b1caa775cd.jpg"
       },
       {
-        "name": "The Great Crash (1929)"
+        "name": "The Great Crash (1929)",
+        "image": "/questions/42859bcae7ab0f01.jpg"
       }
     ],
-    "fact": "Accepted USCIS answers: Be born in the United States, under the conditions set by the 14th Amendment; Naturalize; Derive citizenship (under conditions set by Congress)."
+    "fact": "Accepted USCIS answers: Be born in the United States, under the conditions set by the 14th Amendment; Naturalize; Derive citizenship (under conditions set by Congress).",
+    "image": "/questions/42a5513bacc0e4db.png"
   },
   {
     "name": "Vote",
@@ -2301,13 +2505,16 @@
     "clue": "USCIS civics question 69: What are two examples of civic participation in the United States?",
     "wrong_options": [
       {
-        "name": "“Father of Our Country”"
+        "name": "“Father of Our Country”",
+        "image": "/questions/4bd1e9459fdf4665.webp"
       },
       {
-        "name": "(Franklin) Roosevelt"
+        "name": "(Franklin) Roosevelt",
+        "image": "/questions/70f8e2ce7eb3212f.jpg"
       }
     ],
-    "fact": "Accepted USCIS answers: Vote; Run for office; Join a political party; Help with a campaign; Join a civic group; Join a community group; Give an elected official your opinion (on an issue); Contact elected officials; Support or oppose an issue or policy; Write to a newspaper."
+    "fact": "Accepted USCIS answers: Vote; Run for office; Join a political party; Help with a campaign; Join a civic group; Join a community group; Give an elected official your opinion (on an issue); Contact elected officials; Support or oppose an issue or policy; Write to a newspaper.",
+    "image": "/questions/64a46dd412177c96.jpg"
   },
   {
     "name": "Vote",
@@ -2315,13 +2522,16 @@
     "clue": "USCIS civics question 70: What is one way Americans can serve their country?",
     "wrong_options": [
       {
-        "name": "Writer of the Declaration of Independence"
+        "name": "Writer of the Declaration of Independence",
+        "image": "/questions/2ca9ace746178e07.jpg"
       },
       {
-        "name": "(Bombing of) Pearl Harbor"
+        "name": "(Bombing of) Pearl Harbor",
+        "image": "/questions/f8942ed4e04c16e0.jpg"
       }
     ],
-    "fact": "Accepted USCIS answers: Vote; Pay taxes; Obey the law; Serve in the military; Run for office; Work for local, state, or federal government."
+    "fact": "Accepted USCIS answers: Vote; Pay taxes; Obey the law; Serve in the military; Run for office; Work for local, state, or federal government.",
+    "image": "/questions/64a46dd412177c96.jpg"
   },
   {
     "name": "Required by law",
@@ -2329,13 +2539,16 @@
     "clue": "USCIS civics question 71: Why is it important to pay federal taxes?",
     "wrong_options": [
       {
-        "name": "“Father of the Constitution”"
+        "name": "“Father of the Constitution”",
+        "image": "/questions/7f03c7e62bea5cd2.jpg"
       },
       {
-        "name": "General during World War II"
+        "name": "General during World War II",
+        "image": "/questions/d1b99c649caf1276.webp"
       }
     ],
-    "fact": "Accepted USCIS answers: Required by law; All people pay to fund the federal government; Required by the (U.S.) Constitution (16th Amendment); Civic duty."
+    "fact": "Accepted USCIS answers: Required by law; All people pay to fund the federal government; Required by the (U.S.) Constitution (16th Amendment); Civic duty.",
+    "image": "/questions/cadc4d587dbdd155.jpg"
   },
   {
     "name": "Required by law",
@@ -2343,13 +2556,16 @@
     "clue": "USCIS civics question 72: It is important for all men age 18 through 25 to register for the Selective Service. Name one reason why.",
     "wrong_options": [
       {
-        "name": "First Secretary of the Treasury"
+        "name": "First Secretary of the Treasury",
+        "image": "/questions/32170ba7f0f381c0.jpg"
       },
       {
-        "name": "Soviet Union"
+        "name": "Soviet Union",
+        "image": "/questions/1a71c5e29b0349f7.webp"
       }
     ],
-    "fact": "Accepted USCIS answers: Required by law; Civic duty; Makes the draft fair, if needed."
+    "fact": "Accepted USCIS answers: Required by law; Civic duty; Makes the draft fair, if needed.",
+    "image": "/questions/cadc4d587dbdd155.jpg"
   },
   {
     "name": "Freedom",
@@ -2357,13 +2573,16 @@
     "clue": "USCIS civics question 73: The colonists came to America for many reasons. Name one.",
     "wrong_options": [
       {
-        "name": "Louisiana Territory"
+        "name": "Louisiana Territory",
+        "image": "/questions/5c05377faaee1a17.webp"
       },
       {
-        "name": "Communism"
+        "name": "Communism",
+        "image": "/questions/131fcedf2494469a.png"
       }
     ],
-    "fact": "Accepted USCIS answers: Freedom; Political liberty; Religious freedom; Economic opportunity; Escape persecution."
+    "fact": "Accepted USCIS answers: Freedom; Political liberty; Religious freedom; Economic opportunity; Escape persecution.",
+    "image": "/questions/d647e42a00c4958c.jpg"
   },
   {
     "name": "American Indians",
@@ -2371,13 +2590,16 @@
     "clue": "USCIS civics question 74: Who lived in America before the Europeans arrived?",
     "wrong_options": [
       {
-        "name": "War of 1812"
+        "name": "War of 1812",
+        "image": "/questions/3699b54c7caa2755.jpg"
       },
       {
-        "name": "To stop the spread of communism"
+        "name": "To stop the spread of communism",
+        "image": "/questions/6a747d57bcca9f2a.webp"
       }
     ],
-    "fact": "Accepted USCIS answers: American Indians; Native Americans."
+    "fact": "Accepted USCIS answers: American Indians; Native Americans.",
+    "image": "/questions/39bbb8a6af1cef00.png"
   },
   {
     "name": "Africans",
@@ -2385,13 +2607,16 @@
     "clue": "USCIS civics question 75: What group of people was taken and sold as slaves?",
     "wrong_options": [
       {
-        "name": "The Civil War"
+        "name": "The Civil War",
+        "image": "/questions/11bfd469ee3942fa.png"
       },
       {
-        "name": "To stop the spread of communism"
+        "name": "To stop the spread of communism",
+        "image": "/questions/6a747d57bcca9f2a.webp"
       }
     ],
-    "fact": "Accepted USCIS answers: Africans; People from Africa."
+    "fact": "Accepted USCIS answers: Africans; People from Africa.",
+    "image": "/questions/9dc27fd78a31ca2e.webp"
   },
   {
     "name": "American Revolution",
@@ -2399,13 +2624,16 @@
     "clue": "USCIS civics question 76: What war did the Americans fight to win independence from Britain?",
     "wrong_options": [
       {
-        "name": "(Battle of) Fort Sumter"
+        "name": "(Battle of) Fort Sumter",
+        "image": "/questions/bad84e3123a8d885.jpg"
       },
       {
-        "name": "Fought to end racial discrimination"
+        "name": "Fought to end racial discrimination",
+        "image": "/questions/ea81e0db68452ade.jpg"
       }
     ],
-    "fact": "Accepted USCIS answers: American Revolution; The (American) Revolutionary War; War for (American) Independence."
+    "fact": "Accepted USCIS answers: American Revolution; The (American) Revolutionary War; War for (American) Independence.",
+    "image": "/questions/c08d6103b77a6a68.webp"
   },
   {
     "name": "High taxes",
@@ -2413,13 +2641,16 @@
     "clue": "USCIS civics question 77: Name one reason why the Americans declared independence from Britain.",
     "wrong_options": [
       {
-        "name": "Freed the slaves (Emancipation Proclamation)"
+        "name": "Freed the slaves (Emancipation Proclamation)",
+        "image": "/questions/bcc6fb053d8655dd.jpg"
       },
       {
-        "name": "Fought for civil rights"
+        "name": "Fought for civil rights",
+        "image": "/questions/ea81e0db68452ade.jpg"
       }
     ],
-    "fact": "Accepted USCIS answers: High taxes; Taxation without representation; British soldiers stayed in Americans’ houses (boarding, quartering); They did not have self-government; Boston Massacre; Boston Tea Party (Tea Act); Stamp Act; Sugar Act; Townshend Acts; Intolerable (Coercive) Acts."
+    "fact": "Accepted USCIS answers: High taxes; Taxation without representation; British soldiers stayed in Americans’ houses (boarding, quartering); They did not have self-government; Boston Massacre; Boston Tea Party (Tea Act); Stamp Act; Sugar Act; Townshend Acts; Intolerable (Coercive) Acts.",
+    "image": "/questions/c08d6103b77a6a68.webp"
   },
   {
     "name": "(Thomas) Jefferson",
@@ -2427,13 +2658,16 @@
     "clue": "USCIS civics question 78: Who wrote the Declaration of Independence?",
     "wrong_options": [
       {
-        "name": "Freed the slaves"
+        "name": "Freed the slaves",
+        "image": "/questions/bcc6fb053d8655dd.jpg"
       },
       {
-        "name": "To force the Iraqi military from Kuwait"
+        "name": "To force the Iraqi military from Kuwait",
+        "image": "/questions/dfd83323753112e7.jpg"
       }
     ],
-    "fact": "Accepted USCIS answer: (Thomas) Jefferson."
+    "fact": "Accepted USCIS answer: (Thomas) Jefferson.",
+    "image": "/questions/2ca9ace746178e07.jpg"
   },
   {
     "name": "July 4, 1776",
@@ -2441,13 +2675,16 @@
     "clue": "USCIS civics question 79: When was the Declaration of Independence adopted?",
     "wrong_options": [
       {
-        "name": "The Civil War"
+        "name": "The Civil War",
+        "image": "/questions/11bfd469ee3942fa.png"
       },
       {
-        "name": "Terrorists attacked the United States"
+        "name": "Terrorists attacked the United States",
+        "image": "/questions/a0073c63d3eebb1f.jpg"
       }
     ],
-    "fact": "Accepted USCIS answer: July 4, 1776."
+    "fact": "Accepted USCIS answer: July 4, 1776.",
+    "image": "/questions/928eb944d92a8e06.jpg"
   },
   {
     "name": "(Battle of) Bunker Hill",
@@ -2455,13 +2692,16 @@
     "clue": "USCIS civics question 80: The American Revolution had many important events. Name one.",
     "wrong_options": [
       {
-        "name": "14th Amendment"
+        "name": "14th Amendment",
+        "image": "/questions/42a5513bacc0e4db.png"
       },
       {
-        "name": "(Global) War on Terror"
+        "name": "(Global) War on Terror",
+        "image": "/questions/f05dfa375fd60e4a.jpg"
       }
     ],
-    "fact": "Accepted USCIS answers: (Battle of) Bunker Hill; Declaration of Independence; Washington Crossing the Delaware (Battle of Trenton); (Battle of) Saratoga; Valley Forge (Encampment); (Battle of) Yorktown (British surrender at Yorktown)."
+    "fact": "Accepted USCIS answers: (Battle of) Bunker Hill; Declaration of Independence; Washington Crossing the Delaware (Battle of Trenton); (Battle of) Saratoga; Valley Forge (Encampment); (Battle of) Yorktown (British surrender at Yorktown).",
+    "image": "/questions/7d9fa85a5a8b1be0.jpg"
   },
   {
     "name": "New Hampshire",
@@ -2469,13 +2709,16 @@
     "clue": "USCIS civics question 81: There were 13 original states. Name five.",
     "wrong_options": [
       {
-        "name": "After the Civil War"
+        "name": "After the Civil War",
+        "image": "/questions/78104b8896880030.png"
       },
       {
-        "name": "Apache"
+        "name": "Apache",
+        "image": "/questions/d4ed86f6515bd98f.jpg"
       }
     ],
-    "fact": "Accepted USCIS answers: New Hampshire; Massachusetts; Rhode Island; Connecticut; New York; New Jersey; Pennsylvania; Delaware; Maryland; Virginia; North Carolina; South Carolina; Georgia."
+    "fact": "Accepted USCIS answers: New Hampshire; Massachusetts; Rhode Island; Connecticut; New York; New Jersey; Pennsylvania; Delaware; Maryland; Virginia; North Carolina; South Carolina; Georgia.",
+    "image": "/questions/e67a11340e4cb5c1.webp"
   },
   {
     "name": "(U.S.) Constitution",
@@ -2483,13 +2726,16 @@
     "clue": "USCIS civics question 82: What founding document was written in 1787?",
     "wrong_options": [
       {
-        "name": "Susan B. Anthony"
+        "name": "Susan B. Anthony",
+        "image": "/questions/62a827ed05de3e33.jpg"
       },
       {
-        "name": "Light bulb"
+        "name": "Light bulb",
+        "image": "/questions/f2652731492704f4.jpg"
       }
     ],
-    "fact": "Accepted USCIS answer: (U.S.) Constitution."
+    "fact": "Accepted USCIS answer: (U.S.) Constitution.",
+    "image": "/questions/cadc4d587dbdd155.jpg"
   },
   {
     "name": "(James) Madison",
@@ -2497,13 +2743,16 @@
     "clue": "USCIS civics question 83: The Federalist Papers supported the passage of the U.S. Constitution. Name one of the writers.",
     "wrong_options": [
       {
-        "name": "World War I"
+        "name": "World War I",
+        "image": "/questions/5da84a2ddff888b2.jpg"
       },
       {
-        "name": "Washington, D.C."
+        "name": "Washington, D.C.",
+        "image": "/questions/1a7616d2ca72f62e.webp"
       }
     ],
-    "fact": "Accepted USCIS answers: (James) Madison; (Alexander) Hamilton; (John) Jay; Publius."
+    "fact": "Accepted USCIS answers: (James) Madison; (Alexander) Hamilton; (John) Jay; Publius.",
+    "image": "/questions/7f03c7e62bea5cd2.jpg"
   },
   {
     "name": "They helped people understand the (U.S.) Constitution.",
@@ -2511,13 +2760,16 @@
     "clue": "USCIS civics question 84: Why were the Federalist Papers important?",
     "wrong_options": [
       {
-        "name": "Because Germany attacked U.S. (civilian) ships"
+        "name": "Because Germany attacked U.S. (civilian) ships",
+        "image": "/questions/ee46e8ac93bedc99.jpg"
       },
       {
-        "name": "New York (Harbor)"
+        "name": "New York (Harbor)",
+        "image": "/questions/0f528658b8b5b857.jpg"
       }
     ],
-    "fact": "Accepted USCIS answers: They helped people understand the (U.S.) Constitution.; They supported passing the (U.S.) Constitution.."
+    "fact": "Accepted USCIS answers: They helped people understand the (U.S.) Constitution.; They supported passing the (U.S.) Constitution..",
+    "image": "/questions/f23d570378f55308.jpg"
   },
   {
     "name": "Founded the first free public libraries",
@@ -2525,13 +2777,16 @@
     "clue": "USCIS civics question 85: Benjamin Franklin is famous for many things. Name one.",
     "wrong_options": [
       {
-        "name": "1920"
+        "name": "1920",
+        "image": "/questions/a26773f27f236e26.jpg"
       },
       {
-        "name": "(Because there were) 13 original colonies"
+        "name": "(Because there were) 13 original colonies",
+        "image": "/questions/8bbb65734e076879.webp"
       }
     ],
-    "fact": "Accepted USCIS answers: Founded the first free public libraries; First Postmaster General of the United States; Helped write the Declaration of Independence; Inventor; U.S. diplomat."
+    "fact": "Accepted USCIS answers: Founded the first free public libraries; First Postmaster General of the United States; Helped write the Declaration of Independence; Inventor; U.S. diplomat.",
+    "image": "/questions/a17387b1caa775cd.jpg"
   },
   {
     "name": "“Father of Our Country”",
@@ -2539,13 +2794,16 @@
     "clue": "USCIS civics question 86: George Washington is famous for many things. Name one.",
     "wrong_options": [
       {
-        "name": "Longest economic recession in modern history"
+        "name": "Longest economic recession in modern history",
+        "image": "/questions/30fe4497f5e791ba.jpg"
       },
       {
-        "name": "(Because there is) one star for each state"
+        "name": "(Because there is) one star for each state",
+        "image": "/questions/44b987b60ffd4fa7.webp"
       }
     ],
-    "fact": "Accepted USCIS answers: “Father of Our Country”; First president of the United States; General of the Continental Army; President of the Constitutional Convention."
+    "fact": "Accepted USCIS answers: “Father of Our Country”; First president of the United States; General of the Continental Army; President of the Constitutional Convention.",
+    "image": "/questions/4bd1e9459fdf4665.webp"
   },
   {
     "name": "Writer of the Declaration of Independence",
@@ -2553,13 +2811,16 @@
     "clue": "USCIS civics question 87: Thomas Jefferson is famous for many things. Name one.",
     "wrong_options": [
       {
-        "name": "The Great Crash (1929)"
+        "name": "The Great Crash (1929)",
+        "image": "/questions/42859bcae7ab0f01.jpg"
       },
       {
-        "name": "The Star-Spangled Banner"
+        "name": "The Star-Spangled Banner",
+        "image": "/questions/879a24e9e60f7c4c.png"
       }
     ],
-    "fact": "Accepted USCIS answers: Writer of the Declaration of Independence; Third president of the United States; Doubled the size of the United States (Louisiana Purchase); First Secretary of State; Founded the University of Virginia; Writer of the Virginia Statute on Religious Freedom."
+    "fact": "Accepted USCIS answers: Writer of the Declaration of Independence; Third president of the United States; Doubled the size of the United States (Louisiana Purchase); First Secretary of State; Founded the University of Virginia; Writer of the Virginia Statute on Religious Freedom.",
+    "image": "/questions/2ca9ace746178e07.jpg"
   },
   {
     "name": "“Father of the Constitution”",
@@ -2567,13 +2828,16 @@
     "clue": "USCIS civics question 88: James Madison is famous for many things. Name one.",
     "wrong_options": [
       {
-        "name": "(Franklin) Roosevelt"
+        "name": "(Franklin) Roosevelt",
+        "image": "/questions/70f8e2ce7eb3212f.jpg"
       },
       {
-        "name": "Out of many, one"
+        "name": "Out of many, one",
+        "image": "/questions/257d864fbde6b0cc.webp"
       }
     ],
-    "fact": "Accepted USCIS answers: “Father of the Constitution”; Fourth president of the United States; President during the War of 1812; One of the writers of the Federalist Papers."
+    "fact": "Accepted USCIS answers: “Father of the Constitution”; Fourth president of the United States; President during the War of 1812; One of the writers of the Federalist Papers.",
+    "image": "/questions/7f03c7e62bea5cd2.jpg"
   },
   {
     "name": "First Secretary of the Treasury",
@@ -2581,13 +2845,16 @@
     "clue": "USCIS civics question 89: Alexander Hamilton is famous for many things. Name one.",
     "wrong_options": [
       {
-        "name": "(Bombing of) Pearl Harbor"
+        "name": "(Bombing of) Pearl Harbor",
+        "image": "/questions/f8942ed4e04c16e0.jpg"
       },
       {
-        "name": "A holiday to celebrate U.S. independence (from Britain)"
+        "name": "A holiday to celebrate U.S. independence (from Britain)",
+        "image": "/questions/928eb944d92a8e06.jpg"
       }
     ],
-    "fact": "Accepted USCIS answers: First Secretary of the Treasury; One of the writers of the Federalist Papers; Helped establish the First Bank of the United States; Aide to General George Washington; Member of the Continental Congress."
+    "fact": "Accepted USCIS answers: First Secretary of the Treasury; One of the writers of the Federalist Papers; Helped establish the First Bank of the United States; Aide to General George Washington; Member of the Continental Congress.",
+    "image": "/questions/32170ba7f0f381c0.jpg"
   },
   {
     "name": "Louisiana Territory",
@@ -2595,13 +2862,16 @@
     "clue": "USCIS civics question 90: What territory did the United States buy from France in 1803?",
     "wrong_options": [
       {
-        "name": "General during World War II"
+        "name": "General during World War II",
+        "image": "/questions/d1b99c649caf1276.webp"
       },
       {
-        "name": "New Year’s Day"
+        "name": "New Year’s Day",
+        "image": "/questions/5043e62f12933d82.jpg"
       }
     ],
-    "fact": "Accepted USCIS answers: Louisiana Territory; Louisiana."
+    "fact": "Accepted USCIS answers: Louisiana Territory; Louisiana.",
+    "image": "/questions/5c05377faaee1a17.webp"
   },
   {
     "name": "War of 1812",
@@ -2609,13 +2879,16 @@
     "clue": "USCIS civics question 91: Name one war fought by the United States in the 1800s.",
     "wrong_options": [
       {
-        "name": "Soviet Union"
+        "name": "Soviet Union",
+        "image": "/questions/1a71c5e29b0349f7.webp"
       },
       {
-        "name": "A holiday to honor soldiers who died in military service"
+        "name": "A holiday to honor soldiers who died in military service",
+        "image": "/questions/2e640ad3bc77e87b.jpg"
       }
     ],
-    "fact": "Accepted USCIS answers: War of 1812; Mexican-American War; Civil War; Spanish-American War."
+    "fact": "Accepted USCIS answers: War of 1812; Mexican-American War; Civil War; Spanish-American War.",
+    "image": "/questions/3699b54c7caa2755.jpg"
   },
   {
     "name": "The Civil War",
@@ -2623,13 +2896,16 @@
     "clue": "USCIS civics question 92: Name the U.S. war between the North and the South.",
     "wrong_options": [
       {
-        "name": "Communism"
+        "name": "Communism",
+        "image": "/questions/131fcedf2494469a.png"
       },
       {
-        "name": "A holiday to honor people in the (U.S.) military"
+        "name": "A holiday to honor people in the (U.S.) military",
+        "image": "/questions/8a37f96c157ef246.jpg"
       }
     ],
-    "fact": "Accepted USCIS answer: The Civil War."
+    "fact": "Accepted USCIS answer: The Civil War.",
+    "image": "/questions/11bfd469ee3942fa.png"
   },
   {
     "name": "(Battle of) Fort Sumter",
@@ -2637,13 +2913,16 @@
     "clue": "USCIS civics question 93: The Civil War had many important events. Name one.",
     "wrong_options": [
       {
-        "name": "To stop the spread of communism"
+        "name": "To stop the spread of communism",
+        "image": "/questions/6a747d57bcca9f2a.webp"
       },
       {
-        "name": "Republic"
+        "name": "Republic",
+        "image": "/questions/92588343dc90ca59.jpg"
       }
     ],
-    "fact": "Accepted USCIS answers: (Battle of) Fort Sumter; Emancipation Proclamation; (Battle of) Vicksburg; (Battle of) Gettysburg; Sherman’s March; (Surrender at) Appomattox; (Battle of) Antietam/Sharpsburg; Lincoln was assassinated.."
+    "fact": "Accepted USCIS answers: (Battle of) Fort Sumter; Emancipation Proclamation; (Battle of) Vicksburg; (Battle of) Gettysburg; Sherman’s March; (Surrender at) Appomattox; (Battle of) Antietam/Sharpsburg; Lincoln was assassinated..",
+    "image": "/questions/bad84e3123a8d885.jpg"
   },
   {
     "name": "Freed the slaves (Emancipation Proclamation)",
@@ -2651,13 +2930,16 @@
     "clue": "USCIS civics question 94: Abraham Lincoln is famous for many things. Name one.",
     "wrong_options": [
       {
-        "name": "To stop the spread of communism"
+        "name": "To stop the spread of communism",
+        "image": "/questions/6a747d57bcca9f2a.webp"
       },
       {
-        "name": "(U.S.) Constitution"
+        "name": "(U.S.) Constitution",
+        "image": "/questions/cadc4d587dbdd155.jpg"
       }
     ],
-    "fact": "Accepted USCIS answers: Freed the slaves (Emancipation Proclamation); Saved (or preserved) the Union; Led the United States during the Civil War; 16th president of the United States; Delivered the Gettysburg Address."
+    "fact": "Accepted USCIS answers: Freed the slaves (Emancipation Proclamation); Saved (or preserved) the Union; Led the United States during the Civil War; 16th president of the United States; Delivered the Gettysburg Address.",
+    "image": "/questions/bcc6fb053d8655dd.jpg"
   },
   {
     "name": "Freed the slaves",
@@ -2665,13 +2947,16 @@
     "clue": "USCIS civics question 95: What did the Emancipation Proclamation do?",
     "wrong_options": [
       {
-        "name": "Fought to end racial discrimination"
+        "name": "Fought to end racial discrimination",
+        "image": "/questions/ea81e0db68452ade.jpg"
       },
       {
-        "name": "Forms the government"
+        "name": "Forms the government",
+        "image": "/questions/42a5513bacc0e4db.png"
       }
     ],
-    "fact": "Accepted USCIS answers: Freed the slaves; Freed slaves in the Confederacy; Freed slaves in the Confederate states; Freed slaves in most Southern states."
+    "fact": "Accepted USCIS answers: Freed the slaves; Freed slaves in the Confederacy; Freed slaves in the Confederate states; Freed slaves in most Southern states.",
+    "image": "/questions/bcc6fb053d8655dd.jpg"
   },
   {
     "name": "The Civil War",
@@ -2679,13 +2964,16 @@
     "clue": "USCIS civics question 96: What U.S. war ended slavery?",
     "wrong_options": [
       {
-        "name": "Fought for civil rights"
+        "name": "Fought for civil rights",
+        "image": "/questions/ea81e0db68452ade.jpg"
       },
       {
-        "name": "Self-government"
+        "name": "Self-government",
+        "image": "/questions/a61bade88e08fa1e.jpg"
       }
     ],
-    "fact": "Accepted USCIS answer: The Civil War."
+    "fact": "Accepted USCIS answer: The Civil War.",
+    "image": "/questions/11bfd469ee3942fa.png"
   },
   {
     "name": "14th Amendment",
@@ -2693,13 +2981,16 @@
     "clue": "USCIS civics question 97: What amendment says all persons born or naturalized in the United States, and subject to the jurisdiction thereof, are U.S. citizens?",
     "wrong_options": [
       {
-        "name": "To force the Iraqi military from Kuwait"
+        "name": "To force the Iraqi military from Kuwait",
+        "image": "/questions/dfd83323753112e7.jpg"
       },
       {
-        "name": "Amendments"
+        "name": "Amendments",
+        "image": "/questions/42a5513bacc0e4db.png"
       }
     ],
-    "fact": "Accepted USCIS answer: 14th Amendment."
+    "fact": "Accepted USCIS answer: 14th Amendment.",
+    "image": "/questions/42a5513bacc0e4db.png"
   },
   {
     "name": "After the Civil War",
@@ -2707,13 +2998,16 @@
     "clue": "USCIS civics question 98: When did all men get the right to vote?",
     "wrong_options": [
       {
-        "name": "Terrorists attacked the United States"
+        "name": "Terrorists attacked the United States",
+        "image": "/questions/a0073c63d3eebb1f.jpg"
       },
       {
-        "name": "(The basic) rights of Americans"
+        "name": "(The basic) rights of Americans",
+        "image": "/questions/ea45f2f5d6fa5fb8.jpg"
       }
     ],
-    "fact": "Accepted USCIS answers: After the Civil War; During Reconstruction; (With the) 15th Amendment; 1870."
+    "fact": "Accepted USCIS answers: After the Civil War; During Reconstruction; (With the) 15th Amendment; 1870.",
+    "image": "/questions/78104b8896880030.png"
   },
   {
     "name": "Susan B. Anthony",
@@ -2721,13 +3015,16 @@
     "clue": "USCIS civics question 99: Name one leader of the women’s rights movement in the 1800s.",
     "wrong_options": [
       {
-        "name": "(Global) War on Terror"
+        "name": "(Global) War on Terror",
+        "image": "/questions/f05dfa375fd60e4a.jpg"
       },
       {
-        "name": "Twenty-seven (27)"
+        "name": "Twenty-seven (27)",
+        "image": "/questions/42a5513bacc0e4db.png"
       }
     ],
-    "fact": "Accepted USCIS answers: Susan B. Anthony; Elizabeth Cady Stanton; Sojourner Truth; Harriet Tubman; Lucretia Mott; Lucy Stone."
+    "fact": "Accepted USCIS answers: Susan B. Anthony; Elizabeth Cady Stanton; Sojourner Truth; Harriet Tubman; Lucretia Mott; Lucy Stone.",
+    "image": "/questions/62a827ed05de3e33.jpg"
   },
   {
     "name": "World War I",
@@ -2735,13 +3032,16 @@
     "clue": "USCIS civics question 100: Name one war fought by the United States in the 1900s.",
     "wrong_options": [
       {
-        "name": "Apache"
+        "name": "Apache",
+        "image": "/questions/d4ed86f6515bd98f.jpg"
       },
       {
-        "name": "It says America is free from British control."
+        "name": "It says America is free from British control.",
+        "image": "/questions/38eca3c6a8c712e9.jpg"
       }
     ],
-    "fact": "Accepted USCIS answers: World War I; World War II; Korean War; Vietnam War; (Persian) Gulf War."
+    "fact": "Accepted USCIS answers: World War I; World War II; Korean War; Vietnam War; (Persian) Gulf War.",
+    "image": "/questions/5da84a2ddff888b2.jpg"
   },
   {
     "name": "Because Germany attacked U.S. (civilian) ships",
@@ -2749,13 +3049,16 @@
     "clue": "USCIS civics question 101: Why did the United States enter World War I?",
     "wrong_options": [
       {
-        "name": "Light bulb"
+        "name": "Light bulb",
+        "image": "/questions/f2652731492704f4.jpg"
       },
       {
-        "name": "Declaration of Independence"
+        "name": "Declaration of Independence",
+        "image": "/questions/38eca3c6a8c712e9.jpg"
       }
     ],
-    "fact": "Accepted USCIS answers: Because Germany attacked U.S. (civilian) ships; To support the Allied Powers (England, France, Italy, and Russia); To oppose the Central Powers (Germany, Austria-Hungary, the Ottoman Empire, and Bulgaria)."
+    "fact": "Accepted USCIS answers: Because Germany attacked U.S. (civilian) ships; To support the Allied Powers (England, France, Italy, and Russia); To oppose the Central Powers (Germany, Austria-Hungary, the Ottoman Empire, and Bulgaria).",
+    "image": "/questions/ee46e8ac93bedc99.jpg"
   },
   {
     "name": "1920",
@@ -2763,13 +3066,16 @@
     "clue": "USCIS civics question 102: When did all women get the right to vote?",
     "wrong_options": [
       {
-        "name": "Washington, D.C."
+        "name": "Washington, D.C.",
+        "image": "/questions/1a7616d2ca72f62e.webp"
       },
       {
-        "name": "Equality"
+        "name": "Equality",
+        "image": "/questions/3a5f5b5d9422cc8b.jpg"
       }
     ],
-    "fact": "Accepted USCIS answers: 1920; After World War I; (With the) 19th Amendment."
+    "fact": "Accepted USCIS answers: 1920; After World War I; (With the) 19th Amendment.",
+    "image": "/questions/a26773f27f236e26.jpg"
   },
   {
     "name": "Longest economic recession in modern history",
@@ -2777,13 +3083,16 @@
     "clue": "USCIS civics question 103: What was the Great Depression?",
     "wrong_options": [
       {
-        "name": "New York (Harbor)"
+        "name": "New York (Harbor)",
+        "image": "/questions/0f528658b8b5b857.jpg"
       },
       {
-        "name": "Declaration of Independence"
+        "name": "Declaration of Independence",
+        "image": "/questions/38eca3c6a8c712e9.jpg"
       }
     ],
-    "fact": "Accepted USCIS answer: Longest economic recession in modern history."
+    "fact": "Accepted USCIS answer: Longest economic recession in modern history.",
+    "image": "/questions/30fe4497f5e791ba.jpg"
   },
   {
     "name": "The Great Crash (1929)",
@@ -2791,13 +3100,16 @@
     "clue": "USCIS civics question 104: When did the Great Depression start?",
     "wrong_options": [
       {
-        "name": "(Because there were) 13 original colonies"
+        "name": "(Because there were) 13 original colonies",
+        "image": "/questions/8bbb65734e076879.webp"
       },
       {
-        "name": "Capitalism"
+        "name": "Capitalism",
+        "image": "/questions/265e7fc20cf841cb.jpg"
       }
     ],
-    "fact": "Accepted USCIS answers: The Great Crash (1929); Stock market crash of 1929."
+    "fact": "Accepted USCIS answers: The Great Crash (1929); Stock market crash of 1929.",
+    "image": "/questions/42859bcae7ab0f01.jpg"
   },
   {
     "name": "(Franklin) Roosevelt",
@@ -2805,13 +3117,16 @@
     "clue": "USCIS civics question 105: Who was president during the Great Depression and World War II?",
     "wrong_options": [
       {
-        "name": "(Because there is) one star for each state"
+        "name": "(Because there is) one star for each state",
+        "image": "/questions/44b987b60ffd4fa7.webp"
       },
       {
-        "name": "Everyone must follow the law."
+        "name": "Everyone must follow the law.",
+        "image": "/questions/1518fc4333b19847.jpg"
       }
     ],
-    "fact": "Accepted USCIS answer: (Franklin) Roosevelt."
+    "fact": "Accepted USCIS answer: (Franklin) Roosevelt.",
+    "image": "/questions/70f8e2ce7eb3212f.jpg"
   },
   {
     "name": "(Bombing of) Pearl Harbor",
@@ -2819,13 +3134,16 @@
     "clue": "USCIS civics question 106: Why did the United States enter World War II?",
     "wrong_options": [
       {
-        "name": "The Star-Spangled Banner"
+        "name": "The Star-Spangled Banner",
+        "image": "/questions/879a24e9e60f7c4c.png"
       },
       {
-        "name": "Declaration of Independence"
+        "name": "Declaration of Independence",
+        "image": "/questions/38eca3c6a8c712e9.jpg"
       }
     ],
-    "fact": "Accepted USCIS answers: (Bombing of) Pearl Harbor; Japanese attacked Pearl Harbor; To support the Allied Powers (England, France, and Russia); To oppose the Axis Powers (Germany, Italy, and Japan)."
+    "fact": "Accepted USCIS answers: (Bombing of) Pearl Harbor; Japanese attacked Pearl Harbor; To support the Allied Powers (England, France, and Russia); To oppose the Axis Powers (Germany, Italy, and Japan).",
+    "image": "/questions/f8942ed4e04c16e0.jpg"
   },
   {
     "name": "General during World War II",
@@ -2833,13 +3151,16 @@
     "clue": "USCIS civics question 107: Dwight Eisenhower is famous for many things. Name one.",
     "wrong_options": [
       {
-        "name": "Out of many, one"
+        "name": "Out of many, one",
+        "image": "/questions/257d864fbde6b0cc.webp"
       },
       {
-        "name": "So one part does not become too powerful"
+        "name": "So one part does not become too powerful",
+        "image": "/questions/92588343dc90ca59.jpg"
       }
     ],
-    "fact": "Accepted USCIS answers: General during World War II; President at the end of (during) the Korean War; 34th president of the United States; Signed the Federal-Aid Highway Act of 1956 (Created the Interstate System)."
+    "fact": "Accepted USCIS answers: General during World War II; President at the end of (during) the Korean War; 34th president of the United States; Signed the Federal-Aid Highway Act of 1956 (Created the Interstate System).",
+    "image": "/questions/d1b99c649caf1276.webp"
   },
   {
     "name": "Soviet Union",
@@ -2847,13 +3168,16 @@
     "clue": "USCIS civics question 108: Who was the United States’ main rival during the Cold War?",
     "wrong_options": [
       {
-        "name": "A holiday to celebrate U.S. independence (from Britain)"
+        "name": "A holiday to celebrate U.S. independence (from Britain)",
+        "image": "/questions/928eb944d92a8e06.jpg"
       },
       {
-        "name": "Legislative, executive, and judicial"
+        "name": "Legislative, executive, and judicial",
+        "image": "/questions/42a5513bacc0e4db.png"
       }
     ],
-    "fact": "Accepted USCIS answers: Soviet Union; USSR; Russia."
+    "fact": "Accepted USCIS answers: Soviet Union; USSR; Russia.",
+    "image": "/questions/1a71c5e29b0349f7.webp"
   },
   {
     "name": "Communism",
@@ -2861,13 +3185,16 @@
     "clue": "USCIS civics question 109: During the Cold War, what was one main concern of the United States?",
     "wrong_options": [
       {
-        "name": "New Year’s Day"
+        "name": "New Year’s Day",
+        "image": "/questions/5043e62f12933d82.jpg"
       },
       {
-        "name": "Executive branch"
+        "name": "Executive branch",
+        "image": "/questions/42a5513bacc0e4db.png"
       }
     ],
-    "fact": "Accepted USCIS answers: Communism; Nuclear war."
+    "fact": "Accepted USCIS answers: Communism; Nuclear war.",
+    "image": "/questions/131fcedf2494469a.png"
   },
   {
     "name": "To stop the spread of communism",
@@ -2875,13 +3202,16 @@
     "clue": "USCIS civics question 110: Why did the United States enter the Korean War?",
     "wrong_options": [
       {
-        "name": "A holiday to honor soldiers who died in military service"
+        "name": "A holiday to honor soldiers who died in military service",
+        "image": "/questions/2e640ad3bc77e87b.jpg"
       },
       {
-        "name": "(U.S.) Congress"
+        "name": "(U.S.) Congress",
+        "image": "/questions/42a5513bacc0e4db.png"
       }
     ],
-    "fact": "Accepted USCIS answer: To stop the spread of communism."
+    "fact": "Accepted USCIS answer: To stop the spread of communism.",
+    "image": "/questions/6a747d57bcca9f2a.webp"
   },
   {
     "name": "To stop the spread of communism",
@@ -2889,13 +3219,16 @@
     "clue": "USCIS civics question 111: Why did the United States enter the Vietnam War?",
     "wrong_options": [
       {
-        "name": "A holiday to honor people in the (U.S.) military"
+        "name": "A holiday to honor people in the (U.S.) military",
+        "image": "/questions/8a37f96c157ef246.jpg"
       },
       {
-        "name": "Senate and House (of Representatives)"
+        "name": "Senate and House (of Representatives)",
+        "image": "/questions/42a5513bacc0e4db.png"
       }
     ],
-    "fact": "Accepted USCIS answer: To stop the spread of communism."
+    "fact": "Accepted USCIS answer: To stop the spread of communism.",
+    "image": "/questions/6a747d57bcca9f2a.webp"
   },
   {
     "name": "Fought to end racial discrimination",
@@ -2903,13 +3236,16 @@
     "clue": "USCIS civics question 112: What did the civil rights movement do?",
     "wrong_options": [
       {
-        "name": "Republic"
+        "name": "Republic",
+        "image": "/questions/92588343dc90ca59.jpg"
       },
       {
-        "name": "Writes laws"
+        "name": "Writes laws",
+        "image": "/questions/42a5513bacc0e4db.png"
       }
     ],
-    "fact": "Accepted USCIS answer: Fought to end racial discrimination."
+    "fact": "Accepted USCIS answer: Fought to end racial discrimination.",
+    "image": "/questions/ea81e0db68452ade.jpg"
   },
   {
     "name": "Fought for civil rights",
@@ -2917,13 +3253,16 @@
     "clue": "USCIS civics question 113: Martin Luther King, Jr. is famous for many things. Name one.",
     "wrong_options": [
       {
-        "name": "(U.S.) Constitution"
+        "name": "(U.S.) Constitution",
+        "image": "/questions/cadc4d587dbdd155.jpg"
       },
       {
-        "name": "One hundred (100)"
+        "name": "One hundred (100)",
+        "image": "/questions/1e9d15efe22f851e.webp"
       }
     ],
-    "fact": "Accepted USCIS answers: Fought for civil rights; Worked for equality for all Americans; Worked to ensure that people would “not be judged by the color of their skin, but by the content of their character”."
+    "fact": "Accepted USCIS answers: Fought for civil rights; Worked for equality for all Americans; Worked to ensure that people would “not be judged by the color of their skin, but by the content of their character”.",
+    "image": "/questions/ea81e0db68452ade.jpg"
   },
   {
     "name": "To force the Iraqi military from Kuwait",
@@ -2931,13 +3270,16 @@
     "clue": "USCIS civics question 114: Why did the United States enter the Persian Gulf War?",
     "wrong_options": [
       {
-        "name": "Forms the government"
+        "name": "Forms the government",
+        "image": "/questions/42a5513bacc0e4db.png"
       },
       {
-        "name": "Six (6) years"
+        "name": "Six (6) years",
+        "image": "/questions/1e9d15efe22f851e.webp"
       }
     ],
-    "fact": "Accepted USCIS answer: To force the Iraqi military from Kuwait."
+    "fact": "Accepted USCIS answer: To force the Iraqi military from Kuwait.",
+    "image": "/questions/dfd83323753112e7.jpg"
   },
   {
     "name": "Terrorists attacked the United States",
@@ -2945,13 +3287,16 @@
     "clue": "USCIS civics question 115: What major event happened on September 11, 2001 in the United States?",
     "wrong_options": [
       {
-        "name": "Self-government"
+        "name": "Self-government",
+        "image": "/questions/a61bade88e08fa1e.jpg"
       },
       {
-        "name": "Answers will vary"
+        "name": "Answers will vary",
+        "image": "/questions/44b987b60ffd4fa7.webp"
       }
     ],
-    "fact": "Accepted USCIS answers: Terrorists attacked the United States; Terrorists took over two planes and crashed them into the World Trade Center in New York City; Terrorists took over a plane and crashed into the Pentagon in Arlington, Virginia; Terrorists took over a plane originally aimed at Washington, D.C., and crashed in a field in Pennsylvania."
+    "fact": "Accepted USCIS answers: Terrorists attacked the United States; Terrorists took over two planes and crashed them into the World Trade Center in New York City; Terrorists took over a plane and crashed into the Pentagon in Arlington, Virginia; Terrorists took over a plane originally aimed at Washington, D.C., and crashed in a field in Pennsylvania.",
+    "image": "/questions/a0073c63d3eebb1f.jpg"
   },
   {
     "name": "(Global) War on Terror",
@@ -2959,13 +3304,16 @@
     "clue": "USCIS civics question 116: Name one U.S. military conflict after the September 11, 2001 attacks.",
     "wrong_options": [
       {
-        "name": "Amendments"
+        "name": "Amendments",
+        "image": "/questions/42a5513bacc0e4db.png"
       },
       {
-        "name": "Four hundred thirty-five (435)"
+        "name": "Four hundred thirty-five (435)",
+        "image": "/questions/8a59a3ab826d5f86.webp"
       }
     ],
-    "fact": "Accepted USCIS answers: (Global) War on Terror; War in Afghanistan; War in Iraq."
+    "fact": "Accepted USCIS answers: (Global) War on Terror; War in Afghanistan; War in Iraq.",
+    "image": "/questions/f05dfa375fd60e4a.jpg"
   },
   {
     "name": "Apache",
@@ -2973,13 +3321,16 @@
     "clue": "USCIS civics question 117: Name one American Indian tribe in the United States.",
     "wrong_options": [
       {
-        "name": "(The basic) rights of Americans"
+        "name": "(The basic) rights of Americans",
+        "image": "/questions/ea45f2f5d6fa5fb8.jpg"
       },
       {
-        "name": "Two (2) years"
+        "name": "Two (2) years",
+        "image": "/questions/8a59a3ab826d5f86.webp"
       }
     ],
-    "fact": "Accepted USCIS answers: Apache; Blackfeet; Cayuga; Cherokee; Cheyenne; Chippewa; Choctaw; Creek; Crow; Hopi; Huron; Inupiat; Lakota; Mohawk; Mohegan; Navajo; Oneida; Onondaga; Pueblo; Seminole; Seneca; Shawnee; Sioux; Teton; Tuscarora."
+    "fact": "Accepted USCIS answers: Apache; Blackfeet; Cayuga; Cherokee; Cheyenne; Chippewa; Choctaw; Creek; Crow; Hopi; Huron; Inupiat; Lakota; Mohawk; Mohegan; Navajo; Oneida; Onondaga; Pueblo; Seminole; Seneca; Shawnee; Sioux; Teton; Tuscarora.",
+    "image": "/questions/d4ed86f6515bd98f.jpg"
   },
   {
     "name": "Light bulb",
@@ -2987,13 +3338,16 @@
     "clue": "USCIS civics question 118: Name one example of an American innovation.",
     "wrong_options": [
       {
-        "name": "Twenty-seven (27)"
+        "name": "Twenty-seven (27)",
+        "image": "/questions/42a5513bacc0e4db.png"
       },
       {
-        "name": "To more closely follow public opinion"
+        "name": "To more closely follow public opinion",
+        "image": "/questions/8a59a3ab826d5f86.webp"
       }
     ],
-    "fact": "Accepted USCIS answers: Light bulb; Automobile (cars, internal combustion engine); Skyscrapers; Airplane; Assembly line; Landing on the moon; Integrated circuit (IC)."
+    "fact": "Accepted USCIS answers: Light bulb; Automobile (cars, internal combustion engine); Skyscrapers; Airplane; Assembly line; Landing on the moon; Integrated circuit (IC).",
+    "image": "/questions/f2652731492704f4.jpg"
   },
   {
     "name": "Washington, D.C.",
@@ -3001,13 +3355,16 @@
     "clue": "USCIS civics question 119: What is the capital of the United States?",
     "wrong_options": [
       {
-        "name": "It says America is free from British control."
+        "name": "It says America is free from British control.",
+        "image": "/questions/38eca3c6a8c712e9.jpg"
       },
       {
-        "name": "Two (2)"
+        "name": "Two (2)",
+        "image": "/questions/1e9d15efe22f851e.webp"
       }
     ],
-    "fact": "Accepted USCIS answer: Washington, D.C.."
+    "fact": "Accepted USCIS answer: Washington, D.C..",
+    "image": "/questions/1a7616d2ca72f62e.webp"
   },
   {
     "name": "New York (Harbor)",
@@ -3015,13 +3372,16 @@
     "clue": "USCIS civics question 120: Where is the Statue of Liberty?",
     "wrong_options": [
       {
-        "name": "Declaration of Independence"
+        "name": "Declaration of Independence",
+        "image": "/questions/38eca3c6a8c712e9.jpg"
       },
       {
-        "name": "Equal representation (for small states)"
+        "name": "Equal representation (for small states)",
+        "image": "/questions/a8efdc5e8f89f855.jpg"
       }
     ],
-    "fact": "Accepted USCIS answers: New York (Harbor); Liberty Island; New Jersey; near New York City; on the Hudson (River)."
+    "fact": "Accepted USCIS answers: New York (Harbor); Liberty Island; New Jersey; near New York City; on the Hudson (River).",
+    "image": "/questions/0f528658b8b5b857.jpg"
   },
   {
     "name": "(Because there were) 13 original colonies",
@@ -3029,13 +3389,16 @@
     "clue": "USCIS civics question 121: Why does the flag have 13 stripes?",
     "wrong_options": [
       {
-        "name": "Equality"
+        "name": "Equality",
+        "image": "/questions/3a5f5b5d9422cc8b.jpg"
       },
       {
-        "name": "Answers will vary"
+        "name": "Answers will vary",
+        "image": "/questions/44b987b60ffd4fa7.webp"
       }
     ],
-    "fact": "Accepted USCIS answers: (Because there were) 13 original colonies; (Because the stripes) represent the original colonies."
+    "fact": "Accepted USCIS answers: (Because there were) 13 original colonies; (Because the stripes) represent the original colonies.",
+    "image": "/questions/8bbb65734e076879.webp"
   },
   {
     "name": "(Because there is) one star for each state",
@@ -3043,13 +3406,16 @@
     "clue": "USCIS civics question 122: Why does the flag have 50 stars?",
     "wrong_options": [
       {
-        "name": "Declaration of Independence"
+        "name": "Declaration of Independence",
+        "image": "/questions/38eca3c6a8c712e9.jpg"
       },
       {
-        "name": "Mike Johnson"
+        "name": "Mike Johnson",
+        "image": "/questions/bb41c0b72e2e467d.jpg"
       }
     ],
-    "fact": "Accepted USCIS answers: (Because there is) one star for each state; (Because) each star represents a state; (Because there are) 50 states."
+    "fact": "Accepted USCIS answers: (Because there is) one star for each state; (Because) each star represents a state; (Because there are) 50 states.",
+    "image": "/questions/44b987b60ffd4fa7.webp"
   },
   {
     "name": "The Star-Spangled Banner",
@@ -3057,13 +3423,16 @@
     "clue": "USCIS civics question 123: What is the name of the national anthem?",
     "wrong_options": [
       {
-        "name": "Capitalism"
+        "name": "Capitalism",
+        "image": "/questions/265e7fc20cf841cb.jpg"
       },
       {
-        "name": "Citizens of their state"
+        "name": "Citizens of their state",
+        "image": "/questions/1e9d15efe22f851e.webp"
       }
     ],
-    "fact": "Accepted USCIS answer: The Star-Spangled Banner."
+    "fact": "Accepted USCIS answer: The Star-Spangled Banner.",
+    "image": "/questions/879a24e9e60f7c4c.png"
   },
   {
     "name": "Out of many, one",
@@ -3071,13 +3440,16 @@
     "clue": "USCIS civics question 124: The Nation’s first motto was “E Pluribus Unum.” What does that mean?",
     "wrong_options": [
       {
-        "name": "Everyone must follow the law."
+        "name": "Everyone must follow the law.",
+        "image": "/questions/1518fc4333b19847.jpg"
       },
       {
-        "name": "Citizens from their state"
+        "name": "Citizens from their state",
+        "image": "/questions/1e9d15efe22f851e.webp"
       }
     ],
-    "fact": "Accepted USCIS answers: Out of many, one; We all become one."
+    "fact": "Accepted USCIS answers: Out of many, one; We all become one.",
+    "image": "/questions/257d864fbde6b0cc.webp"
   },
   {
     "name": "A holiday to celebrate U.S. independence (from Britain)",
@@ -3085,13 +3457,16 @@
     "clue": "USCIS civics question 125: What is Independence Day?",
     "wrong_options": [
       {
-        "name": "Declaration of Independence"
+        "name": "Declaration of Independence",
+        "image": "/questions/38eca3c6a8c712e9.jpg"
       },
       {
-        "name": "Citizens in their (congressional) district"
+        "name": "Citizens in their (congressional) district",
+        "image": "/questions/8a59a3ab826d5f86.webp"
       }
     ],
-    "fact": "Accepted USCIS answers: A holiday to celebrate U.S. independence (from Britain); The country’s birthday."
+    "fact": "Accepted USCIS answers: A holiday to celebrate U.S. independence (from Britain); The country’s birthday.",
+    "image": "/questions/928eb944d92a8e06.jpg"
   },
   {
     "name": "New Year’s Day",
@@ -3099,13 +3474,16 @@
     "clue": "USCIS civics question 126: Name three national U.S. holidays.",
     "wrong_options": [
       {
-        "name": "So one part does not become too powerful"
+        "name": "So one part does not become too powerful",
+        "image": "/questions/92588343dc90ca59.jpg"
       },
       {
-        "name": "Citizens from their (congressional) district"
+        "name": "Citizens from their (congressional) district",
+        "image": "/questions/8a59a3ab826d5f86.webp"
       }
     ],
-    "fact": "Accepted USCIS answers: New Year’s Day; Martin Luther King, Jr. Day; Presidents Day (Washington’s Birthday); Memorial Day; Juneteenth; Independence Day; Labor Day; Columbus Day; Veterans Day; Thanksgiving Day; Christmas Day."
+    "fact": "Accepted USCIS answers: New Year’s Day; Martin Luther King, Jr. Day; Presidents Day (Washington’s Birthday); Memorial Day; Juneteenth; Independence Day; Labor Day; Columbus Day; Veterans Day; Thanksgiving Day; Christmas Day.",
+    "image": "/questions/5043e62f12933d82.jpg"
   },
   {
     "name": "A holiday to honor soldiers who died in military service",
@@ -3113,13 +3491,16 @@
     "clue": "USCIS civics question 127: What is Memorial Day?",
     "wrong_options": [
       {
-        "name": "Legislative, executive, and judicial"
+        "name": "Legislative, executive, and judicial",
+        "image": "/questions/42a5513bacc0e4db.png"
       },
       {
-        "name": "(Because of) the state’s population"
+        "name": "(Because of) the state’s population",
+        "image": "/questions/794fb3cca2962191.webp"
       }
     ],
-    "fact": "Accepted USCIS answer: A holiday to honor soldiers who died in military service."
+    "fact": "Accepted USCIS answer: A holiday to honor soldiers who died in military service.",
+    "image": "/questions/2e640ad3bc77e87b.jpg"
   },
   {
     "name": "A holiday to honor people in the (U.S.) military",
@@ -3127,13 +3508,16 @@
     "clue": "USCIS civics question 128: What is Veterans Day?",
     "wrong_options": [
       {
-        "name": "Executive branch"
+        "name": "Executive branch",
+        "image": "/questions/42a5513bacc0e4db.png"
       },
       {
-        "name": "Four (4) years"
+        "name": "Four (4) years",
+        "image": "/questions/88072a757c817e68.webp"
       }
     ],
-    "fact": "Accepted USCIS answers: A holiday to honor people in the (U.S.) military; A holiday to honor people who have served in the (U.S.) military."
+    "fact": "Accepted USCIS answers: A holiday to honor people in the (U.S.) military; A holiday to honor people who have served in the (U.S.) military.",
+    "image": "/questions/8a37f96c157ef246.jpg"
   },
   {
     "name": "Big Ben",
@@ -3181,7 +3565,7 @@
       },
       {
         "name": "Statue of Liberty",
-        "image": "/questions/f963bc5030600c6a.jpg"
+        "image": "/questions/3a5f5b5d9422cc8b.jpg"
       }
     ],
     "fact": "Christ the Redeemer was completed in 1931 and is one of Brazil’s most recognizable monuments."
@@ -3313,7 +3697,7 @@
     "wrong_options": [
       {
         "name": "Step Pyramid of Djoser",
-        "image": "/questions/9d7ce4719849cd36.jpg"
+        "image": "/questions/bea13b1ee62e3a0a.jpg"
       },
       {
         "name": "Pantheon",
@@ -3368,7 +3752,7 @@
       },
       {
         "name": "Step Pyramid of Djoser",
-        "image": "/questions/9d7ce4719849cd36.jpg"
+        "image": "/questions/bea13b1ee62e3a0a.jpg"
       }
     ],
     "fact": "The Pyramid of the Sun is one of the largest pyramids in the world and was built by the civilization of Teotihuacan."
@@ -3376,7 +3760,7 @@
   {
     "name": "Step Pyramid of Djoser",
     "category": "Landmarks",
-    "image": "/questions/9d7ce4719849cd36.jpg",
+    "image": "/questions/bea13b1ee62e3a0a.jpg",
     "clue": "This early Egyptian pyramid at Saqqara was designed for Pharaoh Djoser by the architect Imhotep.",
     "wrong_options": [
       {
@@ -3396,13 +3780,16 @@
     "clue": "This German composer wrote Symphony No. 9 after becoming almost completely deaf.",
     "wrong_options": [
       {
-        "name": "Wolfgang Amadeus Mozart"
+        "name": "Wolfgang Amadeus Mozart",
+        "image": "/questions/be6125104dcd680a.jpg"
       },
       {
-        "name": "Johann Sebastian Bach"
+        "name": "Johann Sebastian Bach",
+        "image": "/questions/ce1efe82e8996451.jpg"
       }
     ],
-    "fact": "Beethoven helped bridge the Classical and Romantic eras of Western music, and his Ninth Symphony includes the famous “Ode to Joy.”"
+    "fact": "Beethoven helped bridge the Classical and Romantic eras of Western music, and his Ninth Symphony includes the famous “Ode to Joy.”",
+    "image": "/questions/a88be515bd35561a.jpg"
   },
   {
     "name": "Wolfgang Amadeus Mozart",
@@ -3410,13 +3797,16 @@
     "clue": "This Austrian child prodigy composed The Magic Flute and Don Giovanni before dying at age 35.",
     "wrong_options": [
       {
-        "name": "Ludwig van Beethoven"
+        "name": "Ludwig van Beethoven",
+        "image": "/questions/a88be515bd35561a.jpg"
       },
       {
-        "name": "Franz Schubert"
+        "name": "Franz Schubert",
+        "image": "/questions/b233bb8f615eff0c.jpg"
       }
     ],
-    "fact": "Mozart composed more than 600 works, including operas, symphonies, concertos, and chamber music."
+    "fact": "Mozart composed more than 600 works, including operas, symphonies, concertos, and chamber music.",
+    "image": "/questions/be6125104dcd680a.jpg"
   },
   {
     "name": "Johann Sebastian Bach",
@@ -3424,13 +3814,16 @@
     "clue": "This Baroque composer is known for the Brandenburg Concertos, The Well-Tempered Clavier, and complex fugues.",
     "wrong_options": [
       {
-        "name": "George Frideric Handel"
+        "name": "George Frideric Handel",
+        "image": "/questions/06b210e818553171.jpg"
       },
       {
-        "name": "Antonio Vivaldi"
+        "name": "Antonio Vivaldi",
+        "image": "/questions/5563dee0c220d719.jpg"
       }
     ],
-    "fact": "Bach’s music is admired for its technical mastery, counterpoint, and deep influence on later composers."
+    "fact": "Bach’s music is admired for its technical mastery, counterpoint, and deep influence on later composers.",
+    "image": "/questions/ce1efe82e8996451.jpg"
   },
   {
     "name": "The Beatles",
@@ -3438,13 +3831,16 @@
     "clue": "This Liverpool band included John, Paul, George, and Ringo and became one of the most influential groups in popular music.",
     "wrong_options": [
       {
-        "name": "The Rolling Stones"
+        "name": "The Rolling Stones",
+        "image": "/questions/0484cead71e45f4c.jpg"
       },
       {
-        "name": "Queen"
+        "name": "Queen",
+        "image": "/questions/50503bb6e5d6d389.jpg"
       }
     ],
-    "fact": "The Beatles transformed pop and rock music during the 1960s with albums such as Revolver, Sgt. Pepper’s Lonely Hearts Club Band, and Abbey Road."
+    "fact": "The Beatles transformed pop and rock music during the 1960s with albums such as Revolver, Sgt. Pepper’s Lonely Hearts Club Band, and Abbey Road.",
+    "image": "/questions/39ed422a5606dfad.jpg"
   },
   {
     "name": "Michael Jackson",
@@ -3452,13 +3848,16 @@
     "clue": "This performer was known as the “King of Pop” and released Thriller, one of the best-selling albums of all time.",
     "wrong_options": [
       {
-        "name": "Prince"
+        "name": "Prince",
+        "image": "/questions/573092aa99aedd42.png"
       },
       {
-        "name": "Stevie Wonder"
+        "name": "Stevie Wonder",
+        "image": "/questions/78cde3bfe7f37498.jpg"
       }
     ],
-    "fact": "Michael Jackson became famous for his distinctive voice, elaborate music videos, and signature dance moves including the moonwalk."
+    "fact": "Michael Jackson became famous for his distinctive voice, elaborate music videos, and signature dance moves including the moonwalk.",
+    "image": "/questions/0a0c627a3b0f10f2.webp"
   },
   {
     "name": "Madonna",
@@ -3466,13 +3865,16 @@
     "clue": "This pop star became known as the “Queen of Pop” with hits like Like a Virgin, Vogue, and Like a Prayer.",
     "wrong_options": [
       {
-        "name": "Whitney Houston"
+        "name": "Whitney Houston",
+        "image": "/questions/8c5858ce2451263d.jpg"
       },
       {
-        "name": "Cyndi Lauper"
+        "name": "Cyndi Lauper",
+        "image": "/questions/1883aed52e8acb47.jpg"
       }
     ],
-    "fact": "Madonna is known for reinvention, visual style, and a long career that reshaped pop music and music videos."
+    "fact": "Madonna is known for reinvention, visual style, and a long career that reshaped pop music and music videos.",
+    "image": "/questions/a75443503c398521.jpg"
   },
   {
     "name": "Bob Marley",
@@ -3480,13 +3882,16 @@
     "clue": "This Jamaican musician helped popularize reggae worldwide with songs such as One Love and No Woman, No Cry.",
     "wrong_options": [
       {
-        "name": "Peter Tosh"
+        "name": "Peter Tosh",
+        "image": "/questions/34e573d247f7bf69.jpg"
       },
       {
-        "name": "Jimmy Cliff"
+        "name": "Jimmy Cliff",
+        "image": "/questions/eee3ea41ab0a5d85.jpg"
       }
     ],
-    "fact": "Bob Marley’s music brought reggae and Rastafari themes to a global audience."
+    "fact": "Bob Marley’s music brought reggae and Rastafari themes to a global audience.",
+    "image": "/questions/b8b153b510cd867b.jpg"
   },
   {
     "name": "Elvis Presley",
@@ -3494,13 +3899,16 @@
     "clue": "This singer from Tupelo, Mississippi became known as the “King of Rock and Roll.”",
     "wrong_options": [
       {
-        "name": "Chuck Berry"
+        "name": "Chuck Berry",
+        "image": "/questions/b72f4b2e1c345dea.jpg"
       },
       {
-        "name": "Little Richard"
+        "name": "Little Richard",
+        "image": "/questions/a35d9e826c7e25f3.jpg"
       }
     ],
-    "fact": "Elvis Presley blended country, blues, gospel, and rhythm and blues into a style that helped define early rock and roll."
+    "fact": "Elvis Presley blended country, blues, gospel, and rhythm and blues into a style that helped define early rock and roll.",
+    "image": "/questions/ebd05f83d63b2cc4.webp"
   },
   {
     "name": "Aretha Franklin",
@@ -3508,13 +3916,16 @@
     "clue": "This soul singer became famous for Respect and was known as the “Queen of Soul.”",
     "wrong_options": [
       {
-        "name": "Diana Ross"
+        "name": "Diana Ross",
+        "image": "/questions/970e02818e458a16.jpg"
       },
       {
-        "name": "Etta James"
+        "name": "Etta James",
+        "image": "/questions/fdaabf83e2617e97.jpg"
       }
     ],
-    "fact": "Aretha Franklin’s powerful voice and gospel roots made her one of the most celebrated singers in American music."
+    "fact": "Aretha Franklin’s powerful voice and gospel roots made her one of the most celebrated singers in American music.",
+    "image": "/questions/6ad92dbfc9353200.jpg"
   },
   {
     "name": "Queen",
@@ -3522,13 +3933,16 @@
     "clue": "This British rock band, fronted by Freddie Mercury, recorded Bohemian Rhapsody and We Will Rock You.",
     "wrong_options": [
       {
-        "name": "The Beatles"
+        "name": "The Beatles",
+        "image": "/questions/39ed422a5606dfad.jpg"
       },
       {
-        "name": "Led Zeppelin"
+        "name": "Led Zeppelin",
+        "image": "/questions/b4d057258e5a5c8a.jpg"
       }
     ],
-    "fact": "Queen became famous for theatrical performances, layered harmonies, and anthemic rock songs."
+    "fact": "Queen became famous for theatrical performances, layered harmonies, and anthemic rock songs.",
+    "image": "/questions/50503bb6e5d6d389.jpg"
   },
   {
     "name": "The Godfather",
@@ -3536,13 +3950,16 @@
     "clue": "This 1972 film follows the Corleone crime family and features Marlon Brando as Vito Corleone.",
     "wrong_options": [
       {
-        "name": "Goodfellas"
+        "name": "Goodfellas",
+        "image": "/questions/75ab900371cc38a1.jpg"
       },
       {
-        "name": "Scarface"
+        "name": "Scarface",
+        "image": "/questions/fb77b580a8cf0695.jpg"
       }
     ],
-    "fact": "The Godfather was directed by Francis Ford Coppola and is widely considered one of the greatest films ever made."
+    "fact": "The Godfather was directed by Francis Ford Coppola and is widely considered one of the greatest films ever made.",
+    "image": "/questions/8ed7c28157c4ef38.jpg"
   },
   {
     "name": "Star Wars: A New Hope",
@@ -3550,13 +3967,16 @@
     "clue": "This 1977 space opera introduced Luke Skywalker, Princess Leia, Han Solo, Darth Vader, and the Force.",
     "wrong_options": [
       {
-        "name": "Star Trek: The Motion Picture"
+        "name": "Star Trek: The Motion Picture",
+        "image": "/questions/4b58078267dac008.png"
       },
       {
-        "name": "Blade Runner"
+        "name": "Blade Runner",
+        "image": "/questions/c8b3ef1c6366792b.png"
       }
     ],
-    "fact": "Star Wars: A New Hope changed blockbuster filmmaking and launched one of cinema’s most famous franchises."
+    "fact": "Star Wars: A New Hope changed blockbuster filmmaking and launched one of cinema’s most famous franchises.",
+    "image": "/questions/078c4b83ed2f7406.jpg"
   },
   {
     "name": "Titanic",
@@ -3564,13 +3984,16 @@
     "clue": "This 1997 James Cameron film tells a fictional romance aboard a real ocean liner that sank in 1912.",
     "wrong_options": [
       {
-        "name": "Pearl Harbor"
+        "name": "Pearl Harbor",
+        "image": "/questions/7c9615b3a72315a9.jpg"
       },
       {
-        "name": "The Poseidon Adventure"
+        "name": "The Poseidon Adventure",
+        "image": "/questions/7fa908c89478a74a.jpg"
       }
     ],
-    "fact": "Titanic won 11 Academy Awards and became one of the highest-grossing films in history."
+    "fact": "Titanic won 11 Academy Awards and became one of the highest-grossing films in history.",
+    "image": "/questions/b009ee8a6e22c017.jpg"
   },
   {
     "name": "Jurassic Park",
@@ -3578,13 +4001,16 @@
     "clue": "This Steven Spielberg film imagines a theme park filled with cloned dinosaurs.",
     "wrong_options": [
       {
-        "name": "King Kong"
+        "name": "King Kong",
+        "image": "/questions/8a762d991311438a.png"
       },
       {
-        "name": "Godzilla"
+        "name": "Godzilla",
+        "image": "/questions/e33228a49cd5cdd7.jpg"
       }
     ],
-    "fact": "Jurassic Park was released in 1993 and became famous for its groundbreaking visual effects and animatronics."
+    "fact": "Jurassic Park was released in 1993 and became famous for its groundbreaking visual effects and animatronics.",
+    "image": "/questions/2596f1160fbe9edf.jpg"
   },
   {
     "name": "The Wizard of Oz",
@@ -3592,13 +4018,16 @@
     "clue": "This classic film follows Dorothy from Kansas to a magical land with a yellow brick road.",
     "wrong_options": [
       {
-        "name": "Mary Poppins"
+        "name": "Mary Poppins",
+        "image": "/questions/f36b55646fa03aaa.jpg"
       },
       {
-        "name": "Alice in Wonderland"
+        "name": "Alice in Wonderland",
+        "image": "/questions/9d24fbae36471f06.jpg"
       }
     ],
-    "fact": "The Wizard of Oz was released in 1939 and is remembered for its songs, Technicolor fantasy scenes, and iconic characters."
+    "fact": "The Wizard of Oz was released in 1939 and is remembered for its songs, Technicolor fantasy scenes, and iconic characters.",
+    "image": "/questions/371f929220e66d52.jpg"
   },
   {
     "name": "Casablanca",
@@ -3606,13 +4035,16 @@
     "clue": "This World War II-era romance stars Humphrey Bogart and Ingrid Bergman in a Moroccan nightclub setting.",
     "wrong_options": [
       {
-        "name": "Citizen Kane"
+        "name": "Citizen Kane",
+        "image": "/questions/cd87b2c99bc543d2.jpg"
       },
       {
-        "name": "Gone with the Wind"
+        "name": "Gone with the Wind",
+        "image": "/questions/3669d00ef3065754.jpg"
       }
     ],
-    "fact": "Casablanca won the Academy Award for Best Picture and is known for memorable lines and wartime atmosphere."
+    "fact": "Casablanca won the Academy Award for Best Picture and is known for memorable lines and wartime atmosphere.",
+    "image": "/questions/17b045fcce4ddedd.jpg"
   },
   {
     "name": "Black Panther",
@@ -3620,13 +4052,16 @@
     "clue": "This superhero film introduced many viewers to Wakanda and starred Chadwick Boseman as T’Challa.",
     "wrong_options": [
       {
-        "name": "Iron Man"
+        "name": "Iron Man",
+        "image": "/questions/b90c1cbcf7e3e50d.png"
       },
       {
-        "name": "Doctor Strange"
+        "name": "Doctor Strange",
+        "image": "/questions/d3ac935897da79e7.jpg"
       }
     ],
-    "fact": "Black Panther was released in 2018 and became a major cultural and commercial success for Marvel Studios."
+    "fact": "Black Panther was released in 2018 and became a major cultural and commercial success for Marvel Studios.",
+    "image": "/questions/cba13a9bd24a4d18.jpg"
   },
   {
     "name": "Spirited Away",
@@ -3634,13 +4069,16 @@
     "clue": "This Studio Ghibli film follows Chihiro into a mysterious spirit world after her parents are transformed.",
     "wrong_options": [
       {
-        "name": "My Neighbor Totoro"
+        "name": "My Neighbor Totoro",
+        "image": "/questions/3107df1639c43dac.jpg"
       },
       {
-        "name": "Princess Mononoke"
+        "name": "Princess Mononoke",
+        "image": "/questions/6c260842965d2b19.png"
       }
     ],
-    "fact": "Spirited Away was directed by Hayao Miyazaki and won the Academy Award for Best Animated Feature."
+    "fact": "Spirited Away was directed by Hayao Miyazaki and won the Academy Award for Best Animated Feature.",
+    "image": "/questions/10b6a522ee721537.png"
   },
   {
     "name": "Parasite",
@@ -3648,13 +4086,16 @@
     "clue": "This South Korean thriller about class conflict won the Academy Award for Best Picture in 2020.",
     "wrong_options": [
       {
-        "name": "Oldboy"
+        "name": "Oldboy",
+        "image": "/questions/623c24679b088bb2.jpg"
       },
       {
-        "name": "Train to Busan"
+        "name": "Train to Busan",
+        "image": "/questions/400c67edf03dc7fc.jpg"
       }
     ],
-    "fact": "Parasite was directed by Bong Joon Ho and became the first non-English-language film to win Best Picture at the Oscars."
+    "fact": "Parasite was directed by Bong Joon Ho and became the first non-English-language film to win Best Picture at the Oscars.",
+    "image": "/questions/bdfa73440bfbf0b7.jpg"
   },
   {
     "name": "Jaws",
@@ -3662,13 +4103,16 @@
     "clue": "This 1975 thriller about a great white shark threatening a beach town helped define the summer blockbuster.",
     "wrong_options": [
       {
-        "name": "Alien"
+        "name": "Alien",
+        "image": "/questions/6550066a71f83bcc.jpg"
       },
       {
-        "name": "The Birds"
+        "name": "The Birds",
+        "image": "/questions/3a3a8a9dfdc785e6.jpg"
       }
     ],
-    "fact": "Jaws was directed by Steven Spielberg and used suspenseful music by John Williams to build tension."
+    "fact": "Jaws was directed by Steven Spielberg and used suspenseful music by John Williams to build tension.",
+    "image": "/questions/76bb69200b2ed462.jpg"
   },
   {
     "name": "Friends",
@@ -3676,13 +4120,16 @@
     "clue": "This sitcom follows six friends living in New York City and often meeting at Central Perk.",
     "wrong_options": [
       {
-        "name": "Seinfeld"
+        "name": "Seinfeld",
+        "image": "/questions/4d9ad2a8e4a002d5.png"
       },
       {
-        "name": "How I Met Your Mother"
+        "name": "How I Met Your Mother",
+        "image": "/questions/234c05ef4b0983e6.png"
       }
     ],
-    "fact": "Friends aired from 1994 to 2004 and became one of the most recognizable sitcoms in television history."
+    "fact": "Friends aired from 1994 to 2004 and became one of the most recognizable sitcoms in television history.",
+    "image": "/questions/794ae15b6e0acf5b.png"
   },
   {
     "name": "The Office",
@@ -3690,13 +4137,16 @@
     "clue": "This mockumentary sitcom follows employees at the Scranton branch of Dunder Mifflin.",
     "wrong_options": [
       {
-        "name": "Parks and Recreation"
+        "name": "Parks and Recreation",
+        "image": "/questions/fad3c4cdc281c3d5.png"
       },
       {
-        "name": "30 Rock"
+        "name": "30 Rock",
+        "image": "/questions/ae4d49ac77d7094c.png"
       }
     ],
-    "fact": "The U.S. version of The Office starred Steve Carell as Michael Scott and popularized awkward workplace comedy."
+    "fact": "The U.S. version of The Office starred Steve Carell as Michael Scott and popularized awkward workplace comedy.",
+    "image": "/questions/b3770f2d6117fd1d.jpg"
   },
   {
     "name": "Game of Thrones",
@@ -3704,13 +4154,16 @@
     "clue": "This fantasy series features noble houses competing for the Iron Throne in Westeros.",
     "wrong_options": [
       {
-        "name": "The Witcher"
+        "name": "The Witcher",
+        "image": "/questions/6010683590aeab2a.jpg"
       },
       {
-        "name": "The Lord of the Rings: The Rings of Power"
+        "name": "The Lord of the Rings: The Rings of Power",
+        "image": "/questions/b6485118e32cc235.jpg"
       }
     ],
-    "fact": "Game of Thrones was based on George R. R. Martin’s A Song of Ice and Fire novels and became known for political intrigue and large-scale battles."
+    "fact": "Game of Thrones was based on George R. R. Martin’s A Song of Ice and Fire novels and became known for political intrigue and large-scale battles.",
+    "image": "/questions/03f4756660349eba.jpg"
   },
   {
     "name": "Breaking Bad",
@@ -3718,13 +4171,16 @@
     "clue": "This drama follows Walter White, a chemistry teacher who becomes involved in the methamphetamine trade.",
     "wrong_options": [
       {
-        "name": "Better Call Saul"
+        "name": "Better Call Saul",
+        "image": "/questions/9ad958e237da7f3a.png"
       },
       {
-        "name": "The Sopranos"
+        "name": "The Sopranos",
+        "image": "/questions/800c76bcefc26204.png"
       }
     ],
-    "fact": "Breaking Bad starred Bryan Cranston and Aaron Paul and is often praised for its writing, acting, and character transformation."
+    "fact": "Breaking Bad starred Bryan Cranston and Aaron Paul and is often praised for its writing, acting, and character transformation.",
+    "image": "/questions/ba99913008b81591.png"
   },
   {
     "name": "The Simpsons",
@@ -3732,13 +4188,16 @@
     "clue": "This animated series follows Homer, Marge, Bart, Lisa, and Maggie in the town of Springfield.",
     "wrong_options": [
       {
-        "name": "Family Guy"
+        "name": "Family Guy",
+        "image": "/questions/c93825763bcc7b55.png"
       },
       {
-        "name": "Futurama"
+        "name": "Futurama",
+        "image": "/questions/3c044c5267155e86.png"
       }
     ],
-    "fact": "The Simpsons became the longest-running American scripted primetime television series."
+    "fact": "The Simpsons became the longest-running American scripted primetime television series.",
+    "image": "/questions/d2a8604e0339fedd.png"
   },
   {
     "name": "Doctor Who",
@@ -3746,13 +4205,16 @@
     "clue": "This British science-fiction series follows a time-traveling alien known as the Doctor.",
     "wrong_options": [
       {
-        "name": "Star Trek"
+        "name": "Star Trek",
+        "image": "/questions/d0781ace79471b10.jpg"
       },
       {
-        "name": "The X-Files"
+        "name": "The X-Files",
+        "image": "/questions/1d7a07056d0f5d2d.png"
       }
     ],
-    "fact": "Doctor Who first aired in 1963 and is known for regeneration, the TARDIS, and long-running science-fiction storytelling."
+    "fact": "Doctor Who first aired in 1963 and is known for regeneration, the TARDIS, and long-running science-fiction storytelling.",
+    "image": "/questions/ec05c8f39365f8ce.png"
   },
   {
     "name": "The Crown",
@@ -3760,13 +4222,16 @@
     "clue": "This historical drama follows the reign of Queen Elizabeth II and the British royal family.",
     "wrong_options": [
       {
-        "name": "Downton Abbey"
+        "name": "Downton Abbey",
+        "image": "/questions/997b72a9c6d739d8.jpg"
       },
       {
-        "name": "Victoria"
+        "name": "Victoria",
+        "image": "/questions/fa83bb077439aef8.jpg"
       }
     ],
-    "fact": "The Crown dramatizes political, personal, and public events across decades of the British monarchy."
+    "fact": "The Crown dramatizes political, personal, and public events across decades of the British monarchy.",
+    "image": "/questions/19a986ec82ffad2e.webp"
   },
   {
     "name": "Stranger Things",
@@ -3774,13 +4239,16 @@
     "clue": "This science-fiction series begins with a missing boy, a girl called Eleven, and strange events in Hawkins, Indiana.",
     "wrong_options": [
       {
-        "name": "Dark"
+        "name": "Dark",
+        "image": "/questions/8fa9f7434ce80b1c.png"
       },
       {
-        "name": "The Umbrella Academy"
+        "name": "The Umbrella Academy",
+        "image": "/questions/d92b2ece9b9eebcd.jpg"
       }
     ],
-    "fact": "Stranger Things blends 1980s pop culture, supernatural mystery, friendship, and horror influences."
+    "fact": "Stranger Things blends 1980s pop culture, supernatural mystery, friendship, and horror influences.",
+    "image": "/questions/2532508d370b497d.png"
   },
   {
     "name": "Seinfeld",
@@ -3788,13 +4256,16 @@
     "clue": "This sitcom starring Jerry Seinfeld is often described as a show about nothing.",
     "wrong_options": [
       {
-        "name": "Friends"
+        "name": "Friends",
+        "image": "/questions/794ae15b6e0acf5b.png"
       },
       {
-        "name": "Frasier"
+        "name": "Frasier",
+        "image": "/questions/7b95186e31679be7.png"
       }
     ],
-    "fact": "Seinfeld aired from 1989 to 1998 and became influential for observational humor and everyday social conflicts."
+    "fact": "Seinfeld aired from 1989 to 1998 and became influential for observational humor and everyday social conflicts.",
+    "image": "/questions/4d9ad2a8e4a002d5.png"
   },
   {
     "name": "The Sopranos",
@@ -3802,12 +4273,525 @@
     "clue": "This HBO drama follows New Jersey mob boss Tony Soprano as he balances crime, family, and therapy.",
     "wrong_options": [
       {
-        "name": "Breaking Bad"
+        "name": "Breaking Bad",
+        "image": "/questions/ba99913008b81591.png"
       },
       {
-        "name": "Boardwalk Empire"
+        "name": "Boardwalk Empire",
+        "image": "/questions/5e31ac60298da7be.png"
       }
     ],
-    "fact": "The Sopranos helped define prestige television and is widely considered one of the greatest TV dramas."
+    "fact": "The Sopranos helped define prestige television and is widely considered one of the greatest TV dramas.",
+    "image": "/questions/800c76bcefc26204.png"
+  },
+  {
+    "name": "Louis Armstrong",
+    "category": "Music",
+    "clue": "This New Orleans trumpeter and singer nicknamed “Satchmo” recorded What a Wonderful World and helped make jazz internationally popular.",
+    "wrong_options": [
+      {
+        "name": "Miles Davis",
+        "image": "/questions/ba5dfe81722eb576.png"
+      },
+      {
+        "name": "Stevie Wonder",
+        "image": "/questions/78cde3bfe7f37498.jpg"
+      }
+    ],
+    "fact": "Louis Armstrong transformed jazz through his inventive trumpet solos, rhythmic phrasing, and instantly recognizable gravelly voice.",
+    "image": "/questions/b3c83db1f1c0d7a7.jpg"
+  },
+  {
+    "name": "David Bowie",
+    "category": "Music",
+    "clue": "This British artist created the Ziggy Stardust persona and repeatedly reinvented his sound and appearance across five decades.",
+    "wrong_options": [
+      {
+        "name": "Prince",
+        "image": "/questions/573092aa99aedd42.png"
+      },
+      {
+        "name": "Michael Jackson",
+        "image": "/questions/0a0c627a3b0f10f2.webp"
+      }
+    ],
+    "fact": "David Bowie moved through glam rock, soul, electronic music, and experimental pop while treating identity and performance as part of his art.",
+    "image": "/questions/b271b146b54d46c3.jpg"
+  },
+  {
+    "name": "Beyoncé",
+    "category": "Music",
+    "clue": "This singer rose to fame with Destiny’s Child before a solo career that produced Crazy in Love, Formation, and Lemonade.",
+    "wrong_options": [
+      {
+        "name": "Whitney Houston",
+        "image": "/questions/8c5858ce2451263d.jpg"
+      },
+      {
+        "name": "Madonna",
+        "image": "/questions/a75443503c398521.jpg"
+      }
+    ],
+    "fact": "Beyoncé is known for powerful vocals, detailed visual albums, complex live performances, and creative control over her music.",
+    "image": "/questions/c21008bcb24ba925.jpg"
+  },
+  {
+    "name": "Taylor Swift",
+    "category": "Music",
+    "clue": "This American singer-songwriter moved from country music into global pop with albums including Fearless, 1989, and Folklore.",
+    "wrong_options": [
+      {
+        "name": "Dolly Parton",
+        "image": "/questions/5142c11c01d75838.jpg"
+      },
+      {
+        "name": "Madonna",
+        "image": "/questions/a75443503c398521.jpg"
+      }
+    ],
+    "fact": "Taylor Swift’s autobiographical songwriting, genre changes, and rerecording project have made her one of the defining popular artists of her generation.",
+    "image": "/questions/d0071acf0ea2439a.png"
+  },
+  {
+    "name": "Prince",
+    "category": "Music",
+    "clue": "This Minneapolis multi-instrumentalist blended rock, funk, pop, and R&B on songs such as Purple Rain and When Doves Cry.",
+    "wrong_options": [
+      {
+        "name": "David Bowie",
+        "image": "/questions/b271b146b54d46c3.jpg"
+      },
+      {
+        "name": "Michael Jackson",
+        "image": "/questions/0a0c627a3b0f10f2.webp"
+      }
+    ],
+    "fact": "Prince wrote, produced, arranged, and performed much of his music himself and became a prominent advocate for artistic ownership.",
+    "image": "/questions/573092aa99aedd42.png"
+  },
+  {
+    "name": "Whitney Houston",
+    "category": "Music",
+    "clue": "This American vocalist recorded I Wanna Dance with Somebody and a celebrated version of I Will Always Love You.",
+    "wrong_options": [
+      {
+        "name": "Aretha Franklin",
+        "image": "/questions/6ad92dbfc9353200.jpg"
+      },
+      {
+        "name": "Beyoncé",
+        "image": "/questions/c21008bcb24ba925.jpg"
+      }
+    ],
+    "fact": "Whitney Houston combined gospel training, precise technique, and extraordinary range to become one of popular music’s most influential vocalists.",
+    "image": "/questions/8c5858ce2451263d.jpg"
+  },
+  {
+    "name": "Stevie Wonder",
+    "category": "Music",
+    "clue": "This Motown prodigy created Songs in the Key of Life and hits including Superstition and Signed, Sealed, Delivered.",
+    "wrong_options": [
+      {
+        "name": "Louis Armstrong",
+        "image": "/questions/b3c83db1f1c0d7a7.jpg"
+      },
+      {
+        "name": "Michael Jackson",
+        "image": "/questions/0a0c627a3b0f10f2.webp"
+      }
+    ],
+    "fact": "Stevie Wonder expanded the sound of soul and pop through songwriting, synthesizers, multi-instrumental performances, and socially engaged lyrics.",
+    "image": "/questions/78cde3bfe7f37498.jpg"
+  },
+  {
+    "name": "Nirvana",
+    "category": "Music",
+    "clue": "This Seattle-area trio led by Kurt Cobain brought grunge into the mainstream with Smells Like Teen Spirit and the album Nevermind.",
+    "wrong_options": [
+      {
+        "name": "The Beatles",
+        "image": "/questions/39ed422a5606dfad.jpg"
+      },
+      {
+        "name": "Queen",
+        "image": "/questions/50503bb6e5d6d389.jpg"
+      }
+    ],
+    "fact": "Nirvana paired punk energy and distorted guitars with strong pop melodies, reshaping mainstream rock in the early 1990s.",
+    "image": "/questions/549be71cefd72d50.jpg"
+  },
+  {
+    "name": "Dolly Parton",
+    "category": "Music",
+    "clue": "This country singer-songwriter wrote Jolene and I Will Always Love You and created the Dollywood theme park.",
+    "wrong_options": [
+      {
+        "name": "Taylor Swift",
+        "image": "/questions/d0071acf0ea2439a.png"
+      },
+      {
+        "name": "Aretha Franklin",
+        "image": "/questions/6ad92dbfc9353200.jpg"
+      }
+    ],
+    "fact": "Dolly Parton combined distinctive songwriting and business skill with philanthropy, including a major children’s literacy program.",
+    "image": "/questions/5142c11c01d75838.jpg"
+  },
+  {
+    "name": "Miles Davis",
+    "category": "Music",
+    "clue": "This American trumpeter led the landmark jazz albums Kind of Blue and Bitches Brew while repeatedly changing musical direction.",
+    "wrong_options": [
+      {
+        "name": "Louis Armstrong",
+        "image": "/questions/b3c83db1f1c0d7a7.jpg"
+      },
+      {
+        "name": "Stevie Wonder",
+        "image": "/questions/78cde3bfe7f37498.jpg"
+      }
+    ],
+    "fact": "Miles Davis played a central role in bebop, cool jazz, modal jazz, and jazz fusion through a career built on constant experimentation.",
+    "image": "/questions/ba5dfe81722eb576.png"
+  },
+  {
+    "name": "Citizen Kane",
+    "category": "Movies",
+    "clue": "This 1941 film begins with the word “Rosebud” and reconstructs the life of newspaper magnate Charles Foster Kane.",
+    "wrong_options": [
+      {
+        "name": "Casablanca",
+        "image": "/questions/17b045fcce4ddedd.jpg"
+      },
+      {
+        "name": "The Godfather",
+        "image": "/questions/8ed7c28157c4ef38.jpg"
+      }
+    ],
+    "fact": "Citizen Kane was directed by and starred Orson Welles and became renowned for deep-focus cinematography, nonlinear storytelling, and inventive sound.",
+    "image": "/questions/cd87b2c99bc543d2.jpg"
+  },
+  {
+    "name": "The Shawshank Redemption",
+    "category": "Movies",
+    "clue": "This prison drama follows banker Andy Dufresne and his friendship with fellow inmate Red over several decades.",
+    "wrong_options": [
+      {
+        "name": "Schindler's List",
+        "image": "/questions/f534b9fa9bbfeb82.jpg"
+      },
+      {
+        "name": "Pulp Fiction",
+        "image": "/questions/47f1aee0211c8039.jpg"
+      }
+    ],
+    "fact": "The Shawshank Redemption was adapted from a Stephen King novella and grew into a beloved film through home video, television, and word of mouth.",
+    "image": "/questions/9818b3f31e7f345c.jpg"
+  },
+  {
+    "name": "Pulp Fiction",
+    "category": "Movies",
+    "clue": "This Quentin Tarantino film interweaves Los Angeles crime stories involving Vincent Vega, Jules Winnfield, and Mia Wallace.",
+    "wrong_options": [
+      {
+        "name": "The Godfather",
+        "image": "/questions/8ed7c28157c4ef38.jpg"
+      },
+      {
+        "name": "The Shawshank Redemption",
+        "image": "/questions/9818b3f31e7f345c.jpg"
+      }
+    ],
+    "fact": "Pulp Fiction won the Palme d’Or and became influential for its nonlinear structure, stylized dialogue, dark humor, and eclectic soundtrack.",
+    "image": "/questions/47f1aee0211c8039.jpg"
+  },
+  {
+    "name": "The Lord of the Rings: The Fellowship of the Ring",
+    "category": "Movies",
+    "clue": "This fantasy epic begins Frodo Baggins’s journey to destroy the One Ring with companions from across Middle-earth.",
+    "wrong_options": [
+      {
+        "name": "Star Wars: A New Hope",
+        "image": "/questions/078c4b83ed2f7406.jpg"
+      },
+      {
+        "name": "The Matrix",
+        "image": "/questions/2349e013bb2b181e.png"
+      }
+    ],
+    "fact": "Peter Jackson filmed The Lord of the Rings trilogy in New Zealand, combining location work, miniatures, practical effects, and digital characters.",
+    "image": "/questions/264835ac8f25127a.jpg"
+  },
+  {
+    "name": "Toy Story",
+    "category": "Movies",
+    "clue": "This animated film follows toys Woody and Buzz Lightyear and was the first feature created entirely with computer animation.",
+    "wrong_options": [
+      {
+        "name": "The Wizard of Oz",
+        "image": "/questions/371f929220e66d52.jpg"
+      },
+      {
+        "name": "Spirited Away",
+        "image": "/questions/10b6a522ee721537.png"
+      }
+    ],
+    "fact": "Pixar’s Toy Story was released in 1995 and demonstrated that computer animation could sustain a feature-length story with emotional characters.",
+    "image": "/questions/e678b27d563d8895.jpg"
+  },
+  {
+    "name": "The Matrix",
+    "category": "Movies",
+    "clue": "This science-fiction film follows Neo as he discovers that ordinary reality is a simulation controlled by intelligent machines.",
+    "wrong_options": [
+      {
+        "name": "Star Wars: A New Hope",
+        "image": "/questions/078c4b83ed2f7406.jpg"
+      },
+      {
+        "name": "The Dark Knight",
+        "image": "/questions/22c2e4d164870d50.jpg"
+      }
+    ],
+    "fact": "The Matrix was written and directed by the Wachowskis and combined cyberpunk ideas, martial arts, philosophy, and the visual effect known as bullet time.",
+    "image": "/questions/2349e013bb2b181e.png"
+  },
+  {
+    "name": "Schindler's List",
+    "category": "Movies",
+    "clue": "This historical drama tells how German industrialist Oskar Schindler protected more than a thousand Jewish people during the Holocaust.",
+    "wrong_options": [
+      {
+        "name": "Titanic",
+        "image": "/questions/b009ee8a6e22c017.jpg"
+      },
+      {
+        "name": "Casablanca",
+        "image": "/questions/17b045fcce4ddedd.jpg"
+      }
+    ],
+    "fact": "Steven Spielberg filmed Schindler’s List primarily in black and white, and the film won seven Academy Awards including Best Picture.",
+    "image": "/questions/f534b9fa9bbfeb82.jpg"
+  },
+  {
+    "name": "Seven Samurai",
+    "category": "Movies",
+    "clue": "This Akira Kurosawa epic follows warriors hired to defend a farming village from bandits in sixteenth-century Japan.",
+    "wrong_options": [
+      {
+        "name": "The Godfather",
+        "image": "/questions/8ed7c28157c4ef38.jpg"
+      },
+      {
+        "name": "Parasite",
+        "image": "/questions/bdfa73440bfbf0b7.jpg"
+      }
+    ],
+    "fact": "Seven Samurai influenced action and ensemble storytelling worldwide and was directly reimagined as the western The Magnificent Seven.",
+    "image": "/questions/3bde2c6746bc4f89.png"
+  },
+  {
+    "name": "The Dark Knight",
+    "category": "Movies",
+    "clue": "This superhero crime film pits Christian Bale’s Batman against Heath Ledger’s Joker in Gotham City.",
+    "wrong_options": [
+      {
+        "name": "Black Panther",
+        "image": "/questions/cba13a9bd24a4d18.jpg"
+      },
+      {
+        "name": "The Matrix",
+        "image": "/questions/2349e013bb2b181e.png"
+      }
+    ],
+    "fact": "Christopher Nolan’s The Dark Knight combined comic-book characters with crime-thriller structure, and Heath Ledger received a posthumous Academy Award.",
+    "image": "/questions/22c2e4d164870d50.jpg"
+  },
+  {
+    "name": "Back to the Future",
+    "category": "Movies",
+    "clue": "This adventure sends teenager Marty McFly from 1985 to 1955 in a DeLorean time machine built by Doc Brown.",
+    "wrong_options": [
+      {
+        "name": "Jurassic Park",
+        "image": "/questions/2596f1160fbe9edf.jpg"
+      },
+      {
+        "name": "Star Wars: A New Hope",
+        "image": "/questions/078c4b83ed2f7406.jpg"
+      }
+    ],
+    "fact": "Back to the Future blends science fiction, comedy, and family history as Marty must ensure his parents meet before he can return home.",
+    "image": "/questions/664511203979c31d.jpg"
+  },
+  {
+    "name": "I Love Lucy",
+    "category": "TV Series",
+    "clue": "This 1950s sitcom stars Lucille Ball as a determined performer whose plans repeatedly create comic chaos.",
+    "wrong_options": [
+      {
+        "name": "Friends",
+        "image": "/questions/794ae15b6e0acf5b.png"
+      },
+      {
+        "name": "Seinfeld",
+        "image": "/questions/4d9ad2a8e4a002d5.png"
+      }
+    ],
+    "fact": "I Love Lucy helped establish the three-camera sitcom format and was preserved on high-quality film before a live studio audience.",
+    "image": "/questions/360557ccd3b41e51.webp"
+  },
+  {
+    "name": "The Twilight Zone",
+    "category": "TV Series",
+    "clue": "This anthology series created by Rod Serling used science fiction and fantasy to tell unsettling stories with famous twist endings.",
+    "wrong_options": [
+      {
+        "name": "The X-Files",
+        "image": "/questions/1d7a07056d0f5d2d.png"
+      },
+      {
+        "name": "Stranger Things",
+        "image": "/questions/2532508d370b497d.png"
+      }
+    ],
+    "fact": "The Twilight Zone explored prejudice, conformity, fear, and technology through self-contained episodes that often bypassed network-era taboos.",
+    "image": "/questions/f0088e43f58b90df.webp"
+  },
+  {
+    "name": "Star Trek",
+    "category": "TV Series",
+    "clue": "This science-fiction series follows Captain Kirk, Spock, and the USS Enterprise on a mission to explore strange new worlds.",
+    "wrong_options": [
+      {
+        "name": "Doctor Who",
+        "image": "/questions/ec05c8f39365f8ce.png"
+      },
+      {
+        "name": "The Twilight Zone",
+        "image": "/questions/f0088e43f58b90df.webp"
+      }
+    ],
+    "fact": "Star Trek first aired in 1966 and grew through syndication into a major franchise built around exploration, cooperation, and an optimistic future.",
+    "image": "/questions/d0781ace79471b10.jpg"
+  },
+  {
+    "name": "M*A*S*H",
+    "category": "TV Series",
+    "clue": "This comedy-drama follows doctors and nurses at a mobile Army surgical hospital during the Korean War.",
+    "wrong_options": [
+      {
+        "name": "The Office",
+        "image": "/questions/b3770f2d6117fd1d.jpg"
+      },
+      {
+        "name": "Friends",
+        "image": "/questions/794ae15b6e0acf5b.png"
+      }
+    ],
+    "fact": "M*A*S*H balanced comedy with the trauma and absurdity of war, and its 1983 finale became one of American television’s most-watched broadcasts.",
+    "image": "/questions/60f89ffcbdab7ec5.jpg"
+  },
+  {
+    "name": "The Wire",
+    "category": "TV Series",
+    "clue": "This Baltimore drama examines policing, the drug trade, ports, politics, schools, and journalism across five seasons.",
+    "wrong_options": [
+      {
+        "name": "The Sopranos",
+        "image": "/questions/800c76bcefc26204.png"
+      },
+      {
+        "name": "Breaking Bad",
+        "image": "/questions/ba99913008b81591.png"
+      }
+    ],
+    "fact": "Created by David Simon, The Wire uses a large ensemble to show how institutions shape individual choices and reproduce systemic failure.",
+    "image": "/questions/79c89dfe45317056.webp"
+  },
+  {
+    "name": "Mad Men",
+    "category": "TV Series",
+    "clue": "This drama follows advertising executive Don Draper and his colleagues on Madison Avenue during the 1960s.",
+    "wrong_options": [
+      {
+        "name": "The Crown",
+        "image": "/questions/19a986ec82ffad2e.webp"
+      },
+      {
+        "name": "Succession",
+        "image": "/questions/7066717af015d79f.jpg"
+      }
+    ],
+    "fact": "Mad Men uses the advertising business to explore identity, gender, work, consumer culture, and social change in 1960s America.",
+    "image": "/questions/ca6359d15663f3bb.jpg"
+  },
+  {
+    "name": "The X-Files",
+    "category": "TV Series",
+    "clue": "This science-fiction drama pairs FBI agents Fox Mulder and Dana Scully to investigate paranormal cases and government conspiracies.",
+    "wrong_options": [
+      {
+        "name": "Stranger Things",
+        "image": "/questions/2532508d370b497d.png"
+      },
+      {
+        "name": "The Twilight Zone",
+        "image": "/questions/f0088e43f58b90df.webp"
+      }
+    ],
+    "fact": "The X-Files combined standalone monster stories with a continuing alien-conspiracy mythology and became a defining genre series of the 1990s.",
+    "image": "/questions/1d7a07056d0f5d2d.png"
+  },
+  {
+    "name": "The Fresh Prince of Bel-Air",
+    "category": "TV Series",
+    "clue": "This sitcom stars Will Smith as a Philadelphia teenager sent to live with his wealthy relatives in Bel-Air.",
+    "wrong_options": [
+      {
+        "name": "Friends",
+        "image": "/questions/794ae15b6e0acf5b.png"
+      },
+      {
+        "name": "Seinfeld",
+        "image": "/questions/4d9ad2a8e4a002d5.png"
+      }
+    ],
+    "fact": "The Fresh Prince of Bel-Air mixed fish-out-of-water comedy with stories about family, class, race, identity, and growing up.",
+    "image": "/questions/e4f879cf54ef0186.webp"
+  },
+  {
+    "name": "Avatar: The Last Airbender",
+    "category": "TV Series",
+    "clue": "This animated fantasy follows Aang, the last Air Nomad, who must master four elements and end the Fire Nation’s war.",
+    "wrong_options": [
+      {
+        "name": "The Simpsons",
+        "image": "/questions/d2a8604e0339fedd.png"
+      },
+      {
+        "name": "Game of Thrones",
+        "image": "/questions/03f4756660349eba.jpg"
+      }
+    ],
+    "fact": "Avatar: The Last Airbender combines an episodic adventure with a carefully planned three-season story about responsibility, balance, and redemption.",
+    "image": "/questions/d85f58c2ebd46b5a.webp"
+  },
+  {
+    "name": "Succession",
+    "category": "TV Series",
+    "clue": "This HBO drama follows the Roy siblings as they compete to inherit control of their father’s global media company.",
+    "wrong_options": [
+      {
+        "name": "The Crown",
+        "image": "/questions/19a986ec82ffad2e.webp"
+      },
+      {
+        "name": "Mad Men",
+        "image": "/questions/ca6359d15663f3bb.jpg"
+      }
+    ],
+    "fact": "Succession blends family tragedy, corporate maneuvering, and dark comedy through the battle to control the fictional Waystar Royco.",
+    "image": "/questions/7066717af015d79f.jpg"
   }
 ]

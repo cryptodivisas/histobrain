@@ -1,42 +1,54 @@
 # History Brain
 
-A retro pixel-art trivia game that tests your historical knowledge across
-art, landmarks, events, documents, and iconic figures.
+A retro pixel-art trivia game covering landmarks, art, historical figures,
+events, documents, U.S. civics, music, movies, and television.
 
-- **Static-exportable Next.js 16 app** — every page prerendered at build time.
-- **Offline-friendly** — progress, achievements, settings all stored in
-  `localStorage`. No account, no tracking.
-- **Per-topic articles** — 84 hand-written topic pages at `/topics/<slug>`
-  backed by Markdown + YAML frontmatter.
+- **Four game modes** — Classic, deterministic Daily challenges, Category,
+  and Endless.
+- **Local player data** — progress, achievements, settings, daily streaks,
+  and high scores are stored in `localStorage`; no account or application
+  database is required.
+- **Topic library** — 308 topic pages at `/topics/<slug>`: 197 hand-written
+  Markdown articles plus 111 data-generated civics answer pages.
+- **Consent-aware services** — production includes Google Analytics 4 with
+  Consent Mode v2 and optional Google AdSense. Storage is denied by default
+  until the visitor grants consent.
+- **Hybrid rendering** — most routes are statically generated, while shared
+  score pages and their Open Graph images are rendered on demand.
 
 ## Tech Stack
 
-- **Next.js 16** (App Router, `output: "export"`, Turbopack)
+- **Next.js 16.2** (App Router, hybrid static/dynamic rendering, Turbopack)
 - **React 19**
 - **TypeScript**
 - **Tailwind CSS v4**
 - **remark + gray-matter** for topic content parsing
-- Self-hosted pixel fonts (`Press_Start_2P`, `VT323`)
+- `next/font` for the interface fonts and local font files for Open Graph images
 
 ## Project Structure
 
 ```
-content/topics/         # 84 Markdown topic articles (YAML frontmatter)
+content/topics/         # 197 Markdown topic articles (YAML frontmatter)
 public/questions/       # Local question images (hashed filenames)
 scripts/
+  fetch-images.mjs      # Fetch and localize Wikipedia/Wikimedia images
   normalize-topics.mjs  # Idempotent Markdown cleaner
 src/
   app/
     page.tsx            # The game itself (client component)
+    s/[code]/           # Dynamic shared-score page and OG image
     topics/[slug]/      # Dynamic topic pages, prerendered
     sitemap.ts          # Auto-generates sitemap.xml
     robots.ts           # Auto-generates robots.txt
     privacy/            # Privacy policy
   components/           # Modals, overlays, share UI
   data/
-    questions.json      # Question bank (name, image, clue, fact, options)
+    questions.json      # 287 questions across nine categories
   lib/
-    topics.ts           # Build-time markdown loader
+    topics.ts           # Markdown loader and generated-topic builder
+    profile.ts          # Local player profile and statistics
+    daily.ts            # Seeded daily challenge logic
+    share.ts            # Shared-score encoding and display helpers
     slug.ts             # Shared slugify rule (client + server safe)
     eras.ts             # Era / Wikipedia metadata
     categories.ts       # Question categories
@@ -53,15 +65,26 @@ npm run dev
 
 Open [http://localhost:3000](http://localhost:3000).
 
+If Turbopack has a local filesystem or CSS resolution problem, use Next.js's
+Webpack fallback:
+
+```bash
+npm run dev -- --webpack
+```
+
 ## Scripts
 
 | Command | What it does |
 |---|---|
 | `npm run dev` | Dev server with hot reload |
-| `npm run build` | Production build (static export) |
+| `npm run build` | Optimized hybrid production build |
 | `npm run start` | Serve the production build |
 | `npm run lint` | ESLint |
 | `npm run normalize:topics` | Clean up hand-written Markdown in `content/topics/` — fixes bullet spacing, adds `##` heading prefixes. Safe to re-run. |
+
+Run `node scripts/fetch-images.mjs` when question images need to be resolved
+and downloaded. It rewrites `src/data/questions.json`, so review the resulting
+data and assets before committing.
 
 ## Adding a Topic Article
 
@@ -95,17 +118,34 @@ Leonardo was a leading figure of the Italian Renaissance...
 Topics with names matching a question in `src/data/questions.json` will
 automatically pull in their question image as the hero.
 
+Questions in the Citizenship, Music, Movies, and TV Series categories receive
+concise generated topic pages when no hand-written Markdown file exists. A
+hand-written file always takes precedence.
+
 ## Environment Variables
 
 | Variable | Purpose | Default |
 |---|---|---|
 | `NEXT_PUBLIC_SITE_URL` | Origin used for canonical URLs, sitemap, OG tags | `https://histobrain.com` |
+| `NEXT_PUBLIC_ADSENSE_CLIENT_ID` | AdSense publisher ID; enables the production loader and populates `ads.txt` | Unset |
+| `VERCEL_URL` | Vercel-provided fallback origin for generated OG images | Unset |
 
 ## Deploy
 
-Because `output: "export"` is enabled, `npm run build` produces a fully
-static site in `out/` that can be served from any static host (Vercel,
-Netlify, Cloudflare Pages, S3, etc.).
+Run `npm run build` before deployment. The application requires a
+Next.js-compatible runtime for `/s/[code]` and its generated Open Graph image,
+so it is not a fully static `out/` export.
+
+Vercel works without additional routing configuration. Other platforms must
+support App Router static output and server-rendered routes. A plain static
+host cannot provide the dynamic score-sharing routes without redesigning or
+removing that feature.
+
+## Privacy
+
+Gameplay data remains in the visitor's browser. Production analytics and
+optional advertising use Google Consent Mode v2 with storage denied by
+default. Visitors can accept, reject, or reset consent from the privacy page.
 
 ## License
 

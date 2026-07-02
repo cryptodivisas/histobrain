@@ -2,6 +2,7 @@
 
 import { useState, useCallback, useEffect, useRef } from "react";
 import Image from "next/image";
+import Link from "next/link";
 import questionsData from "@/data/questions.json";
 import AnimatedNumber from "@/components/AnimatedNumber";
 import TimerBar from "@/components/TimerBar";
@@ -170,7 +171,7 @@ export default function Home() {
   // PNG share state
   const [pngSaving, setPngSaving] = useState(false);
 
-  const dailyNumber = useRef(getDailyNumber()).current;
+  const [dailyNumber] = useState(() => getDailyNumber());
 
   // ---------- Helpers ----------
 
@@ -294,16 +295,36 @@ export default function Home() {
   // ---------- Mount ----------
 
   useEffect(() => {
-    setMounted(true);
     initSound();
-    setMutedState(isMuted());
-    setProfile(loadProfile());
-    const s = loadSettings();
-    setSettings(s);
-    applyTheme(s.theme);
+    const loadedSettings = loadSettings();
+    applyTheme(loadedSettings.theme);
+
+    window.setTimeout(() => {
+      setMutedState(isMuted());
+      setProfile(loadProfile());
+      setSettings(loadedSettings);
+      setMounted(true);
+    }, 0);
   }, []);
 
   // ---------- Timer ----------
+
+  const handleTimeout = useCallback(() => {
+    if (revealed) return;
+    sfx.timeout();
+    setSelectedIndex(-1);
+    setRevealed(true);
+    setResults((r) => [...r, false]);
+    setCombo(0);
+    setShake("miss");
+    setTimeout(() => setShake(null), 400);
+    setGameState("answered");
+    // track profile
+    commitProfile((p) => ({
+      ...p,
+      totalAnswered: p.totalAnswered + 1,
+    }));
+  }, [commitProfile, revealed]);
 
   useEffect(() => {
     if (gameState !== "playing") return;
@@ -322,25 +343,7 @@ export default function Home() {
       }
     }, 100);
     return () => clearInterval(interval);
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [gameState, currentIndex]);
-
-  const handleTimeout = () => {
-    if (revealed) return;
-    sfx.timeout();
-    setSelectedIndex(-1);
-    setRevealed(true);
-    setResults((r) => [...r, false]);
-    setCombo(0);
-    setShake("miss");
-    setTimeout(() => setShake(null), 400);
-    setGameState("answered");
-    // track profile
-    commitProfile((p) => ({
-      ...p,
-      totalAnswered: p.totalAnswered + 1,
-    }));
-  };
+  }, [gameState, currentIndex, handleTimeout]);
 
   // ---------- Card click ----------
 
@@ -608,6 +611,21 @@ export default function Home() {
   const currentQuestion = questions[currentIndex];
   const multiplier = Math.min(5, 1 + Math.floor(combo / 2));
   const timerProgress = timeLeft / TIMER_MS;
+  const correctCount = results.filter(Boolean).length;
+  const gameCategory =
+    mode === "category" && questions.length > 0
+      ? categoryOf(questions[0].name)
+      : null;
+  const sharePayload: SharePayload = {
+    s: score,
+    r: mode === "endless" ? endlessRound : correctCount,
+    t: mode === "endless" ? 0 : results.length || CLASSIC_QUESTIONS,
+    m: mode,
+    b: bestCombo,
+    ...(gameCategory ? { c: gameCategory } : {}),
+    ...(mode === "endless" ? { er: endlessRound } : {}),
+    ...(mode === "daily" ? { dn: dailyNumber } : {}),
+  };
 
   const copyShare = async () => {
     const text = buildShareText({
@@ -802,7 +820,7 @@ export default function Home() {
                 onClick={() => setGameState("category-select")}
                 color="var(--hb-accent-3)"
                 label="> CATEGORY"
-                desc="Pick your area of expertise — Landmarks, Art, Figures, Events, Documents."
+                desc="Pick your area of expertise — Landmarks, Art, Figures, Events, Documents, Citizenship, Music, Movies, or TV Series."
                 shortcut="[C]"
               />
               <ModeCard
@@ -1226,29 +1244,10 @@ export default function Home() {
                   </button>
                 </>
               )}
-              {(() => {
-                const correct = results.filter(Boolean).length;
-                const gameCategory =
-                  mode === "category" && questions.length > 0
-                    ? categoryOf(questions[0].name)
-                    : null;
-                const payload: SharePayload = {
-                  s: score,
-                  r: mode === "endless" ? endlessRound : correct,
-                  t: mode === "endless" ? 0 : results.length || CLASSIC_QUESTIONS,
-                  m: mode,
-                  b: bestCombo,
-                  ...(gameCategory ? { c: gameCategory } : {}),
-                  ...(mode === "endless" ? { er: endlessRound } : {}),
-                  ...(mode === "daily" ? { dn: dailyNumber } : {}),
-                };
-                return (
-                  <ShareScoreButton
-                    payload={payload}
-                    onClick={() => sfx.click()}
-                  />
-                );
-              })()}
+              <ShareScoreButton
+                payload={sharePayload}
+                onClick={() => sfx.click()}
+              />
               <button
                 onClick={replayMode}
                 className="pixel-btn"
@@ -1270,15 +1269,15 @@ export default function Home() {
         <footer className="mt-6 sm:mt-8 text-[var(--hb-muted)] text-[10px] sm:text-xs tracking-widest flex flex-col items-center gap-3 text-center">
           <div>v4.0 · [1][2][3] PICK · [ENTER] NEXT · [M] MUTE · CFG THEME</div>
           <nav className="flex flex-wrap justify-center gap-x-3 gap-y-1">
-            <a href="/about" className="hover:text-[var(--hb-accent)] transition-colors">About</a>
+            <Link href="/about" className="hover:text-[var(--hb-accent)] transition-colors">About</Link>
             <span>·</span>
-            <a href="/how-it-works" className="hover:text-[var(--hb-accent)] transition-colors">How It Works</a>
+            <Link href="/how-it-works" className="hover:text-[var(--hb-accent)] transition-colors">How It Works</Link>
             <span>·</span>
-            <a href="/topics" className="hover:text-[var(--hb-accent)] transition-colors">Topics</a>
+            <Link href="/topics" className="hover:text-[var(--hb-accent)] transition-colors">Topics</Link>
             <span>·</span>
-            <a href="/contact" className="hover:text-[var(--hb-accent)] transition-colors">Contact</a>
+            <Link href="/contact" className="hover:text-[var(--hb-accent)] transition-colors">Contact</Link>
             <span>·</span>
-            <a href="/privacy" className="hover:text-[var(--hb-accent)] transition-colors">Privacy</a>
+            <Link href="/privacy" className="hover:text-[var(--hb-accent)] transition-colors">Privacy</Link>
           </nav>
           <div>
             © History Brain all right reserved - Created by{" "}

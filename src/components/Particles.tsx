@@ -37,32 +37,6 @@ export default function Particles({
     ? colors
     : ["#00ffa3", "#ffcc00", "#ff6ec7", "#b28cff", "#ffffff"];
 
-  useEffect(() => {
-    if (trigger === lastTriggerRef.current) return;
-    lastTriggerRef.current = trigger;
-    if (reduceMotion) return;
-
-    const cx = origin?.x ?? window.innerWidth / 2;
-    const cy = origin?.y ?? window.innerHeight / 2;
-
-    for (let i = 0; i < count; i++) {
-      const angle = Math.random() * Math.PI * 2;
-      const speed = 2 + Math.random() * 6;
-      particlesRef.current.push({
-        x: cx,
-        y: cy,
-        vx: Math.cos(angle) * speed,
-        vy: Math.sin(angle) * speed - 2,
-        life: 0,
-        maxLife: 40 + Math.floor(Math.random() * 30),
-        size: 4 + Math.floor(Math.random() * 6),
-        color: palette[Math.floor(Math.random() * palette.length)],
-      });
-    }
-    startLoop();
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [trigger, reduceMotion]);
-
   const startLoop = () => {
     const canvas = canvasRef.current;
     if (!canvas) return;
@@ -104,6 +78,32 @@ export default function Particles({
       rafRef.current = requestAnimationFrame(tick);
     }
   };
+
+  useEffect(() => {
+    if (trigger === lastTriggerRef.current) return;
+    lastTriggerRef.current = trigger;
+    if (reduceMotion) return;
+
+    const cx = origin?.x ?? window.innerWidth / 2;
+    const cy = origin?.y ?? window.innerHeight / 2;
+
+    for (let i = 0; i < count; i++) {
+      const angle = Math.random() * Math.PI * 2;
+      const speed = 2 + Math.random() * 6;
+      particlesRef.current.push({
+        x: cx,
+        y: cy,
+        vx: Math.cos(angle) * speed,
+        vy: Math.sin(angle) * speed - 2,
+        life: 0,
+        maxLife: 40 + Math.floor(Math.random() * 30),
+        size: 4 + Math.floor(Math.random() * 6),
+        color: palette[Math.floor(Math.random() * palette.length)],
+      });
+    }
+    startLoop();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [trigger, reduceMotion]);
 
   useEffect(() => {
     const onResize = () => {

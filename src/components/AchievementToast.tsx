@@ -9,21 +9,15 @@ interface Props {
 }
 
 export default function AchievementToast({ queue, onDismiss }: Props) {
-  const [current, setCurrent] = useState<string | null>(null);
+  const current = queue[0] ?? null;
   const [exiting, setExiting] = useState(false);
-
-  useEffect(() => {
-    if (current || queue.length === 0) return;
-    setCurrent(queue[0]);
-    setExiting(false);
-  }, [queue, current]);
 
   useEffect(() => {
     if (!current) return;
     const stayTimer = setTimeout(() => setExiting(true), 3200);
     const endTimer = setTimeout(() => {
       onDismiss(current);
-      setCurrent(null);
+      setExiting(false);
     }, 3700);
     return () => {
       clearTimeout(stayTimer);

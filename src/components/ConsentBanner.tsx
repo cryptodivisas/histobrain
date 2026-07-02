@@ -15,8 +15,10 @@ export default function ConsentBanner() {
   const [state, setState] = useState<null | "hidden" | "visible">(null);
 
   useEffect(() => {
-    const rec = readConsent();
-    setState(rec ? "hidden" : "visible");
+    window.setTimeout(() => {
+      const rec = readConsent();
+      setState(rec ? "hidden" : "visible");
+    }, 0);
 
     const onChange = (e: Event) => {
       const detail = (e as CustomEvent<ConsentRecord | null>).detail;

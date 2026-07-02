@@ -6,7 +6,9 @@
 //
 // Usage:
 //   node scripts/fetch-images.mjs
+//   node scripts/fetch-images.mjs "Star Trek" "Succession"
 //
+// Optional names limit the run to exact question/option names.
 // Safe to re-run: downloads are cached by URL hash.
 
 import { createHash } from "node:crypto";
@@ -54,6 +56,111 @@ const TITLE_OVERRIDES = {
   "Discus Thrower (Discobolus)": "Discobolus",
   "Assassination of Archduke Franz Ferdinand":
     "Assassination of Archduke Franz Ferdinand of Austria",
+  Prince: "Prince (musician)",
+  Nirvana: "Nirvana (band)",
+  "Star Trek": "William Shatner",
+  "M*A*S*H": "M*A*S*H (TV series)",
+  Succession: "Brian Cox (actor)",
+  "Answers will vary": "Flag of the United States",
+  "The President (of the United States)": "President of the United States",
+  "President (of the United States)": "President of the United States",
+  "(U.S.) Constitution": "Constitution of the United States",
+  "Required by law": "Law of the United States",
+  "The Civil War": "American Civil War",
+  "To stop the spread of communism": "Cold War",
+  "“Father of Our Country”": "George Washington",
+  "“Father of the Constitution”": "James Madison",
+  "(Battle of) Bunker Hill": "Battle of Bunker Hill",
+  "(Battle of) Fort Sumter": "Battle of Fort Sumter",
+  "(Because of) the 22nd Amendment":
+    "Twenty-second Amendment to the United States Constitution",
+  "(Because of) the state’s population": "United States census",
+  "(Because there is) one star for each state": "Flag of the United States",
+  "(Because there were) 13 original colonies": "Thirteen Colonies",
+  "(Bombing of) Pearl Harbor": "Attack on Pearl Harbor",
+  "(For) life": "Supreme Court of the United States",
+  "(Franklin) Roosevelt": "Franklin D. Roosevelt",
+  "(Global) War on Terror": "War on terror",
+  "(It states that the) powers not given to the federal government belong to the states or to the people.":
+    "Tenth Amendment to the United States Constitution",
+  "(James) Madison": "James Madison",
+  "(The basic) rights of Americans": "United States Bill of Rights",
+  "(Thomas) Jefferson": "Thomas Jefferson",
+  "(U.S.) Congress": "United States Congress",
+  "A holiday to celebrate U.S. independence (from Britain)":
+    "Independence Day (United States)",
+  "A holiday to honor people in the (U.S.) military": "Veterans Day",
+  "A holiday to honor soldiers who died in military service":
+    "Memorial Day",
+  "Advises the President (of the United States)": "Cabinet of the United States",
+  "After the Civil War": "Reconstruction era",
+  Amendments: "List of amendments to the United States Constitution",
+  "American Indians": "Native Americans in the United States",
+  Apache: "Geronimo",
+  "Attorney General": "United States Attorney General",
+  "Be born in the United States, under the conditions set by the 14th Amendment":
+    "Fourteenth Amendment to the United States Constitution",
+  "Because Germany attacked U.S. (civilian) ships":
+    "Unrestricted submarine warfare",
+  Capitalism: "New York Stock Exchange",
+  Citizens: "Citizenship of the United States",
+  "Citizens eighteen (18) and older (can vote).":
+    "Twenty-sixth Amendment to the United States Constitution",
+  "Citizens from their (congressional) district":
+    "United States House of Representatives",
+  "Citizens in their (congressional) district":
+    "United States House of Representatives",
+  "Citizens from their state": "United States Senate",
+  "Citizens of their state": "United States Senate",
+  Communism: "Karl Marx",
+  "Equal representation (for small states)": "Connecticut Compromise",
+  Equality: "Statue of Liberty",
+  "Everyone must follow the law.": "Rule of law",
+  "Executive branch": "Executive branch of the United States government",
+  "First Secretary of the Treasury": "Alexander Hamilton",
+  "Five (5)": "Supreme Court of the United States",
+  "Forms the government": "United States federal government",
+  "Fought for civil rights": "Martin Luther King Jr.",
+  "Fought to end racial discrimination": "Martin Luther King Jr.",
+  "Founded the first free public libraries": "Benjamin Franklin",
+  "Four (4) years": "President of the United States",
+  "Four hundred thirty-five (435)": "United States House of Representatives",
+  "Freed the slaves": "Emancipation Proclamation",
+  "Freed the slaves (Emancipation Proclamation)": "Emancipation Proclamation",
+  "General during World War II": "Dwight D. Eisenhower",
+  "Give up loyalty to other countries": "Oath of Allegiance (United States)",
+  "High taxes": "No taxation without representation",
+  "It decides who is elected president.": "Electoral College (United States)",
+  "It says America is free from British control.":
+    "United States Declaration of Independence",
+  "Legislative, executive, and judicial":
+    "Federal government of the United States",
+  "Longest economic recession in modern history": "Great Depression",
+  "New York (Harbor)": "New York Harbor",
+  "Nine (9)": "Supreme Court of the United States",
+  "One hundred (100)": "United States Senate",
+  "Print paper money": "Federal Reserve Note",
+  "Provide schooling and education": "Education in the United States",
+  Republic: "United States Capitol",
+  "Reviews laws": "Judicial review in the United States",
+  "Senate and House (of Representatives)": "United States Congress",
+  "Signs bills into law": "President of the United States",
+  "Six (6) years": "United States Senate",
+  "So one part does not become too powerful": "United States Capitol",
+  "Terrorists attacked the United States": "September 11 attacks",
+  "The Great Crash (1929)": "Wall Street Crash of 1929",
+  "The Vice President (of the United States)":
+    "Vice President of the United States",
+  "They helped people understand the (U.S.) Constitution.":
+    "The Federalist Papers",
+  "To be independent (of politics)": "Judicial independence",
+  "To force the Iraqi military from Kuwait": "Gulf War",
+  "To more closely follow public opinion": "United States House of Representatives",
+  "Twenty-seven (27)": "List of amendments to the United States Constitution",
+  "Two (2)": "United States Senate",
+  "Two (2) years": "United States House of Representatives",
+  "Writer of the Declaration of Independence": "Thomas Jefferson",
+  "Writes laws": "United States Congress",
 };
 
 // Direct thumbnail URLs for topics where the Wikipedia summary API returns no
@@ -111,7 +218,7 @@ async function fetchWithRetry(url, init = {}, maxAttempts = 5) {
 }
 
 async function resolveImageUrl(name) {
-  if (DIRECT_IMAGE_OVERRIDES[name]) return DIRECT_IMAGE_OVERRIDES[name];
+  if (DIRECT_IMAGE_OVERRIDES[name]) return [DIRECT_IMAGE_OVERRIDES[name]];
   const title = TITLE_OVERRIDES[name] ?? name;
   const api = `https://en.wikipedia.org/api/rest_v1/page/summary/${encodeURIComponent(
     title.replace(/ /g, "_")
@@ -131,26 +238,37 @@ async function resolveImageUrl(name) {
     /\/(\d{2,4})px-([^/]+)$/,
     (_, _w, file) => `/640px-${file}`
   );
-  return upscaled;
+  return upscaled === src ? [src] : [upscaled, src];
 }
 
-async function downloadImage(url) {
-  const slug = hashSlug(url);
-  for (const ext of [".jpg", ".jpeg", ".png", ".webp", ".gif", ".svg"]) {
-    const p = path.join(OUT_DIR, slug + ext);
-    if (await exists(p)) return `/questions/${slug}${ext}`;
+async function downloadImage(urls) {
+  for (const url of urls) {
+    const slug = hashSlug(url);
+    for (const ext of [".jpg", ".jpeg", ".png", ".webp", ".gif", ".svg"]) {
+      const p = path.join(OUT_DIR, slug + ext);
+      if (await exists(p)) return `/questions/${slug}${ext}`;
+    }
   }
-  const res = await fetchWithRetry(url, {
-    headers: {
-      Accept:
-        "image/avif,image/webp,image/png,image/jpeg,image/*;q=0.8,*/*;q=0.5",
-    },
-  });
-  const ext = extFromContentType(res.headers.get("content-type"));
-  const buf = Buffer.from(await res.arrayBuffer());
-  const filename = slug + ext;
-  await writeFile(path.join(OUT_DIR, filename), buf);
-  return `/questions/${filename}`;
+
+  let lastErr;
+  for (const url of urls) {
+    try {
+      const res = await fetchWithRetry(url, {
+        headers: {
+          Accept:
+            "image/avif,image/webp,image/png,image/jpeg,image/*;q=0.8,*/*;q=0.5",
+        },
+      });
+      const ext = extFromContentType(res.headers.get("content-type"));
+      const buf = Buffer.from(await res.arrayBuffer());
+      const filename = hashSlug(url) + ext;
+      await writeFile(path.join(OUT_DIR, filename), buf);
+      return `/questions/${filename}`;
+    } catch (err) {
+      lastErr = err;
+    }
+  }
+  throw lastErr;
 }
 
 function collectNames(questions) {
@@ -170,7 +288,10 @@ async function main() {
   const raw = await readFile(QUESTIONS_PATH, "utf8");
   const questions = JSON.parse(raw);
 
-  const names = collectNames(questions);
+  const requestedNames = new Set(process.argv.slice(2));
+  const names = collectNames(questions).filter(
+    (name) => requestedNames.size === 0 || requestedNames.has(name)
+  );
   console.log(`Resolving images for ${names.length} unique topic(s)…`);
 
   const nameToLocal = new Map();
