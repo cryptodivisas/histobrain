@@ -674,6 +674,13 @@ export default function Home() {
   if (!mounted || !profile) {
     return (
       <div className="min-h-screen flex items-center justify-center">
+        <div className="sr-only">
+          <h1>Play history. Learn every round.</h1>
+          <p>
+            Free browser trivia covering world history, art, civics, music,
+            movies, television, and more. No account or download required.
+          </p>
+        </div>
         <div
           className="text-[var(--hb-accent)] text-2xl tracking-widest animate-pulse"
           style={hf}
@@ -792,7 +799,60 @@ export default function Home() {
         {/* MENU */}
         {gameState === "menu" && (
           <div className="flex flex-col items-center gap-4 sm:gap-6 sm:mt-4 w-full animate-[fadeIn_0.5s_ease-out]">
-            <StatsPanel profile={profile} />
+            <section className="w-full max-w-4xl flex flex-col items-center gap-4 text-center py-2 sm:py-5">
+              <div
+                className="text-[10px] sm:text-xs text-[var(--hb-accent-2)] tracking-[0.2em]"
+                style={hf}
+              >
+                FREE HISTORY TRIVIA · NO ACCOUNT · NO DOWNLOAD
+              </div>
+              <h1
+                className="glitch-text text-[var(--hb-text)] text-2xl sm:text-5xl tracking-wider leading-tight"
+                style={hf}
+              >
+                PLAY HISTORY.
+                <span className="block text-[var(--hb-accent)]">
+                  LEARN EVERY ROUND.
+                </span>
+              </h1>
+              <p className="max-w-3xl text-[var(--hb-text)] text-lg sm:text-2xl leading-snug">
+                Follow the clue, pick the right image, and unlock the story
+                behind every answer across world history, art, civics, music,
+                movies, and more.
+              </p>
+              <div className="flex flex-col sm:flex-row gap-3 w-full sm:w-auto">
+                <button onClick={startClassic} className="pixel-btn">
+                  &gt; Play Classic Free
+                </button>
+                <button
+                  onClick={startDaily}
+                  className="pixel-btn"
+                  style={{
+                    background: "var(--hb-accent-2)",
+                    color: "var(--hb-bg)",
+                  }}
+                >
+                  &gt; Today&apos;s Challenge
+                </button>
+              </div>
+              <div className="flex flex-wrap justify-center gap-2 text-[10px] sm:text-xs tracking-widest">
+                {[
+                  `${questionsData.length} QUESTIONS`,
+                  "9 CATEGORIES",
+                  "DAILY CHALLENGE",
+                  "FACTS + ARTICLES",
+                ].map((item) => (
+                  <span
+                    key={item}
+                    className="border-2 border-[var(--hb-border)] bg-[var(--hb-panel)] px-3 py-2 text-[var(--hb-muted)]"
+                  >
+                    {item}
+                  </span>
+                ))}
+              </div>
+            </section>
+
+            {profile.gamesPlayed > 0 && <StatsPanel profile={profile} />}
 
             <h2
               className="glitch-text text-[var(--hb-accent)] text-xl sm:text-4xl tracking-widest text-center mt-2"
@@ -1280,7 +1340,7 @@ export default function Home() {
             <Link href="/privacy" className="hover:text-[var(--hb-accent)] transition-colors">Privacy</Link>
           </nav>
           <div>
-            © History Brain all right reserved - Created by{" "}
+            © History Brain. All rights reserved. Created by{" "}
             <a
               href="https://www.henrymontilla.com"
               target="_blank"

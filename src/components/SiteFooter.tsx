@@ -29,7 +29,7 @@ export function SiteFooter() {
         </Link>
       </nav>
       <div>
-        © History Brain all right reserved - Created by{" "}
+        © History Brain. All rights reserved. Created by{" "}
         <a
           href="https://www.henrymontilla.com"
           target="_blank"

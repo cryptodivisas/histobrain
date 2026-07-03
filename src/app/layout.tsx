@@ -21,15 +21,31 @@ const vt323 = VT323({
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: {
-    default: "History Brain — The Retro History Trivia Game",
+    default: "History Brain — Free History Trivia Game",
     template: "%s · History Brain",
   },
   description:
-    "Test your historical knowledge in History Brain, a pixel-art trivia game spanning art, landmarks, events, and iconic figures.",
+    "Play free history trivia in your browser—no account or download required. Explore 287 questions across world history, art, civics, music, movies, TV, and more.",
+  keywords: [
+    "history trivia",
+    "history quiz",
+    "free trivia game",
+    "educational history game",
+    "world history quiz",
+  ],
   openGraph: {
     type: "website",
     siteName: "History Brain",
     url: "/",
+    title: "History Brain — Free History Trivia Game",
+    description:
+      "Follow the clue, pick the right image, and learn the story behind every answer.",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "History Brain — Free History Trivia Game",
+    description:
+      "Play free history trivia in your browser. No account. No download.",
   },
 };
 
