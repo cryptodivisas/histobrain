@@ -11,6 +11,7 @@ import AchievementToast from "@/components/AchievementToast";
 import Particles from "@/components/Particles";
 import SettingsModal from "@/components/SettingsModal";
 import GameplayPreview from "@/components/GameplayPreview";
+import ChallengePreview from "@/components/ChallengePreview";
 import { ShareScoreButton } from "@/components/ShareScoreButton";
 import type { SharePayload } from "@/lib/share";
 import { initSound, sfx, isMuted, toggleMute } from "@/lib/sounds";
@@ -847,9 +848,9 @@ export default function Home() {
               <div className="flex flex-wrap justify-center gap-2 text-[10px] sm:text-xs tracking-widest">
                 {[
                   `${questionsData.length} QUESTIONS`,
+                  "308 ARTICLES",
                   "9 CATEGORIES",
-                  "DAILY CHALLENGE",
-                  "FACTS + ARTICLES",
+                  `DAILY #${dailyNumber}`,
                 ].map((item) => (
                   <span
                     key={item}
@@ -859,6 +860,13 @@ export default function Home() {
                   </span>
                 ))}
               </div>
+              <Link
+                href="/learn"
+                className="text-[var(--hb-accent)] text-xs tracking-widest hover:underline"
+                style={hf}
+              >
+                &gt; FOR STUDENTS, EDUCATORS &amp; CITIZENSHIP LEARNERS →
+              </Link>
             </section>
 
             {profile.gamesPlayed > 0 && <StatsPanel profile={profile} />}
@@ -906,6 +914,7 @@ export default function Home() {
               <span className="hidden sm:inline">[1][2][3] PICK · [ENTER] CONTINUE · [M] MUTE · [ESC] BACK</span>
             </div>
             <GameplayPreview />
+            <ChallengePreview dailyNumber={dailyNumber} onStart={startDaily} />
 
             <section aria-labelledby="how-to-play" className="w-full flex flex-col items-center gap-5 pt-7 sm:pt-10">
               <SectionHeading id="how-to-play" eyebrow="QUICK START" title="HOW TO PLAY" />
@@ -919,6 +928,7 @@ export default function Home() {
               </Link>
             </section>
 
+            <ResponsiveDisclosure label="Explore the archive">
             <section aria-labelledby="featured-topics" className="w-full flex flex-col items-center gap-5 pt-7 sm:pt-10">
               <SectionHeading id="featured-topics" eyebrow="GO BEYOND THE SCORE" title="EXPLORE THE ARCHIVE" />
               <p className="max-w-2xl text-center text-[var(--hb-text)] text-lg sm:text-xl leading-snug">
@@ -952,7 +962,9 @@ export default function Home() {
               </div>
               <Link href="/topics" className="pixel-btn">&gt; Browse All Topics</Link>
             </section>
+            </ResponsiveDisclosure>
 
+            <ResponsiveDisclosure label="Why History Brain">
             <section aria-labelledby="why-history-brain" className="w-full flex flex-col items-center gap-5 pt-7 sm:pt-10">
               <SectionHeading id="why-history-brain" eyebrow="BUILT FOR CURIOUS MINDS" title="PLAY WITH PURPOSE" />
               <div className="bg-[var(--hb-panel)] pixel-border p-5 sm:p-7 w-full grid grid-cols-1 md:grid-cols-3 gap-5">
@@ -961,11 +973,13 @@ export default function Home() {
                 <TrustPoint title="INDEPENDENTLY BUILT" text="Created and maintained by one developer, with sources and corrections openly explained." />
               </div>
               <div className="flex flex-wrap justify-center gap-x-5 gap-y-2 text-xs tracking-widest">
-                <Link href="/about" className="text-[var(--hb-accent)] hover:underline">&gt; ABOUT + SOURCES</Link>
+                <Link href="/editorial" className="text-[var(--hb-accent)] hover:underline">&gt; EDITORIAL STANDARD</Link>
                 <Link href="/contact" className="text-[var(--hb-accent)] hover:underline">&gt; REPORT A CORRECTION</Link>
               </div>
             </section>
+            </ResponsiveDisclosure>
 
+            <ResponsiveDisclosure label="Frequently asked questions" maxWidth>
             <section aria-labelledby="frequently-asked" className="w-full max-w-4xl flex flex-col items-center gap-5 pt-7 sm:pt-10">
               <SectionHeading id="frequently-asked" eyebrow="PLAYER INTEL" title="FREQUENTLY ASKED" />
               <div className="w-full flex flex-col gap-3">
@@ -980,6 +994,7 @@ export default function Home() {
                 ))}
               </div>
             </section>
+            </ResponsiveDisclosure>
           </div>
         )}
 
@@ -1419,6 +1434,10 @@ export default function Home() {
             <span>·</span>
             <Link href="/topics" className="hover:text-[var(--hb-accent)] transition-colors">Topics</Link>
             <span>·</span>
+            <Link href="/learn" className="hover:text-[var(--hb-accent)] transition-colors">Learn</Link>
+            <span>·</span>
+            <Link href="/editorial" className="hover:text-[var(--hb-accent)] transition-colors">Editorial</Link>
+            <span>·</span>
             <Link href="/contact" className="hover:text-[var(--hb-accent)] transition-colors">Contact</Link>
             <span>·</span>
             <Link href="/privacy" className="hover:text-[var(--hb-accent)] transition-colors">Privacy</Link>
@@ -1498,6 +1517,32 @@ function TrustPoint({ title, text }: { title: string; text: string }) {
     <div className="flex flex-col gap-2">
       <h3 className="text-[var(--hb-accent-2)] text-xs tracking-wider" style={hf}>&gt; {title}</h3>
       <p className="text-[var(--hb-text)] text-lg leading-snug">{text}</p>
+    </div>
+  );
+}
+
+function ResponsiveDisclosure({
+  label,
+  maxWidth = false,
+  children,
+}: {
+  label: string;
+  maxWidth?: boolean;
+  children: React.ReactNode;
+}) {
+  const id = `disclosure-${label.toLowerCase().replace(/[^a-z0-9]+/g, "-")}`;
+  return (
+    <div className={`hb-responsive-disclosure w-full ${maxWidth ? "max-w-4xl" : ""}`}>
+      <input id={id} type="checkbox" className="peer sr-only" />
+      <label
+        htmlFor={id}
+        className="sm:hidden bg-[var(--hb-panel)] pixel-border px-4 py-4 cursor-pointer text-[var(--hb-accent)] text-xs tracking-widest flex items-center justify-between gap-4"
+        style={hf}
+      >
+        <span>&gt; {label.toUpperCase()}</span>
+        <span aria-hidden="true">+</span>
+      </label>
+      <div className="hidden peer-checked:block sm:block">{children}</div>
     </div>
   );
 }

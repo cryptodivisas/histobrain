@@ -20,8 +20,16 @@ export function SiteFooter() {
           Topics
         </Link>
         <span>·</span>
+        <Link href="/learn" className="hover:text-[var(--hb-accent)] transition-colors">
+          Learn
+        </Link>
+        <span>·</span>
         <Link href="/contact" className="hover:text-[var(--hb-accent)] transition-colors">
           Contact
+        </Link>
+        <span>·</span>
+        <Link href="/editorial" className="hover:text-[var(--hb-accent)] transition-colors">
+          Editorial
         </Link>
         <span>·</span>
         <Link href="/privacy" className="hover:text-[var(--hb-accent)] transition-colors">

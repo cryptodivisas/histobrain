@@ -3,7 +3,7 @@ import { PageHeader } from "@/components/PageHeader";
 import { SiteFooter } from "@/components/SiteFooter";
 
 export const metadata: Metadata = {
-  title: "About · History Brain",
+  title: "About",
   description:
     "History Brain is a free pixel-art trivia game that teaches world history one image at a time. Learn about the people, places, events and documents that shaped our world.",
   alternates: { canonical: "/about" },

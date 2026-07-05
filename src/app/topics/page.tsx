@@ -15,7 +15,7 @@ import {
 const hf = { fontFamily: "var(--font-pixel-heading), monospace" };
 
 export const metadata: Metadata = {
-  title: "All Topics · History Brain",
+  title: "All Topics",
   description:
     "Browse the full History Brain library — landmarks, art, figures, events, documents, civics, music, movies, and TV series covered in the game, organized by category.",
   alternates: { canonical: "/topics" },

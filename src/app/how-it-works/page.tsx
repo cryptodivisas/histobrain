@@ -4,7 +4,7 @@ import { PageHeader } from "@/components/PageHeader";
 import { SiteFooter } from "@/components/SiteFooter";
 
 export const metadata: Metadata = {
-  title: "How It Works · History Brain",
+  title: "How It Works",
   description:
     "How to play History Brain: follow the clue, choose from three images, build combos, and learn from every answer.",
   alternates: { canonical: "/how-it-works" },

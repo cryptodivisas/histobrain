@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { CATEGORIES, CATEGORY_COLORS, type Category } from "@/lib/categories";
 
 export interface TopicExplorerItem {
@@ -16,9 +16,22 @@ export interface TopicExplorerItem {
 const hf = { fontFamily: "var(--font-pixel-heading), monospace" };
 const FILTERS = ["All", ...CATEGORIES, "Other"] as const;
 
-export default function TopicExplorer({ topics }: { topics: TopicExplorerItem[] }) {
+export default function TopicExplorer({
+  topics,
+}: {
+  topics: TopicExplorerItem[];
+}) {
   const [query, setQuery] = useState("");
   const [category, setCategory] = useState<(typeof FILTERS)[number]>("All");
+
+  useEffect(() => {
+    const timer = window.setTimeout(() => {
+      const requested = new URLSearchParams(window.location.search).get("category");
+      const match = FILTERS.find((filter) => filter === requested);
+      if (match) setCategory(match);
+    }, 0);
+    return () => window.clearTimeout(timer);
+  }, []);
 
   const visible = useMemo(() => {
     const normalized = query.trim().toLocaleLowerCase();

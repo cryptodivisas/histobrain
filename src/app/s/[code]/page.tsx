@@ -26,7 +26,7 @@ export async function generateMetadata({
   const payload = decodeShare(code);
   if (!payload) {
     return {
-      title: "Shared Score · History Brain",
+      title: "Shared Score",
       description: "A History Brain game result.",
       robots: { index: false, follow: false },
     };
@@ -34,7 +34,7 @@ export async function generateMetadata({
   const title = titleLine(payload);
   const description = summaryLine(payload);
   return {
-    title,
+    title: { absolute: title },
     description,
     alternates: { canonical: `/s/${code}` },
     openGraph: {

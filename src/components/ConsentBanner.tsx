@@ -45,7 +45,7 @@ export default function ConsentBanner() {
       role="dialog"
       aria-live="polite"
       aria-label="Cookie consent"
-      className="fixed inset-x-0 bottom-0 z-[70] flex justify-center p-2 sm:p-5 pointer-events-none"
+      className="relative z-[70] flex w-full justify-center p-2 pointer-events-none sm:fixed sm:inset-x-0 sm:bottom-0 sm:p-5"
     >
       <div
         className="pointer-events-auto w-full max-w-3xl bg-[var(--hb-panel)] pixel-border p-3 sm:p-5 flex flex-col gap-2 sm:gap-4"

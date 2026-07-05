@@ -32,6 +32,7 @@ export interface Topic extends TopicFrontmatter {
   /** Local /questions/<hash>.jpg image path if the topic exists in questions.json. */
   image: string | null;
   category?: Category;
+  updatedAt: string;
 }
 
 const CONTENT_DIR = path.join(process.cwd(), "content", "topics");
@@ -224,6 +225,7 @@ export async function getTopicBySlug(slug: string): Promise<Topic | null> {
       excerpt,
       image: NAME_TO_IMAGE[name] ?? null,
       category,
+      updatedAt: "2026-07-05T00:00:00.000Z",
     };
   }
 
@@ -242,6 +244,7 @@ export async function getTopicBySlug(slug: string): Promise<Topic | null> {
     contentHtml,
     excerpt,
     image,
+    updatedAt: fs.statSync(path.join(CONTENT_DIR, `${slug}.md`)).mtime.toISOString(),
   };
 }
 

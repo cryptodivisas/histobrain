@@ -3,7 +3,7 @@ import { PageHeader } from "@/components/PageHeader";
 import { SiteFooter } from "@/components/SiteFooter";
 
 export const metadata: Metadata = {
-  title: "Contact · History Brain",
+  title: "Contact",
   description:
     "Get in touch with History Brain. Report a factual error, suggest a topic, or reach out about the project.",
   alternates: { canonical: "/contact" },

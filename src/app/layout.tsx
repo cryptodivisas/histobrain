@@ -60,8 +60,8 @@ export default function RootLayout({
       className={`${pressStart.variable} ${vt323.variable} h-full`}
     >
       <body className="min-h-full flex flex-col">
-        {children}
         <ConsentBanner />
+        {children}
         <GoogleAnalytics />
         <GoogleAdsense />
       </body>

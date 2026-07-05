@@ -92,7 +92,7 @@ export function ShareScoreButton({ payload, onClick }: Props) {
       ? "> Link Copied!"
       : state === "error"
       ? "> Try Again"
-      : "> Share Score";
+      : "> Challenge a Friend";
 
   return (
     <button

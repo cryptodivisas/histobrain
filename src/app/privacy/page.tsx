@@ -5,7 +5,7 @@ import { SiteFooter } from "@/components/SiteFooter";
 import ManageConsent from "@/components/ManageConsent";
 
 export const metadata: Metadata = {
-  title: "Privacy Policy · History Brain",
+  title: "Privacy Policy",
   description: "How History Brain handles your data, cookies, and advertising.",
   alternates: { canonical: "/privacy" },
 };

@@ -30,23 +30,24 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { slug } = await params;
   const topic = await getTopicBySlug(slug);
-  if (!topic) return { title: "Topic not found · History Brain" };
+  if (!topic) return { title: "Topic not found" };
 
   const description = topic.excerpt;
-  const title = `${topic.title} · History Brain`;
+  const title = topic.title;
+  const socialTitle = `${topic.title} · History Brain`;
 
   return {
     title,
     description,
     openGraph: {
-      title,
+      title: socialTitle,
       description,
       type: "article",
       images: topic.image ? [{ url: topic.image }] : undefined,
     },
     twitter: {
       card: "summary_large_image",
-      title,
+      title: socialTitle,
       description,
       images: topic.image ? [topic.image] : undefined,
     },
@@ -76,9 +77,11 @@ export default async function TopicPage({
     headline: topic.title,
     description: topic.excerpt,
     image: topic.image ? [topic.image] : undefined,
+    dateModified: topic.updatedAt,
     author: {
-      "@type": "Organization",
-      name: "History Brain",
+      "@type": "Person",
+      name: "Henry Montilla",
+      url: "https://www.henrymontilla.com",
     },
     publisher: {
       "@type": "Organization",
@@ -163,12 +166,50 @@ export default async function TopicPage({
                 {topic.summary}
               </p>
             )}
+            <div className="flex flex-wrap gap-x-4 gap-y-1 text-sm text-[var(--hb-muted)]">
+              <span>
+                Written and maintained by{" "}
+                <a
+                  href="https://www.henrymontilla.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-[var(--hb-accent)] hover:underline"
+                >
+                  Henry Montilla
+                </a>
+              </span>
+              <span>
+                Page updated{" "}
+                <time dateTime={topic.updatedAt}>
+                  {new Intl.DateTimeFormat("en-US", {
+                    year: "numeric",
+                    month: "long",
+                    day: "numeric",
+                    timeZone: "UTC",
+                  }).format(new Date(topic.updatedAt))}
+                </time>
+              </span>
+            </div>
           </div>
 
           <div
             className="topic-body text-base leading-relaxed flex flex-col gap-4"
             dangerouslySetInnerHTML={{ __html: topic.contentHtml }}
           />
+
+          <aside className="bg-[var(--hb-bg)] border-2 border-[var(--hb-border)] p-4 flex flex-col gap-2">
+            <h2 className="text-[var(--hb-accent-2)] text-xs tracking-widest" style={hf}>
+              &gt; SOURCES &amp; EDITORIAL NOTE
+            </h2>
+            <p className="text-base leading-relaxed">
+              History Brain prioritizes primary records, museums, archives, and
+              established reference works. This page may summarize several
+              references rather than cite every sentence individually.
+            </p>
+            <Link href="/editorial" className="text-[var(--hb-accent)] text-xs tracking-widest hover:underline" style={hf}>
+              REVIEW OUR RESEARCH STANDARD →
+            </Link>
+          </aside>
 
           <div className="flex flex-col sm:flex-row gap-3 pt-4 border-t-2 border-[var(--hb-border)]">
             <Link href="/" className="pixel-btn flex-1 text-center">
