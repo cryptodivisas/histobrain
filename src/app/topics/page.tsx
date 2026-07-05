@@ -1,19 +1,15 @@
-import Image from "next/image";
 import Link from "next/link";
 import type { Metadata } from "next";
 
 import { PageHeader } from "@/components/PageHeader";
 import { SiteFooter } from "@/components/SiteFooter";
+import TopicExplorer, { type TopicExplorerItem } from "@/components/TopicExplorer";
 import {
   getAllTopics,
   nameForSlug,
-  type Topic,
 } from "@/lib/topics";
 import {
   categoryOf,
-  CATEGORIES,
-  CATEGORY_COLORS,
-  type Category,
 } from "@/lib/categories";
 
 const hf = { fontFamily: "var(--font-pixel-heading), monospace" };
@@ -26,26 +22,23 @@ export const metadata: Metadata = {
 };
 
 const UNCATEGORIZED = "Other" as const;
-type Bucket = Category | typeof UNCATEGORIZED;
 
 export default async function TopicsIndexPage() {
   const topics = await getAllTopics();
 
-  // Bucket by category.
-  const buckets = Object.fromEntries(
-    [...CATEGORIES, UNCATEGORIZED].map((category) => [category, [] as Topic[]])
-  ) as Record<Bucket, Topic[]>;
-  for (const t of topics) {
-    const name = nameForSlug(t.slug);
-    const cat = t.category ?? (name ? categoryOf(name) : null);
-    buckets[cat ?? UNCATEGORIZED].push(t);
-  }
-  for (const key of Object.keys(buckets) as Bucket[]) {
-    buckets[key].sort((a, b) => a.title.localeCompare(b.title));
-  }
-
-  const order: Bucket[] = [...CATEGORIES, UNCATEGORIZED];
   const totalTopics = topics.length;
+  const explorerTopics: TopicExplorerItem[] = topics
+    .map((topic) => {
+      const name = nameForSlug(topic.slug);
+      return {
+        slug: topic.slug,
+        title: topic.title,
+        era: topic.era,
+        image: topic.image,
+        category: topic.category ?? (name ? categoryOf(name) : null) ?? UNCATEGORIZED,
+      };
+    })
+    .sort((a, b) => a.title.localeCompare(b.title));
 
   return (
     <div className="min-h-screen flex flex-col items-center px-4 py-10 pixel-font">
@@ -75,74 +68,7 @@ export default async function TopicsIndexPage() {
           </p>
         </div>
 
-        {order.map((bucket) => {
-          const list = buckets[bucket];
-          if (list.length === 0) return null;
-          const color =
-            bucket === UNCATEGORIZED
-              ? "var(--hb-muted)"
-              : CATEGORY_COLORS[bucket];
-          return (
-            <section key={bucket} className="flex flex-col gap-4">
-              <div className="flex items-center gap-3">
-                <h2
-                  className="text-sm tracking-widest"
-                  style={{ ...hf, color }}
-                >
-                  &gt; {bucket.toUpperCase()}
-                </h2>
-                <span
-                  className="text-xs tracking-widest text-[var(--hb-muted)]"
-                  style={hf}
-                >
-                  ({list.length})
-                </span>
-                <div
-                  className="flex-1 h-px opacity-40"
-                  style={{ background: color }}
-                />
-              </div>
-              <ul className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-3">
-                {list.map((t) => (
-                  <li key={t.slug}>
-                    <Link
-                      href={`/topics/${t.slug}`}
-                      className="group block bg-[var(--hb-panel)] pixel-border overflow-hidden hover:border-[var(--hb-accent)] transition-colors h-full"
-                    >
-                      {t.image && (
-                        <div className="relative w-full aspect-[4/3]">
-                          <Image
-                            src={t.image}
-                            alt=""
-                            fill
-                            className="object-cover"
-                            sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 25vw"
-                          />
-                        </div>
-                      )}
-                      <div className="p-3">
-                        <p
-                          className="text-xs tracking-widest text-[var(--hb-accent)] group-hover:text-[var(--hb-accent-2)] transition-colors"
-                          style={hf}
-                        >
-                          {t.title.toUpperCase()}
-                        </p>
-                        {t.era && (
-                          <p
-                            className="mt-1 text-[10px] tracking-widest text-[var(--hb-muted)]"
-                            style={hf}
-                          >
-                            {t.era}
-                          </p>
-                        )}
-                      </div>
-                    </Link>
-                  </li>
-                ))}
-              </ul>
-            </section>
-          );
-        })}
+        <TopicExplorer topics={explorerTopics} />
 
         <SiteFooter />
       </div>

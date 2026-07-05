@@ -20,11 +20,15 @@ const DEFAULT_SETTINGS: Settings = {
   reduceMotion: false,
 };
 
+export function defaultSettings(): Settings {
+  return { ...DEFAULT_SETTINGS };
+}
+
 export function loadSettings(): Settings {
-  if (typeof window === "undefined") return { ...DEFAULT_SETTINGS };
+  if (typeof window === "undefined") return defaultSettings();
   try {
     const raw = localStorage.getItem(KEY);
-    if (!raw) return { ...DEFAULT_SETTINGS };
+    if (!raw) return defaultSettings();
     const parsed = { ...DEFAULT_SETTINGS, ...JSON.parse(raw) } as Settings;
     // Sanitize: migrate unknown / legacy theme IDs (e.g. "parchment") to default
     if (!VALID_THEMES.includes(parsed.theme)) {
@@ -32,7 +36,7 @@ export function loadSettings(): Settings {
     }
     return parsed;
   } catch {
-    return { ...DEFAULT_SETTINGS };
+    return defaultSettings();
   }
 }
 

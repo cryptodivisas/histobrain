@@ -10,6 +10,7 @@ import StatsPanel from "@/components/StatsPanel";
 import AchievementToast from "@/components/AchievementToast";
 import Particles from "@/components/Particles";
 import SettingsModal from "@/components/SettingsModal";
+import GameplayPreview from "@/components/GameplayPreview";
 import { ShareScoreButton } from "@/components/ShareScoreButton";
 import type { SharePayload } from "@/lib/share";
 import { initSound, sfx, isMuted, toggleMute } from "@/lib/sounds";
@@ -29,6 +30,7 @@ import {
 } from "@/lib/categories";
 import {
   loadProfile,
+  defaultProfile,
   updateProfile,
   updateDailyStreak,
   resetProfile,
@@ -39,6 +41,7 @@ import { evaluateUnlocks } from "@/lib/achievements";
 import { applyTheme, type ThemeId } from "@/lib/themes";
 import {
   loadSettings,
+  defaultSettings,
   updateSettings,
   type Settings,
 } from "@/lib/settings";
@@ -165,7 +168,6 @@ export default function Home() {
   const [options, setOptions] = useState<Option[]>([]);
   const [selectedIndex, setSelectedIndex] = useState<number | null>(null);
   const [revealed, setRevealed] = useState(false);
-  const [mounted, setMounted] = useState(false);
   const [muted, setMutedState] = useState(false);
   const [shake, setShake] = useState<null | "hit" | "miss">(null);
   const [shareCopied, setShareCopied] = useState(false);
@@ -181,12 +183,12 @@ export default function Home() {
   const endlessUsedRef = useRef<Set<string>>(new Set());
 
   // Profile + achievements
-  const [profile, setProfile] = useState<Profile | null>(null);
+  const [profile, setProfile] = useState<Profile>(defaultProfile);
   const [achievementQueue, setAchievementQueue] = useState<string[]>([]);
   const fastestMsThisGameRef = useRef<number | null>(null);
 
   // Settings / theme
-  const [settings, setSettings] = useState<Settings | null>(null);
+  const [settings, setSettings] = useState<Settings>(defaultSettings);
   const [settingsOpen, setSettingsOpen] = useState(false);
 
   // Particles
@@ -330,7 +332,6 @@ export default function Home() {
       setMutedState(isMuted());
       setProfile(loadProfile());
       setSettings(loadedSettings);
-      setMounted(true);
     }, 0);
   }, []);
 
@@ -594,6 +595,8 @@ export default function Home() {
   useEffect(() => {
     const handler = (e: KeyboardEvent) => {
       if (e.repeat) return;
+      const target = e.target as HTMLElement | null;
+      if (target?.closest("button, a, input, summary")) return;
       const k = e.key.toLowerCase();
       if (k === "m") {
         onToggleMute();
@@ -698,27 +701,6 @@ export default function Home() {
 
   // ---------- Render ----------
 
-  if (!mounted || !profile) {
-    return (
-      <div className="min-h-screen flex items-center justify-center">
-        <HomeStructuredData />
-        <div className="sr-only">
-          <h1>Play history. Learn every round.</h1>
-          <p>
-            Free browser trivia covering world history, art, civics, music,
-            movies, television, and more. No account or download required.
-          </p>
-        </div>
-        <div
-          className="text-[var(--hb-accent)] text-2xl tracking-widest animate-pulse"
-          style={hf}
-        >
-          BOOTING...
-        </div>
-      </div>
-    );
-  }
-
   return (
     <div
       className={`min-h-screen flex flex-col items-center px-3 py-3 sm:px-4 sm:py-6 pixel-font ${
@@ -731,10 +713,9 @@ export default function Home() {
         trigger={particleTrigger}
         origin={particleOrigin}
         colors={particleColors}
-        reduceMotion={settings?.reduceMotion ?? false}
+        reduceMotion={settings.reduceMotion}
       />
-      {settings && (
-        <SettingsModal
+      <SettingsModal
           open={settingsOpen}
           onClose={() => setSettingsOpen(false)}
           profile={profile}
@@ -743,7 +724,6 @@ export default function Home() {
           onToggleMotion={onToggleMotion}
           onResetProgress={onResetProgress}
         />
-      )}
 
       <div className="w-full max-w-6xl flex flex-col items-center gap-4 sm:gap-6">
         {/* HEADER */}
@@ -925,6 +905,8 @@ export default function Home() {
               <span className="sm:hidden">TAP A CARD · CFG THEME · SFX TOGGLE</span>
               <span className="hidden sm:inline">[1][2][3] PICK · [ENTER] CONTINUE · [M] MUTE · [ESC] BACK</span>
             </div>
+            <GameplayPreview />
+
             <section aria-labelledby="how-to-play" className="w-full flex flex-col items-center gap-5 pt-7 sm:pt-10">
               <SectionHeading id="how-to-play" eyebrow="QUICK START" title="HOW TO PLAY" />
               <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 sm:gap-5 w-full">

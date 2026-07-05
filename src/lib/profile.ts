@@ -38,15 +38,24 @@ const DEFAULT_PROFILE: Profile = {
   lastDailyKey: null,
 };
 
+export function defaultProfile(): Profile {
+  return {
+    ...DEFAULT_PROFILE,
+    seenCategories: [],
+    dailiesCompleted: [],
+    unlockedAchievements: [],
+  };
+}
+
 export function loadProfile(): Profile {
-  if (typeof window === "undefined") return { ...DEFAULT_PROFILE };
+  if (typeof window === "undefined") return defaultProfile();
   try {
     const raw = localStorage.getItem(KEY);
-    if (!raw) return { ...DEFAULT_PROFILE };
+    if (!raw) return defaultProfile();
     const parsed = JSON.parse(raw);
     return { ...DEFAULT_PROFILE, ...parsed };
   } catch {
-    return { ...DEFAULT_PROFILE };
+    return defaultProfile();
   }
 }
 
