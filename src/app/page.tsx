@@ -45,6 +45,7 @@ import {
 import { eraOf } from "@/lib/eras";
 import { slugify } from "@/lib/slug";
 import { generateShareCard, downloadBlob } from "@/lib/shareCard";
+import { SITE_URL } from "@/lib/site";
 
 interface Option {
   name: string;
@@ -70,6 +71,32 @@ const TIMER_MS = 20000;
 const MAX_SPEED_BONUS = 50;
 
 const hf = { fontFamily: "var(--font-pixel-heading), monospace" };
+const FEATURED_TOPICS = [
+  { name: "Apollo 11 Moon Landing", category: "Events", image: "/questions/0719509d0e2e4b8f.jpg" },
+  { name: "Mona Lisa", category: "Art", image: "/questions/15f79d9238e4d37b.jpg" },
+  { name: "US Constitution", category: "Citizenship", image: "/questions/cadc4d587dbdd155.jpg" },
+  { name: "Bob Marley", category: "Music", image: "/questions/b8b153b510cd867b.jpg" },
+  { name: "The Godfather", category: "Movies", image: "/questions/8ed7c28157c4ef38.jpg" },
+  { name: "Friends", category: "TV Series", image: "/questions/794ae15b6e0acf5b.png" },
+] as const;
+const HOME_FAQS = [
+  {
+    question: "Is History Brain free?",
+    answer: "Yes. The full trivia game and topic library are free to use in your browser, with no account or download required.",
+  },
+  {
+    question: "What do I learn after each question?",
+    answer: "Every answer reveals a concise historical fact. Most answers also link to a deeper article covering context, key facts, history, impact, and surprising details.",
+  },
+  {
+    question: "Do I need to create an account?",
+    answer: "No. Your scores, streaks, achievements, and settings are stored locally in your browser.",
+  },
+  {
+    question: "What topics does the game cover?",
+    answer: "History Brain covers landmarks, art, historical figures, events, documents, U.S. citizenship, music, movies, and TV series.",
+  },
+] as const;
 const GENERATED_TOPIC_CATEGORIES = new Set<Category>([
   "Citizenship",
   "Music",
@@ -674,6 +701,7 @@ export default function Home() {
   if (!mounted || !profile) {
     return (
       <div className="min-h-screen flex items-center justify-center">
+        <HomeStructuredData />
         <div className="sr-only">
           <h1>Play history. Learn every round.</h1>
           <p>
@@ -697,6 +725,7 @@ export default function Home() {
         shake === "hit" ? "shake-hit" : shake === "miss" ? "shake-miss" : ""
       }`}
     >
+      <HomeStructuredData />
       <AchievementToast queue={achievementQueue} onDismiss={dismissToast} />
       <Particles
         trigger={particleTrigger}
@@ -896,6 +925,79 @@ export default function Home() {
               <span className="sm:hidden">TAP A CARD · CFG THEME · SFX TOGGLE</span>
               <span className="hidden sm:inline">[1][2][3] PICK · [ENTER] CONTINUE · [M] MUTE · [ESC] BACK</span>
             </div>
+            <section aria-labelledby="how-to-play" className="w-full flex flex-col items-center gap-5 pt-7 sm:pt-10">
+              <SectionHeading id="how-to-play" eyebrow="QUICK START" title="HOW TO PLAY" />
+              <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 sm:gap-5 w-full">
+                <InfoCard number="01" title="READ THE CLUE" text="Use the era, category, and historical details to narrow down the answer." />
+                <InfoCard number="02" title="PICK AN IMAGE" text="Choose from three hidden images before the 20-second timer runs out." />
+                <InfoCard number="03" title="UNLOCK THE STORY" text="Reveal the answer, collect a fact, and open the full article when curiosity strikes." />
+              </div>
+              <Link href="/how-it-works" className="text-[var(--hb-accent)] text-xs tracking-widest hover:underline" style={hf}>
+                &gt; FULL GAME GUIDE →
+              </Link>
+            </section>
+
+            <section aria-labelledby="featured-topics" className="w-full flex flex-col items-center gap-5 pt-7 sm:pt-10">
+              <SectionHeading id="featured-topics" eyebrow="GO BEYOND THE SCORE" title="EXPLORE THE ARCHIVE" />
+              <p className="max-w-2xl text-center text-[var(--hb-text)] text-lg sm:text-xl leading-snug">
+                Every round can lead somewhere deeper. Browse the people, moments, works, and ideas behind the answers.
+              </p>
+              <div className="grid grid-cols-2 md:grid-cols-3 gap-3 sm:gap-5 w-full">
+                {FEATURED_TOPICS.map((topic) => (
+                  <Link
+                    key={topic.name}
+                    href={`/topics/${slugify(topic.name)}`}
+                    className="group bg-[var(--hb-panel)] pixel-border p-2 sm:p-3 flex flex-col gap-2 hover:-translate-y-1 hover:bg-[var(--hb-panel-alt)] transition-all"
+                  >
+                    <div className="relative aspect-[4/3] overflow-hidden bg-[var(--hb-bg)]">
+                      <Image
+                        src={topic.image}
+                        alt=""
+                        fill
+                        className="object-cover transition-transform duration-300 group-hover:scale-105"
+                        sizes="(max-width: 767px) 50vw, 33vw"
+                      />
+                      <div className="absolute inset-0 bg-linear-to-t from-[var(--hb-bg)]/70 to-transparent" />
+                    </div>
+                    <span className="text-[9px] sm:text-[10px] text-[var(--hb-accent-2)] tracking-widest uppercase">
+                      {topic.category}
+                    </span>
+                    <span className="text-[var(--hb-text)] text-[10px] sm:text-sm tracking-wider leading-relaxed" style={hf}>
+                      {topic.name}
+                    </span>
+                  </Link>
+                ))}
+              </div>
+              <Link href="/topics" className="pixel-btn">&gt; Browse All Topics</Link>
+            </section>
+
+            <section aria-labelledby="why-history-brain" className="w-full flex flex-col items-center gap-5 pt-7 sm:pt-10">
+              <SectionHeading id="why-history-brain" eyebrow="BUILT FOR CURIOUS MINDS" title="PLAY WITH PURPOSE" />
+              <div className="bg-[var(--hb-panel)] pixel-border p-5 sm:p-7 w-full grid grid-cols-1 md:grid-cols-3 gap-5">
+                <TrustPoint title="LEARN IN CONTEXT" text="Facts and articles turn each answer into a useful piece of a bigger story." />
+                <TrustPoint title="PRIVATE BY DEFAULT" text="No account is needed. Your game progress stays in your browser." />
+                <TrustPoint title="INDEPENDENTLY BUILT" text="Created and maintained by one developer, with sources and corrections openly explained." />
+              </div>
+              <div className="flex flex-wrap justify-center gap-x-5 gap-y-2 text-xs tracking-widest">
+                <Link href="/about" className="text-[var(--hb-accent)] hover:underline">&gt; ABOUT + SOURCES</Link>
+                <Link href="/contact" className="text-[var(--hb-accent)] hover:underline">&gt; REPORT A CORRECTION</Link>
+              </div>
+            </section>
+
+            <section aria-labelledby="frequently-asked" className="w-full max-w-4xl flex flex-col items-center gap-5 pt-7 sm:pt-10">
+              <SectionHeading id="frequently-asked" eyebrow="PLAYER INTEL" title="FREQUENTLY ASKED" />
+              <div className="w-full flex flex-col gap-3">
+                {HOME_FAQS.map((item) => (
+                  <details key={item.question} className="group bg-[var(--hb-panel)] pixel-border px-4 py-4 sm:px-6">
+                    <summary className="cursor-pointer list-none text-[var(--hb-accent)] text-xs sm:text-sm tracking-wider flex items-center justify-between gap-4" style={hf}>
+                      <span>&gt; {item.question.toUpperCase()}</span>
+                      <span aria-hidden="true" className="group-open:rotate-45 transition-transform">+</span>
+                    </summary>
+                    <p className="pt-4 text-[var(--hb-text)] text-base sm:text-lg leading-relaxed">{item.answer}</p>
+                  </details>
+                ))}
+              </div>
+            </section>
           </div>
         )}
 
@@ -1385,5 +1487,69 @@ function ModeCard({
       <p className="text-[var(--hb-text)] text-base sm:text-xl leading-snug">{desc}</p>
       <span className="text-[var(--hb-muted)] text-xs sm:text-sm sm:mt-2">{shortcut}</span>
     </button>
+  );
+}
+
+function SectionHeading({ id, eyebrow, title }: { id: string; eyebrow: string; title: string }) {
+  return (
+    <div className="text-center flex flex-col gap-2">
+      <span className="text-[var(--hb-muted)] text-[10px] sm:text-xs tracking-[0.2em]">{eyebrow}</span>
+      <h2 id={id} className="glitch-text text-[var(--hb-accent)] text-xl sm:text-3xl tracking-widest" style={hf}>
+        {title}
+      </h2>
+    </div>
+  );
+}
+
+function InfoCard({ number, title, text }: { number: string; title: string; text: string }) {
+  return (
+    <div className="bg-[var(--hb-panel)] pixel-border p-5 flex flex-col gap-3">
+      <span className="text-[var(--hb-accent-2)] text-xs tracking-widest" style={hf}>[{number}]</span>
+      <h3 className="text-[var(--hb-accent)] text-sm tracking-wider" style={hf}>{title}</h3>
+      <p className="text-[var(--hb-text)] text-lg leading-snug">{text}</p>
+    </div>
+  );
+}
+
+function TrustPoint({ title, text }: { title: string; text: string }) {
+  return (
+    <div className="flex flex-col gap-2">
+      <h3 className="text-[var(--hb-accent-2)] text-xs tracking-wider" style={hf}>&gt; {title}</h3>
+      <p className="text-[var(--hb-text)] text-lg leading-snug">{text}</p>
+    </div>
+  );
+}
+
+function HomeStructuredData() {
+  const data = {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebApplication",
+        name: "History Brain",
+        url: SITE_URL,
+        applicationCategory: "GameApplication",
+        operatingSystem: "Any",
+        browserRequirements: "Requires JavaScript",
+        isAccessibleForFree: true,
+        description: "A free browser-based visual history trivia game with daily challenges, facts, and educational articles.",
+        offers: { "@type": "Offer", price: "0", priceCurrency: "USD" },
+      },
+      {
+        "@type": "FAQPage",
+        mainEntity: HOME_FAQS.map((item) => ({
+          "@type": "Question",
+          name: item.question,
+          acceptedAnswer: { "@type": "Answer", text: item.answer },
+        })),
+      },
+    ],
+  };
+
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(data).replace(/</g, "\\u003c") }}
+    />
   );
 }

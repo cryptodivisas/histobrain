@@ -6,7 +6,7 @@ import { SiteFooter } from "@/components/SiteFooter";
 export const metadata: Metadata = {
   title: "How It Works · History Brain",
   description:
-    "How to play History Brain: three blurred images, one clue, one life lost for each wrong guess. A quick guide to scoring, streaks, and keyboard shortcuts.",
+    "How to play History Brain: follow the clue, choose from three images, build combos, and learn from every answer.",
   alternates: { canonical: "/how-it-works" },
 };
 
@@ -44,8 +44,8 @@ export default function HowItWorksPage() {
               </li>
               <li>
                 If you&apos;re right, the image un-blurs and an explanation
-                panel opens. If you&apos;re wrong, you lose a life and the
-                correct answer is revealed anyway.
+                panel opens. If you&apos;re wrong, the correct answer is still
+                revealed so every question teaches you something.
               </li>
               <li>
                 Press <strong>Enter</strong> to load the next question.
@@ -53,22 +53,22 @@ export default function HowItWorksPage() {
             </ol>
           </Section>
 
-          <Section title="Scoring & Streaks">
+          <Section title="Scoring & Combos">
             <ul className="list-disc pl-6 flex flex-col gap-2">
               <li>
-                <strong>+10 points</strong> for each correct answer.
+                A correct answer starts at <strong>100 points</strong>, plus a
+                speed bonus based on how quickly you answer.
               </li>
               <li>
-                <strong>Streak bonus:</strong> every three correct answers in a
-                row adds a small multiplier to your next score.
+                <strong>Combo multiplier:</strong> consecutive correct answers
+                raise your multiplier, up to x5.
               </li>
               <li>
-                <strong>Lives:</strong> you start with three. Lose them all and
-                the run ends — your score is saved to your local best.
+                <strong>Classic, Daily, and Category:</strong> each game has
+                five questions.
               </li>
               <li>
-                <strong>Hints:</strong> stuck? The clue&apos;s era badge and
-                category label narrow things down fast.
+                <strong>Endless:</strong> your first wrong answer ends the run.
               </li>
             </ul>
           </Section>
@@ -80,7 +80,11 @@ export default function HowItWorksPage() {
               </li>
               <li>
                 <strong>Enter</strong> — next question / dismiss the answer
-                panel
+                panel; from the menu, start Classic mode
+              </li>
+              <li>
+                <strong>D / C / E</strong> — start Daily, choose a Category, or
+                start Endless mode from the menu
               </li>
               <li>
                 <strong>M</strong> — mute / unmute sound effects

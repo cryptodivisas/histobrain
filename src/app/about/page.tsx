@@ -34,8 +34,8 @@ export default function AboutPage() {
               three blurred images — a landmark, a work of art, a historical
               figure, an event or a document — and asks you to guess which one
               matches the clue. Guess right, the image sharpens and a short
-              explanation unlocks. Guess wrong, you lose a life but learn the
-              answer anyway.
+              explanation unlocks. Guess wrong and the correct answer is still
+              revealed, so every round teaches you something.
             </p>
             <p>
               There are no accounts, no ads during your first session, no
