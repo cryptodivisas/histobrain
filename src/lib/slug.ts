@@ -2,6 +2,8 @@
 // (content loader, sitemap). Must match scripts/normalize-topics.mjs.
 export function slugify(name: string): string {
   return name
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
     .toLowerCase()
     .replace(/['''`’()*]/g, "")
     .replace(/[:,.]/g, "")

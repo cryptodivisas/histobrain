@@ -43,7 +43,7 @@ src/
     privacy/            # Privacy policy
   components/           # Modals, overlays, share UI
   data/
-    questions.json      # 287 questions across nine categories
+    questions.json      # 1,024 source-backed questions across nine categories
   lib/
     topics.ts           # Markdown loader and generated-topic builder
     profile.ts          # Local player profile and statistics
@@ -80,6 +80,8 @@ npm run dev -- --webpack
 | `npm run build` | Optimized hybrid production build |
 | `npm run start` | Serve the production build |
 | `npm run lint` | ESLint |
+| `npm run expand:questions` | Rebuild the balanced 1,024-question bank from the original questions and topic articles. |
+| `npm run validate:questions` | Verify distribution, required fields, unique clues, sources, wrong options, and local images. |
 | `npm run normalize:topics` | Clean up hand-written Markdown in `content/topics/` — fixes bullet spacing, adds `##` heading prefixes. Safe to re-run. |
 
 Run `node scripts/fetch-images.mjs` when question images need to be resolved

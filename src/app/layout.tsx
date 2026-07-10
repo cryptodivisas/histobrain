@@ -21,13 +21,15 @@ const vt323 = VT323({
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: {
-    default: "History Brain — Free History Trivia Game",
+    default: "History Brain — Free Interactive Quiz Game",
     template: "%s · History Brain",
   },
   description:
-    "Play free history trivia in your browser—no account or download required. Explore 287 questions across world history, art, civics, music, movies, TV, and more.",
+    "Challenge your knowledge with free interactive quizzes about history, landmarks, movies, music, TV series, citizenship, and more.",
   keywords: [
     "history trivia",
+    "interactive quiz game",
+    "general knowledge quiz",
     "history quiz",
     "free trivia game",
     "educational history game",
@@ -37,15 +39,15 @@ export const metadata: Metadata = {
     type: "website",
     siteName: "History Brain",
     url: "/",
-    title: "History Brain — Free History Trivia Game",
+    title: "History Brain — Free Interactive Quiz Game",
     description:
-      "Follow the clue, pick the right image, and learn the story behind every answer.",
+      "Challenge your knowledge across history, landmarks, movies, music, TV series, citizenship, and more.",
   },
   twitter: {
     card: "summary_large_image",
-    title: "History Brain — Free History Trivia Game",
+    title: "History Brain — Free Interactive Quiz Game",
     description:
-      "Play free history trivia in your browser. No account. No download.",
+      "Play free interactive quizzes in your browser. No account. No download.",
   },
 };
 

@@ -13,7 +13,7 @@ import html from "remark-html";
 
 import questionsData from "@/data/questions.json";
 import { slugify } from "@/lib/slug";
-import type { Category } from "@/lib/categories";
+import { categoryOf, type Category } from "@/lib/categories";
 
 export { slugify };
 
@@ -66,6 +66,17 @@ const SLUG_TO_NAME: Record<string, string> = (() => {
     for (const wo of q.wrong_options ?? []) {
       if (!map[slugify(wo.name)]) map[slugify(wo.name)] = wo.name;
     }
+  }
+  return map;
+})();
+
+/** Resolve a topic slug to the category carried by its first quiz answer. */
+const SLUG_TO_CATEGORY: Record<string, Category> = (() => {
+  const map: Record<string, Category> = {};
+  for (const q of questionsData as QuestionEntry[]) {
+    const slug = slugify(q.name);
+    const category = categoryOf(q);
+    if (category && !map[slug]) map[slug] = category;
   }
   return map;
 })();
@@ -244,12 +255,13 @@ export async function getTopicBySlug(slug: string): Promise<Topic | null> {
     contentHtml,
     excerpt,
     image,
+    category: SLUG_TO_CATEGORY[slug],
     updatedAt: fs.statSync(path.join(CONTENT_DIR, `${slug}.md`)).mtime.toISOString(),
   };
 }
 
 /**
- * Load every topic. Use sparingly — this reads and parses all ~84 files.
+ * Load every topic. Use sparingly — this reads and parses the full article library.
  * Intended for sitemap generation, related-topic lookups, etc.
  */
 export async function getAllTopics(): Promise<Topic[]> {

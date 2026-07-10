@@ -117,8 +117,23 @@ function shuffleArray<T>(arr: T[]): T[] {
   return a;
 }
 
+function takeUniqueAnswers(questions: Question[], count: number): Question[] {
+  const selected: Question[] = [];
+  const names = new Set<string>();
+  for (const question of questions) {
+    if (names.has(question.name)) continue;
+    selected.push(question);
+    names.add(question.name);
+    if (selected.length === count) break;
+  }
+  return selected;
+}
+
 function buildClassicSession(): Question[] {
-  return shuffleArray(questionsData as Question[]).slice(0, CLASSIC_QUESTIONS);
+  return takeUniqueAnswers(
+    shuffleArray(questionsData as Question[]),
+    CLASSIC_QUESTIONS
+  );
 }
 
 function buildCategorySession(cat: Category): Question[] {
@@ -126,7 +141,7 @@ function buildCategorySession(cat: Category): Question[] {
     (q) => categoryOf(q) === cat
   );
   const count = Math.min(CLASSIC_QUESTIONS, pool.length);
-  return shuffleArray(pool).slice(0, count);
+  return takeUniqueAnswers(shuffleArray(pool), count);
 }
 
 function buildDailySession(): {
@@ -137,7 +152,10 @@ function buildDailySession(): {
   const seed = stringToSeed(key);
   const rand = mulberry32(seed);
   const all = questionsData as Question[];
-  const qs = seededShuffle(all, rand).slice(0, CLASSIC_QUESTIONS);
+  const qs = takeUniqueAnswers(
+    seededShuffle(all, rand),
+    CLASSIC_QUESTIONS
+  );
   const optionsPerQuestion = qs.map((q) => {
     const opts: Option[] = [
       { name: q.name, image: q.image, correct: true },
@@ -814,21 +832,21 @@ export default function Home() {
                 className="text-[10px] sm:text-xs text-[var(--hb-accent-2)] tracking-[0.2em]"
                 style={hf}
               >
-                FREE HISTORY TRIVIA · NO ACCOUNT · NO DOWNLOAD
+                FREE INTERACTIVE QUIZZES · NO ACCOUNT · NO DOWNLOAD
               </div>
               <h1
                 className="glitch-text text-[var(--hb-text)] text-2xl sm:text-5xl tracking-wider leading-tight"
                 style={hf}
               >
-                PLAY HISTORY.
+                CHALLENGE YOUR KNOWLEDGE.
                 <span className="block text-[var(--hb-accent)]">
                   LEARN EVERY ROUND.
                 </span>
               </h1>
               <p className="max-w-3xl text-[var(--hb-text)] text-lg sm:text-2xl leading-snug">
-                Follow the clue, pick the right image, and unlock the story
-                behind every answer across world history, art, civics, music,
-                movies, and more.
+                Challenge your knowledge with interactive quizzes about
+                history, landmarks, movies, music, TV series, citizenship, and
+                more.
               </p>
               <div className="flex flex-col sm:flex-row gap-3 w-full sm:w-auto">
                 <button onClick={startClassic} className="pixel-btn">
@@ -1559,7 +1577,7 @@ function HomeStructuredData() {
         operatingSystem: "Any",
         browserRequirements: "Requires JavaScript",
         isAccessibleForFree: true,
-        description: "A free browser-based visual history trivia game with daily challenges, facts, and educational articles.",
+        description: "A free browser-based interactive quiz game covering history, landmarks, movies, music, TV series, citizenship, and more.",
         offers: { "@type": "Offer", price: "0", priceCurrency: "USD" },
       },
       {
