@@ -6,7 +6,7 @@ const ROOT = process.cwd();
 const QUESTIONS_PATH = path.join(ROOT, "src", "data", "questions.json");
 const CATEGORIES_PATH = path.join(ROOT, "src", "lib", "categories.ts");
 const TOPICS_DIR = path.join(ROOT, "content", "topics");
-const BANK_VERSION = "topic-bank-v2";
+const BANK_VERSION = "topic-bank-v3";
 const CATEGORIES = [
   "Landmarks",
   "Art",
@@ -431,7 +431,9 @@ function clueFromSource(source, record) {
   text = `${text.charAt(0).toUpperCase()}${text.slice(1)}`;
   if (!/[.!?]$/.test(text)) text += ".";
   if (text.length < 45 || text.length > 260) return null;
+  if (/\bNo\.$/i.test(text)) return null;
   if (/\(This [^)]+\)/.test(text)) return null;
+  if (/\b(?:da|de|van|von)\s+This\b/i.test(text)) return null;
   if (leaksAnswer(text, record.name)) return null;
   return text;
 }
@@ -470,8 +472,9 @@ function buildQuestion(record, candidate, variantIndex, categoryRecords) {
         fact.length <= 320 &&
         normalize(fact) !== sourceKey &&
         !/around\s+c\.?$/i.test(fact) &&
+        !/\bNo\.$/i.test(fact) &&
         !/\(This [^)]+\)/.test(fact) &&
-        !/^(He|She|It|They|His|Her|Their|Its)\b/i.test(fact)
+        !/^(He|She|It|They|His|Her|Their|Its|This|These|Those|That)\b/i.test(fact)
     );
   const rawFact =
     record.category === "Citizenship"
@@ -592,30 +595,64 @@ function varyClueScaffold(clue, variantIndex) {
 }
 
 function formatBatchClue(clue, category, variantIndex) {
-  if (BANK_VERSION !== "topic-bank-v2") return clue;
-  if (category === "Citizenship") return clue;
+  if (!BANK_VERSION.startsWith("topic-bank-v")) return clue;
 
   const noun = NOUNS[category];
   const label = QUESTION_LABELS[category];
-  const templates = [
-    "Which {label} {detail}?",
-    "Identify the {label} that {detail}.",
-    "What {label} {detail}?",
-  ];
-  let detail = clue.replace(/[.!?]$/, "").trim();
+  let detail = cleanBatchDetail(clue);
+
+  if (category === "Citizenship") {
+    if (BANK_VERSION === "topic-bank-v3") {
+      return clue
+        .replace(
+          "In a U.S. citizenship civics review, which answer fits this prompt:",
+          "For U.S. citizenship practice, choose the answer to this civics prompt:"
+        )
+        .replace(/[.!?]$/, "?");
+    }
+    return clue;
+  }
 
   if (detail.startsWith(`${noun} `)) {
     detail = detail.slice(noun.length + 1).trim();
-    return templates[variantIndex % templates.length]
-      .replace("{label}", label)
-      .replace("{detail}", detail);
+    detail = cleanBatchDetail(detail);
+    return buildQuestionStyleClue(label, detail, variantIndex);
   }
 
   return `Which ${label} is connected to this source detail: ${lowercaseFirst(detail)}?`;
 }
 
+function buildQuestionStyleClue(label, detail, variantIndex) {
+  const verbLike = /^(is|was|were|has|had|stars|uses|won|features|became|grew|includes|served|marked|argued|combined|aired|depicts|shows|follows|explores|focuses|began|ended|helped|introduced|inspired|released|formed|built|created|published|directed|written|located|known)\b/i.test(detail);
+  const templates = verbLike
+    ? [
+        "Which {label} {detail}?",
+        "What {label} {detail}?",
+        "Identify the {label} that {detail}.",
+      ]
+    : [
+        "Which {label} is described by this clue: {detail}?",
+        "Choose the {label} connected to this detail: {detail}.",
+        "This clue points to what {label}: {detail}?",
+      ];
+  return templates[variantIndex % templates.length]
+    .replace("{label}", label)
+    .replace("{detail}", detail);
+}
+
 function lowercaseFirst(value) {
   return value ? `${value.charAt(0).toLowerCase()}${value.slice(1)}` : value;
+}
+
+function cleanBatchDetail(value) {
+  return value
+    .replace(/[.!?]$/, "")
+    .replace(/^matches this description:\s*/i, "")
+    .replace(/^is known for the following:\s*/i, "")
+    .replace(/^can be recognized from this clue:\s*/i, "")
+    .replace(/^is connected to this defining detail:\s*/i, "")
+    .replace(/^fits this description:\s*/i, "")
+    .trim();
 }
 
 function countByCategory(questions) {

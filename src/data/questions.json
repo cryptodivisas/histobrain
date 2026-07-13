@@ -23071,5 +23071,4280 @@
     "category": "TV Series",
     "source": "/topics/the-crown",
     "bankVersion": "topic-bank-v2"
+  },
+  {
+    "name": "Big Ben",
+    "image": "/questions/dfe97d37e23cef28.jpg",
+    "clue": "Which landmark is described by this clue: Nickname for the Great Bell inside the Elizabeth Tower at the Palace of Westminster, one of the most recognizable landmarks in London?",
+    "wrong_options": [
+      {
+        "name": "Statue of Liberty",
+        "image": "/questions/3a5f5b5d9422cc8b.jpg"
+      },
+      {
+        "name": "Empire State Building",
+        "image": "/questions/0dd37c2c22e23c6f.jpg"
+      }
+    ],
+    "fact": "Big Ben is the nickname of the Great Bell of the Great Clock of Westminster, housed at the top of the Elizabeth Tower at the north end of the Palace of Westminster in London.",
+    "category": "Landmarks",
+    "source": "/topics/big-ben",
+    "bankVersion": "topic-bank-v3"
+  },
+  {
+    "name": "Carnac Stones",
+    "image": "/questions/3c40cc8673b9dabe.jpg",
+    "clue": "Which landmark is described by this clue: Extensive prehistoric standing stone site in France, one of the largest megalithic complexes in the world?",
+    "wrong_options": [
+      {
+        "name": "Stonehenge",
+        "image": "/questions/ab6a066ae36477c7.jpg"
+      },
+      {
+        "name": "Berlin Wall",
+        "image": "/questions/df3f27a097e904a0.jpg"
+      }
+    ],
+    "fact": "The Carnac Stones are one of the world’s largest collections of megalithic standing stones, with thousands of stones arranged in lines.",
+    "category": "Landmarks",
+    "source": "/topics/carnac-stones",
+    "bankVersion": "topic-bank-v3"
+  },
+  {
+    "name": "Chichen Itza",
+    "image": "/questions/dfca4b5c6e7a421b.jpg",
+    "clue": "Which landmark is described by this clue: Major Mayan city in Mexico known for its pyramid El Castillo and advanced knowledge of astronomy and architecture?",
+    "wrong_options": [
+      {
+        "name": "Parthenon",
+        "image": "/questions/2aaa479907b695eb.jpg"
+      },
+      {
+        "name": "Pantheon",
+        "image": "/questions/94ef73e7b43015f6.jpg"
+      }
+    ],
+    "fact": "Chichen Itza was a major city of the Maya civilization located in present-day Mexico.",
+    "category": "Landmarks",
+    "source": "/topics/chichen-itza",
+    "bankVersion": "topic-bank-v3"
+  },
+  {
+    "name": "Colosseum",
+    "image": "/questions/97d11ea642b329b4.jpg",
+    "clue": "Which landmark is described by this clue: Massive Roman amphitheater in Rome used for gladiatorial contests and public spectacles, symbolizing the power of the Roman Empire?",
+    "wrong_options": [
+      {
+        "name": "Great Wall of China",
+        "image": "/questions/ef1258a045464fed.jpg"
+      },
+      {
+        "name": "Carnac Stones",
+        "image": "/questions/3c40cc8673b9dabe.jpg"
+      }
+    ],
+    "fact": "The Colosseum is one of the most recognizable landmarks of ancient Rome, known for its grand scale and historical significance.",
+    "category": "Landmarks",
+    "source": "/topics/colosseum",
+    "bankVersion": "topic-bank-v3"
+  },
+  {
+    "name": "Machu Picchu",
+    "image": "/questions/07e767f94941cc3f.jpg",
+    "clue": "Which landmark is described by this clue: Fifteenth-century Incan royal estate high in the Andes of Peru, renowned for its stonework, setting, and engineering?",
+    "wrong_options": [
+      {
+        "name": "Temple of Luxor",
+        "image": "/questions/49e540579b7895f5.jpg"
+      },
+      {
+        "name": "Big Ben",
+        "image": "/questions/dfe97d37e23cef28.jpg"
+      }
+    ],
+    "fact": "Machu Picchu is an Incan citadel perched on a mountain ridge 2,430 meters above sea level in southern Peru.",
+    "category": "Landmarks",
+    "source": "/topics/machu-picchu",
+    "bankVersion": "topic-bank-v3"
+  },
+  {
+    "name": "Moai of Easter Island",
+    "image": "/questions/971e2b2445aeb4fb.jpg",
+    "clue": "Which landmark is described by this clue: Nearly nine hundred of them survive, ranging from about two meters to around ten meters tall, with the largest ever carved approaching twenty-one meters and never raised?",
+    "wrong_options": [
+      {
+        "name": "Temple of Luxor",
+        "image": "/questions/49e540579b7895f5.jpg"
+      },
+      {
+        "name": "Big Ben",
+        "image": "/questions/dfe97d37e23cef28.jpg"
+      }
+    ],
+    "fact": "The moai are monumental human-figure sculptures carved between roughly 1250 and 1500 CE by the Rapa Nui people on Easter Island, known in the Polynesian language as Rapa Nui.",
+    "category": "Landmarks",
+    "source": "/topics/moai-of-easter-island",
+    "bankVersion": "topic-bank-v3"
+  },
+  {
+    "name": "Motherland Calls",
+    "image": "/questions/fd841071db7ca5f2.jpg",
+    "clue": "Which landmark is described by this clue: Monumental Soviet war memorial statue in Volgograd, symbolizing the sacrifice and victory of the Soviet Union in World War II?",
+    "wrong_options": [
+      {
+        "name": "Berlin Wall",
+        "image": "/questions/df3f27a097e904a0.jpg"
+      },
+      {
+        "name": "Eiffel Tower",
+        "image": "/questions/8ab7452248314ab7.jpg"
+      }
+    ],
+    "fact": "The Motherland Calls was unveiled in 1967 as the centerpiece of a memorial complex honoring the Battle of Stalingrad.",
+    "category": "Landmarks",
+    "source": "/topics/motherland-calls",
+    "bankVersion": "topic-bank-v3"
+  },
+  {
+    "name": "Pantheon",
+    "image": "/questions/94ef73e7b43015f6.jpg",
+    "clue": "Which landmark is described by this clue: Ancient Roman temple in Rome famed for its vast dome, oculus, and extraordinary preservation across nearly two millennia?",
+    "wrong_options": [
+      {
+        "name": "Pyramid of the Sun",
+        "image": "/questions/d5ca25d54d319164.jpg"
+      },
+      {
+        "name": "Chichen Itza",
+        "image": "/questions/dfca4b5c6e7a421b.jpg"
+      }
+    ],
+    "fact": "The Pantheon is one of the most remarkable surviving buildings from ancient Rome.",
+    "category": "Landmarks",
+    "source": "/topics/pantheon",
+    "bankVersion": "topic-bank-v3"
+  },
+  {
+    "name": "Parthenon",
+    "image": "/questions/2aaa479907b695eb.jpg",
+    "clue": "Which landmark is described by this clue: Ancient Greek temple on the Acropolis of Athens, celebrated as a masterpiece of classical architecture and civic symbolism?",
+    "wrong_options": [
+      {
+        "name": "Chichen Itza",
+        "image": "/questions/dfca4b5c6e7a421b.jpg"
+      },
+      {
+        "name": "Pantheon",
+        "image": "/questions/94ef73e7b43015f6.jpg"
+      }
+    ],
+    "fact": "The Parthenon is one of the most famous monuments of the ancient world and a defining symbol of classical Greece.",
+    "category": "Landmarks",
+    "source": "/topics/parthenon",
+    "bankVersion": "topic-bank-v3"
+  },
+  {
+    "name": "Pula Arena",
+    "image": "/questions/1c5933c0e301876e.jpg",
+    "clue": "Which landmark is described by this clue: Well-preserved Roman amphitheater in Croatia, known for gladiatorial history and continued use as a public venue?",
+    "wrong_options": [
+      {
+        "name": "Colosseum",
+        "image": "/questions/97d11ea642b329b4.jpg"
+      },
+      {
+        "name": "Carnac Stones",
+        "image": "/questions/3c40cc8673b9dabe.jpg"
+      }
+    ],
+    "fact": "The Pula Arena is one of the best-preserved Roman amphitheaters in the world and one of Croatia’s most famous historic landmarks.",
+    "category": "Landmarks",
+    "source": "/topics/pula-arena",
+    "bankVersion": "topic-bank-v3"
+  },
+  {
+    "name": "Statue of Liberty",
+    "image": "/questions/3a5f5b5d9422cc8b.jpg",
+    "clue": "Which landmark is described by this clue: Given to the United States by the people of France and dedicated in 1886, it depicts the Roman goddess Libertas holding a torch aloft and cradling a tablet inscribed with the date of American independence?",
+    "wrong_options": [
+      {
+        "name": "Eiffel Tower",
+        "image": "/questions/8ab7452248314ab7.jpg"
+      },
+      {
+        "name": "Empire State Building",
+        "image": "/questions/0dd37c2c22e23c6f.jpg"
+      }
+    ],
+    "fact": "The Statue of Liberty is a 93-meter copper-and-steel colossus standing on Liberty Island in New York Harbor.",
+    "category": "Landmarks",
+    "source": "/topics/statue-of-liberty",
+    "bankVersion": "topic-bank-v3"
+  },
+  {
+    "name": "Stonehenge",
+    "image": "/questions/ab6a066ae36477c7.jpg",
+    "clue": "Which landmark is described by this clue: Prehistoric stone circle in southern England, one of the most famous monuments in the world and a Neolithic engineering mystery?",
+    "wrong_options": [
+      {
+        "name": "Step Pyramid of Djoser",
+        "image": "/questions/bea13b1ee62e3a0a.jpg"
+      },
+      {
+        "name": "Motherland Calls",
+        "image": "/questions/fd841071db7ca5f2.jpg"
+      }
+    ],
+    "fact": "Stonehenge is a ring of massive standing stones on Salisbury Plain in Wiltshire, England.",
+    "category": "Landmarks",
+    "source": "/topics/stonehenge",
+    "bankVersion": "topic-bank-v3"
+  },
+  {
+    "name": "Taj Mahal",
+    "image": "/questions/00691b32575e329b.jpg",
+    "clue": "Which landmark is described by this clue: Iconic white marble mausoleum in India, built by Emperor Shah Jahan as a symbol of love and a masterpiece of Mughal architecture?",
+    "wrong_options": [
+      {
+        "name": "Machu Picchu",
+        "image": "/questions/07e767f94941cc3f.jpg"
+      },
+      {
+        "name": "Statue of Liberty",
+        "image": "/questions/3a5f5b5d9422cc8b.jpg"
+      }
+    ],
+    "fact": "The Taj Mahal is one of the most famous monuments in the world, located in Agra, India.",
+    "category": "Landmarks",
+    "source": "/topics/taj-mahal",
+    "bankVersion": "topic-bank-v3"
+  },
+  {
+    "name": "Theatre of Dionysus",
+    "image": "/questions/15bb3455636bafd1.jpg",
+    "clue": "Which landmark is described by this clue: Ancient Greek theater in Athens regarded as the birthplace of drama and the performance site of major classical tragedies and comedies?",
+    "wrong_options": [
+      {
+        "name": "Colosseum",
+        "image": "/questions/97d11ea642b329b4.jpg"
+      },
+      {
+        "name": "Carnac Stones",
+        "image": "/questions/3c40cc8673b9dabe.jpg"
+      }
+    ],
+    "fact": "The Theatre of Dionysus is one of the most important cultural sites of the ancient world.",
+    "category": "Landmarks",
+    "source": "/topics/theatre-of-dionysus",
+    "bankVersion": "topic-bank-v3"
+  },
+  {
+    "name": "Tikal",
+    "image": "/questions/f6c44834e615a9df.jpg",
+    "clue": "Which landmark is described by this clue: Ancient Mayan city in Guatemala known for its towering temples and role as a major cultural and political center?",
+    "wrong_options": [
+      {
+        "name": "Pyramid of the Sun",
+        "image": "/questions/d5ca25d54d319164.jpg"
+      },
+      {
+        "name": "Chichen Itza",
+        "image": "/questions/dfca4b5c6e7a421b.jpg"
+      }
+    ],
+    "fact": "Tikal is one of the largest and most powerful cities of the ancient Maya civilization.",
+    "category": "Landmarks",
+    "source": "/topics/tikal",
+    "bankVersion": "topic-bank-v3"
+  },
+  {
+    "name": "Big Ben",
+    "image": "/questions/dfe97d37e23cef28.jpg",
+    "clue": "What landmark is the nickname of the Great Bell of the Great Clock of Westminster, housed at the top of the Elizabeth Tower at the north end of the Palace of Westminster in London?",
+    "wrong_options": [
+      {
+        "name": "Eiffel Tower",
+        "image": "/questions/8ab7452248314ab7.jpg"
+      },
+      {
+        "name": "Motherland Calls",
+        "image": "/questions/fd841071db7ca5f2.jpg"
+      }
+    ],
+    "fact": "The tower, the clock, and the bell together form one of the most famous landmarks in the United Kingdom and an enduring symbol of London.",
+    "category": "Landmarks",
+    "source": "/topics/big-ben",
+    "bankVersion": "topic-bank-v3"
+  },
+  {
+    "name": "Chichen Itza",
+    "image": "/questions/dfca4b5c6e7a421b.jpg",
+    "clue": "What landmark was a major city of the Maya civilization located in present-day Mexico?",
+    "wrong_options": [
+      {
+        "name": "Pyramid of the Sun",
+        "image": "/questions/d5ca25d54d319164.jpg"
+      },
+      {
+        "name": "Moai of Easter Island",
+        "image": "/questions/971e2b2445aeb4fb.jpg"
+      }
+    ],
+    "fact": "Chichen Itza grew into a major political and economic center.",
+    "category": "Landmarks",
+    "source": "/topics/chichen-itza",
+    "bankVersion": "topic-bank-v3"
+  },
+  {
+    "name": "Christ the Redeemer",
+    "image": "/questions/36a607f04ee8047e.jpg",
+    "clue": "Choose the landmark connected to this detail: overlooks the city with open arms, symbolizing peace and welcome.",
+    "wrong_options": [
+      {
+        "name": "Eiffel Tower",
+        "image": "/questions/8ab7452248314ab7.jpg"
+      },
+      {
+        "name": "Berlin Wall",
+        "image": "/questions/df3f27a097e904a0.jpg"
+      }
+    ],
+    "fact": "The statue is a major religious and cultural icon.",
+    "category": "Landmarks",
+    "source": "/topics/christ-the-redeemer",
+    "bankVersion": "topic-bank-v3"
+  },
+  {
+    "name": "Colosseum",
+    "image": "/questions/97d11ea642b329b4.jpg",
+    "clue": "What landmark is one of the most recognizable landmarks of ancient Rome, known for its grand scale and historical significance?",
+    "wrong_options": [
+      {
+        "name": "Pula Arena",
+        "image": "/questions/1c5933c0e301876e.jpg"
+      },
+      {
+        "name": "Stonehenge",
+        "image": "/questions/ab6a066ae36477c7.jpg"
+      }
+    ],
+    "fact": "Colosseum has this additional historical detail: Construction began under Emperor Vespasian and was completed by his son Titus.",
+    "category": "Landmarks",
+    "source": "/topics/colosseum",
+    "bankVersion": "topic-bank-v3"
+  },
+  {
+    "name": "Eiffel Tower",
+    "image": "/questions/8ab7452248314ab7.jpg",
+    "clue": "Choose the landmark connected to this detail: What began as a temporary exhibit has become the defining symbol of Paris and one of the most visited paid monuments in the world.",
+    "wrong_options": [
+      {
+        "name": "Big Ben",
+        "image": "/questions/dfe97d37e23cef28.jpg"
+      },
+      {
+        "name": "Motherland Calls",
+        "image": "/questions/fd841071db7ca5f2.jpg"
+      }
+    ],
+    "fact": "Eiffel Tower was built as the entrance arch for the 1889 Exposition Universelle — the world's fair celebrating the centennial of the French Revolution — it was the tallest man-made structure on Earth for forty-one years.",
+    "category": "Landmarks",
+    "source": "/topics/eiffel-tower",
+    "bankVersion": "topic-bank-v3"
+  },
+  {
+    "name": "Empire State Building",
+    "image": "/questions/0dd37c2c22e23c6f.jpg",
+    "clue": "Choose the landmark connected to this detail: remains a symbol of engineering achievement and ambition.",
+    "wrong_options": [
+      {
+        "name": "Motherland Calls",
+        "image": "/questions/fd841071db7ca5f2.jpg"
+      },
+      {
+        "name": "Statue of Liberty",
+        "image": "/questions/3a5f5b5d9422cc8b.jpg"
+      }
+    ],
+    "fact": "Empire State Building was completed during the Great Depression, it stood as the tallest building globally for nearly 40 years.",
+    "category": "Landmarks",
+    "source": "/topics/empire-state-building",
+    "bankVersion": "topic-bank-v3"
+  },
+  {
+    "name": "Great Pyramid of Giza",
+    "image": "/questions/a979d91bc5e35afc.jpg",
+    "clue": "What landmark was built as a royal tomb for Pharaoh Khufu, it showcases remarkable engineering precision and scale?",
+    "wrong_options": [
+      {
+        "name": "Stonehenge",
+        "image": "/questions/ab6a066ae36477c7.jpg"
+      },
+      {
+        "name": "Empire State Building",
+        "image": "/questions/0dd37c2c22e23c6f.jpg"
+      }
+    ],
+    "fact": "For over 3,800 years, it was the tallest man-made structure on Earth.",
+    "category": "Landmarks",
+    "source": "/topics/great-pyramid-of-giza",
+    "bankVersion": "topic-bank-v3"
+  },
+  {
+    "name": "Great Wall of China",
+    "image": "/questions/ef1258a045464fed.jpg",
+    "clue": "Which landmark is connected to this source detail: the first large walls were raised during the Warring States period (roughly 475–221 BCE), when rival Chinese kingdoms fortified their northern borders with rammed-earth ramparts?",
+    "wrong_options": [
+      {
+        "name": "Pula Arena",
+        "image": "/questions/1c5933c0e301876e.jpg"
+      },
+      {
+        "name": "Stonehenge",
+        "image": "/questions/ab6a066ae36477c7.jpg"
+      }
+    ],
+    "fact": "Great Wall of China was built in stages by different dynasties between the seventh century BCE and the seventeenth century CE, the system was designed to protect agricultural Chinese states from nomadic peoples of the northern steppe.",
+    "category": "Landmarks",
+    "source": "/topics/great-wall-of-china",
+    "bankVersion": "topic-bank-v3"
+  },
+  {
+    "name": "Machu Picchu",
+    "image": "/questions/07e767f94941cc3f.jpg",
+    "clue": "What landmark is an Incan citadel perched on a mountain ridge 2,430 meters above sea level in southern Peru?",
+    "wrong_options": [
+      {
+        "name": "Taj Mahal",
+        "image": "/questions/00691b32575e329b.jpg"
+      },
+      {
+        "name": "Statue of Liberty",
+        "image": "/questions/3a5f5b5d9422cc8b.jpg"
+      }
+    ],
+    "fact": "Machu Picchu was abandoned after the Spanish conquest and hidden by cloud and forest for centuries, it is now one of the most recognized archaeological sites in the world and was designated a UNESCO World Heritage Site in 1983.",
+    "category": "Landmarks",
+    "source": "/topics/machu-picchu",
+    "bankVersion": "topic-bank-v3"
+  },
+  {
+    "name": "Moai of Easter Island",
+    "image": "/questions/971e2b2445aeb4fb.jpg",
+    "clue": "Choose the landmark connected to this detail: They are among the most recognizable archaeological monuments in the world and a powerful symbol of the extraordinary reach of Polynesian voyaging across the Pacific.",
+    "wrong_options": [
+      {
+        "name": "Machu Picchu",
+        "image": "/questions/07e767f94941cc3f.jpg"
+      },
+      {
+        "name": "Statue of Liberty",
+        "image": "/questions/3a5f5b5d9422cc8b.jpg"
+      }
+    ],
+    "fact": "Moai of Easter Island has this additional historical detail: Nearly nine hundred of them survive, ranging from about two meters to around ten meters tall, with the largest ever carved approaching twenty-one meters and never raised.",
+    "category": "Landmarks",
+    "source": "/topics/moai-of-easter-island",
+    "bankVersion": "topic-bank-v3"
+  },
+  {
+    "name": "American Gothic",
+    "image": "/questions/b10bd64cdfec5c03.jpg",
+    "clue": "Which work of art is described by this clue: by Grant Wood is a landmark 1930 painting that became one of the most recognizable images in American art?",
+    "wrong_options": [
+      {
+        "name": "Guernica",
+        "image": "/questions/72ae18a70f67179b.jpg"
+      },
+      {
+        "name": "The Scream",
+        "image": "/questions/079c3cd26f6d3ea6.jpg"
+      }
+    ],
+    "fact": "American Gothic is a 1930 painting by American artist Grant Wood and one of the most famous artworks in United States history.",
+    "category": "Art",
+    "source": "/topics/american-gothic",
+    "bankVersion": "topic-bank-v3"
+  },
+  {
+    "name": "David (Michelangelo)",
+    "image": "/questions/c6394e773fb08ba8.jpg",
+    "clue": "Which work of art is described by this clue: Carved in marble between 1501 and 1504, the statue depicts the biblical hero This work of art just before his battle with Goliath?",
+    "wrong_options": [
+      {
+        "name": "Mona Lisa",
+        "image": "/questions/15f79d9238e4d37b.jpg"
+      },
+      {
+        "name": "The Creation of Adam",
+        "image": "/questions/47514d4a2e87ae99.jpg"
+      }
+    ],
+    "fact": "David by Michelangelo is one of the most famous sculptures of the Italian Renaissance and a defining work of Western art.",
+    "category": "Art",
+    "source": "/topics/david-michelangelo",
+    "bankVersion": "topic-bank-v3"
+  },
+  {
+    "name": "Girl with a Pearl Earring",
+    "image": "/questions/c51dbfa4558a991b.jpg",
+    "clue": "Which work of art is described by this clue: by Johannes Vermeer is a celebrated Dutch Golden Age painting known for its luminous light and enigmatic gaze?",
+    "wrong_options": [
+      {
+        "name": "Las Meninas",
+        "image": "/questions/cc63eae2244f0bb4.jpg"
+      },
+      {
+        "name": "Mona Lisa",
+        "image": "/questions/15f79d9238e4d37b.jpg"
+      }
+    ],
+    "fact": "Girl with a Pearl Earring is one of the most famous paintings of the Dutch Golden Age.",
+    "category": "Art",
+    "source": "/topics/girl-with-a-pearl-earring",
+    "bankVersion": "topic-bank-v3"
+  },
+  {
+    "name": "Guernica",
+    "image": "/questions/72ae18a70f67179b.jpg",
+    "clue": "Which work of art is described by this clue: by Pablo Picasso transformed the bombing of a Basque town into one of the 20th century's most powerful anti-war artworks?",
+    "wrong_options": [
+      {
+        "name": "Nighthawks",
+        "image": "/questions/5564f817cba76ac2.jpg"
+      },
+      {
+        "name": "The Scream",
+        "image": "/questions/079c3cd26f6d3ea6.jpg"
+      }
+    ],
+    "fact": "Guernica is a monumental 1937 painting by Pablo Picasso, created in response to the bombing of the Basque town of Gernika (Guernica) during the Spanish Civil War.",
+    "category": "Art",
+    "source": "/topics/guernica",
+    "bankVersion": "topic-bank-v3"
+  },
+  {
+    "name": "Las Meninas",
+    "image": "/questions/cc63eae2244f0bb4.jpg",
+    "clue": "Which work of art is described by this clue: Diego Velázquez’s This work of art is a landmark Baroque painting famed for its complex composition, court portraiture, and visual mystery?",
+    "wrong_options": [
+      {
+        "name": "Girl with a Pearl Earring",
+        "image": "/questions/c51dbfa4558a991b.jpg"
+      },
+      {
+        "name": "Mona Lisa",
+        "image": "/questions/15f79d9238e4d37b.jpg"
+      }
+    ],
+    "fact": "Las Meninas is one of the most studied and celebrated paintings in Western art.",
+    "category": "Art",
+    "source": "/topics/las-meninas",
+    "bankVersion": "topic-bank-v3"
+  },
+  {
+    "name": "Mona Lisa",
+    "image": "/questions/15f79d9238e4d37b.jpg",
+    "clue": "Which work of art is described by this clue: Leonardo da Vinci's enigmatic Renaissance portrait, the most famous painting in the world, housed at the Louvre in Paris?",
+    "wrong_options": [
+      {
+        "name": "David (Michelangelo)",
+        "image": "/questions/c6394e773fb08ba8.jpg"
+      },
+      {
+        "name": "The Last Supper",
+        "image": "/questions/2e8fa944b4c6a8e1.jpg"
+      }
+    ],
+    "fact": "The Mona Lisa is a half-length portrait painted by the Italian Renaissance polymath Leonardo da Vinci between roughly 1503 and 1519.",
+    "category": "Art",
+    "source": "/topics/mona-lisa",
+    "bankVersion": "topic-bank-v3"
+  },
+  {
+    "name": "Nighthawks",
+    "image": "/questions/5564f817cba76ac2.jpg",
+    "clue": "Which work of art is described by this clue: by Edward Hopper is a landmark 1942 painting that captures urban isolation in a brightly lit late-night diner?",
+    "wrong_options": [
+      {
+        "name": "Guernica",
+        "image": "/questions/72ae18a70f67179b.jpg"
+      },
+      {
+        "name": "The Scream",
+        "image": "/questions/079c3cd26f6d3ea6.jpg"
+      }
+    ],
+    "fact": "Nighthawks is a 1942 oil painting by American artist Edward Hopper and one of the most recognizable works in modern American art.",
+    "category": "Art",
+    "source": "/topics/nighthawks",
+    "bankVersion": "topic-bank-v3"
+  },
+  {
+    "name": "Pieta (Michelangelo)",
+    "image": "/questions/861ce0008ea09bf0.jpg",
+    "clue": "Which work of art is described by this clue: Carved in marble between 1498 and 1499, it shows the Virgin Mary holding the body of the dead Christ after the Crucifixion?",
+    "wrong_options": [
+      {
+        "name": "David (Michelangelo)",
+        "image": "/questions/c6394e773fb08ba8.jpg"
+      },
+      {
+        "name": "The Garden of Earthly Delights",
+        "image": "/questions/e148f4e81d5d5d80.jpg"
+      }
+    ],
+    "fact": "The Pieta by Michelangelo is one of the most famous sculptures of the High Renaissance.",
+    "category": "Art",
+    "source": "/topics/pieta-michelangelo",
+    "bankVersion": "topic-bank-v3"
+  },
+  {
+    "name": "The Birth of Venus",
+    "image": "/questions/b8dd949a28613f03.jpg",
+    "clue": "Which work of art is described by this clue: by Sandro Botticelli is a landmark Renaissance painting celebrated for its mythological subject and graceful style?",
+    "wrong_options": [
+      {
+        "name": "The Garden of Earthly Delights",
+        "image": "/questions/e148f4e81d5d5d80.jpg"
+      },
+      {
+        "name": "David (Michelangelo)",
+        "image": "/questions/c6394e773fb08ba8.jpg"
+      }
+    ],
+    "fact": "The Birth of Venus is one of the most famous paintings of the Italian Renaissance.",
+    "category": "Art",
+    "source": "/topics/the-birth-of-venus",
+    "bankVersion": "topic-bank-v3"
+  },
+  {
+    "name": "The Garden of Earthly Delights",
+    "image": "/questions/e148f4e81d5d5d80.jpg",
+    "clue": "Which work of art is described by this clue: Hieronymus Bosch’s triptych is a landmark of Northern Renaissance art, famed for its vivid symbolism and enduring mystery?",
+    "wrong_options": [
+      {
+        "name": "The Birth of Venus",
+        "image": "/questions/b8dd949a28613f03.jpg"
+      },
+      {
+        "name": "David (Michelangelo)",
+        "image": "/questions/c6394e773fb08ba8.jpg"
+      }
+    ],
+    "fact": "One notable detail about The Garden of Earthly Delights: Today it is housed in the Museo del Prado in Madrid and is widely regarded as Bosch’s most famous work.",
+    "category": "Art",
+    "source": "/topics/the-garden-of-earthly-delights",
+    "bankVersion": "topic-bank-v3"
+  },
+  {
+    "name": "The Great Wave off Kanagawa",
+    "image": "/questions/5c6544705a16b701.jpg",
+    "clue": "Which work of art is described by this clue: by Hokusai became an icon of Japanese art through its striking design, printmaking skill, and global influence?",
+    "wrong_options": [
+      {
+        "name": "The Starry Night",
+        "image": "/questions/81d451f6b417e15e.jpg"
+      },
+      {
+        "name": "American Gothic",
+        "image": "/questions/b10bd64cdfec5c03.jpg"
+      }
+    ],
+    "fact": "The Great Wave off Kanagawa is a world-famous Japanese woodblock print designed by Katsushika Hokusai around 1831, during the late Edo period.",
+    "category": "Art",
+    "source": "/topics/the-great-wave-off-kanagawa",
+    "bankVersion": "topic-bank-v3"
+  },
+  {
+    "name": "The Last Supper",
+    "image": "/questions/2e8fa944b4c6a8e1.jpg",
+    "clue": "Which work of art is one of the most famous artworks of the Italian Renaissance?",
+    "wrong_options": [
+      {
+        "name": "Pieta (Michelangelo)",
+        "image": "/questions/861ce0008ea09bf0.jpg"
+      },
+      {
+        "name": "Mona Lisa",
+        "image": "/questions/15f79d9238e4d37b.jpg"
+      }
+    ],
+    "fact": "One notable detail about The Last Supper: Painted by Leonardo da Vinci between about 1495 and 1498, it covers the wall of the refectory at Santa Maria delle Grazie in Milan, Italy.",
+    "category": "Art",
+    "source": "/topics/the-last-supper",
+    "bankVersion": "topic-bank-v3"
+  },
+  {
+    "name": "The Night Watch",
+    "image": "/questions/a457b7188d8dd589.jpg",
+    "clue": "Which work of art is described by this clue: by Rembrandt transformed Dutch group portraiture with dramatic light, motion, and civic pride?",
+    "wrong_options": [
+      {
+        "name": "Las Meninas",
+        "image": "/questions/cc63eae2244f0bb4.jpg"
+      },
+      {
+        "name": "Mona Lisa",
+        "image": "/questions/15f79d9238e4d37b.jpg"
+      }
+    ],
+    "fact": "The Night Watch is one of the most famous paintings of the Dutch Golden Age.",
+    "category": "Art",
+    "source": "/topics/the-night-watch",
+    "bankVersion": "topic-bank-v3"
+  },
+  {
+    "name": "The Scream",
+    "image": "/questions/079c3cd26f6d3ea6.jpg",
+    "clue": "Which work of art is described by this clue: Expressionist masterpiece by Edvard Munch symbolizing anxiety and human emotion, recognized for its haunting figure and vivid colors?",
+    "wrong_options": [
+      {
+        "name": "The Starry Night",
+        "image": "/questions/81d451f6b417e15e.jpg"
+      },
+      {
+        "name": "Guernica",
+        "image": "/questions/72ae18a70f67179b.jpg"
+      }
+    ],
+    "fact": "The Scream is one of the most iconic artworks in modern history, created by Norwegian artist Edvard Munch.",
+    "category": "Art",
+    "source": "/topics/the-scream",
+    "bankVersion": "topic-bank-v3"
+  },
+  {
+    "name": "The Thinker",
+    "image": "/questions/c3858625381a1809.jpg",
+    "clue": "Which work of art is described by this clue: by Auguste Rodin became one of the most famous sculptures in modern art, symbolizing reflection, intellect, and human struggle?",
+    "wrong_options": [
+      {
+        "name": "The Scream",
+        "image": "/questions/079c3cd26f6d3ea6.jpg"
+      },
+      {
+        "name": "Guernica",
+        "image": "/questions/72ae18a70f67179b.jpg"
+      }
+    ],
+    "fact": "The Thinker is a bronze sculpture by the French artist Auguste Rodin and one of the best-known artworks in the history of sculpture.",
+    "category": "Art",
+    "source": "/topics/the-thinker",
+    "bankVersion": "topic-bank-v3"
+  },
+  {
+    "name": "American Gothic",
+    "image": "/questions/b10bd64cdfec5c03.jpg",
+    "clue": "What work of art is a 1930 painting by American artist Grant Wood and one of the most famous artworks in United States history?",
+    "wrong_options": [
+      {
+        "name": "Nighthawks",
+        "image": "/questions/5564f817cba76ac2.jpg"
+      },
+      {
+        "name": "The Starry Night",
+        "image": "/questions/81d451f6b417e15e.jpg"
+      }
+    ],
+    "fact": "American Gothic has this additional historical detail: Wood intended them to represent a father and daughter.",
+    "category": "Art",
+    "source": "/topics/american-gothic",
+    "bankVersion": "topic-bank-v3"
+  },
+  {
+    "name": "David (Michelangelo)",
+    "image": "/questions/c6394e773fb08ba8.jpg",
+    "clue": "Choose the work of art connected to this detail: Standing over 5 meters (17 feet) tall, it was created in Florence, where it quickly became a symbol of republican strength, vigilance, and civic pride.",
+    "wrong_options": [
+      {
+        "name": "Pieta (Michelangelo)",
+        "image": "/questions/861ce0008ea09bf0.jpg"
+      },
+      {
+        "name": "The Garden of Earthly Delights",
+        "image": "/questions/e148f4e81d5d5d80.jpg"
+      }
+    ],
+    "fact": "David (Michelangelo) has this additional historical detail: Carved in marble between 1501 and 1504, the statue depicts the biblical hero David just before his battle with Goliath.",
+    "category": "Art",
+    "source": "/topics/david-michelangelo",
+    "bankVersion": "topic-bank-v3"
+  },
+  {
+    "name": "Discus Thrower (Discobolus)",
+    "image": "/questions/bb6f23ec3bf2abce.jpg",
+    "clue": "Choose the work of art connected to this detail: Although the original bronze statue is lost, the work is known today through several Roman marble copies made centuries later.",
+    "wrong_options": [
+      {
+        "name": "The Birth of Venus",
+        "image": "/questions/b8dd949a28613f03.jpg"
+      },
+      {
+        "name": "Pieta (Michelangelo)",
+        "image": "/questions/861ce0008ea09bf0.jpg"
+      }
+    ],
+    "fact": "Discus Thrower (Discobolus) has this additional historical detail: 450 BCE by the Greek sculptor Myron, it depicts an athlete winding up to throw a discus.",
+    "category": "Art",
+    "source": "/topics/discus-thrower-discobolus",
+    "bankVersion": "topic-bank-v3"
+  },
+  {
+    "name": "Girl with a Pearl Earring",
+    "image": "/questions/c51dbfa4558a991b.jpg",
+    "clue": "What work of art is one of the most famous paintings of the Dutch Golden Age?",
+    "wrong_options": [
+      {
+        "name": "The Night Watch",
+        "image": "/questions/a457b7188d8dd589.jpg"
+      },
+      {
+        "name": "David (Michelangelo)",
+        "image": "/questions/c6394e773fb08ba8.jpg"
+      }
+    ],
+    "fact": "The painting is housed in the Mauritshuis in The Hague and is often called the “Mona Lisa of the North” because of its quiet mystery and universal appeal.",
+    "category": "Art",
+    "source": "/topics/girl-with-a-pearl-earring",
+    "bankVersion": "topic-bank-v3"
+  },
+  {
+    "name": "Guernica",
+    "image": "/questions/72ae18a70f67179b.jpg",
+    "clue": "Choose the work of art connected to this detail: Measuring over 25 feet wide, the black, white, and gray canvas depicts screaming figures, a wounded horse, a fallen warrior, and a grieving mother holding her dead child.",
+    "wrong_options": [
+      {
+        "name": "American Gothic",
+        "image": "/questions/b10bd64cdfec5c03.jpg"
+      },
+      {
+        "name": "The Starry Night",
+        "image": "/questions/81d451f6b417e15e.jpg"
+      }
+    ],
+    "fact": "Guernica has this additional historical detail: Rather than presenting a literal battlefield scene, Picasso used fragmentation, distortion, and stark contrast to express terror, suffering, and chaos.",
+    "category": "Art",
+    "source": "/topics/guernica",
+    "bankVersion": "topic-bank-v3"
+  },
+  {
+    "name": "Las Meninas",
+    "image": "/questions/cc63eae2244f0bb4.jpg",
+    "clue": "What work of art is one of the most studied and celebrated paintings in Western art?",
+    "wrong_options": [
+      {
+        "name": "The Night Watch",
+        "image": "/questions/a457b7188d8dd589.jpg"
+      },
+      {
+        "name": "David (Michelangelo)",
+        "image": "/questions/c6394e773fb08ba8.jpg"
+      }
+    ],
+    "fact": "The large canvas presents a scene inside the royal Alcázar of Madrid, showing the young Infanta Margaret Teresa surrounded by her attendants, or meninas, along with dwarfs, a dog, a chaperone, and Velázquez himself at work.",
+    "category": "Art",
+    "source": "/topics/las-meninas",
+    "bankVersion": "topic-bank-v3"
+  },
+  {
+    "name": "Mona Lisa",
+    "image": "/questions/15f79d9238e4d37b.jpg",
+    "clue": "What work of art is a half-length portrait painted by the Italian Renaissance polymath Leonardo da Vinci between roughly 1503 and 1519?",
+    "wrong_options": [
+      {
+        "name": "Pieta (Michelangelo)",
+        "image": "/questions/861ce0008ea09bf0.jpg"
+      },
+      {
+        "name": "The Garden of Earthly Delights",
+        "image": "/questions/e148f4e81d5d5d80.jpg"
+      }
+    ],
+    "fact": "Mona Lisa has this additional historical detail: Yet it is almost certainly the most famous painting in the world, studied by art historians, reproduced endlessly in popular culture, and viewed by an estimated ten million people every year at the Louvre Museum in Paris.",
+    "category": "Art",
+    "source": "/topics/mona-lisa",
+    "bankVersion": "topic-bank-v3"
+  },
+  {
+    "name": "Nighthawks",
+    "image": "/questions/5564f817cba76ac2.jpg",
+    "clue": "What work of art is a 1942 oil painting by American artist Edward Hopper and one of the most recognizable works in modern American art?",
+    "wrong_options": [
+      {
+        "name": "American Gothic",
+        "image": "/questions/b10bd64cdfec5c03.jpg"
+      },
+      {
+        "name": "The Starry Night",
+        "image": "/questions/81d451f6b417e15e.jpg"
+      }
+    ],
+    "fact": "Nighthawks was created during World War II, the painting has often been associated with themes of loneliness, anxiety, and urban alienation.",
+    "category": "Art",
+    "source": "/topics/nighthawks",
+    "bankVersion": "topic-bank-v3"
+  },
+  {
+    "name": "Pieta (Michelangelo)",
+    "image": "/questions/861ce0008ea09bf0.jpg",
+    "clue": "Choose the work of art connected to this detail: Today, the work is housed in St. Peter’s Basilica in Vatican City, where it remains a major landmark of Renaissance art.",
+    "wrong_options": [
+      {
+        "name": "The Last Supper",
+        "image": "/questions/2e8fa944b4c6a8e1.jpg"
+      },
+      {
+        "name": "The Creation of Adam",
+        "image": "/questions/47514d4a2e87ae99.jpg"
+      }
+    ],
+    "fact": "Pieta (Michelangelo) has this additional historical detail: Carved in marble between 1498 and 1499, it shows the Virgin Mary holding the body of the dead Christ after the Crucifixion.",
+    "category": "Art",
+    "source": "/topics/pieta-michelangelo",
+    "bankVersion": "topic-bank-v3"
+  },
+  {
+    "name": "The Birth of Venus",
+    "image": "/questions/b8dd949a28613f03.jpg",
+    "clue": "What work of art is one of the most famous paintings of the Italian Renaissance?",
+    "wrong_options": [
+      {
+        "name": "The Last Supper",
+        "image": "/questions/2e8fa944b4c6a8e1.jpg"
+      },
+      {
+        "name": "Mona Lisa",
+        "image": "/questions/15f79d9238e4d37b.jpg"
+      }
+    ],
+    "fact": "The Birth of Venus has this additional historical detail: Today, the painting is housed in the Uffizi Gallery in Florence, where it remains a major attraction and a key work in art history.",
+    "category": "Art",
+    "source": "/topics/the-birth-of-venus",
+    "bankVersion": "topic-bank-v3"
+  },
+  {
+    "name": "Abraham Lincoln",
+    "image": "/questions/bd09d496f7c264db.jpg",
+    "clue": "Which historical figure is described by this clue: 16th U.S. president who preserved the Union during the Civil War and advanced the abolition of slavery?",
+    "wrong_options": [
+      {
+        "name": "Thomas Edison",
+        "image": "/questions/52f08a57150af258.jpg"
+      },
+      {
+        "name": "Wright Brothers",
+        "image": "/questions/1277c5f806e158e3.jpg"
+      }
+    ],
+    "fact": "Abraham Lincoln is widely regarded as one of the greatest presidents in United States history.",
+    "category": "Figures",
+    "source": "/topics/abraham-lincoln",
+    "bankVersion": "topic-bank-v3"
+  },
+  {
+    "name": "Albert Einstein",
+    "image": "/questions/b787643986e34d6b.jpg",
+    "clue": "Which historical figure is described by this clue: Physicist whose theories of relativity transformed modern science and reshaped understanding of space, time, and energy?",
+    "wrong_options": [
+      {
+        "name": "Winston Churchill",
+        "image": "/questions/c7e49120e6038889.jpg"
+      },
+      {
+        "name": "Wright Brothers",
+        "image": "/questions/1277c5f806e158e3.jpg"
+      }
+    ],
+    "fact": "Albert Einstein was one of the most influential scientists in human history.",
+    "category": "Figures",
+    "source": "/topics/albert-einstein",
+    "bankVersion": "topic-bank-v3"
+  },
+  {
+    "name": "Christopher Columbus",
+    "image": "/questions/f78c023a58fa8d88.jpg",
+    "clue": "Which historical figure is described by this clue: Genoese explorer whose 1492 voyage across the Atlantic opened sustained contact between Europe and the Americas?",
+    "wrong_options": [
+      {
+        "name": "Leonardo da Vinci",
+        "image": "/questions/d73b156dc0757ec4.png"
+      },
+      {
+        "name": "Marco Polo",
+        "image": "/questions/42246d3209c655c5.png"
+      }
+    ],
+    "fact": "Christopher Columbus was a Genoese-born navigator whose 1492 voyage across the Atlantic Ocean established permanent contact between Europe and the Americas.",
+    "category": "Figures",
+    "source": "/topics/christopher-columbus",
+    "bankVersion": "topic-bank-v3"
+  },
+  {
+    "name": "Cleopatra",
+    "image": "/questions/9f7c2cbdb434f58e.jpg",
+    "clue": "Which historical figure is described by this clue: Last active pharaoh of Ptolemaic Egypt, a shrewd diplomat whose alliances with Julius Caesar and Mark Antony shaped the end of the Roman Republic?",
+    "wrong_options": [
+      {
+        "name": "Martin Luther King Jr.",
+        "image": "/questions/ea81e0db68452ade.jpg"
+      },
+      {
+        "name": "Mahatma Gandhi",
+        "image": "/questions/d673a77933b81666.jpg"
+      }
+    ],
+    "fact": "Cleopatra VII Thea Philopator was the last active ruler of the Ptolemaic Kingdom of Egypt and one of the most skillful political operators of the ancient world.",
+    "category": "Figures",
+    "source": "/topics/cleopatra",
+    "bankVersion": "topic-bank-v3"
+  },
+  {
+    "name": "Galileo Galilei",
+    "image": "/questions/36ce720ca66099e4.jpg",
+    "clue": "Which historical figure is described by this clue: Italian astronomer, physicist, and mathematician whose observations helped transform science and support heliocentrism?",
+    "wrong_options": [
+      {
+        "name": "William Shakespeare",
+        "image": "/questions/12be2a28e5fb42c5.jpg"
+      },
+      {
+        "name": "Napoleon Bonaparte",
+        "image": "/questions/eda65d78f5de7dac.jpg"
+      }
+    ],
+    "fact": "Galileo Galilei was an Italian astronomer, physicist, and mathematician widely known as one of the central figures of the Scientific Revolution.",
+    "category": "Figures",
+    "source": "/topics/galileo-galilei",
+    "bankVersion": "topic-bank-v3"
+  },
+  {
+    "name": "Julius Caesar",
+    "image": "/questions/55f335a4fd00293b.jpg",
+    "clue": "Which historical figure is described by this clue: Roman general, statesman, and dictator whose conquests and political reforms helped end the Roman Republic and reshape the ancient world?",
+    "wrong_options": [
+      {
+        "name": "Marco Polo",
+        "image": "/questions/42246d3209c655c5.png"
+      },
+      {
+        "name": "Galileo Galilei",
+        "image": "/questions/36ce720ca66099e4.jpg"
+      }
+    ],
+    "fact": "Gaius Julius Caesar was a Roman general, politician, and writer whose career marked the turning point between the Roman Republic and the Roman Empire.",
+    "category": "Figures",
+    "source": "/topics/julius-caesar",
+    "bankVersion": "topic-bank-v3"
+  },
+  {
+    "name": "Leonardo da Vinci",
+    "image": "/questions/d73b156dc0757ec4.png",
+    "clue": "Which historical figure is described by this clue: Italian Renaissance polymath — painter, engineer, anatomist, and inventor whose notebooks anticipated ideas centuries ahead of his time?",
+    "wrong_options": [
+      {
+        "name": "Christopher Columbus",
+        "image": "/questions/f78c023a58fa8d88.jpg"
+      },
+      {
+        "name": "Marco Polo",
+        "image": "/questions/42246d3209c655c5.png"
+      }
+    ],
+    "fact": "Leonardo was born in 1452 in or near the Tuscan town of Vinci, the illegitimate son of a notary, Ser Piero, and a peasant woman named Caterina.",
+    "category": "Figures",
+    "source": "/topics/leonardo-da-vinci",
+    "bankVersion": "topic-bank-v3"
+  },
+  {
+    "name": "Mahatma Gandhi",
+    "image": "/questions/d673a77933b81666.jpg",
+    "clue": "Which historical figure is described by this clue: Leader of India’s independence movement whose philosophy of nonviolent resistance influenced global civil rights struggles?",
+    "wrong_options": [
+      {
+        "name": "Marie Curie",
+        "image": "/questions/3403a772e72cffec.jpg"
+      },
+      {
+        "name": "Albert Einstein",
+        "image": "/questions/b787643986e34d6b.jpg"
+      }
+    ],
+    "fact": "Mahatma Gandhi was the most internationally recognized leader of India’s struggle against British colonial rule.",
+    "category": "Figures",
+    "source": "/topics/mahatma-gandhi",
+    "bankVersion": "topic-bank-v3"
+  },
+  {
+    "name": "Marco Polo",
+    "image": "/questions/42246d3209c655c5.png",
+    "clue": "Which historical figure is described by this clue: Venetian merchant This historical figure became famous for his travels in Asia and the influential book that shaped Europe’s view of the East?",
+    "wrong_options": [
+      {
+        "name": "Christopher Columbus",
+        "image": "/questions/f78c023a58fa8d88.jpg"
+      },
+      {
+        "name": "William Shakespeare",
+        "image": "/questions/12be2a28e5fb42c5.jpg"
+      }
+    ],
+    "fact": "Marco Polo was a Venetian merchant, traveler, and writer whose name became closely linked with medieval exploration.",
+    "category": "Figures",
+    "source": "/topics/marco-polo",
+    "bankVersion": "topic-bank-v3"
+  },
+  {
+    "name": "Marie Curie",
+    "image": "/questions/3403a772e72cffec.jpg",
+    "clue": "Which historical figure is described by this clue: Scientist who pioneered research on radioactivity and became the first person to win two Nobel Prizes?",
+    "wrong_options": [
+      {
+        "name": "Wright Brothers",
+        "image": "/questions/1277c5f806e158e3.jpg"
+      },
+      {
+        "name": "Albert Einstein",
+        "image": "/questions/b787643986e34d6b.jpg"
+      }
+    ],
+    "fact": "Marie Curie was a pioneering physicist and chemist whose research on radioactivity transformed science and medicine.",
+    "category": "Figures",
+    "source": "/topics/marie-curie",
+    "bankVersion": "topic-bank-v3"
+  },
+  {
+    "name": "Martin Luther King Jr.",
+    "image": "/questions/ea81e0db68452ade.jpg",
+    "clue": "Which historical figure is described by this clue: American Baptist minister and civil rights leader whose nonviolent campaign reshaped U.S. law and the moral conscience of a nation?",
+    "wrong_options": [
+      {
+        "name": "Albert Einstein",
+        "image": "/questions/b787643986e34d6b.jpg"
+      },
+      {
+        "name": "Marie Curie",
+        "image": "/questions/3403a772e72cffec.jpg"
+      }
+    ],
+    "fact": "Martin Luther King Jr. was the most recognizable leader of the American civil rights movement.",
+    "category": "Figures",
+    "source": "/topics/martin-luther-king-jr",
+    "bankVersion": "topic-bank-v3"
+  },
+  {
+    "name": "Napoleon Bonaparte",
+    "image": "/questions/eda65d78f5de7dac.jpg",
+    "clue": "Which historical figure is described by this clue: French general and emperor whose military campaigns and legal reforms reshaped Europe and whose name still defines an era?",
+    "wrong_options": [
+      {
+        "name": "Abraham Lincoln",
+        "image": "/questions/bd09d496f7c264db.jpg"
+      },
+      {
+        "name": "Wright Brothers",
+        "image": "/questions/1277c5f806e158e3.jpg"
+      }
+    ],
+    "fact": "Napoleon Bonaparte was a French military officer who rose from the provincial nobility of Corsica to become Emperor of the French and one of the most influential figures in European history.",
+    "category": "Figures",
+    "source": "/topics/napoleon-bonaparte",
+    "bankVersion": "topic-bank-v3"
+  },
+  {
+    "name": "Thomas Edison",
+    "image": "/questions/52f08a57150af258.jpg",
+    "clue": "Which historical figure is described by this clue: American inventor and businessman whose laboratories produced the phonograph, the electric light system, and over a thousand patents?",
+    "wrong_options": [
+      {
+        "name": "Marie Curie",
+        "image": "/questions/3403a772e72cffec.jpg"
+      },
+      {
+        "name": "Winston Churchill",
+        "image": "/questions/c7e49120e6038889.jpg"
+      }
+    ],
+    "fact": "Thomas Alva Edison was the most prolific inventor of his age and a defining figure in the rise of modern industrial technology.",
+    "category": "Figures",
+    "source": "/topics/thomas-edison",
+    "bankVersion": "topic-bank-v3"
+  },
+  {
+    "name": "William Shakespeare",
+    "image": "/questions/12be2a28e5fb42c5.jpg",
+    "clue": "Which historical figure is described by this clue: English playwright and poet widely regarded as the greatest writer in the English language?",
+    "wrong_options": [
+      {
+        "name": "Galileo Galilei",
+        "image": "/questions/36ce720ca66099e4.jpg"
+      },
+      {
+        "name": "Napoleon Bonaparte",
+        "image": "/questions/eda65d78f5de7dac.jpg"
+      }
+    ],
+    "fact": "William Shakespeare was an English playwright, poet, and actor, widely regarded as the greatest writer in the English language and one of the most influential figures in world literature.",
+    "category": "Figures",
+    "source": "/topics/william-shakespeare",
+    "bankVersion": "topic-bank-v3"
+  },
+  {
+    "name": "Winston Churchill",
+    "image": "/questions/c7e49120e6038889.jpg",
+    "clue": "Which historical figure is described by this clue: British Prime Minister who led the United Kingdom during World War II and became a symbol of resistance against Nazi Germany?",
+    "wrong_options": [
+      {
+        "name": "Albert Einstein",
+        "image": "/questions/b787643986e34d6b.jpg"
+      },
+      {
+        "name": "Wright Brothers",
+        "image": "/questions/1277c5f806e158e3.jpg"
+      }
+    ],
+    "fact": "Winston Churchill was a British statesman and leader best known for guiding the United Kingdom during World War II.",
+    "category": "Figures",
+    "source": "/topics/winston-churchill",
+    "bankVersion": "topic-bank-v3"
+  },
+  {
+    "name": "Wright Brothers",
+    "image": "/questions/1277c5f806e158e3.jpg",
+    "clue": "Which historical figure is described by this clue: American inventors who designed, built, and piloted the first successful powered, controlled airplane in 1903?",
+    "wrong_options": [
+      {
+        "name": "Marie Curie",
+        "image": "/questions/3403a772e72cffec.jpg"
+      },
+      {
+        "name": "Albert Einstein",
+        "image": "/questions/b787643986e34d6b.jpg"
+      }
+    ],
+    "fact": "One notable detail about Wright Brothers: Orville and Wilbur Wright were two American brothers from Dayton, Ohio, who made the first sustained, controlled, powered heavier-than-air flight on December 17, 1903.",
+    "category": "Figures",
+    "source": "/topics/wright-brothers",
+    "bankVersion": "topic-bank-v3"
+  },
+  {
+    "name": "Abraham Lincoln",
+    "image": "/questions/bd09d496f7c264db.jpg",
+    "clue": "What historical figure is widely regarded as one of the greatest presidents in United States history?",
+    "wrong_options": [
+      {
+        "name": "Napoleon Bonaparte",
+        "image": "/questions/eda65d78f5de7dac.jpg"
+      },
+      {
+        "name": "Mahatma Gandhi",
+        "image": "/questions/d673a77933b81666.jpg"
+      }
+    ],
+    "fact": "Lincoln was born in a log cabin in Kentucky in 1809 and grew up on the American frontier in Kentucky, Indiana, and Illinois.",
+    "category": "Figures",
+    "source": "/topics/abraham-lincoln",
+    "bankVersion": "topic-bank-v3"
+  },
+  {
+    "name": "Albert Einstein",
+    "image": "/questions/b787643986e34d6b.jpg",
+    "clue": "What historical figure was one of the most influential scientists in human history?",
+    "wrong_options": [
+      {
+        "name": "Mahatma Gandhi",
+        "image": "/questions/d673a77933b81666.jpg"
+      },
+      {
+        "name": "Thomas Edison",
+        "image": "/questions/52f08a57150af258.jpg"
+      }
+    ],
+    "fact": "Einstein was born in Ulm, Germany, in 1879 and grew up in Munich and later in Italy and Switzerland.",
+    "category": "Figures",
+    "source": "/topics/albert-einstein",
+    "bankVersion": "topic-bank-v3"
+  },
+  {
+    "name": "Christopher Columbus",
+    "image": "/questions/f78c023a58fa8d88.jpg",
+    "clue": "What historical figure was a Genoese-born navigator whose 1492 voyage across the Atlantic Ocean established permanent contact between Europe and the Americas?",
+    "wrong_options": [
+      {
+        "name": "Galileo Galilei",
+        "image": "/questions/36ce720ca66099e4.jpg"
+      },
+      {
+        "name": "Napoleon Bonaparte",
+        "image": "/questions/eda65d78f5de7dac.jpg"
+      }
+    ],
+    "fact": "The consequences of his expeditions — for the Indigenous peoples of the Americas, for the kingdoms of Europe, and for the global transfer of plants, animals, microbes, and people — are among the most far-reaching in history.",
+    "category": "Figures",
+    "source": "/topics/christopher-columbus",
+    "bankVersion": "topic-bank-v3"
+  },
+  {
+    "name": "Cleopatra",
+    "image": "/questions/9f7c2cbdb434f58e.jpg",
+    "clue": "Choose the historical figure connected to this detail: VII Thea Philopator was the last active ruler of the Ptolemaic Kingdom of Egypt and one of the most skillful political operators of the ancient world.",
+    "wrong_options": [
+      {
+        "name": "Albert Einstein",
+        "image": "/questions/b787643986e34d6b.jpg"
+      },
+      {
+        "name": "Marie Curie",
+        "image": "/questions/3403a772e72cffec.jpg"
+      }
+    ],
+    "fact": "Cleopatra was born in Alexandria in 69 BCE into the Greek-speaking Macedonian dynasty founded by Ptolemy, a general of Alexander the Great.",
+    "category": "Figures",
+    "source": "/topics/cleopatra",
+    "bankVersion": "topic-bank-v3"
+  },
+  {
+    "name": "Galileo Galilei",
+    "image": "/questions/36ce720ca66099e4.jpg",
+    "clue": "What historical figure was an Italian astronomer, physicist, and mathematician widely known as one of the central figures of the Scientific Revolution?",
+    "wrong_options": [
+      {
+        "name": "Leonardo da Vinci",
+        "image": "/questions/d73b156dc0757ec4.png"
+      },
+      {
+        "name": "Abraham Lincoln",
+        "image": "/questions/bd09d496f7c264db.jpg"
+      }
+    ],
+    "fact": "Galileo is especially famous for improving the telescope and using it to observe the heavens in ways that challenged traditional ideas about the universe.",
+    "category": "Figures",
+    "source": "/topics/galileo-galilei",
+    "bankVersion": "topic-bank-v3"
+  },
+  {
+    "name": "Julius Caesar",
+    "image": "/questions/55f335a4fd00293b.jpg",
+    "clue": "Choose the historical figure connected to this detail: Gaius This historical figure was a Roman general, politician, and writer whose career marked the turning point between the Roman Republic and the Roman Empire.",
+    "wrong_options": [
+      {
+        "name": "Christopher Columbus",
+        "image": "/questions/f78c023a58fa8d88.jpg"
+      },
+      {
+        "name": "William Shakespeare",
+        "image": "/questions/12be2a28e5fb42c5.jpg"
+      }
+    ],
+    "fact": "Caesar was born in 100 BCE to a patrician family that traced its mythical descent from the goddess Venus.",
+    "category": "Figures",
+    "source": "/topics/julius-caesar",
+    "bankVersion": "topic-bank-v3"
+  },
+  {
+    "name": "Mahatma Gandhi",
+    "image": "/questions/d673a77933b81666.jpg",
+    "clue": "What historical figure was the most internationally recognized leader of India’s struggle against British colonial rule?",
+    "wrong_options": [
+      {
+        "name": "Wright Brothers",
+        "image": "/questions/1277c5f806e158e3.jpg"
+      },
+      {
+        "name": "Thomas Edison",
+        "image": "/questions/52f08a57150af258.jpg"
+      }
+    ],
+    "fact": "During this period, Gandhi began developing satyagraha, a philosophy based on truth, nonviolence, and civil resistance.",
+    "category": "Figures",
+    "source": "/topics/mahatma-gandhi",
+    "bankVersion": "topic-bank-v3"
+  },
+  {
+    "name": "Marco Polo",
+    "image": "/questions/42246d3209c655c5.png",
+    "clue": "What historical figure was a Venetian merchant, traveler, and writer whose name became closely linked with medieval exploration?",
+    "wrong_options": [
+      {
+        "name": "Leonardo da Vinci",
+        "image": "/questions/d73b156dc0757ec4.png"
+      },
+      {
+        "name": "Napoleon Bonaparte",
+        "image": "/questions/eda65d78f5de7dac.jpg"
+      }
+    ],
+    "fact": "Although some details in the book have been debated by historians, it remains one of the most important travel narratives of the Middle Ages.",
+    "category": "Figures",
+    "source": "/topics/marco-polo",
+    "bankVersion": "topic-bank-v3"
+  },
+  {
+    "name": "Marie Curie",
+    "image": "/questions/3403a772e72cffec.jpg",
+    "clue": "What historical figure was a pioneering physicist and chemist whose research on radioactivity transformed science and medicine?",
+    "wrong_options": [
+      {
+        "name": "Mahatma Gandhi",
+        "image": "/questions/d673a77933b81666.jpg"
+      },
+      {
+        "name": "Thomas Edison",
+        "image": "/questions/52f08a57150af258.jpg"
+      }
+    ],
+    "fact": "Marie Curie has this additional historical detail: There, she met and married Pierre Curie, who became her research partner.",
+    "category": "Figures",
+    "source": "/topics/marie-curie",
+    "bankVersion": "topic-bank-v3"
+  },
+  {
+    "name": "Assassination of Archduke Franz Ferdinand",
+    "image": "/questions/32c38f46b1e44835.jpg",
+    "clue": "Which historical event is described by this clue: took place on 28 June 1914 in Sarajevo, then part of Austria-Hungary?",
+    "wrong_options": [
+      {
+        "name": "World War I",
+        "image": "/questions/5da84a2ddff888b2.jpg"
+      },
+      {
+        "name": "Pearl Harbor Attack",
+        "image": "/questions/f8942ed4e04c16e0.jpg"
+      }
+    ],
+    "fact": "Franz Ferdinand, heir presumptive to the Austro-Hungarian throne, was killed along with his wife, Sophie, Duchess of Hohenberg, by Gavrilo Princip, a Bosnian Serb nationalist.",
+    "category": "Events",
+    "source": "/topics/assassination-of-archduke-franz-ferdinand",
+    "bankVersion": "topic-bank-v3"
+  },
+  {
+    "name": "Battle of Hastings",
+    "image": "/questions/326e710f8ee49576.jpg",
+    "clue": "Which historical event is described by this clue: in 1066 gave William of Normandy victory over Harold II and transformed England’s monarchy, landholding, and culture?",
+    "wrong_options": [
+      {
+        "name": "Black Death",
+        "image": "/questions/454224e0ac9b258e.png"
+      },
+      {
+        "name": "Industrial Revolution",
+        "image": "/questions/2909ff725329a0b2.jpg"
+      }
+    ],
+    "fact": "The Battle of Hastings was fought on 14 October 1066 near Hastings in southern England.",
+    "category": "Events",
+    "source": "/topics/battle-of-hastings",
+    "bankVersion": "topic-bank-v3"
+  },
+  {
+    "name": "D-Day (Normandy Landings)",
+    "image": "/questions/a5cfa2156555a103.jpg",
+    "clue": "Which historical event is described by this clue: Codenamed Operation Overlord, it marked the beginning of the Allied campaign to liberate Nazi-occupied Western Europe?",
+    "wrong_options": [
+      {
+        "name": "Hiroshima and Nagasaki Bombings",
+        "image": "/questions/c446a46ebd058896.jpg"
+      },
+      {
+        "name": "Cuban Missile Crisis",
+        "image": "/questions/90d97d72e30c5522.jpg"
+      }
+    ],
+    "fact": "One notable detail about D-Day (Normandy Landings): D-Day, the Normandy landings of June 6, 1944, was the largest amphibious invasion in military history and a critical operation of World War II.",
+    "category": "Events",
+    "source": "/topics/d-day-normandy-landings",
+    "bankVersion": "topic-bank-v3"
+  },
+  {
+    "name": "Fall of the Berlin Wall",
+    "image": "/questions/ad94497039219dec.jpg",
+    "clue": "Which historical event is described by this clue: on November 9, 1989, marked a turning point in world history?",
+    "wrong_options": [
+      {
+        "name": "Chernobyl Disaster",
+        "image": "/questions/7e87856590da9e75.jpg"
+      },
+      {
+        "name": "JFK Assassination",
+        "image": "/questions/e379de229580e3b4.jpg"
+      }
+    ],
+    "fact": "The event led directly to the reunification of Germany.",
+    "category": "Events",
+    "source": "/topics/fall-of-the-berlin-wall",
+    "bankVersion": "topic-bank-v3"
+  },
+  {
+    "name": "Fall of the Roman Empire",
+    "image": "/questions/0472e54b7f9a8153.gif",
+    "clue": "Which historical event is described by this clue: Instead, it marked the end of imperial rule in the West after centuries of political instability, economic strain, military pressure, and internal division?",
+    "wrong_options": [
+      {
+        "name": "Battle of Hastings",
+        "image": "/questions/326e710f8ee49576.jpg"
+      },
+      {
+        "name": "Industrial Revolution",
+        "image": "/questions/2909ff725329a0b2.jpg"
+      }
+    ],
+    "fact": "The fall of the Roman Empire usually refers to the collapse of the Western Roman Empire in 476 CE, when the Germanic leader Odoacer deposed the young emperor Romulus Augustulus.",
+    "category": "Events",
+    "source": "/topics/fall-of-the-roman-empire",
+    "bankVersion": "topic-bank-v3"
+  },
+  {
+    "name": "Invention of the Printing Press",
+    "image": "/questions/54121bd8a8fef44c.jpg",
+    "clue": "Which historical event is described by this clue: 1440 was one of the most important technological events in world history?",
+    "wrong_options": [
+      {
+        "name": "Black Death",
+        "image": "/questions/454224e0ac9b258e.png"
+      },
+      {
+        "name": "French Revolution",
+        "image": "/questions/a3750d96a7b94750.jpg"
+      }
+    ],
+    "fact": "One notable detail about Invention of the Printing Press: Developed in Mainz, in the Holy Roman Empire, by Johannes Gutenberg, the press introduced a practical system of movable metal type that allowed texts to be reproduced far more quickly than by hand.",
+    "category": "Events",
+    "source": "/topics/invention-of-the-printing-press",
+    "bankVersion": "topic-bank-v3"
+  },
+  {
+    "name": "JFK Assassination",
+    "image": "/questions/e379de229580e3b4.jpg",
+    "clue": "Which historical event is described by this clue: President John F. Kennedy was assassinated in Dallas on November 22, 1963, an event that shocked the world and changed U.S. history?",
+    "wrong_options": [
+      {
+        "name": "Cuban Missile Crisis",
+        "image": "/questions/90d97d72e30c5522.jpg"
+      },
+      {
+        "name": "D-Day (Normandy Landings)",
+        "image": "/questions/a5cfa2156555a103.jpg"
+      }
+    ],
+    "fact": "The JFK Assassination refers to the killing of U.S. President John F. Kennedy on November 22, 1963, in Dallas, Texas.",
+    "category": "Events",
+    "source": "/topics/jfk-assassination",
+    "bankVersion": "topic-bank-v3"
+  },
+  {
+    "name": "Pearl Harbor Attack",
+    "image": "/questions/f8942ed4e04c16e0.jpg",
+    "clue": "Which historical event is described by this clue: brought the United States into World War II after a surprise Japanese strike on Hawaii?",
+    "wrong_options": [
+      {
+        "name": "World War II",
+        "image": "/questions/e0e4e2088dfbdd6e.jpg"
+      },
+      {
+        "name": "Cuban Missile Crisis",
+        "image": "/questions/90d97d72e30c5522.jpg"
+      }
+    ],
+    "fact": "The Pearl Harbor Attack was a surprise military strike carried out by the Imperial Japanese Navy against the United States naval base at Pearl Harbor, Hawaii, on December 7, 1941.",
+    "category": "Events",
+    "source": "/topics/pearl-harbor-attack",
+    "bankVersion": "topic-bank-v3"
+  },
+  {
+    "name": "RMS Titanic",
+    "image": "/questions/b009ee8a6e22c017.jpg",
+    "clue": "Which historical event is described by this clue: British ocean liner that sank on its maiden voyage in 1912 after striking an iceberg, killing more than 1,500 people?",
+    "wrong_options": [
+      {
+        "name": "Assassination of Archduke Franz Ferdinand",
+        "image": "/questions/32c38f46b1e44835.jpg"
+      },
+      {
+        "name": "Pearl Harbor Attack",
+        "image": "/questions/f8942ed4e04c16e0.jpg"
+      }
+    ],
+    "fact": "The RMS Titanic was a British passenger liner operated by the White Star Line that sank in the early hours of April 15, 1912, after striking an iceberg on her maiden voyage from Southampton to New York.",
+    "category": "Events",
+    "source": "/topics/rms-titanic",
+    "bankVersion": "topic-bank-v3"
+  },
+  {
+    "name": "September 11 Attacks",
+    "image": "/questions/a0073c63d3eebb1f.jpg",
+    "clue": "Which historical event is described by this clue: Four commercial airliners were seized during the morning?",
+    "wrong_options": [
+      {
+        "name": "Fall of the Berlin Wall",
+        "image": "/questions/ad94497039219dec.jpg"
+      },
+      {
+        "name": "JFK Assassination",
+        "image": "/questions/e379de229580e3b4.jpg"
+      }
+    ],
+    "fact": "The September 11 Attacks were a series of coordinated terrorist hijackings carried out in the United States on September 11, 2001, by 19 militants linked to al-Qaeda.",
+    "category": "Events",
+    "source": "/topics/september-11-attacks",
+    "bankVersion": "topic-bank-v3"
+  },
+  {
+    "name": "American Civil War",
+    "image": "/questions/11bfd469ee3942fa.png",
+    "clue": "What historical event was fought from 1861 to 1865 between the United States (the Union) and eleven Southern states that seceded to form the Confederate States of America?",
+    "wrong_options": [
+      {
+        "name": "RMS Titanic",
+        "image": "/questions/b009ee8a6e22c017.jpg"
+      },
+      {
+        "name": "French Revolution",
+        "image": "/questions/a3750d96a7b94750.jpg"
+      }
+    ],
+    "fact": "By the war’s end, the Union had been preserved, slavery had been abolished, and the balance of power between the federal government and the states had shifted permanently.",
+    "category": "Events",
+    "source": "/topics/american-civil-war",
+    "bankVersion": "topic-bank-v3"
+  },
+  {
+    "name": "Battle of Hastings",
+    "image": "/questions/326e710f8ee49576.jpg",
+    "clue": "What historical event was one of the most important battles in English history because it led to the Norman Conquest of England?",
+    "wrong_options": [
+      {
+        "name": "Invention of the Printing Press",
+        "image": "/questions/54121bd8a8fef44c.jpg"
+      },
+      {
+        "name": "Boston Tea Party",
+        "image": "/questions/0a62300956d23921.jpg"
+      }
+    ],
+    "fact": "Battle of Hastings has this additional historical detail: William, Duke of Normandy, defeated King Harold II, the last crowned Anglo-Saxon king of England.",
+    "category": "Events",
+    "source": "/topics/battle-of-hastings",
+    "bankVersion": "topic-bank-v3"
+  },
+  {
+    "name": "Battle of Waterloo",
+    "image": "/questions/40fd4c2ce8147e74.png",
+    "clue": "What historical event was the final major battle of Napoleon Bonaparte’s military career and a decisive turning point in European history?",
+    "wrong_options": [
+      {
+        "name": "Boston Tea Party",
+        "image": "/questions/0a62300956d23921.jpg"
+      },
+      {
+        "name": "RMS Titanic",
+        "image": "/questions/b009ee8a6e22c017.jpg"
+      }
+    ],
+    "fact": "Battle of Waterloo has this additional historical detail: French forces under Napoleon faced the Allied army led by the Duke of Wellington, supported later in the day by Prussian troops commanded by Gebhard Leberecht von Blücher.",
+    "category": "Events",
+    "source": "/topics/battle-of-waterloo",
+    "bankVersion": "topic-bank-v3"
+  },
+  {
+    "name": "Black Death",
+    "image": "/questions/454224e0ac9b258e.png",
+    "clue": "What historical event was one of the deadliest pandemics in world history?",
+    "wrong_options": [
+      {
+        "name": "Battle of Hastings",
+        "image": "/questions/326e710f8ee49576.jpg"
+      },
+      {
+        "name": "French Revolution",
+        "image": "/questions/a3750d96a7b94750.jpg"
+      }
+    ],
+    "fact": "The disease spread rapidly along trade routes by land and sea.",
+    "category": "Events",
+    "source": "/topics/black-death",
+    "bankVersion": "topic-bank-v3"
+  },
+  {
+    "name": "Boston Tea Party",
+    "image": "/questions/0a62300956d23921.jpg",
+    "clue": "Which historical event is connected to this source detail: the action was organized by Patriots, including members of the Sons of Liberty, and became one of the most famous events leading to the American Revolution?",
+    "wrong_options": [
+      {
+        "name": "French Revolution",
+        "image": "/questions/a3750d96a7b94750.jpg"
+      },
+      {
+        "name": "RMS Titanic",
+        "image": "/questions/b009ee8a6e22c017.jpg"
+      }
+    ],
+    "fact": "Boston Tea Party has this additional historical detail: Angry over British taxation and what they saw as unfair imperial control, American colonists boarded ships in Boston Harbor and dumped 342 chests of tea into the water.",
+    "category": "Events",
+    "source": "/topics/boston-tea-party",
+    "bankVersion": "topic-bank-v3"
+  },
+  {
+    "name": "Chernobyl Disaster",
+    "image": "/questions/7e87856590da9e75.jpg",
+    "clue": "Choose the historical event connected to this detail: remains the worst nuclear power plant accident in history.",
+    "wrong_options": [
+      {
+        "name": "September 11 Attacks",
+        "image": "/questions/a0073c63d3eebb1f.jpg"
+      },
+      {
+        "name": "Cuban Missile Crisis",
+        "image": "/questions/90d97d72e30c5522.jpg"
+      }
+    ],
+    "fact": "The explosion and fire released large amounts of radioactive material into the atmosphere, contaminating parts of Ukraine, Belarus, Russia, and wider Europe.",
+    "category": "Events",
+    "source": "/topics/chernobyl-disaster",
+    "bankVersion": "topic-bank-v3"
+  },
+  {
+    "name": "Cuban Missile Crisis",
+    "image": "/questions/90d97d72e30c5522.jpg",
+    "clue": "What historical event was a 13-day confrontation in October 1962 between the United States and the Soviet Union over Soviet nuclear missiles placed in Cuba?",
+    "wrong_options": [
+      {
+        "name": "Apollo 11 Moon Landing",
+        "image": "/questions/0719509d0e2e4b8f.jpg"
+      },
+      {
+        "name": "Pearl Harbor Attack",
+        "image": "/questions/f8942ed4e04c16e0.jpg"
+      }
+    ],
+    "fact": "Cuban Missile Crisis has this additional historical detail: U.S. President John F. Kennedy responded by announcing a naval “quarantine” of Cuba to stop further Soviet military shipments.",
+    "category": "Events",
+    "source": "/topics/cuban-missile-crisis",
+    "bankVersion": "topic-bank-v3"
+  },
+  {
+    "name": "D-Day (Normandy Landings)",
+    "image": "/questions/a5cfa2156555a103.jpg",
+    "clue": "Choose the historical event connected to this detail: Success on This historical event did not end the war immediately, but it established a vital foothold in France and opened a major Western Front against Germany.",
+    "wrong_options": [
+      {
+        "name": "Pearl Harbor Attack",
+        "image": "/questions/f8942ed4e04c16e0.jpg"
+      },
+      {
+        "name": "JFK Assassination",
+        "image": "/questions/e379de229580e3b4.jpg"
+      }
+    ],
+    "fact": "D-Day (Normandy Landings) has this additional historical detail: Codenamed Operation Overlord, it marked the beginning of the Allied campaign to liberate Nazi-occupied Western Europe.",
+    "category": "Events",
+    "source": "/topics/d-day-normandy-landings",
+    "bankVersion": "topic-bank-v3"
+  },
+  {
+    "name": "Fall of the Berlin Wall",
+    "image": "/questions/ad94497039219dec.jpg",
+    "clue": "Choose the historical event connected to this detail: symbolized the collapse of communist control in Eastern Europe and the beginning of the end of the Cold War.",
+    "wrong_options": [
+      {
+        "name": "September 11 Attacks",
+        "image": "/questions/a0073c63d3eebb1f.jpg"
+      },
+      {
+        "name": "Cuban Missile Crisis",
+        "image": "/questions/90d97d72e30c5522.jpg"
+      }
+    ],
+    "fact": "The event led directly to the reunification of Germany.",
+    "category": "Events",
+    "source": "/topics/fall-of-the-berlin-wall",
+    "bankVersion": "topic-bank-v3"
+  },
+  {
+    "name": "Fall of the Roman Empire",
+    "image": "/questions/0472e54b7f9a8153.gif",
+    "clue": "Choose the historical event connected to this detail: Historians see 476 CE as a symbolic date rather than a single moment of sudden destruction.",
+    "wrong_options": [
+      {
+        "name": "Black Death",
+        "image": "/questions/454224e0ac9b258e.png"
+      },
+      {
+        "name": "Boston Tea Party",
+        "image": "/questions/0a62300956d23921.jpg"
+      }
+    ],
+    "fact": "Fall of the Roman Empire has this additional historical detail: Instead, it marked the end of imperial rule in the West after centuries of political instability, economic strain, military pressure, and internal division.",
+    "category": "Events",
+    "source": "/topics/fall-of-the-roman-empire",
+    "bankVersion": "topic-bank-v3"
+  },
+  {
+    "name": "French Revolution",
+    "image": "/questions/a3750d96a7b94750.jpg",
+    "clue": "What historical event was a major political and social upheaval in France between 1789 and 1799?",
+    "wrong_options": [
+      {
+        "name": "Battle of Waterloo",
+        "image": "/questions/40fd4c2ce8147e74.png"
+      },
+      {
+        "name": "RMS Titanic",
+        "image": "/questions/b009ee8a6e22c017.jpg"
+      }
+    ],
+    "fact": "Often seen as a turning point in modern history, the French Revolution transformed France from an absolute monarchy into a republic, though not without violence and instability.",
+    "category": "Events",
+    "source": "/topics/french-revolution",
+    "bankVersion": "topic-bank-v3"
+  },
+  {
+    "name": "Hiroshima and Nagasaki Bombings",
+    "image": "/questions/c446a46ebd058896.jpg",
+    "clue": "Choose the historical event connected to this detail: These attacks occurred during the final days of World War II and were followed by Japan’s surrender on August 15, 1945.",
+    "wrong_options": [
+      {
+        "name": "Pearl Harbor Attack",
+        "image": "/questions/f8942ed4e04c16e0.jpg"
+      },
+      {
+        "name": "JFK Assassination",
+        "image": "/questions/e379de229580e3b4.jpg"
+      }
+    ],
+    "fact": "On August 6, 1945, the United States dropped an atomic bomb on Hiroshima, Japan.",
+    "category": "Events",
+    "source": "/topics/hiroshima-and-nagasaki-bombings",
+    "bankVersion": "topic-bank-v3"
+  },
+  {
+    "name": "Industrial Revolution",
+    "image": "/questions/2909ff725329a0b2.jpg",
+    "clue": "What historical event was a major period of economic and technological change that began in Britain around 1760 and spread to Europe and North America?",
+    "wrong_options": [
+      {
+        "name": "French Revolution",
+        "image": "/questions/a3750d96a7b94750.jpg"
+      },
+      {
+        "name": "RMS Titanic",
+        "image": "/questions/b009ee8a6e22c017.jpg"
+      }
+    ],
+    "fact": "Industrial Revolution has this additional historical detail: Textile making, iron production, coal mining, and transportation all changed rapidly.",
+    "category": "Events",
+    "source": "/topics/industrial-revolution",
+    "bankVersion": "topic-bank-v3"
+  },
+  {
+    "name": "Invention of the Printing Press",
+    "image": "/questions/54121bd8a8fef44c.jpg",
+    "clue": "Choose the historical event connected to this detail: Together, these advances made large-scale book production possible in Europe.",
+    "wrong_options": [
+      {
+        "name": "Industrial Revolution",
+        "image": "/questions/2909ff725329a0b2.jpg"
+      },
+      {
+        "name": "Battle of Hastings",
+        "image": "/questions/326e710f8ee49576.jpg"
+      }
+    ],
+    "fact": "Invention of the Printing Press has this additional historical detail: Developed in Mainz, in the Holy Roman Empire, by Johannes Gutenberg, the press introduced a practical system of movable metal type that allowed texts to be reproduced far more quickly than by hand.",
+    "category": "Events",
+    "source": "/topics/invention-of-the-printing-press",
+    "bankVersion": "topic-bank-v3"
+  },
+  {
+    "name": "JFK Assassination",
+    "image": "/questions/e379de229580e3b4.jpg",
+    "clue": "Choose the historical event connected to this detail: refers to the killing of U.S. President John F. Kennedy on November 22, 1963, in Dallas, Texas.",
+    "wrong_options": [
+      {
+        "name": "Apollo 11 Moon Landing",
+        "image": "/questions/0719509d0e2e4b8f.jpg"
+      },
+      {
+        "name": "Pearl Harbor Attack",
+        "image": "/questions/f8942ed4e04c16e0.jpg"
+      }
+    ],
+    "fact": "JFK Assassination has this additional historical detail: Kennedy was fatally wounded, and Governor Connally was seriously injured.",
+    "category": "Events",
+    "source": "/topics/jfk-assassination",
+    "bankVersion": "topic-bank-v3"
+  },
+  {
+    "name": "Code of Hammurabi",
+    "image": "/questions/8a3d604abd3b9624.jpg",
+    "clue": "Which document is described by this clue: One of the world’s earliest surviving law codes, this document shaped justice and royal authority in ancient Babylon?",
+    "wrong_options": [
+      {
+        "name": "Declaration of Independence",
+        "image": "/questions/38eca3c6a8c712e9.jpg"
+      },
+      {
+        "name": "The Communist Manifesto",
+        "image": "/questions/2b731ed485e83e79.png"
+      }
+    ],
+    "fact": "The Code of Hammurabi is one of the most famous legal documents from the ancient world.",
+    "category": "Documents",
+    "source": "/topics/code-of-hammurabi",
+    "bankVersion": "topic-bank-v3"
+  },
+  {
+    "name": "Dead Sea Scrolls",
+    "image": "/questions/fdd29a89f57da738.jpg",
+    "clue": "Which document is described by this clue: Ancient Jewish manuscripts found near Qumran that transformed the study of the Hebrew Bible and Second Temple Judaism?",
+    "wrong_options": [
+      {
+        "name": "Bayeux Tapestry",
+        "image": "/questions/c4d24ffb121af8f0.png"
+      },
+      {
+        "name": "Atlantic Charter",
+        "image": "/questions/689570e94c726d85.jpg"
+      }
+    ],
+    "fact": "The Dead Sea Scrolls are a collection of ancient Jewish manuscripts discovered in caves near Qumran, close to the Dead Sea, beginning in 1947.",
+    "category": "Documents",
+    "source": "/topics/dead-sea-scrolls",
+    "bankVersion": "topic-bank-v3"
+  },
+  {
+    "name": "Declaration of Independence",
+    "image": "/questions/38eca3c6a8c712e9.jpg",
+    "clue": "Which document is described by this clue: Founding document of the United States, declaring the thirteen American colonies free from British rule and asserting universal rights?",
+    "wrong_options": [
+      {
+        "name": "US Constitution",
+        "image": "/questions/cadc4d587dbdd155.jpg"
+      },
+      {
+        "name": "The Communist Manifesto",
+        "image": "/questions/2b731ed485e83e79.png"
+      }
+    ],
+    "fact": "The Declaration of Independence is the founding document of the United States, adopted by the Second Continental Congress on July 4, 1776.",
+    "category": "Documents",
+    "source": "/topics/declaration-of-independence",
+    "bankVersion": "topic-bank-v3"
+  },
+  {
+    "name": "Epic of Gilgamesh",
+    "image": "/questions/1541cd65f879612e.jpg",
+    "clue": "Which document is described by this clue: One of the world’s oldest surviving literary works, this document explores kingship, friendship, and mortality in ancient Mesopotamia?",
+    "wrong_options": [
+      {
+        "name": "Universal Declaration of Human Rights",
+        "image": "/questions/4969c435e2b8b72f.jpg"
+      },
+      {
+        "name": "Gettysburg Address",
+        "image": "/questions/39940d3ff1cb4142.jpg"
+      }
+    ],
+    "fact": "The Epic of Gilgamesh is one of the oldest known works of literature and a foundational text from ancient Mesopotamia.",
+    "category": "Documents",
+    "source": "/topics/epic-of-gilgamesh",
+    "bankVersion": "topic-bank-v3"
+  },
+  {
+    "name": "Gettysburg Address",
+    "image": "/questions/39940d3ff1cb4142.jpg",
+    "clue": "Which document is described by this clue: by Abraham Lincoln reframed the Civil War as a test of equality, democracy, and national purpose?",
+    "wrong_options": [
+      {
+        "name": "The Communist Manifesto",
+        "image": "/questions/2b731ed485e83e79.png"
+      },
+      {
+        "name": "US Constitution",
+        "image": "/questions/cadc4d587dbdd155.jpg"
+      }
+    ],
+    "fact": "The Gettysburg Address is one of the most famous speeches in American history.",
+    "category": "Documents",
+    "source": "/topics/gettysburg-address",
+    "bankVersion": "topic-bank-v3"
+  },
+  {
+    "name": "Magna Carta",
+    "image": "/questions/fbd70a7978561d5e.jpg",
+    "clue": "Which document is described by this clue: Historic English charter limiting royal power and establishing early principles of law and individual rights?",
+    "wrong_options": [
+      {
+        "name": "Gutenberg Bible",
+        "image": "/questions/0cfc087e7025e7d8.jpg"
+      },
+      {
+        "name": "US Constitution",
+        "image": "/questions/cadc4d587dbdd155.jpg"
+      }
+    ],
+    "fact": "The Magna Carta is a foundational legal document signed in 1215 that limited the powers of the English king.",
+    "category": "Documents",
+    "source": "/topics/magna-carta",
+    "bankVersion": "topic-bank-v3"
+  },
+  {
+    "name": "Rosetta Stone",
+    "image": "/questions/ee354c08770b6476.jpg",
+    "clue": "Which document is described by this clue: Ancient Egyptian decree inscribed in three scripts that enabled scholars to decipher hieroglyphs?",
+    "wrong_options": [
+      {
+        "name": "Twelve Tables",
+        "image": "/questions/c63f0d6abcc3c826.png"
+      },
+      {
+        "name": "Code of Hammurabi",
+        "image": "/questions/8a3d604abd3b9624.jpg"
+      }
+    ],
+    "fact": "The Rosetta Stone is one of the most famous ancient documents in the world because it made the decipherment of Egyptian hieroglyphs possible.",
+    "category": "Documents",
+    "source": "/topics/rosetta-stone",
+    "bankVersion": "topic-bank-v3"
+  },
+  {
+    "name": "The Communist Manifesto",
+    "image": "/questions/2b731ed485e83e79.png",
+    "clue": "Which document is described by this clue: Karl Marx and Friedrich Engels' 1848 pamphlet argued that class struggle drives history and called workers to revolutionary action?",
+    "wrong_options": [
+      {
+        "name": "Gettysburg Address",
+        "image": "/questions/39940d3ff1cb4142.jpg"
+      },
+      {
+        "name": "Treaty of Versailles",
+        "image": "/questions/c722d0e765f52b96.jpg"
+      }
+    ],
+    "fact": "The Communist Manifesto is one of the most influential political documents in modern history.",
+    "category": "Documents",
+    "source": "/topics/the-communist-manifesto",
+    "bankVersion": "topic-bank-v3"
+  },
+  {
+    "name": "Treaty of Versailles",
+    "image": "/questions/c722d0e765f52b96.jpg",
+    "clue": "Which document is described by this clue: formally ended World War I between Germany and the Allies and reshaped Europe with lasting consequences?",
+    "wrong_options": [
+      {
+        "name": "Atlantic Charter",
+        "image": "/questions/689570e94c726d85.jpg"
+      },
+      {
+        "name": "The Communist Manifesto",
+        "image": "/questions/2b731ed485e83e79.png"
+      }
+    ],
+    "fact": "The Treaty of Versailles was the most important peace settlement produced after World War I. Signed on June 28, 1919, at the Palace of Versailles near Paris, it formally ended the state of war between Germany and the Allied Powers.",
+    "category": "Documents",
+    "source": "/topics/treaty-of-versailles",
+    "bankVersion": "topic-bank-v3"
+  },
+  {
+    "name": "Twelve Tables",
+    "image": "/questions/c63f0d6abcc3c826.png",
+    "clue": "Which document is described by this clue: by Rome were the first written laws of the Republic, shaping Roman law and later legal traditions?",
+    "wrong_options": [
+      {
+        "name": "Rosetta Stone",
+        "image": "/questions/ee354c08770b6476.jpg"
+      },
+      {
+        "name": "Code of Hammurabi",
+        "image": "/questions/8a3d604abd3b9624.jpg"
+      }
+    ],
+    "fact": "The Twelve Tables were the earliest formal written laws of the Roman Republic, traditionally dated to 451–450 BCE.",
+    "category": "Documents",
+    "source": "/topics/twelve-tables",
+    "bankVersion": "topic-bank-v3"
+  },
+  {
+    "name": "Universal Declaration of Human Rights",
+    "image": "/questions/4969c435e2b8b72f.jpg",
+    "clue": "Which document is described by this clue: (UDHR) is one of the most important documents in modern history?",
+    "wrong_options": [
+      {
+        "name": "Atlantic Charter",
+        "image": "/questions/689570e94c726d85.jpg"
+      },
+      {
+        "name": "The Communist Manifesto",
+        "image": "/questions/2b731ed485e83e79.png"
+      }
+    ],
+    "fact": "One notable detail about Universal Declaration of Human Rights: Adopted by the United Nations General Assembly on 10 December 1948 in Paris, it set out a common standard of fundamental rights and freedoms for all people.",
+    "category": "Documents",
+    "source": "/topics/universal-declaration-of-human-rights",
+    "bankVersion": "topic-bank-v3"
+  },
+  {
+    "name": "US Constitution",
+    "image": "/questions/cadc4d587dbdd155.jpg",
+    "clue": "Which document is described by this clue: established the framework of the federal government and remains the supreme law of the United States?",
+    "wrong_options": [
+      {
+        "name": "United States Bill of Rights",
+        "image": "/questions/ea45f2f5d6fa5fb8.jpg"
+      },
+      {
+        "name": "The Communist Manifesto",
+        "image": "/questions/2b731ed485e83e79.png"
+      }
+    ],
+    "fact": "The US Constitution is the foundational legal document of the United States.",
+    "category": "Documents",
+    "source": "/topics/us-constitution",
+    "bankVersion": "topic-bank-v3"
+  },
+  {
+    "name": "Atlantic Charter",
+    "image": "/questions/689570e94c726d85.jpg",
+    "clue": "What document was a joint statement issued on August 14, 1941, by U.S. President Franklin D. Roosevelt and British Prime Minister Winston Churchill?",
+    "wrong_options": [
+      {
+        "name": "Treaty of Versailles",
+        "image": "/questions/c722d0e765f52b96.jpg"
+      },
+      {
+        "name": "United States Bill of Rights",
+        "image": "/questions/ea45f2f5d6fa5fb8.jpg"
+      }
+    ],
+    "fact": "Although the United States had not yet formally entered the war, the document signaled growing American support for Britain and opposition to Axis expansion.",
+    "category": "Documents",
+    "source": "/topics/atlantic-charter",
+    "bankVersion": "topic-bank-v3"
+  },
+  {
+    "name": "Bayeux Tapestry",
+    "image": "/questions/c4d24ffb121af8f0.png",
+    "clue": "What document is one of the most famous works of medieval art and one of the most valuable visual sources for the Norman Conquest of England?",
+    "wrong_options": [
+      {
+        "name": "Epic of Gilgamesh",
+        "image": "/questions/1541cd65f879612e.jpg"
+      },
+      {
+        "name": "Treaty of Versailles",
+        "image": "/questions/c722d0e765f52b96.jpg"
+      }
+    ],
+    "fact": "Created in the 11th century, probably in the 1070s, the Bayeux Tapestry combines narrative, political messaging, and detailed observation of daily life, warfare, and seafaring.",
+    "category": "Documents",
+    "source": "/topics/bayeux-tapestry",
+    "bankVersion": "topic-bank-v3"
+  },
+  {
+    "name": "Code of Hammurabi",
+    "image": "/questions/8a3d604abd3b9624.jpg",
+    "clue": "What document is one of the most famous legal documents from the ancient world?",
+    "wrong_options": [
+      {
+        "name": "US Constitution",
+        "image": "/questions/cadc4d587dbdd155.jpg"
+      },
+      {
+        "name": "Gettysburg Address",
+        "image": "/questions/39940d3ff1cb4142.jpg"
+      }
+    ],
+    "fact": "The code is best known today from a large basalt stele inscribed in Akkadian cuneiform, though copies on clay tablets also circulated.",
+    "category": "Documents",
+    "source": "/topics/code-of-hammurabi",
+    "bankVersion": "topic-bank-v3"
+  },
+  {
+    "name": "Dead Sea Scrolls",
+    "image": "/questions/fdd29a89f57da738.jpg",
+    "clue": "Choose the document connected to this detail: Dating from about the 3rd century BCE to the 1st century CE, they include biblical texts, religious writings, legal documents, hymns, and community rules.",
+    "wrong_options": [
+      {
+        "name": "Epic of Gilgamesh",
+        "image": "/questions/1541cd65f879612e.jpg"
+      },
+      {
+        "name": "Treaty of Versailles",
+        "image": "/questions/c722d0e765f52b96.jpg"
+      }
+    ],
+    "fact": "The manuscripts were written mainly in Hebrew, with some in Aramaic and a smaller number in Greek.",
+    "category": "Documents",
+    "source": "/topics/dead-sea-scrolls",
+    "bankVersion": "topic-bank-v3"
+  },
+  {
+    "name": "Declaration of Independence",
+    "image": "/questions/38eca3c6a8c712e9.jpg",
+    "clue": "What document is the founding document of the United States, adopted by the Second Continental Congress on July 4, 1776?",
+    "wrong_options": [
+      {
+        "name": "United States Bill of Rights",
+        "image": "/questions/ea45f2f5d6fa5fb8.jpg"
+      },
+      {
+        "name": "Gettysburg Address",
+        "image": "/questions/39940d3ff1cb4142.jpg"
+      }
+    ],
+    "fact": "By the spring of 1776, the Continental Congress was moving toward a formal break.",
+    "category": "Documents",
+    "source": "/topics/declaration-of-independence",
+    "bankVersion": "topic-bank-v3"
+  },
+  {
+    "name": "Epic of Gilgamesh",
+    "image": "/questions/1541cd65f879612e.jpg",
+    "clue": "What document is one of the oldest known works of literature and a foundational text from ancient Mesopotamia?",
+    "wrong_options": [
+      {
+        "name": "Atlantic Charter",
+        "image": "/questions/689570e94c726d85.jpg"
+      },
+      {
+        "name": "The Communist Manifesto",
+        "image": "/questions/2b731ed485e83e79.png"
+      }
+    ],
+    "fact": "For historians, the epic is valuable not only as literature but also as evidence of Mesopotamian beliefs, political ideals, and religious thought.",
+    "category": "Documents",
+    "source": "/topics/epic-of-gilgamesh",
+    "bankVersion": "topic-bank-v3"
+  },
+  {
+    "name": "Gettysburg Address",
+    "image": "/questions/39940d3ff1cb4142.jpg",
+    "clue": "What document is one of the most famous speeches in American history?",
+    "wrong_options": [
+      {
+        "name": "Treaty of Versailles",
+        "image": "/questions/c722d0e765f52b96.jpg"
+      },
+      {
+        "name": "Atlantic Charter",
+        "image": "/questions/689570e94c726d85.jpg"
+      }
+    ],
+    "fact": "In just a few minutes and fewer than 300 words, Lincoln honored the dead while giving the war a larger meaning.",
+    "category": "Documents",
+    "source": "/topics/gettysburg-address",
+    "bankVersion": "topic-bank-v3"
+  },
+  {
+    "name": "Gutenberg Bible",
+    "image": "/questions/0cfc087e7025e7d8.jpg",
+    "clue": "What document is one of the most important documents in the history of printing?",
+    "wrong_options": [
+      {
+        "name": "Code of Hammurabi",
+        "image": "/questions/8a3d604abd3b9624.jpg"
+      },
+      {
+        "name": "United States Bill of Rights",
+        "image": "/questions/ea45f2f5d6fa5fb8.jpg"
+      }
+    ],
+    "fact": "Gutenberg Bible was created by Johannes Gutenberg and his workshop, the Bible demonstrated that printing could reproduce large, complex texts with remarkable consistency and speed compared with hand-copied manuscripts.",
+    "category": "Documents",
+    "source": "/topics/gutenberg-bible",
+    "bankVersion": "topic-bank-v3"
+  },
+  {
+    "name": "Magna Carta",
+    "image": "/questions/fbd70a7978561d5e.jpg",
+    "clue": "What document is a foundational legal document signed in 1215 that limited the powers of the English king?",
+    "wrong_options": [
+      {
+        "name": "Code of Hammurabi",
+        "image": "/questions/8a3d604abd3b9624.jpg"
+      },
+      {
+        "name": "United States Bill of Rights",
+        "image": "/questions/ea45f2f5d6fa5fb8.jpg"
+      }
+    ],
+    "fact": "To resolve the conflict, he agreed to the Magna Carta, which set legal limits on his authority.",
+    "category": "Documents",
+    "source": "/topics/magna-carta",
+    "bankVersion": "topic-bank-v3"
+  },
+  {
+    "name": "Rosetta Stone",
+    "image": "/questions/ee354c08770b6476.jpg",
+    "clue": "What document is one of the most famous ancient documents in the world because it made the decipherment of Egyptian hieroglyphs possible?",
+    "wrong_options": [
+      {
+        "name": "Magna Carta",
+        "image": "/questions/fbd70a7978561d5e.jpg"
+      },
+      {
+        "name": "Declaration of Independence",
+        "image": "/questions/38eca3c6a8c712e9.jpg"
+      }
+    ],
+    "fact": "The decree on the Rosetta Stone was created in the Ptolemaic Kingdom, when Egypt was ruled by a Greek-speaking dynasty established after the conquests of Alexander the Great.",
+    "category": "Documents",
+    "source": "/topics/rosetta-stone",
+    "bankVersion": "topic-bank-v3"
+  },
+  {
+    "name": "The Communist Manifesto",
+    "image": "/questions/2b731ed485e83e79.png",
+    "clue": "What document is one of the most influential political documents in modern history?",
+    "wrong_options": [
+      {
+        "name": "United States Bill of Rights",
+        "image": "/questions/ea45f2f5d6fa5fb8.jpg"
+      },
+      {
+        "name": "Declaration of Independence",
+        "image": "/questions/38eca3c6a8c712e9.jpg"
+      }
+    ],
+    "fact": "The pamphlet set out a theory of history centered on class struggle and argued that capitalism would eventually be replaced by socialism and, later, communism.",
+    "category": "Documents",
+    "source": "/topics/the-communist-manifesto",
+    "bankVersion": "topic-bank-v3"
+  },
+  {
+    "name": "Treaty of Versailles",
+    "image": "/questions/c722d0e765f52b96.jpg",
+    "clue": "Which document is connected to this source detail: the agreement is best known for imposing territorial losses, military restrictions, and reparations on Germany?",
+    "wrong_options": [
+      {
+        "name": "Universal Declaration of Human Rights",
+        "image": "/questions/4969c435e2b8b72f.jpg"
+      },
+      {
+        "name": "United States Bill of Rights",
+        "image": "/questions/ea45f2f5d6fa5fb8.jpg"
+      }
+    ],
+    "fact": "Although the fighting had stopped with the armistice of November 11, 1918, the treaty set the legal terms of peace and established the framework for postwar Europe.",
+    "category": "Documents",
+    "source": "/topics/treaty-of-versailles",
+    "bankVersion": "topic-bank-v3"
+  },
+  {
+    "name": "Twelve Tables",
+    "image": "/questions/c63f0d6abcc3c826.png",
+    "clue": "What document were the earliest formal written laws of the Roman Republic, traditionally dated to 451–450 BCE?",
+    "wrong_options": [
+      {
+        "name": "Magna Carta",
+        "image": "/questions/fbd70a7978561d5e.jpg"
+      },
+      {
+        "name": "Declaration of Independence",
+        "image": "/questions/38eca3c6a8c712e9.jpg"
+      }
+    ],
+    "fact": "Although the original text does not survive, ancient authors preserved many quotations and summaries.",
+    "category": "Documents",
+    "source": "/topics/twelve-tables",
+    "bankVersion": "topic-bank-v3"
+  },
+  {
+    "name": "“Father of Our Country”",
+    "image": "/questions/4bd1e9459fdf4665.webp",
+    "clue": "For U.S. citizenship practice, choose the answer to this civics prompt: George Washington is famous for many things. Name one?",
+    "wrong_options": [
+      {
+        "name": "“Father of the Constitution”",
+        "image": "/questions/7f03c7e62bea5cd2.jpg"
+      },
+      {
+        "name": "(Because there is) one star for each state",
+        "image": "/questions/44b987b60ffd4fa7.webp"
+      }
+    ],
+    "fact": "Accepted USCIS answers: “Father of Our Country”; First president of the United States; General of the Continental Army; President of the Constitutional Convention.",
+    "category": "Citizenship",
+    "source": "/topics/us-constitution",
+    "bankVersion": "topic-bank-v3"
+  },
+  {
+    "name": "“Father of the Constitution”",
+    "image": "/questions/7f03c7e62bea5cd2.jpg",
+    "clue": "For U.S. citizenship practice, choose the answer to this civics prompt: James Madison is famous for many things. Name one?",
+    "wrong_options": [
+      {
+        "name": "“Father of Our Country”",
+        "image": "/questions/4bd1e9459fdf4665.webp"
+      },
+      {
+        "name": "(Because there is) one star for each state",
+        "image": "/questions/44b987b60ffd4fa7.webp"
+      }
+    ],
+    "fact": "Accepted USCIS answers: “Father of the Constitution”; Fourth president of the United States; President during the War of 1812; One of the writers of the Federalist Papers.",
+    "category": "Citizenship",
+    "source": "/topics/us-constitution",
+    "bankVersion": "topic-bank-v3"
+  },
+  {
+    "name": "(Battle of) Bunker Hill",
+    "image": "/questions/7d9fa85a5a8b1be0.jpg",
+    "clue": "For U.S. citizenship practice, choose the answer to this civics prompt: The American Revolution had many important events. Name one?",
+    "wrong_options": [
+      {
+        "name": "(Because there were) 13 original colonies",
+        "image": "/questions/8bbb65734e076879.webp"
+      },
+      {
+        "name": "American Revolution",
+        "image": "/questions/c08d6103b77a6a68.webp"
+      }
+    ],
+    "fact": "Accepted USCIS answers: (Battle of) Bunker Hill; Declaration of Independence; Washington Crossing the Delaware (Battle of Trenton); (Battle of) Saratoga; Valley Forge (Encampment); (Battle of) Yorktown (British surrender at Yorktown).",
+    "category": "Citizenship",
+    "source": "/topics/declaration-of-independence",
+    "bankVersion": "topic-bank-v3"
+  },
+  {
+    "name": "(Battle of) Fort Sumter",
+    "image": "/questions/bad84e3123a8d885.jpg",
+    "clue": "For U.S. citizenship practice, choose the answer to this civics prompt: The Civil War had many important events. Name one?",
+    "wrong_options": [
+      {
+        "name": "“Father of Our Country”",
+        "image": "/questions/4bd1e9459fdf4665.webp"
+      },
+      {
+        "name": "(Because there is) one star for each state",
+        "image": "/questions/44b987b60ffd4fa7.webp"
+      }
+    ],
+    "fact": "Accepted USCIS answers: (Battle of) Fort Sumter; Emancipation Proclamation; (Battle of) Vicksburg; (Battle of) Gettysburg; Sherman’s March; (Surrender at) Appomattox; (Battle of) Antietam/Sharpsburg; Lincoln was assassinated..",
+    "category": "Citizenship",
+    "source": "/topics/us-constitution",
+    "bankVersion": "topic-bank-v3"
+  },
+  {
+    "name": "(Because of) the 22nd Amendment",
+    "image": "/questions/42a5513bacc0e4db.png",
+    "clue": "For U.S. citizenship practice, choose the answer to this civics prompt: The President of the United States can serve only two terms. Why?",
+    "wrong_options": [
+      {
+        "name": "(Franklin) Roosevelt",
+        "image": "/questions/70f8e2ce7eb3212f.jpg"
+      },
+      {
+        "name": "14th Amendment",
+        "image": "/questions/42a5513bacc0e4db.png"
+      }
+    ],
+    "fact": "Accepted USCIS answers: (Because of) the 22nd Amendment; To keep the president from becoming too powerful.",
+    "category": "Citizenship",
+    "source": "/topics/united-states-bill-of-rights",
+    "bankVersion": "topic-bank-v3"
+  },
+  {
+    "name": "(Because of) the state’s population",
+    "image": "/questions/794fb3cca2962191.webp",
+    "clue": "For U.S. citizenship practice, choose the answer to this civics prompt: Some states have more representatives than other states. Why?",
+    "wrong_options": [
+      {
+        "name": "“Father of Our Country”",
+        "image": "/questions/4bd1e9459fdf4665.webp"
+      },
+      {
+        "name": "(Because there is) one star for each state",
+        "image": "/questions/44b987b60ffd4fa7.webp"
+      }
+    ],
+    "fact": "Accepted USCIS answers: (Because of) the state’s population; (Because) they have more people; (Because) some states have more people.",
+    "category": "Citizenship",
+    "source": "/topics/us-constitution",
+    "bankVersion": "topic-bank-v3"
+  },
+  {
+    "name": "(Because there is) one star for each state",
+    "image": "/questions/44b987b60ffd4fa7.webp",
+    "clue": "For U.S. citizenship practice, choose the answer to this civics prompt: Why does the flag have 50 stars?",
+    "wrong_options": [
+      {
+        "name": "“Father of Our Country”",
+        "image": "/questions/4bd1e9459fdf4665.webp"
+      },
+      {
+        "name": "(Because of) the state’s population",
+        "image": "/questions/794fb3cca2962191.webp"
+      }
+    ],
+    "fact": "Accepted USCIS answers: (Because there is) one star for each state; (Because) each star represents a state; (Because there are) 50 states.",
+    "category": "Citizenship",
+    "source": "/topics/us-constitution",
+    "bankVersion": "topic-bank-v3"
+  },
+  {
+    "name": "(Because there were) 13 original colonies",
+    "image": "/questions/8bbb65734e076879.webp",
+    "clue": "For U.S. citizenship practice, choose the answer to this civics prompt: Why does the flag have 13 stripes?",
+    "wrong_options": [
+      {
+        "name": "(Battle of) Bunker Hill",
+        "image": "/questions/7d9fa85a5a8b1be0.jpg"
+      },
+      {
+        "name": "American Revolution",
+        "image": "/questions/c08d6103b77a6a68.webp"
+      }
+    ],
+    "fact": "Accepted USCIS answers: (Because there were) 13 original colonies; (Because the stripes) represent the original colonies.",
+    "category": "Citizenship",
+    "source": "/topics/declaration-of-independence",
+    "bankVersion": "topic-bank-v3"
+  },
+  {
+    "name": "(Bombing of) Pearl Harbor",
+    "image": "/questions/f8942ed4e04c16e0.jpg",
+    "clue": "For U.S. citizenship practice, choose the answer to this civics prompt: Why did the United States enter World War II?",
+    "wrong_options": [
+      {
+        "name": "“Father of Our Country”",
+        "image": "/questions/4bd1e9459fdf4665.webp"
+      },
+      {
+        "name": "(Because of) the state’s population",
+        "image": "/questions/794fb3cca2962191.webp"
+      }
+    ],
+    "fact": "Accepted USCIS answers: (Bombing of) Pearl Harbor; Japanese attacked Pearl Harbor; To support the Allied Powers (England, France, and Russia); To oppose the Axis Powers (Germany, Italy, and Japan).",
+    "category": "Citizenship",
+    "source": "/topics/us-constitution",
+    "bankVersion": "topic-bank-v3"
+  },
+  {
+    "name": "(For) life",
+    "image": "/questions/dd8c277aa9f56589.webp",
+    "clue": "For U.S. citizenship practice, choose the answer to this civics prompt: How long do Supreme Court justices serve?",
+    "wrong_options": [
+      {
+        "name": "“Father of Our Country”",
+        "image": "/questions/4bd1e9459fdf4665.webp"
+      },
+      {
+        "name": "(Because of) the state’s population",
+        "image": "/questions/794fb3cca2962191.webp"
+      }
+    ],
+    "fact": "Accepted USCIS answers: (For) life; Lifetime appointment; (Until) retirement.",
+    "category": "Citizenship",
+    "source": "/topics/us-constitution",
+    "bankVersion": "topic-bank-v3"
+  },
+  {
+    "name": "(Franklin) Roosevelt",
+    "image": "/questions/70f8e2ce7eb3212f.jpg",
+    "clue": "For U.S. citizenship practice, choose the answer to this civics prompt: Who was president during the Great Depression and World War II?",
+    "wrong_options": [
+      {
+        "name": "(Because of) the 22nd Amendment",
+        "image": "/questions/42a5513bacc0e4db.png"
+      },
+      {
+        "name": "14th Amendment",
+        "image": "/questions/42a5513bacc0e4db.png"
+      }
+    ],
+    "fact": "Accepted USCIS answer: (Franklin) Roosevelt.",
+    "category": "Citizenship",
+    "source": "/topics/united-states-bill-of-rights",
+    "bankVersion": "topic-bank-v3"
+  },
+  {
+    "name": "(Global) War on Terror",
+    "image": "/questions/f05dfa375fd60e4a.jpg",
+    "clue": "For U.S. citizenship practice, choose the answer to this civics prompt: Name one U.S. military conflict after the September 11, 2001 attacks?",
+    "wrong_options": [
+      {
+        "name": "“Father of Our Country”",
+        "image": "/questions/4bd1e9459fdf4665.webp"
+      },
+      {
+        "name": "(Because of) the state’s population",
+        "image": "/questions/794fb3cca2962191.webp"
+      }
+    ],
+    "fact": "Accepted USCIS answers: (Global) War on Terror; War in Afghanistan; War in Iraq.",
+    "category": "Citizenship",
+    "source": "/topics/us-constitution",
+    "bankVersion": "topic-bank-v3"
+  },
+  {
+    "name": "(It states that the) powers not given to the federal government belong to the states or to the people.",
+    "image": "/questions/42a5513bacc0e4db.png",
+    "clue": "For U.S. citizenship practice, choose the answer to this civics prompt: What is the purpose of the 10th Amendment?",
+    "wrong_options": [
+      {
+        "name": "(Because of) the 22nd Amendment",
+        "image": "/questions/42a5513bacc0e4db.png"
+      },
+      {
+        "name": "14th Amendment",
+        "image": "/questions/42a5513bacc0e4db.png"
+      }
+    ],
+    "fact": "Accepted USCIS answer: (It states that the) powers not given to the federal government belong to the states or to the people..",
+    "category": "Citizenship",
+    "source": "/topics/united-states-bill-of-rights",
+    "bankVersion": "topic-bank-v3"
+  },
+  {
+    "name": "(James) Madison",
+    "image": "/questions/7f03c7e62bea5cd2.jpg",
+    "clue": "For U.S. citizenship practice, choose the answer to this civics prompt: The Federalist Papers supported the passage of the U.S. Constitution. Name one of the writers?",
+    "wrong_options": [
+      {
+        "name": "“Father of Our Country”",
+        "image": "/questions/4bd1e9459fdf4665.webp"
+      },
+      {
+        "name": "(Because of) the state’s population",
+        "image": "/questions/794fb3cca2962191.webp"
+      }
+    ],
+    "fact": "Accepted USCIS answers: (James) Madison; (Alexander) Hamilton; (John) Jay; Publius.",
+    "category": "Citizenship",
+    "source": "/topics/us-constitution",
+    "bankVersion": "topic-bank-v3"
+  },
+  {
+    "name": "(Thomas) Jefferson",
+    "image": "/questions/2ca9ace746178e07.jpg",
+    "clue": "For U.S. citizenship practice, choose the answer to this civics prompt: Who wrote the Declaration of Independence?",
+    "wrong_options": [
+      {
+        "name": "(Battle of) Bunker Hill",
+        "image": "/questions/7d9fa85a5a8b1be0.jpg"
+      },
+      {
+        "name": "American Revolution",
+        "image": "/questions/c08d6103b77a6a68.webp"
+      }
+    ],
+    "fact": "Accepted USCIS answer: (Thomas) Jefferson.",
+    "category": "Citizenship",
+    "source": "/topics/declaration-of-independence",
+    "bankVersion": "topic-bank-v3"
+  },
+  {
+    "name": "(U.S.) Congress",
+    "image": "/questions/42a5513bacc0e4db.png",
+    "clue": "For U.S. citizenship practice, choose the answer to this civics prompt: What part of the federal government writes laws?",
+    "wrong_options": [
+      {
+        "name": "“Father of Our Country”",
+        "image": "/questions/4bd1e9459fdf4665.webp"
+      },
+      {
+        "name": "(Because of) the state’s population",
+        "image": "/questions/794fb3cca2962191.webp"
+      }
+    ],
+    "fact": "Accepted USCIS answers: (U.S.) Congress; (U.S. or national) legislature; Legislative branch.",
+    "category": "Citizenship",
+    "source": "/topics/us-constitution",
+    "bankVersion": "topic-bank-v3"
+  },
+  {
+    "name": "(U.S.) Constitution",
+    "image": "/questions/cadc4d587dbdd155.jpg",
+    "clue": "For U.S. citizenship practice, choose the answer to this civics prompt: What is the supreme law of the land?",
+    "wrong_options": [
+      {
+        "name": "“Father of Our Country”",
+        "image": "/questions/4bd1e9459fdf4665.webp"
+      },
+      {
+        "name": "(Because of) the state’s population",
+        "image": "/questions/794fb3cca2962191.webp"
+      }
+    ],
+    "fact": "Accepted USCIS answer: (U.S.) Constitution.",
+    "category": "Citizenship",
+    "source": "/topics/us-constitution",
+    "bankVersion": "topic-bank-v3"
+  },
+  {
+    "name": "1920",
+    "image": "/questions/a26773f27f236e26.jpg",
+    "clue": "For U.S. citizenship practice, choose the answer to this civics prompt: When did all women get the right to vote?",
+    "wrong_options": [
+      {
+        "name": "(Because of) the 22nd Amendment",
+        "image": "/questions/42a5513bacc0e4db.png"
+      },
+      {
+        "name": "(The basic) rights of Americans",
+        "image": "/questions/ea45f2f5d6fa5fb8.jpg"
+      }
+    ],
+    "fact": "Accepted USCIS answers: 1920; After World War I; (With the) 19th Amendment.",
+    "category": "Citizenship",
+    "source": "/topics/united-states-bill-of-rights",
+    "bankVersion": "topic-bank-v3"
+  },
+  {
+    "name": "A holiday to honor people in the (U.S.) military",
+    "image": "/questions/8a37f96c157ef246.jpg",
+    "clue": "For U.S. citizenship practice, choose the answer to this civics prompt: What is Veterans Day?",
+    "wrong_options": [
+      {
+        "name": "“Father of Our Country”",
+        "image": "/questions/4bd1e9459fdf4665.webp"
+      },
+      {
+        "name": "(Because of) the state’s population",
+        "image": "/questions/794fb3cca2962191.webp"
+      }
+    ],
+    "fact": "Accepted USCIS answers: A holiday to honor people in the (U.S.) military; A holiday to honor people who have served in the (U.S.) military.",
+    "category": "Citizenship",
+    "source": "/topics/us-constitution",
+    "bankVersion": "topic-bank-v3"
+  },
+  {
+    "name": "A holiday to honor soldiers who died in military service",
+    "image": "/questions/2e640ad3bc77e87b.jpg",
+    "clue": "For U.S. citizenship practice, choose the answer to this civics prompt: What is Memorial Day?",
+    "wrong_options": [
+      {
+        "name": "“Father of Our Country”",
+        "image": "/questions/4bd1e9459fdf4665.webp"
+      },
+      {
+        "name": "(Because of) the state’s population",
+        "image": "/questions/794fb3cca2962191.webp"
+      }
+    ],
+    "fact": "Accepted USCIS answer: A holiday to honor soldiers who died in military service.",
+    "category": "Citizenship",
+    "source": "/topics/us-constitution",
+    "bankVersion": "topic-bank-v3"
+  },
+  {
+    "name": "Africans",
+    "image": "/questions/9dc27fd78a31ca2e.webp",
+    "clue": "For U.S. citizenship practice, choose the answer to this civics prompt: What group of people was taken and sold as slaves?",
+    "wrong_options": [
+      {
+        "name": "“Father of Our Country”",
+        "image": "/questions/4bd1e9459fdf4665.webp"
+      },
+      {
+        "name": "(Because of) the state’s population",
+        "image": "/questions/794fb3cca2962191.webp"
+      }
+    ],
+    "fact": "Accepted USCIS answers: Africans; People from Africa.",
+    "category": "Citizenship",
+    "source": "/topics/us-constitution",
+    "bankVersion": "topic-bank-v3"
+  },
+  {
+    "name": "After the Civil War",
+    "image": "/questions/78104b8896880030.png",
+    "clue": "For U.S. citizenship practice, choose the answer to this civics prompt: When did all men get the right to vote?",
+    "wrong_options": [
+      {
+        "name": "(Because of) the 22nd Amendment",
+        "image": "/questions/42a5513bacc0e4db.png"
+      },
+      {
+        "name": "(The basic) rights of Americans",
+        "image": "/questions/ea45f2f5d6fa5fb8.jpg"
+      }
+    ],
+    "fact": "Accepted USCIS answers: After the Civil War; During Reconstruction; (With the) 15th Amendment; 1870.",
+    "category": "Citizenship",
+    "source": "/topics/united-states-bill-of-rights",
+    "bankVersion": "topic-bank-v3"
+  },
+  {
+    "name": "Amendments",
+    "image": "/questions/42a5513bacc0e4db.png",
+    "clue": "For U.S. citizenship practice, choose the answer to this civics prompt: How are changes made to the U.S. Constitution?",
+    "wrong_options": [
+      {
+        "name": "(Because of) the 22nd Amendment",
+        "image": "/questions/42a5513bacc0e4db.png"
+      },
+      {
+        "name": "(The basic) rights of Americans",
+        "image": "/questions/ea45f2f5d6fa5fb8.jpg"
+      }
+    ],
+    "fact": "Accepted USCIS answers: Amendments; The amendment process.",
+    "category": "Citizenship",
+    "source": "/topics/united-states-bill-of-rights",
+    "bankVersion": "topic-bank-v3"
+  },
+  {
+    "name": "American Indians",
+    "image": "/questions/39bbb8a6af1cef00.png",
+    "clue": "For U.S. citizenship practice, choose the answer to this civics prompt: Who lived in America before the Europeans arrived?",
+    "wrong_options": [
+      {
+        "name": "“Father of Our Country”",
+        "image": "/questions/4bd1e9459fdf4665.webp"
+      },
+      {
+        "name": "(Because of) the state’s population",
+        "image": "/questions/794fb3cca2962191.webp"
+      }
+    ],
+    "fact": "Accepted USCIS answers: American Indians; Native Americans.",
+    "category": "Citizenship",
+    "source": "/topics/us-constitution",
+    "bankVersion": "topic-bank-v3"
+  },
+  {
+    "name": "American Revolution",
+    "image": "/questions/c08d6103b77a6a68.webp",
+    "clue": "For U.S. citizenship practice, choose the answer to this civics prompt: What war did the Americans fight to win independence from Britain?",
+    "wrong_options": [
+      {
+        "name": "(Battle of) Bunker Hill",
+        "image": "/questions/7d9fa85a5a8b1be0.jpg"
+      },
+      {
+        "name": "A holiday to celebrate U.S. independence (from Britain)",
+        "image": "/questions/928eb944d92a8e06.jpg"
+      }
+    ],
+    "fact": "Accepted USCIS answers: American Revolution; The (American) Revolutionary War; War for (American) Independence.",
+    "category": "Citizenship",
+    "source": "/topics/declaration-of-independence",
+    "bankVersion": "topic-bank-v3"
+  },
+  {
+    "name": "Aretha Franklin",
+    "image": "/questions/6ad92dbfc9353200.jpg",
+    "clue": "Which musician or group is described by this clue: American vocalist and pianist whose gospel-rooted power and expressive phrasing earned her the title Queen of Soul?",
+    "wrong_options": [
+      {
+        "name": "Bob Marley",
+        "image": "/questions/b8b153b510cd867b.jpg"
+      },
+      {
+        "name": "Elvis Presley",
+        "image": "/questions/ebd05f83d63b2cc4.webp"
+      }
+    ],
+    "fact": "Aretha Franklin was an American singer, songwriter, and pianist celebrated as the “Queen of Soul.” Her voice could be commanding, tender, rhythmic, and improvisational, often within a single performance.",
+    "category": "Music",
+    "source": "/topics/aretha-franklin",
+    "bankVersion": "topic-bank-v3"
+  },
+  {
+    "name": "Beyoncé",
+    "image": "/questions/c21008bcb24ba925.jpg",
+    "clue": "Which musician or group is described by this clue: American vocalist and performer known for technical precision, visual albums, ambitious live shows, and creative control?",
+    "wrong_options": [
+      {
+        "name": "Nirvana",
+        "image": "/questions/549be71cefd72d50.jpg"
+      },
+      {
+        "name": "Whitney Houston",
+        "image": "/questions/8c5858ce2451263d.jpg"
+      }
+    ],
+    "fact": "Beyoncé is known for powerful vocals, detailed visual albums, complex live performances, and creative control over her music.",
+    "category": "Music",
+    "source": "/topics/beyonce",
+    "bankVersion": "topic-bank-v3"
+  },
+  {
+    "name": "Bob Marley",
+    "image": "/questions/b8b153b510cd867b.jpg",
+    "clue": "Which musician or group is described by this clue: Jamaican singer-songwriter who brought reggae and Rastafari-inspired messages of resistance, unity, and hope to a global audience?",
+    "wrong_options": [
+      {
+        "name": "Dolly Parton",
+        "image": "/questions/5142c11c01d75838.jpg"
+      },
+      {
+        "name": "Stevie Wonder",
+        "image": "/questions/78cde3bfe7f37498.jpg"
+      }
+    ],
+    "fact": "Bob Marley was a Jamaican singer, songwriter, and guitarist who became reggae’s best-known international ambassador.",
+    "category": "Music",
+    "source": "/topics/bob-marley",
+    "bankVersion": "topic-bank-v3"
+  },
+  {
+    "name": "David Bowie",
+    "image": "/questions/b271b146b54d46c3.jpg",
+    "clue": "Which musician or group is described by this clue: British songwriter and performer who used musical and visual reinvention to expand the possibilities of rock and pop?",
+    "wrong_options": [
+      {
+        "name": "Dolly Parton",
+        "image": "/questions/5142c11c01d75838.jpg"
+      },
+      {
+        "name": "Aretha Franklin",
+        "image": "/questions/6ad92dbfc9353200.jpg"
+      }
+    ],
+    "fact": "David Bowie moved through glam rock, soul, electronic music, and experimental pop while treating identity and performance as part of his art.",
+    "category": "Music",
+    "source": "/topics/david-bowie",
+    "bankVersion": "topic-bank-v3"
+  },
+  {
+    "name": "Dolly Parton",
+    "image": "/questions/5142c11c01d75838.jpg",
+    "clue": "Which musician or group is described by this clue: American country songwriter, singer, actor, entrepreneur, and philanthropist known for vivid storytelling and enduring wit?",
+    "wrong_options": [
+      {
+        "name": "Bob Marley",
+        "image": "/questions/b8b153b510cd867b.jpg"
+      },
+      {
+        "name": "Stevie Wonder",
+        "image": "/questions/78cde3bfe7f37498.jpg"
+      }
+    ],
+    "fact": "Dolly Parton combined distinctive songwriting and business skill with philanthropy, including a major children’s literacy program.",
+    "category": "Music",
+    "source": "/topics/dolly-parton",
+    "bankVersion": "topic-bank-v3"
+  },
+  {
+    "name": "Elvis Presley",
+    "image": "/questions/ebd05f83d63b2cc4.webp",
+    "clue": "Which musician or group is described by this clue: American singer and actor whose blend of country, blues, gospel, and rhythm and blues helped popularize rock and roll?",
+    "wrong_options": [
+      {
+        "name": "Aretha Franklin",
+        "image": "/questions/6ad92dbfc9353200.jpg"
+      },
+      {
+        "name": "Dolly Parton",
+        "image": "/questions/5142c11c01d75838.jpg"
+      }
+    ],
+    "fact": "Elvis Presley was an American singer and actor known as the “King of Rock and Roll.” His recordings and charismatic performances brought Southern musical traditions to a huge mainstream audience during the 1950s.",
+    "category": "Music",
+    "source": "/topics/elvis-presley",
+    "bankVersion": "topic-bank-v3"
+  },
+  {
+    "name": "Johann Sebastian Bach",
+    "image": "/questions/ce1efe82e8996451.jpg",
+    "clue": "Which musician or group is described by this clue: German Baroque composer renowned for counterpoint, sacred music, keyboard works, and lasting technical influence?",
+    "wrong_options": [
+      {
+        "name": "Wolfgang Amadeus Mozart",
+        "image": "/questions/be6125104dcd680a.jpg"
+      },
+      {
+        "name": "Miles Davis",
+        "image": "/questions/ba5dfe81722eb576.png"
+      }
+    ],
+    "fact": "Johann Sebastian Bach was a German composer and musician of the Baroque era.",
+    "category": "Music",
+    "source": "/topics/johann-sebastian-bach",
+    "bankVersion": "topic-bank-v3"
+  },
+  {
+    "name": "Louis Armstrong",
+    "image": "/questions/b3c83db1f1c0d7a7.jpg",
+    "clue": "Which musician or group is described by this clue: New Orleans trumpeter and singer whose improvisation, rhythm, and personality helped bring jazz to a global audience?",
+    "wrong_options": [
+      {
+        "name": "Miles Davis",
+        "image": "/questions/ba5dfe81722eb576.png"
+      },
+      {
+        "name": "Bob Marley",
+        "image": "/questions/b8b153b510cd867b.jpg"
+      }
+    ],
+    "fact": "Louis Armstrong transformed jazz through his inventive trumpet solos, rhythmic phrasing, and instantly recognizable gravelly voice.",
+    "category": "Music",
+    "source": "/topics/louis-armstrong",
+    "bankVersion": "topic-bank-v3"
+  },
+  {
+    "name": "Ludwig van Beethoven",
+    "image": "/questions/a88be515bd35561a.jpg",
+    "clue": "Which musician or group is described by this clue: German composer whose bold, emotionally powerful works helped bridge the Classical and Romantic eras?",
+    "wrong_options": [
+      {
+        "name": "Wolfgang Amadeus Mozart",
+        "image": "/questions/be6125104dcd680a.jpg"
+      },
+      {
+        "name": "Miles Davis",
+        "image": "/questions/ba5dfe81722eb576.png"
+      }
+    ],
+    "fact": "Ludwig van Beethoven was a German composer and pianist whose music transformed the Western classical tradition.",
+    "category": "Music",
+    "source": "/topics/ludwig-van-beethoven",
+    "bankVersion": "topic-bank-v3"
+  },
+  {
+    "name": "Madonna",
+    "image": "/questions/a75443503c398521.jpg",
+    "clue": "Which musician or group is described by this clue: American pop artist whose music, visual reinvention, and control of her career reshaped modern celebrity and performance?",
+    "wrong_options": [
+      {
+        "name": "Michael Jackson",
+        "image": "/questions/0a0c627a3b0f10f2.webp"
+      },
+      {
+        "name": "Whitney Houston",
+        "image": "/questions/8c5858ce2451263d.jpg"
+      }
+    ],
+    "fact": "Madonna is an American singer, songwriter, performer, and actor often called the “Queen of Pop.” Since emerging in the early 1980s, she has repeatedly changed her music and image while addressing themes of identity, sexuality, religion, fame, and personal freedom.",
+    "category": "Music",
+    "source": "/topics/madonna",
+    "bankVersion": "topic-bank-v3"
+  },
+  {
+    "name": "Michael Jackson",
+    "image": "/questions/0a0c627a3b0f10f2.webp",
+    "clue": "Which musician or group is described by this clue: American singer, songwriter, and dancer whose recordings, videos, and performances earned him the title King of Pop?",
+    "wrong_options": [
+      {
+        "name": "Madonna",
+        "image": "/questions/a75443503c398521.jpg"
+      },
+      {
+        "name": "Whitney Houston",
+        "image": "/questions/8c5858ce2451263d.jpg"
+      }
+    ],
+    "fact": "Michael Jackson was an American singer, songwriter, dancer, and entertainer whose career spanned childhood stardom and unprecedented solo success.",
+    "category": "Music",
+    "source": "/topics/michael-jackson",
+    "bankVersion": "topic-bank-v3"
+  },
+  {
+    "name": "Miles Davis",
+    "image": "/questions/ba5dfe81722eb576.png",
+    "clue": "Which musician or group is described by this clue: American trumpeter and bandleader whose restless experimentation shaped several major movements in modern jazz?",
+    "wrong_options": [
+      {
+        "name": "Elvis Presley",
+        "image": "/questions/ebd05f83d63b2cc4.webp"
+      },
+      {
+        "name": "Dolly Parton",
+        "image": "/questions/5142c11c01d75838.jpg"
+      }
+    ],
+    "fact": "Miles Davis played a central role in bebop, cool jazz, modal jazz, and jazz fusion through a career built on constant experimentation.",
+    "category": "Music",
+    "source": "/topics/miles-davis",
+    "bankVersion": "topic-bank-v3"
+  },
+  {
+    "name": "Nirvana",
+    "image": "/questions/549be71cefd72d50.jpg",
+    "clue": "Which musician or group is described by this clue: American rock trio whose punk energy, melodic songwriting, and raw emotion brought grunge into the mainstream?",
+    "wrong_options": [
+      {
+        "name": "Taylor Swift",
+        "image": "/questions/d0071acf0ea2439a.png"
+      },
+      {
+        "name": "Whitney Houston",
+        "image": "/questions/8c5858ce2451263d.jpg"
+      }
+    ],
+    "fact": "Nirvana paired punk energy and distorted guitars with strong pop melodies, reshaping mainstream rock in the early 1990s.",
+    "category": "Music",
+    "source": "/topics/nirvana",
+    "bankVersion": "topic-bank-v3"
+  },
+  {
+    "name": "Prince",
+    "image": "/questions/573092aa99aedd42.png",
+    "clue": "Which musician or group is described by this clue: Minneapolis multi-instrumentalist who fused funk, rock, pop, and R&B while championing artistic independence?",
+    "wrong_options": [
+      {
+        "name": "Madonna",
+        "image": "/questions/a75443503c398521.jpg"
+      },
+      {
+        "name": "Whitney Houston",
+        "image": "/questions/8c5858ce2451263d.jpg"
+      }
+    ],
+    "fact": "Prince wrote, produced, arranged, and performed much of his music himself and became a prominent advocate for artistic ownership.",
+    "category": "Music",
+    "source": "/topics/prince",
+    "bankVersion": "topic-bank-v3"
+  },
+  {
+    "name": "Queen",
+    "image": "/questions/50503bb6e5d6d389.jpg",
+    "clue": "Which musician or group is described by this clue: British rock band known for Freddie Mercury’s theatrical voice, Brian May’s guitar sound, layered harmonies, and stadium anthems?",
+    "wrong_options": [
+      {
+        "name": "Whitney Houston",
+        "image": "/questions/8c5858ce2451263d.jpg"
+      },
+      {
+        "name": "Madonna",
+        "image": "/questions/a75443503c398521.jpg"
+      }
+    ],
+    "fact": "Queen is a British rock band formed by Freddie Mercury, Brian May, Roger Taylor, and John Deacon.",
+    "category": "Music",
+    "source": "/topics/queen",
+    "bankVersion": "topic-bank-v3"
+  },
+  {
+    "name": "Stevie Wonder",
+    "image": "/questions/78cde3bfe7f37498.jpg",
+    "clue": "Which musician or group is described by this clue: Motown songwriter and multi-instrumentalist whose melodic invention and studio experimentation expanded soul and pop?",
+    "wrong_options": [
+      {
+        "name": "David Bowie",
+        "image": "/questions/b271b146b54d46c3.jpg"
+      },
+      {
+        "name": "Aretha Franklin",
+        "image": "/questions/6ad92dbfc9353200.jpg"
+      }
+    ],
+    "fact": "Stevie Wonder expanded the sound of soul and pop through songwriting, synthesizers, multi-instrumental performances, and socially engaged lyrics.",
+    "category": "Music",
+    "source": "/topics/stevie-wonder",
+    "bankVersion": "topic-bank-v3"
+  },
+  {
+    "name": "Taylor Swift",
+    "image": "/questions/d0071acf0ea2439a.png",
+    "clue": "Which musician or group is described by this clue: American singer-songwriter whose narrative lyrics, genre shifts, and rerecorded catalog have shaped twenty-first-century pop?",
+    "wrong_options": [
+      {
+        "name": "Nirvana",
+        "image": "/questions/549be71cefd72d50.jpg"
+      },
+      {
+        "name": "Whitney Houston",
+        "image": "/questions/8c5858ce2451263d.jpg"
+      }
+    ],
+    "fact": "Taylor Swift’s autobiographical songwriting, genre changes, and rerecording project have made her one of the defining popular artists of her generation.",
+    "category": "Music",
+    "source": "/topics/taylor-swift",
+    "bankVersion": "topic-bank-v3"
+  },
+  {
+    "name": "The Beatles",
+    "image": "/questions/39ed422a5606dfad.jpg",
+    "clue": "Which musician or group is described by this clue: Liverpool rock band whose songwriting, recording experiments, and global popularity reshaped modern popular music?",
+    "wrong_options": [
+      {
+        "name": "Madonna",
+        "image": "/questions/a75443503c398521.jpg"
+      },
+      {
+        "name": "Whitney Houston",
+        "image": "/questions/8c5858ce2451263d.jpg"
+      }
+    ],
+    "fact": "The Beatles were an English rock band formed in Liverpool by John Lennon, Paul McCartney, George Harrison, and Ringo Starr.",
+    "category": "Music",
+    "source": "/topics/the-beatles",
+    "bankVersion": "topic-bank-v3"
+  },
+  {
+    "name": "Whitney Houston",
+    "image": "/questions/8c5858ce2451263d.jpg",
+    "clue": "Which musician or group is described by this clue: American vocalist whose gospel foundation, range, and controlled power set a modern standard for pop singing?",
+    "wrong_options": [
+      {
+        "name": "The Beatles",
+        "image": "/questions/39ed422a5606dfad.jpg"
+      },
+      {
+        "name": "Prince",
+        "image": "/questions/573092aa99aedd42.png"
+      }
+    ],
+    "fact": "Whitney Houston combined gospel training, precise technique, and extraordinary range to become one of popular music’s most influential vocalists.",
+    "category": "Music",
+    "source": "/topics/whitney-houston",
+    "bankVersion": "topic-bank-v3"
+  },
+  {
+    "name": "Wolfgang Amadeus Mozart",
+    "image": "/questions/be6125104dcd680a.jpg",
+    "clue": "Which musician or group is described by this clue: Austrian composer and child prodigy whose operas, symphonies, and concertos became landmarks of the Classical era?",
+    "wrong_options": [
+      {
+        "name": "Ludwig van Beethoven",
+        "image": "/questions/a88be515bd35561a.jpg"
+      },
+      {
+        "name": "Miles Davis",
+        "image": "/questions/ba5dfe81722eb576.png"
+      }
+    ],
+    "fact": "Wolfgang Amadeus Mozart was an Austrian composer whose extraordinary fluency appeared in nearly every major musical form of his age.",
+    "category": "Music",
+    "source": "/topics/wolfgang-amadeus-mozart",
+    "bankVersion": "topic-bank-v3"
+  },
+  {
+    "name": "Aretha Franklin",
+    "image": "/questions/6ad92dbfc9353200.jpg",
+    "clue": "What musician or group was an American singer, songwriter, and pianist celebrated as the “Queen of Soul.” Her voice could be commanding, tender, rhythmic, and improvisational, often within a single performance?",
+    "wrong_options": [
+      {
+        "name": "Dolly Parton",
+        "image": "/questions/5142c11c01d75838.jpg"
+      },
+      {
+        "name": "Stevie Wonder",
+        "image": "/questions/78cde3bfe7f37498.jpg"
+      }
+    ],
+    "fact": "Aretha Franklin grew up singing in the Detroit church led by her father, C. L. Franklin.",
+    "category": "Music",
+    "source": "/topics/aretha-franklin",
+    "bankVersion": "topic-bank-v3"
+  },
+  {
+    "name": "Bob Marley",
+    "image": "/questions/b8b153b510cd867b.jpg",
+    "clue": "What musician or group was a Jamaican singer, songwriter, and guitarist who became reggae’s best-known international ambassador?",
+    "wrong_options": [
+      {
+        "name": "David Bowie",
+        "image": "/questions/b271b146b54d46c3.jpg"
+      },
+      {
+        "name": "Elvis Presley",
+        "image": "/questions/ebd05f83d63b2cc4.webp"
+      }
+    ],
+    "fact": "Bob Marley has this additional historical detail: Songs such as “One Love,” “Redemption Song,” and “No Woman, No Cry” remain recognized around the world.",
+    "category": "Music",
+    "source": "/topics/bob-marley",
+    "bankVersion": "topic-bank-v3"
+  },
+  {
+    "name": "Elvis Presley",
+    "image": "/questions/ebd05f83d63b2cc4.webp",
+    "clue": "What musician or group was an American singer and actor known as the “King of Rock and Roll.” His recordings and charismatic performances brought Southern musical traditions to a huge mainstream audience during the 1950s?",
+    "wrong_options": [
+      {
+        "name": "Miles Davis",
+        "image": "/questions/ba5dfe81722eb576.png"
+      },
+      {
+        "name": "David Bowie",
+        "image": "/questions/b271b146b54d46c3.jpg"
+      }
+    ],
+    "fact": "Elvis Presley was born in Tupelo, Mississippi, and raised in Memphis, Tennessee.",
+    "category": "Music",
+    "source": "/topics/elvis-presley",
+    "bankVersion": "topic-bank-v3"
+  },
+  {
+    "name": "Johann Sebastian Bach",
+    "image": "/questions/ce1efe82e8996451.jpg",
+    "clue": "What musician or group was a German composer and musician of the Baroque era?",
+    "wrong_options": [
+      {
+        "name": "Ludwig van Beethoven",
+        "image": "/questions/a88be515bd35561a.jpg"
+      },
+      {
+        "name": "Elvis Presley",
+        "image": "/questions/ebd05f83d63b2cc4.webp"
+      }
+    ],
+    "fact": "Johann Sebastian Bach has this additional historical detail: Composed the Brandenburg Concertos and The Well-Tempered Clavier.",
+    "category": "Music",
+    "source": "/topics/johann-sebastian-bach",
+    "bankVersion": "topic-bank-v3"
+  },
+  {
+    "name": "Ludwig van Beethoven",
+    "image": "/questions/a88be515bd35561a.jpg",
+    "clue": "What musician or group was a German composer and pianist whose music transformed the Western classical tradition?",
+    "wrong_options": [
+      {
+        "name": "Johann Sebastian Bach",
+        "image": "/questions/ce1efe82e8996451.jpg"
+      },
+      {
+        "name": "Elvis Presley",
+        "image": "/questions/ebd05f83d63b2cc4.webp"
+      }
+    ],
+    "fact": "Ludwig van Beethoven was born in Bonn and established his career in Vienna.",
+    "category": "Music",
+    "source": "/topics/ludwig-van-beethoven",
+    "bankVersion": "topic-bank-v3"
+  },
+  {
+    "name": "Back to the Future",
+    "image": "/questions/664511203979c31d.jpg",
+    "clue": "Which film is described by this clue: Time-travel comedy in which Marty McFly must repair his parents’ history before returning to 1985?",
+    "wrong_options": [
+      {
+        "name": "Jurassic Park",
+        "image": "/questions/2596f1160fbe9edf.jpg"
+      },
+      {
+        "name": "The Shawshank Redemption",
+        "image": "/questions/9818b3f31e7f345c.jpg"
+      }
+    ],
+    "fact": "Back to the Future blends science fiction, comedy, and family history as Marty must ensure his parents meet before he can return home.",
+    "category": "Movies",
+    "source": "/topics/back-to-the-future",
+    "bankVersion": "topic-bank-v3"
+  },
+  {
+    "name": "Black Panther",
+    "image": "/questions/cba13a9bd24a4d18.jpg",
+    "clue": "Which film is described by this clue: Marvel superhero film that introduced audiences to Wakanda through a conflict over leadership, isolation, identity, and responsibility?",
+    "wrong_options": [
+      {
+        "name": "Parasite",
+        "image": "/questions/bdfa73440bfbf0b7.jpg"
+      },
+      {
+        "name": "The Lord of the Rings: The Fellowship of the Ring",
+        "image": "/questions/264835ac8f25127a.jpg"
+      }
+    ],
+    "fact": "Black Panther is a 2018 superhero film directed by Ryan Coogler.",
+    "category": "Movies",
+    "source": "/topics/black-panther",
+    "bankVersion": "topic-bank-v3"
+  },
+  {
+    "name": "Casablanca",
+    "image": "/questions/17b045fcce4ddedd.jpg",
+    "clue": "Which film is described by this clue: Wartime romantic drama about love, sacrifice, and resistance centered on Rick’s nightclub in Vichy-controlled Morocco?",
+    "wrong_options": [
+      {
+        "name": "Citizen Kane",
+        "image": "/questions/cd87b2c99bc543d2.jpg"
+      },
+      {
+        "name": "The Godfather",
+        "image": "/questions/8ed7c28157c4ef38.jpg"
+      }
+    ],
+    "fact": "Casablanca is a 1942 romantic drama set in Morocco during World War II.",
+    "category": "Movies",
+    "source": "/topics/casablanca",
+    "bankVersion": "topic-bank-v3"
+  },
+  {
+    "name": "Citizen Kane",
+    "image": "/questions/cd87b2c99bc543d2.jpg",
+    "clue": "Which film is described by this clue: Orson Welles’s portrait of a media magnate, told through fragmented memories and celebrated cinematic invention?",
+    "wrong_options": [
+      {
+        "name": "Casablanca",
+        "image": "/questions/17b045fcce4ddedd.jpg"
+      },
+      {
+        "name": "The Godfather",
+        "image": "/questions/8ed7c28157c4ef38.jpg"
+      }
+    ],
+    "fact": "Citizen Kane was directed by and starred Orson Welles and became renowned for deep-focus cinematography, nonlinear storytelling, and inventive sound.",
+    "category": "Movies",
+    "source": "/topics/citizen-kane",
+    "bankVersion": "topic-bank-v3"
+  },
+  {
+    "name": "Jaws",
+    "image": "/questions/76bb69200b2ed462.jpg",
+    "clue": "Which film is described by this clue: Steven Spielberg’s suspense thriller about a shark threatening a seaside community, often credited with defining the summer blockbuster?",
+    "wrong_options": [
+      {
+        "name": "Star Wars: A New Hope",
+        "image": "/questions/078c4b83ed2f7406.jpg"
+      },
+      {
+        "name": "Jurassic Park",
+        "image": "/questions/2596f1160fbe9edf.jpg"
+      }
+    ],
+    "fact": "Jaws is a 1975 thriller directed by Steven Spielberg and based on Peter Benchley’s novel.",
+    "category": "Movies",
+    "source": "/topics/jaws",
+    "bankVersion": "topic-bank-v3"
+  },
+  {
+    "name": "Jurassic Park",
+    "image": "/questions/2596f1160fbe9edf.jpg",
+    "clue": "Which film is described by this clue: Steven Spielberg’s dinosaur adventure that combined animatronics and digital effects to create a landmark in modern filmmaking?",
+    "wrong_options": [
+      {
+        "name": "Pulp Fiction",
+        "image": "/questions/47f1aee0211c8039.jpg"
+      },
+      {
+        "name": "Titanic",
+        "image": "/questions/b009ee8a6e22c017.jpg"
+      }
+    ],
+    "fact": "Jurassic Park is a 1993 science-fiction adventure directed by Steven Spielberg and based on Michael Crichton’s novel.",
+    "category": "Movies",
+    "source": "/topics/jurassic-park",
+    "bankVersion": "topic-bank-v3"
+  },
+  {
+    "name": "Parasite",
+    "image": "/questions/bdfa73440bfbf0b7.jpg",
+    "clue": "Which film is described by this clue: Bong Joon Ho’s genre-shifting South Korean film about two families, economic inequality, hidden spaces, and social aspiration?",
+    "wrong_options": [
+      {
+        "name": "Black Panther",
+        "image": "/questions/cba13a9bd24a4d18.jpg"
+      },
+      {
+        "name": "The Lord of the Rings: The Fellowship of the Ring",
+        "image": "/questions/264835ac8f25127a.jpg"
+      }
+    ],
+    "fact": "Parasite is a 2019 South Korean film directed by Bong Joon Ho.",
+    "category": "Movies",
+    "source": "/topics/parasite",
+    "bankVersion": "topic-bank-v3"
+  },
+  {
+    "name": "Pulp Fiction",
+    "image": "/questions/47f1aee0211c8039.jpg",
+    "clue": "Which film is described by this clue: Quentin Tarantino’s nonlinear Los Angeles crime film, famous for stylized dialogue, dark humor, and genre play?",
+    "wrong_options": [
+      {
+        "name": "The Shawshank Redemption",
+        "image": "/questions/9818b3f31e7f345c.jpg"
+      },
+      {
+        "name": "Titanic",
+        "image": "/questions/b009ee8a6e22c017.jpg"
+      }
+    ],
+    "fact": "Pulp Fiction won the Palme d’Or and became influential for its nonlinear structure, stylized dialogue, dark humor, and eclectic soundtrack.",
+    "category": "Movies",
+    "source": "/topics/pulp-fiction",
+    "bankVersion": "topic-bank-v3"
+  },
+  {
+    "name": "Seven Samurai",
+    "image": "/questions/3bde2c6746bc4f89.png",
+    "clue": "Which film is described by this clue: Akira Kurosawa’s epic about warriors and villagers organizing a defense against bandits?",
+    "wrong_options": [
+      {
+        "name": "Casablanca",
+        "image": "/questions/17b045fcce4ddedd.jpg"
+      },
+      {
+        "name": "The Godfather",
+        "image": "/questions/8ed7c28157c4ef38.jpg"
+      }
+    ],
+    "fact": "Seven Samurai influenced action and ensemble storytelling worldwide and was directly reimagined as the western The Magnificent Seven.",
+    "category": "Movies",
+    "source": "/topics/seven-samurai",
+    "bankVersion": "topic-bank-v3"
+  },
+  {
+    "name": "Spirited Away",
+    "image": "/questions/10b6a522ee721537.png",
+    "clue": "Which film is described by this clue: Hayao Miyazaki’s animated fantasy about a young girl navigating a spirit bathhouse and discovering courage, empathy, and independence?",
+    "wrong_options": [
+      {
+        "name": "The Lord of the Rings: The Fellowship of the Ring",
+        "image": "/questions/264835ac8f25127a.jpg"
+      },
+      {
+        "name": "Toy Story",
+        "image": "/questions/e678b27d563d8895.jpg"
+      }
+    ],
+    "fact": "Spirited Away is a 2001 Japanese animated fantasy written and directed by Hayao Miyazaki for Studio Ghibli.",
+    "category": "Movies",
+    "source": "/topics/spirited-away",
+    "bankVersion": "topic-bank-v3"
+  },
+  {
+    "name": "Star Wars: A New Hope",
+    "image": "/questions/078c4b83ed2f7406.jpg",
+    "clue": "Which film is described by this clue: George Lucas’s space opera that introduced Luke Skywalker, Princess Leia, Darth Vader, and a galaxy-spanning modern mythology?",
+    "wrong_options": [
+      {
+        "name": "Jaws",
+        "image": "/questions/76bb69200b2ed462.jpg"
+      },
+      {
+        "name": "Jurassic Park",
+        "image": "/questions/2596f1160fbe9edf.jpg"
+      }
+    ],
+    "fact": "Star Wars: A New Hope is a 1977 space opera written and directed by George Lucas.",
+    "category": "Movies",
+    "source": "/topics/star-wars-a-new-hope",
+    "bankVersion": "topic-bank-v3"
+  },
+  {
+    "name": "The Dark Knight",
+    "image": "/questions/22c2e4d164870d50.jpg",
+    "clue": "Which film is described by this clue: Christopher Nolan’s Batman crime thriller about escalation, civic order, sacrifice, and the Joker’s campaign of chaos?",
+    "wrong_options": [
+      {
+        "name": "Spirited Away",
+        "image": "/questions/10b6a522ee721537.png"
+      },
+      {
+        "name": "Black Panther",
+        "image": "/questions/cba13a9bd24a4d18.jpg"
+      }
+    ],
+    "fact": "Christopher Nolan’s The Dark Knight combined comic-book characters with crime-thriller structure, and Heath Ledger received a posthumous Academy Award.",
+    "category": "Movies",
+    "source": "/topics/the-dark-knight",
+    "bankVersion": "topic-bank-v3"
+  },
+  {
+    "name": "The Godfather",
+    "image": "/questions/8ed7c28157c4ef38.jpg",
+    "clue": "Which film is described by this clue: Francis Ford Coppola’s crime epic about the Corleone family, power, loyalty, and the transformation of Michael Corleone?",
+    "wrong_options": [
+      {
+        "name": "Jaws",
+        "image": "/questions/76bb69200b2ed462.jpg"
+      },
+      {
+        "name": "Seven Samurai",
+        "image": "/questions/3bde2c6746bc4f89.png"
+      }
+    ],
+    "fact": "The Godfather is a 1972 American crime drama directed by Francis Ford Coppola and adapted from Mario Puzo’s novel.",
+    "category": "Movies",
+    "source": "/topics/the-godfather",
+    "bankVersion": "topic-bank-v3"
+  },
+  {
+    "name": "The Matrix",
+    "image": "/questions/2349e013bb2b181e.png",
+    "clue": "Which film is described by this clue: Cyberpunk action film about simulated reality, free will, identity, and rebellion against intelligent machines?",
+    "wrong_options": [
+      {
+        "name": "Spirited Away",
+        "image": "/questions/10b6a522ee721537.png"
+      },
+      {
+        "name": "Toy Story",
+        "image": "/questions/e678b27d563d8895.jpg"
+      }
+    ],
+    "fact": "The Matrix was written and directed by the Wachowskis and combined cyberpunk ideas, martial arts, philosophy, and the visual effect known as bullet time.",
+    "category": "Movies",
+    "source": "/topics/the-matrix",
+    "bankVersion": "topic-bank-v3"
+  },
+  {
+    "name": "The Shawshank Redemption",
+    "image": "/questions/9818b3f31e7f345c.jpg",
+    "clue": "Which film is described by this clue: Prison drama about Andy Dufresne, Red, institutional life, patience, friendship, and hope?",
+    "wrong_options": [
+      {
+        "name": "Pulp Fiction",
+        "image": "/questions/47f1aee0211c8039.jpg"
+      },
+      {
+        "name": "Titanic",
+        "image": "/questions/b009ee8a6e22c017.jpg"
+      }
+    ],
+    "fact": "The Shawshank Redemption was adapted from a Stephen King novella and grew into a beloved film through home video, television, and word of mouth.",
+    "category": "Movies",
+    "source": "/topics/the-shawshank-redemption",
+    "bankVersion": "topic-bank-v3"
+  },
+  {
+    "name": "The Wizard of Oz",
+    "image": "/questions/371f929220e66d52.jpg",
+    "clue": "Which film is described by this clue: Musical fantasy in which Dorothy travels from Kansas to Oz, creating some of Hollywood’s most enduring images and songs?",
+    "wrong_options": [
+      {
+        "name": "Citizen Kane",
+        "image": "/questions/cd87b2c99bc543d2.jpg"
+      },
+      {
+        "name": "The Godfather",
+        "image": "/questions/8ed7c28157c4ef38.jpg"
+      }
+    ],
+    "fact": "The Wizard of Oz is a 1939 American musical fantasy based on L. Frank Baum’s children’s novel.",
+    "category": "Movies",
+    "source": "/topics/the-wizard-of-oz",
+    "bankVersion": "topic-bank-v3"
+  },
+  {
+    "name": "Titanic",
+    "image": "/questions/b009ee8a6e22c017.jpg",
+    "clue": "Which film is described by this clue: James Cameron’s historical romance set aboard the doomed RMS This film, combining intimate drama with large-scale disaster filmmaking?",
+    "wrong_options": [
+      {
+        "name": "The Matrix",
+        "image": "/questions/2349e013bb2b181e.png"
+      },
+      {
+        "name": "The Shawshank Redemption",
+        "image": "/questions/9818b3f31e7f345c.jpg"
+      }
+    ],
+    "fact": "Titanic is a 1997 epic romance and disaster film written and directed by James Cameron.",
+    "category": "Movies",
+    "source": "/topics/titanic",
+    "bankVersion": "topic-bank-v3"
+  },
+  {
+    "name": "Black Panther",
+    "image": "/questions/cba13a9bd24a4d18.jpg",
+    "clue": "What film is a 2018 superhero film directed by Ryan Coogler?",
+    "wrong_options": [
+      {
+        "name": "The Dark Knight",
+        "image": "/questions/22c2e4d164870d50.jpg"
+      },
+      {
+        "name": "The Matrix",
+        "image": "/questions/2349e013bb2b181e.png"
+      }
+    ],
+    "fact": "Black Panther stars Chadwick Boseman, Michael B. Jordan, Lupita Nyong’o, and Danai Gurira.",
+    "category": "Movies",
+    "source": "/topics/black-panther",
+    "bankVersion": "topic-bank-v3"
+  },
+  {
+    "name": "Casablanca",
+    "image": "/questions/17b045fcce4ddedd.jpg",
+    "clue": "What film is a 1942 romantic drama set in Morocco during World War II?",
+    "wrong_options": [
+      {
+        "name": "The Wizard of Oz",
+        "image": "/questions/371f929220e66d52.jpg"
+      },
+      {
+        "name": "Jaws",
+        "image": "/questions/76bb69200b2ed462.jpg"
+      }
+    ],
+    "fact": "When Ilsa arrives with resistance leader Victor Laszlo, Rick must choose between personal desire and a larger moral cause.",
+    "category": "Movies",
+    "source": "/topics/casablanca",
+    "bankVersion": "topic-bank-v3"
+  },
+  {
+    "name": "Jaws",
+    "image": "/questions/76bb69200b2ed462.jpg",
+    "clue": "What film is a 1975 thriller directed by Steven Spielberg and based on Peter Benchley’s novel?",
+    "wrong_options": [
+      {
+        "name": "The Godfather",
+        "image": "/questions/8ed7c28157c4ef38.jpg"
+      },
+      {
+        "name": "Pulp Fiction",
+        "image": "/questions/47f1aee0211c8039.jpg"
+      }
+    ],
+    "fact": "The film turns a simple threat into a study of fear, civic denial, and men under pressure.",
+    "category": "Movies",
+    "source": "/topics/jaws",
+    "bankVersion": "topic-bank-v3"
+  },
+  {
+    "name": "Jurassic Park",
+    "image": "/questions/2596f1160fbe9edf.jpg",
+    "clue": "What film is a 1993 science-fiction adventure directed by Steven Spielberg and based on Michael Crichton’s novel?",
+    "wrong_options": [
+      {
+        "name": "The Shawshank Redemption",
+        "image": "/questions/9818b3f31e7f345c.jpg"
+      },
+      {
+        "name": "The Matrix",
+        "image": "/questions/2349e013bb2b181e.png"
+      }
+    ],
+    "fact": "A systems failure turns a guided inspection into a struggle for survival and exposes the danger of treating living systems as controllable products.",
+    "category": "Movies",
+    "source": "/topics/jurassic-park",
+    "bankVersion": "topic-bank-v3"
+  },
+  {
+    "name": "Parasite",
+    "image": "/questions/bdfa73440bfbf0b7.jpg",
+    "clue": "What film is a 2019 South Korean film directed by Bong Joon Ho?",
+    "wrong_options": [
+      {
+        "name": "The Dark Knight",
+        "image": "/questions/22c2e4d164870d50.jpg"
+      },
+      {
+        "name": "The Matrix",
+        "image": "/questions/2349e013bb2b181e.png"
+      }
+    ],
+    "fact": "Parasite has this additional historical detail: What begins as a dark social comedy becomes a thriller as secrets inside the Park home expose deeper layers of inequality and desperation.",
+    "category": "Movies",
+    "source": "/topics/parasite",
+    "bankVersion": "topic-bank-v3"
+  },
+  {
+    "name": "Spirited Away",
+    "image": "/questions/10b6a522ee721537.png",
+    "clue": "What film is a 2001 Japanese animated fantasy written and directed by Hayao Miyazaki for Studio Ghibli?",
+    "wrong_options": [
+      {
+        "name": "The Matrix",
+        "image": "/questions/2349e013bb2b181e.png"
+      },
+      {
+        "name": "Pulp Fiction",
+        "image": "/questions/47f1aee0211c8039.jpg"
+      }
+    ],
+    "fact": "Spirited Away has this additional historical detail: To survive and rescue them, she works in a bathhouse ruled by the witch Yubaba and gradually grows from a frightened child into a resourceful, compassionate person.",
+    "category": "Movies",
+    "source": "/topics/spirited-away",
+    "bankVersion": "topic-bank-v3"
+  },
+  {
+    "name": "Star Wars: A New Hope",
+    "image": "/questions/078c4b83ed2f7406.jpg",
+    "clue": "What film is a 1977 space opera written and directed by George Lucas?",
+    "wrong_options": [
+      {
+        "name": "The Godfather",
+        "image": "/questions/8ed7c28157c4ef38.jpg"
+      },
+      {
+        "name": "Pulp Fiction",
+        "image": "/questions/47f1aee0211c8039.jpg"
+      }
+    ],
+    "fact": "Star Wars: A New Hope was originally released under the title Star Wars.",
+    "category": "Movies",
+    "source": "/topics/star-wars-a-new-hope",
+    "bankVersion": "topic-bank-v3"
+  },
+  {
+    "name": "The Godfather",
+    "image": "/questions/8ed7c28157c4ef38.jpg",
+    "clue": "What film is a 1972 American crime drama directed by Francis Ford Coppola and adapted from Mario Puzo’s novel?",
+    "wrong_options": [
+      {
+        "name": "Star Wars: A New Hope",
+        "image": "/questions/078c4b83ed2f7406.jpg"
+      },
+      {
+        "name": "Jurassic Park",
+        "image": "/questions/2596f1160fbe9edf.jpg"
+      }
+    ],
+    "fact": "The film combines the scale of a family saga with an intimate study of power, loyalty, violence, and moral decline.",
+    "category": "Movies",
+    "source": "/topics/the-godfather",
+    "bankVersion": "topic-bank-v3"
+  },
+  {
+    "name": "Avatar: The Last Airbender",
+    "image": "/questions/d85f58c2ebd46b5a.webp",
+    "clue": "Which television series is described by this clue: Animated fantasy about Aang mastering four elements, ending a war, and restoring balance without abandoning his values?",
+    "wrong_options": [
+      {
+        "name": "The Office",
+        "image": "/questions/b3770f2d6117fd1d.jpg"
+      },
+      {
+        "name": "The Wire",
+        "image": "/questions/79c89dfe45317056.webp"
+      }
+    ],
+    "fact": "Avatar: The Last Airbender combines an episodic adventure with a carefully planned three-season story about responsibility, balance, and redemption.",
+    "category": "TV Series",
+    "source": "/topics/avatar-the-last-airbender",
+    "bankVersion": "topic-bank-v3"
+  },
+  {
+    "name": "Breaking Bad",
+    "image": "/questions/ba99913008b81591.png",
+    "clue": "Which television series is described by this clue: American crime drama tracing Walter White’s transformation from chemistry teacher to violent drug kingpin?",
+    "wrong_options": [
+      {
+        "name": "Mad Men",
+        "image": "/questions/ca6359d15663f3bb.jpg"
+      },
+      {
+        "name": "The Office",
+        "image": "/questions/b3770f2d6117fd1d.jpg"
+      }
+    ],
+    "fact": "Breaking Bad is an American crime drama created by Vince Gilligan.",
+    "category": "TV Series",
+    "source": "/topics/breaking-bad",
+    "bankVersion": "topic-bank-v3"
+  },
+  {
+    "name": "Doctor Who",
+    "image": "/questions/ec05c8f39365f8ce.png",
+    "clue": "Which television series is described by this clue: Human and alien companions join adventures that combine history, science fiction, horror, comedy, and moral choice?",
+    "wrong_options": [
+      {
+        "name": "Star Trek",
+        "image": "/questions/d0781ace79471b10.jpg"
+      },
+      {
+        "name": "Seinfeld",
+        "image": "/questions/4d9ad2a8e4a002d5.png"
+      }
+    ],
+    "fact": "Doctor Who is a British science-fiction television series centered on the Doctor, an alien Time Lord who travels through time and space.",
+    "category": "TV Series",
+    "source": "/topics/doctor-who",
+    "bankVersion": "topic-bank-v3"
+  },
+  {
+    "name": "Friends",
+    "image": "/questions/794ae15b6e0acf5b.png",
+    "clue": "Which television series is described by this clue: American ensemble sitcom about six This television series navigating work, relationships, and adulthood in New York City?",
+    "wrong_options": [
+      {
+        "name": "The X-Files",
+        "image": "/questions/1d7a07056d0f5d2d.png"
+      },
+      {
+        "name": "The Simpsons",
+        "image": "/questions/d2a8604e0339fedd.png"
+      }
+    ],
+    "fact": "Friends is an American sitcom created by David Crane and Marta Kauffman.",
+    "category": "TV Series",
+    "source": "/topics/friends",
+    "bankVersion": "topic-bank-v3"
+  },
+  {
+    "name": "Game of Thrones",
+    "image": "/questions/03f4756660349eba.jpg",
+    "clue": "Which television series is described by this clue: HBO fantasy drama about rival families, political power, ancient threats, and the struggle for the Iron Throne?",
+    "wrong_options": [
+      {
+        "name": "Breaking Bad",
+        "image": "/questions/ba99913008b81591.png"
+      },
+      {
+        "name": "The Crown",
+        "image": "/questions/19a986ec82ffad2e.webp"
+      }
+    ],
+    "fact": "Game of Thrones is an HBO fantasy series created by David Benioff and D. B. Weiss, based on George R. R. Martin’s A Song of Ice and Fire novels.",
+    "category": "TV Series",
+    "source": "/topics/game-of-thrones",
+    "bankVersion": "topic-bank-v3"
+  },
+  {
+    "name": "Mad Men",
+    "image": "/questions/ca6359d15663f3bb.jpg",
+    "clue": "Which television series is described by this clue: Period drama following Don Draper and a Madison Avenue advertising agency through the social upheavals of the 1960s?",
+    "wrong_options": [
+      {
+        "name": "Breaking Bad",
+        "image": "/questions/ba99913008b81591.png"
+      },
+      {
+        "name": "Game of Thrones",
+        "image": "/questions/03f4756660349eba.jpg"
+      }
+    ],
+    "fact": "Mad Men uses the advertising business to explore identity, gender, work, consumer culture, and social change in 1960s America.",
+    "category": "TV Series",
+    "source": "/topics/mad-men",
+    "bankVersion": "topic-bank-v3"
+  },
+  {
+    "name": "Seinfeld",
+    "image": "/questions/4d9ad2a8e4a002d5.png",
+    "clue": "Which television series is described by this clue: Influential American sitcom that turns social rules, minor irritations, and selfish behavior into tightly connected comedy?",
+    "wrong_options": [
+      {
+        "name": "The Simpsons",
+        "image": "/questions/d2a8604e0339fedd.png"
+      },
+      {
+        "name": "Friends",
+        "image": "/questions/794ae15b6e0acf5b.png"
+      }
+    ],
+    "fact": "Seinfeld is an American sitcom created by Larry David and Jerry Seinfeld.",
+    "category": "TV Series",
+    "source": "/topics/seinfeld",
+    "bankVersion": "topic-bank-v3"
+  },
+  {
+    "name": "Star Trek",
+    "image": "/questions/d0781ace79471b10.jpg",
+    "clue": "Which television series is described by this clue: Optimistic science-fiction series following the diverse USS Enterprise crew on a mission of exploration?",
+    "wrong_options": [
+      {
+        "name": "Doctor Who",
+        "image": "/questions/ec05c8f39365f8ce.png"
+      },
+      {
+        "name": "Seinfeld",
+        "image": "/questions/4d9ad2a8e4a002d5.png"
+      }
+    ],
+    "fact": "Star Trek first aired in 1966 and grew through syndication into a major franchise built around exploration, cooperation, and an optimistic future.",
+    "category": "TV Series",
+    "source": "/topics/star-trek",
+    "bankVersion": "topic-bank-v3"
+  },
+  {
+    "name": "Stranger Things",
+    "image": "/questions/2532508d370b497d.png",
+    "clue": "Which television series is described by this clue: Science-fiction horror series about young friends confronting secret experiments and the supernatural threat of the Upside Down?",
+    "wrong_options": [
+      {
+        "name": "The Crown",
+        "image": "/questions/19a986ec82ffad2e.webp"
+      },
+      {
+        "name": "Breaking Bad",
+        "image": "/questions/ba99913008b81591.png"
+      }
+    ],
+    "fact": "Stranger Things is an American science-fiction horror series created by Matt and Ross Duffer.",
+    "category": "TV Series",
+    "source": "/topics/stranger-things",
+    "bankVersion": "topic-bank-v3"
+  },
+  {
+    "name": "Succession",
+    "image": "/questions/7066717af015d79f.jpg",
+    "clue": "Which television series is described by this clue: Darkly comic family drama about the Roy siblings competing for control of a global media empire?",
+    "wrong_options": [
+      {
+        "name": "Stranger Things",
+        "image": "/questions/2532508d370b497d.png"
+      },
+      {
+        "name": "Breaking Bad",
+        "image": "/questions/ba99913008b81591.png"
+      }
+    ],
+    "fact": "Succession blends family tragedy, corporate maneuvering, and dark comedy through the battle to control the fictional Waystar Royco.",
+    "category": "TV Series",
+    "source": "/topics/succession",
+    "bankVersion": "topic-bank-v3"
+  },
+  {
+    "name": "The Crown",
+    "image": "/questions/19a986ec82ffad2e.webp",
+    "clue": "Which television series is described by this clue: Historical drama portraying Queen Elizabeth II’s reign through political crises, family relationships, duty, and public image?",
+    "wrong_options": [
+      {
+        "name": "Stranger Things",
+        "image": "/questions/2532508d370b497d.png"
+      },
+      {
+        "name": "Breaking Bad",
+        "image": "/questions/ba99913008b81591.png"
+      }
+    ],
+    "fact": "The Crown is a historical drama created by Peter Morgan for Netflix.",
+    "category": "TV Series",
+    "source": "/topics/the-crown",
+    "bankVersion": "topic-bank-v3"
+  },
+  {
+    "name": "The Fresh Prince of Bel-Air",
+    "image": "/questions/e4f879cf54ef0186.webp",
+    "clue": "Which television series is described by this clue: Family sitcom in which Will Smith’s Philadelphia teenager adjusts to life with wealthy relatives in Bel-Air?",
+    "wrong_options": [
+      {
+        "name": "Seinfeld",
+        "image": "/questions/4d9ad2a8e4a002d5.png"
+      },
+      {
+        "name": "Friends",
+        "image": "/questions/794ae15b6e0acf5b.png"
+      }
+    ],
+    "fact": "The Fresh Prince of Bel-Air mixed fish-out-of-water comedy with stories about family, class, race, identity, and growing up.",
+    "category": "TV Series",
+    "source": "/topics/the-fresh-prince-of-bel-air",
+    "bankVersion": "topic-bank-v3"
+  },
+  {
+    "name": "The Office",
+    "image": "/questions/b3770f2d6117fd1d.jpg",
+    "clue": "Which television series is described by this clue: American workplace mockumentary that finds comedy and humanity among the employees of Dunder Mifflin’s Scranton branch?",
+    "wrong_options": [
+      {
+        "name": "Avatar: The Last Airbender",
+        "image": "/questions/d85f58c2ebd46b5a.webp"
+      },
+      {
+        "name": "The Wire",
+        "image": "/questions/79c89dfe45317056.webp"
+      }
+    ],
+    "fact": "The Office is an American workplace sitcom developed by Greg Daniels from the British series created by Ricky Gervais and Stephen Merchant.",
+    "category": "TV Series",
+    "source": "/topics/the-office",
+    "bankVersion": "topic-bank-v3"
+  },
+  {
+    "name": "The Simpsons",
+    "image": "/questions/d2a8604e0339fedd.png",
+    "clue": "Which television series is described by this clue: Long-running animated sitcom using the Simpson family and Springfield to satirize American life, media, politics, and family?",
+    "wrong_options": [
+      {
+        "name": "Seinfeld",
+        "image": "/questions/4d9ad2a8e4a002d5.png"
+      },
+      {
+        "name": "Friends",
+        "image": "/questions/794ae15b6e0acf5b.png"
+      }
+    ],
+    "fact": "The Simpsons is an American animated sitcom created by Matt Groening.",
+    "category": "TV Series",
+    "source": "/topics/the-simpsons",
+    "bankVersion": "topic-bank-v3"
+  },
+  {
+    "name": "The Sopranos",
+    "image": "/questions/800c76bcefc26204.png",
+    "clue": "Which television series is described by this clue: HBO crime drama about mob boss Tony Soprano, whose therapy sessions reveal the conflict between criminal power, family, and anxiety?",
+    "wrong_options": [
+      {
+        "name": "The Wire",
+        "image": "/questions/79c89dfe45317056.webp"
+      },
+      {
+        "name": "The Office",
+        "image": "/questions/b3770f2d6117fd1d.jpg"
+      }
+    ],
+    "fact": "The Sopranos is an American crime drama created by David Chase.",
+    "category": "TV Series",
+    "source": "/topics/the-sopranos",
+    "bankVersion": "topic-bank-v3"
+  },
+  {
+    "name": "The Twilight Zone",
+    "image": "/questions/f0088e43f58b90df.webp",
+    "clue": "Which television series is described by this clue: Rod Serling’s anthology using speculative stories and twist endings to examine fear, prejudice, conformity, and power?",
+    "wrong_options": [
+      {
+        "name": "Doctor Who",
+        "image": "/questions/ec05c8f39365f8ce.png"
+      },
+      {
+        "name": "Seinfeld",
+        "image": "/questions/4d9ad2a8e4a002d5.png"
+      }
+    ],
+    "fact": "The Twilight Zone explored prejudice, conformity, fear, and technology through self-contained episodes that often bypassed network-era taboos.",
+    "category": "TV Series",
+    "source": "/topics/the-twilight-zone",
+    "bankVersion": "topic-bank-v3"
+  },
+  {
+    "name": "The Wire",
+    "image": "/questions/79c89dfe45317056.webp",
+    "clue": "Which television series is described by this clue: Baltimore ensemble drama examining how institutions constrain police, residents, workers, politicians, students, and journalists?",
+    "wrong_options": [
+      {
+        "name": "Avatar: The Last Airbender",
+        "image": "/questions/d85f58c2ebd46b5a.webp"
+      },
+      {
+        "name": "Mad Men",
+        "image": "/questions/ca6359d15663f3bb.jpg"
+      }
+    ],
+    "fact": "Created by David Simon, The Wire uses a large ensemble to show how institutions shape individual choices and reproduce systemic failure.",
+    "category": "TV Series",
+    "source": "/topics/the-wire",
+    "bankVersion": "topic-bank-v3"
+  },
+  {
+    "name": "The X-Files",
+    "image": "/questions/1d7a07056d0f5d2d.png",
+    "clue": "Which television series is described by this clue: Science-fiction drama pairing believer Fox Mulder and skeptic Dana Scully in paranormal investigations?",
+    "wrong_options": [
+      {
+        "name": "Friends",
+        "image": "/questions/794ae15b6e0acf5b.png"
+      },
+      {
+        "name": "The Simpsons",
+        "image": "/questions/d2a8604e0339fedd.png"
+      }
+    ],
+    "fact": "The X-Files combined standalone monster stories with a continuing alien-conspiracy mythology and became a defining genre series of the 1990s.",
+    "category": "TV Series",
+    "source": "/topics/the-x-files",
+    "bankVersion": "topic-bank-v3"
+  },
+  {
+    "name": "Breaking Bad",
+    "image": "/questions/ba99913008b81591.png",
+    "clue": "What television series is an American crime drama created by Vince Gilligan?",
+    "wrong_options": [
+      {
+        "name": "Avatar: The Last Airbender",
+        "image": "/questions/d85f58c2ebd46b5a.webp"
+      },
+      {
+        "name": "The Wire",
+        "image": "/questions/79c89dfe45317056.webp"
+      }
+    ],
+    "fact": "Breaking Bad has this additional historical detail: Working with former student Jesse Pinkman, Walter claims he is protecting his family while increasingly pursuing power, recognition, and control.",
+    "category": "TV Series",
+    "source": "/topics/breaking-bad",
+    "bankVersion": "topic-bank-v3"
+  },
+  {
+    "name": "Doctor Who",
+    "image": "/questions/ec05c8f39365f8ce.png",
+    "clue": "Choose the television series connected to this detail: First broadcast by the BBC in 1963.",
+    "wrong_options": [
+      {
+        "name": "The Twilight Zone",
+        "image": "/questions/f0088e43f58b90df.webp"
+      },
+      {
+        "name": "The Simpsons",
+        "image": "/questions/d2a8604e0339fedd.png"
+      }
+    ],
+    "fact": "The Doctor’s ship, the TARDIS, looks like a blue British police box but is vastly larger inside.",
+    "category": "TV Series",
+    "source": "/topics/doctor-who",
+    "bankVersion": "topic-bank-v3"
+  },
+  {
+    "name": "Friends",
+    "image": "/questions/794ae15b6e0acf5b.png",
+    "clue": "What television series is an American sitcom created by David Crane and Marta Kauffman?",
+    "wrong_options": [
+      {
+        "name": "The Fresh Prince of Bel-Air",
+        "image": "/questions/e4f879cf54ef0186.webp"
+      },
+      {
+        "name": "The Sopranos",
+        "image": "/questions/800c76bcefc26204.png"
+      }
+    ],
+    "fact": "Friends stars Jennifer Aniston, Courteney Cox, Lisa Kudrow, Matt LeBlanc, Matthew Perry, and David Schwimmer.",
+    "category": "TV Series",
+    "source": "/topics/friends",
+    "bankVersion": "topic-bank-v3"
+  },
+  {
+    "name": "Game of Thrones",
+    "image": "/questions/03f4756660349eba.jpg",
+    "clue": "What television series is an HBO fantasy series created by David Benioff and D. B. Weiss, based on George R. R. Martin’s A Song of Ice and Fire novels?",
+    "wrong_options": [
+      {
+        "name": "Mad Men",
+        "image": "/questions/ca6359d15663f3bb.jpg"
+      },
+      {
+        "name": "Avatar: The Last Airbender",
+        "image": "/questions/d85f58c2ebd46b5a.webp"
+      }
+    ],
+    "fact": "Game of Thrones has this additional historical detail: Adapted from George R. R. Martin’s fantasy novels.",
+    "category": "TV Series",
+    "source": "/topics/game-of-thrones",
+    "bankVersion": "topic-bank-v3"
+  },
+  {
+    "name": "Seinfeld",
+    "image": "/questions/4d9ad2a8e4a002d5.png",
+    "clue": "What television series is an American sitcom created by Larry David and Jerry This television series?",
+    "wrong_options": [
+      {
+        "name": "The Fresh Prince of Bel-Air",
+        "image": "/questions/e4f879cf54ef0186.webp"
+      },
+      {
+        "name": "The Sopranos",
+        "image": "/questions/800c76bcefc26204.png"
+      }
+    ],
+    "fact": "Seinfeld has this additional historical detail: Often described as a “show about nothing,” it is more precisely a comedy about unwritten social rules and the trouble caused by characters who analyze, exploit, or ignore them.",
+    "category": "TV Series",
+    "source": "/topics/seinfeld",
+    "bankVersion": "topic-bank-v3"
+  },
+  {
+    "name": "Stranger Things",
+    "image": "/questions/2532508d370b497d.png",
+    "clue": "What television series is an American science-fiction horror series created by Matt and Ross Duffer?",
+    "wrong_options": [
+      {
+        "name": "Succession",
+        "image": "/questions/7066717af015d79f.jpg"
+      },
+      {
+        "name": "Mad Men",
+        "image": "/questions/ca6359d15663f3bb.jpg"
+      }
+    ],
+    "fact": "Stranger Things stars an ensemble of young and adult performers.",
+    "category": "TV Series",
+    "source": "/topics/stranger-things",
+    "bankVersion": "topic-bank-v3"
+  },
+  {
+    "name": "The Crown",
+    "image": "/questions/19a986ec82ffad2e.webp",
+    "clue": "What television series is a historical drama created by Peter Morgan for Netflix?",
+    "wrong_options": [
+      {
+        "name": "Succession",
+        "image": "/questions/7066717af015d79f.jpg"
+      },
+      {
+        "name": "Mad Men",
+        "image": "/questions/ca6359d15663f3bb.jpg"
+      }
+    ],
+    "fact": "The Crown has this additional historical detail: Recasts principal roles as the characters age.",
+    "category": "TV Series",
+    "source": "/topics/the-crown",
+    "bankVersion": "topic-bank-v3"
   }
 ]
