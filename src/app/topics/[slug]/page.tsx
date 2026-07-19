@@ -1,11 +1,12 @@
 import Image from "next/image";
 import Link from "next/link";
-import { notFound } from "next/navigation";
+import { notFound, redirect } from "next/navigation";
 import type { Metadata } from "next";
 
 import { SiteFooter } from "@/components/SiteFooter";
 import {
-  getAllTopicSlugs,
+  canonicalTopicSlug,
+  getAllTopicRouteSlugs,
   getAllTopics,
   getTopicBySlug,
   nameForSlug,
@@ -18,7 +19,7 @@ import { categoryOf, CATEGORY_COLORS } from "@/lib/categories";
 const hf = { fontFamily: "var(--font-pixel-heading), monospace" };
 
 export async function generateStaticParams() {
-  return getAllTopicSlugs().map((slug) => ({ slug }));
+  return getAllTopicRouteSlugs().map((slug) => ({ slug }));
 }
 
 export const dynamicParams = false;
@@ -29,7 +30,8 @@ export async function generateMetadata({
   params: Promise<{ slug: string }>;
 }): Promise<Metadata> {
   const { slug } = await params;
-  const topic = await getTopicBySlug(slug);
+  const canonicalSlug = canonicalTopicSlug(slug);
+  const topic = await getTopicBySlug(canonicalSlug);
   if (!topic) return { title: "Topic not found" };
 
   const description = topic.excerpt;
@@ -52,7 +54,7 @@ export async function generateMetadata({
       images: topic.image ? [topic.image] : undefined,
     },
     alternates: {
-      canonical: `/topics/${slug}`,
+      canonical: `/topics/${canonicalSlug}`,
     },
   };
 }
@@ -63,13 +65,16 @@ export default async function TopicPage({
   params: Promise<{ slug: string }>;
 }) {
   const { slug } = await params;
-  const topic = await getTopicBySlug(slug);
+  const canonicalSlug = canonicalTopicSlug(slug);
+  if (canonicalSlug !== slug) redirect(`/topics/${canonicalSlug}`);
+
+  const topic = await getTopicBySlug(canonicalSlug);
   if (!topic) notFound();
 
-  const name = nameForSlug(slug);
+  const name = nameForSlug(canonicalSlug);
   const eraInfo = name ? eraOf(name) : null;
   const category = topic.category ?? (name ? categoryOf(name) : null);
-  const related = await getRelatedTopics(slug, category);
+  const related = await getRelatedTopics(canonicalSlug, category);
 
   const jsonLd = {
     "@context": "https://schema.org",

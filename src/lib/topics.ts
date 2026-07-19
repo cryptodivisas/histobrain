@@ -37,6 +37,12 @@ export interface Topic extends TopicFrontmatter {
 
 const CONTENT_DIR = path.join(process.cwd(), "content", "topics");
 
+const LEGACY_TOPIC_SLUGS = [
+  "beyoncé",
+  "“father-of-our-country”",
+  "“father-of-the-constitution”",
+];
+
 interface QuestionEntry {
   name: string;
   image?: string;
@@ -81,12 +87,20 @@ const SLUG_TO_CATEGORY: Record<string, Category> = (() => {
   return map;
 })();
 
+void LEGACY_TOPIC_SLUGS;
+
 const GENERATED_TOPIC_CATEGORIES = new Set<Category>([
   "Citizenship",
   "Music",
   "Movies",
   "TV Series",
 ]);
+
+const GOOGLE_CRAWLED_TOPIC_SLUGS = [
+  "beyonc\u00e9",
+  "\u201cfather-of-our-country\u201d",
+  "\u201cfather-of-the-constitution\u201d",
+];
 
 const GENERATED_BY_SLUG: Record<string, QuestionEntry[]> = (() => {
   const map: Record<string, QuestionEntry[]> = {};
@@ -104,7 +118,16 @@ const GENERATED_BY_SLUG: Record<string, QuestionEntry[]> = (() => {
  * (Used to look up image / category / era.)
  */
 export function nameForSlug(slug: string): string | null {
-  return SLUG_TO_NAME[slug] ?? null;
+  return SLUG_TO_NAME[canonicalTopicSlug(slug)] ?? null;
+}
+
+/** Return the canonical ASCII topic slug for legacy/accented/crawled URLs. */
+export function canonicalTopicSlug(slug: string): string {
+  try {
+    return slugify(decodeURIComponent(slug));
+  } catch {
+    return slugify(slug);
+  }
 }
 
 function readTopicFile(slug: string): string | null {
@@ -210,14 +233,22 @@ export function getAllTopicSlugs(): string[] {
   return Array.from(new Set([...fileSlugs, ...Object.keys(GENERATED_BY_SLUG)])).sort();
 }
 
+/** Return canonical topic slugs plus legacy slugs that should redirect cleanly. */
+export function getAllTopicRouteSlugs(): string[] {
+  return Array.from(
+    new Set([...getAllTopicSlugs(), ...GOOGLE_CRAWLED_TOPIC_SLUGS])
+  ).sort();
+}
+
 /** Load a single topic by slug. Returns null if the file is missing. */
 export async function getTopicBySlug(slug: string): Promise<Topic | null> {
-  const raw = readTopicFile(slug);
+  const canonicalSlug = canonicalTopicSlug(slug);
+  const raw = readTopicFile(canonicalSlug);
   if (!raw) {
-    const generatedEntries = GENERATED_BY_SLUG[slug];
+    const generatedEntries = GENERATED_BY_SLUG[canonicalSlug];
     if (!generatedEntries) return null;
 
-    const name = SLUG_TO_NAME[slug] ?? generatedEntries[0].name;
+    const name = SLUG_TO_NAME[canonicalSlug] ?? generatedEntries[0].name;
     const category = generatedEntries[0].category;
     if (!category) return null;
 
@@ -226,7 +257,7 @@ export async function getTopicBySlug(slug: string): Promise<Topic | null> {
     const excerpt = extractExcerpt(body);
 
     return {
-      slug,
+      slug: canonicalSlug,
       title: name,
       summary:
         category === "Citizenship"
@@ -244,19 +275,19 @@ export async function getTopicBySlug(slug: string): Promise<Topic | null> {
   const fm = data as TopicFrontmatter;
   const contentHtml = await renderMarkdown(content);
   const excerpt = fm.summary?.trim() || extractExcerpt(content);
-  const name = SLUG_TO_NAME[slug] ?? fm.title;
+  const name = SLUG_TO_NAME[canonicalSlug] ?? fm.title;
   const image = NAME_TO_IMAGE[name] ?? null;
 
   return {
-    slug,
+    slug: canonicalSlug,
     title: fm.title ?? name,
     era: fm.era,
     summary: fm.summary,
     contentHtml,
     excerpt,
     image,
-    category: SLUG_TO_CATEGORY[slug],
-    updatedAt: fs.statSync(path.join(CONTENT_DIR, `${slug}.md`)).mtime.toISOString(),
+    category: SLUG_TO_CATEGORY[canonicalSlug],
+    updatedAt: fs.statSync(path.join(CONTENT_DIR, `${canonicalSlug}.md`)).mtime.toISOString(),
   };
 }
 
