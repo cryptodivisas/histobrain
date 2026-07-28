@@ -1,12 +1,12 @@
 import Image from "next/image";
 import Link from "next/link";
-import { notFound, redirect } from "next/navigation";
+import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 
 import { SiteFooter } from "@/components/SiteFooter";
 import {
   canonicalTopicSlug,
-  getAllTopicRouteSlugs,
+  getAllTopicSlugs,
   getAllTopics,
   getTopicBySlug,
   nameForSlug,
@@ -19,7 +19,7 @@ import { categoryOf, CATEGORY_COLORS } from "@/lib/categories";
 const hf = { fontFamily: "var(--font-pixel-heading), monospace" };
 
 export async function generateStaticParams() {
-  return getAllTopicRouteSlugs().map((slug) => ({ slug }));
+  return getAllTopicSlugs().map((slug) => ({ slug }));
 }
 
 export const dynamicParams = false;
@@ -66,7 +66,7 @@ export default async function TopicPage({
 }) {
   const { slug } = await params;
   const canonicalSlug = canonicalTopicSlug(slug);
-  if (canonicalSlug !== slug) redirect(`/topics/${canonicalSlug}`);
+  if (canonicalSlug !== slug) notFound();
 
   const topic = await getTopicBySlug(canonicalSlug);
   if (!topic) notFound();

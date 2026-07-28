@@ -96,12 +96,6 @@ const GENERATED_TOPIC_CATEGORIES = new Set<Category>([
   "TV Series",
 ]);
 
-const GOOGLE_CRAWLED_TOPIC_SLUGS = [
-  "beyonc\u00e9",
-  "\u201cfather-of-our-country\u201d",
-  "\u201cfather-of-the-constitution\u201d",
-];
-
 const GENERATED_BY_SLUG: Record<string, QuestionEntry[]> = (() => {
   const map: Record<string, QuestionEntry[]> = {};
   for (const q of questionsData as QuestionEntry[]) {
@@ -231,13 +225,6 @@ export function getAllTopicSlugs(): string[] {
         .map((f) => f.replace(/\.md$/, ""))
     : [];
   return Array.from(new Set([...fileSlugs, ...Object.keys(GENERATED_BY_SLUG)])).sort();
-}
-
-/** Return canonical topic slugs plus legacy slugs that should redirect cleanly. */
-export function getAllTopicRouteSlugs(): string[] {
-  return Array.from(
-    new Set([...getAllTopicSlugs(), ...GOOGLE_CRAWLED_TOPIC_SLUGS])
-  ).sort();
 }
 
 /** Load a single topic by slug. Returns null if the file is missing. */
