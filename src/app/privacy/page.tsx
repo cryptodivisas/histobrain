@@ -39,8 +39,7 @@ export default function PrivacyPage() {
               <strong>Accept All</strong> or <strong>Reject All</strong>; we
               implement this with Google&apos;s{" "}
               <strong>Consent Mode v2</strong>, so when you reject, Google
-              Analytics and (in the future) Google AdSense only receive
-              anonymous, cookieless signals.
+              Analytics only receives anonymous, cookieless signals.
             </p>
             <p>
               You can change your choice at any time from this page:
@@ -57,10 +56,10 @@ export default function PrivacyPage() {
               your own device.
             </p>
             <p>
-              If and when advertising is enabled on this site, third-party ad
-              partners (such as Google AdSense) may set cookies or use similar
+              Advertising is currently disabled. If it is enabled in the
+              future, third-party ad partners (such as Google AdSense) may use
               technologies in your browser to serve and measure ads — the
-              details are below, and you can opt out at any time.
+              details are below, and you can change your choice at any time.
             </p>
           </Section>
 
@@ -148,8 +147,9 @@ export default function PrivacyPage() {
               </li>
               <li>
                 For users in the EEA, UK and Switzerland, a consent banner will
-                appear the first time you visit, letting you accept or reject
-                personalized advertising as required by GDPR / ePrivacy rules.
+                appear before advertising is enabled. We will use a
+                Google-certified consent management platform where required,
+                in addition to the choices described on this page.
               </li>
               <li>
                 Third-party ad servers or ad networks may also use technologies
@@ -228,13 +228,27 @@ export default function PrivacyPage() {
                 You can also block analytics cookies via your browser settings
                 or any privacy extension of your choice.
               </li>
+              <li>
+                Learn how Google uses information from sites and apps that use
+                its services in the{" "}
+                <a
+                  href="https://policies.google.com/technologies/partner-sites"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-[var(--hb-accent)] underline"
+                >
+                  Google partner-sites policy
+                </a>
+                .
+              </li>
             </ul>
           </Section>
 
           <Section title="Children">
             <p>
-              History Brain is suitable for all ages. We do not knowingly
-              collect any personal data from anyone, including children.
+              History Brain is a general-audience service for people aged 13
+              and over, and is not directed at children under 13. We do not
+              knowingly collect personal data from children.
             </p>
           </Section>
 

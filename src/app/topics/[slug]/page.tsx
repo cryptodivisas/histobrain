@@ -56,6 +56,7 @@ export async function generateMetadata({
     alternates: {
       canonical: `/topics/${canonicalSlug}`,
     },
+    robots: topic.indexable ? undefined : { index: false, follow: true },
   };
 }
 

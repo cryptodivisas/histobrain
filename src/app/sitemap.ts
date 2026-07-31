@@ -1,5 +1,5 @@
 import type { MetadataRoute } from "next";
-import { getAllTopicSlugs } from "@/lib/topics";
+import { getIndexableTopicSlugs } from "@/lib/topics";
 import { SITE_URL } from "@/lib/site";
 
 export const dynamic = "force-static";
@@ -57,7 +57,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
   ];
 
-  const topicRoutes: MetadataRoute.Sitemap = getAllTopicSlugs().map((slug) => ({
+  const topicRoutes: MetadataRoute.Sitemap = getIndexableTopicSlugs().map((slug) => ({
     url: `${SITE_URL}/topics/${slug}`,
     lastModified: now,
     changeFrequency: "monthly",

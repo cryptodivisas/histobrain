@@ -3,9 +3,9 @@ import Script from "next/script";
 /**
  * AdSense loader.
  *
- * Reads NEXT_PUBLIC_ADSENSE_CLIENT_ID (format: ca-pub-XXXXXXXXXXXXXXXX).
- * Renders nothing when the env var is unset, so this is safe to ship before
- * AdSense approval.
+ * Reads NEXT_PUBLIC_ADSENSE_CLIENT_ID (format: ca-pub-XXXXXXXXXXXXXXXX) and
+ * the explicit NEXT_PUBLIC_ADSENSE_ENABLED switch. Renders nothing until both
+ * are configured, so it is safe to ship before AdSense approval.
  *
  * Consent Mode v2 is wired in GoogleAnalytics.tsx (ad_storage, ad_user_data,
  * ad_personalization all denied by default). adsbygoogle respects those
@@ -13,7 +13,9 @@ import Script from "next/script";
  */
 export default function GoogleAdsense() {
   const clientId = process.env.NEXT_PUBLIC_ADSENSE_CLIENT_ID;
+  const adsEnabled = process.env.NEXT_PUBLIC_ADSENSE_ENABLED === "true";
   if (!clientId) return null;
+  if (!adsEnabled) return null;
   if (process.env.NODE_ENV !== "production") return null;
 
   return (

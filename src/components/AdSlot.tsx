@@ -30,7 +30,7 @@ declare global {
  * slot markup; we push an empty object onto window.adsbygoogle to kick
  * off the fill, exactly as the AdSense snippet does.
  *
- * No-op when NEXT_PUBLIC_ADSENSE_CLIENT_ID is not configured.
+ * No-op until the publisher ID and explicit AdSense enable switch are set.
  */
 export default function AdSlot({
   slot,
@@ -41,10 +41,11 @@ export default function AdSlot({
   className = "",
 }: AdSlotProps) {
   const clientId = process.env.NEXT_PUBLIC_ADSENSE_CLIENT_ID;
+  const adsEnabled = process.env.NEXT_PUBLIC_ADSENSE_ENABLED === "true";
   const pushedRef = useRef(false);
 
   useEffect(() => {
-    if (!clientId) return;
+    if (!clientId || !adsEnabled) return;
     if (pushedRef.current) return;
     pushedRef.current = true;
     try {
@@ -52,9 +53,9 @@ export default function AdSlot({
     } catch {
       /* Ad blocker or adsbygoogle not loaded yet; AdSense will retry. */
     }
-  }, [clientId]);
+  }, [adsEnabled, clientId]);
 
-  if (!clientId) return null;
+  if (!clientId || !adsEnabled) return null;
 
   return (
     <div

@@ -33,9 +33,12 @@ export interface Topic extends TopicFrontmatter {
   image: string | null;
   category?: Category;
   updatedAt: string;
+  /** Only substantive editorial articles are submitted for search indexing. */
+  indexable: boolean;
 }
 
 const CONTENT_DIR = path.join(process.cwd(), "content", "topics");
+const MIN_INDEXABLE_TOPIC_WORDS = 250;
 
 const LEGACY_TOPIC_SLUGS = [
   "beyoncé",
@@ -128,6 +131,14 @@ function readTopicFile(slug: string): string | null {
   const full = path.join(CONTENT_DIR, `${slug}.md`);
   if (!fs.existsSync(full)) return null;
   return fs.readFileSync(full, "utf8");
+}
+
+function wordCount(markdown: string): number {
+  return markdown
+    .replace(/^---[\s\S]*?---\s*/m, "")
+    .trim()
+    .split(/\s+/)
+    .filter(Boolean).length;
 }
 
 async function renderMarkdown(body: string): Promise<string> {
@@ -227,6 +238,18 @@ export function getAllTopicSlugs(): string[] {
   return Array.from(new Set([...fileSlugs, ...Object.keys(GENERATED_BY_SLUG)])).sort();
 }
 
+/**
+ * Return only substantive, hand-written editorial articles for the sitemap.
+ * Short study cards remain available to players but are not submitted for
+ * indexing until they have been expanded and reviewed as full articles.
+ */
+export function getIndexableTopicSlugs(): string[] {
+  return getAllTopicSlugs().filter((slug) => {
+    const raw = readTopicFile(slug);
+    return raw !== null && wordCount(raw) >= MIN_INDEXABLE_TOPIC_WORDS;
+  });
+}
+
 /** Load a single topic by slug. Returns null if the file is missing. */
 export async function getTopicBySlug(slug: string): Promise<Topic | null> {
   const canonicalSlug = canonicalTopicSlug(slug);
@@ -255,6 +278,7 @@ export async function getTopicBySlug(slug: string): Promise<Topic | null> {
       image: NAME_TO_IMAGE[name] ?? null,
       category,
       updatedAt: "2026-07-05T00:00:00.000Z",
+      indexable: false,
     };
   }
 
@@ -275,6 +299,7 @@ export async function getTopicBySlug(slug: string): Promise<Topic | null> {
     image,
     category: SLUG_TO_CATEGORY[canonicalSlug],
     updatedAt: fs.statSync(path.join(CONTENT_DIR, `${canonicalSlug}.md`)).mtime.toISOString(),
+    indexable: wordCount(raw) >= MIN_INDEXABLE_TOPIC_WORDS,
   };
 }
 

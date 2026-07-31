@@ -35,6 +35,9 @@ export const metadata: Metadata = {
     "educational history game",
     "world history quiz",
   ],
+  other: {
+    "google-adsense-account": "ca-pub-1168292405668194",
+  },
   openGraph: {
     type: "website",
     siteName: "History Brain",

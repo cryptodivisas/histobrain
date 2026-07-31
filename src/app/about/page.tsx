@@ -38,9 +38,9 @@ export default function AboutPage() {
               revealed, so every round teaches you something.
             </p>
             <p>
-              There are no accounts, no ads during your first session, no
-              sign-ups, and nothing to install. Open the page, play a round,
-              close the tab. Your progress is saved locally on your device.
+              There are no accounts, no sign-ups, and nothing to install. Open
+              the page, play a round, close the tab. Your progress is saved
+              locally on your device.
             </p>
           </Section>
 
@@ -55,9 +55,9 @@ export default function AboutPage() {
               then go deeper only if they want to.
             </p>
             <p>
-              Every correct answer links to a full, hand-written topic article
-              on this site covering the subject&apos;s background, major
-              moments, legacy, and a few surprising facts.
+              Every correct answer links to a topic page with additional
+              context. The library includes full editorial articles as well as
+              concise study pages built from reviewed quiz material.
             </p>
           </Section>
 
@@ -74,8 +74,16 @@ export default function AboutPage() {
               </a>
               , an independent developer and designer. The game is a solo
               project — code, pixel art, content research and writing are all
-              done in-house. No AI-generated filler articles: every topic page
-              on the site is hand-reviewed for accuracy.
+              done in-house. Editorial articles are researched and reviewed;
+              shorter study pages clearly summarize the quiz material they
+              support.
+            </p>
+          </Section>
+
+          <Section title="Audience">
+            <p>
+              History Brain is a general-audience educational game for people
+              aged 13 and over. It is not directed at children under 13.
             </p>
           </Section>
 

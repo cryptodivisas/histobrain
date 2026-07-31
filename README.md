@@ -129,7 +129,8 @@ hand-written file always takes precedence.
 | Variable | Purpose | Default |
 |---|---|---|
 | `NEXT_PUBLIC_SITE_URL` | Origin used for canonical URLs, sitemap, OG tags | `https://histobrain.com` |
-| `NEXT_PUBLIC_ADSENSE_CLIENT_ID` | AdSense publisher ID; enables the production loader and populates `ads.txt` | Unset |
+| `NEXT_PUBLIC_ADSENSE_CLIENT_ID` | AdSense publisher ID; populates `ads.txt` and is required before ads can be enabled | Unset |
+| `NEXT_PUBLIC_ADSENSE_ENABLED` | Set to `true` only after AdSense approval and CMP configuration are complete | Unset |
 | `VERCEL_URL` | Vercel-provided fallback origin for generated OG images | Unset |
 
 ## Deploy
