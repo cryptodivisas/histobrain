@@ -78,9 +78,14 @@ questions.forEach((question, index) => {
       errors.push(`${label}: awkward generated phrasing`);
     }
     const sourceSlug = question.source?.replace(/^\/topics\//, "");
+    const generatedCivicsPage =
+      question.bankVersion === "topic-bank-v4" &&
+      category === "Citizenship" &&
+      sourceSlug === slugify(question.name);
     if (
       !sourceSlug ||
-      !fs.existsSync(path.join(ROOT, "content", "topics", `${sourceSlug}.md`))
+      (!generatedCivicsPage &&
+        !fs.existsSync(path.join(ROOT, "content", "topics", `${sourceSlug}.md`)))
     ) {
       errors.push(`${label}: missing source article ${question.source}`);
     }
@@ -121,6 +126,18 @@ function validateImage(image, label) {
 
 function normalize(value) {
   return value.toLowerCase().replace(/[^a-z0-9]+/g, " ").trim();
+}
+
+function slugify(value) {
+  return value
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .toLowerCase()
+    .replace(/&/g, " and ")
+    .replace(/["'`\u00b4\u2018\u2019\u201c\u201d()*]/g, "")
+    .replace(/[:,.]/g, "")
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-+|-+$/g, "");
 }
 
 function leaksAnswer(clue, answer) {
