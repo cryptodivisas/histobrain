@@ -12,6 +12,7 @@ import Particles from "@/components/Particles";
 import SettingsModal from "@/components/SettingsModal";
 import GameplayPreview from "@/components/GameplayPreview";
 import ChallengePreview from "@/components/ChallengePreview";
+import QuestionBatchAnnouncement from "@/components/QuestionBatchAnnouncement";
 import { ShareScoreButton } from "@/components/ShareScoreButton";
 import type { SharePayload } from "@/lib/share";
 import { initSound, sfx, isMuted, toggleMute } from "@/lib/sounds";
@@ -727,6 +728,11 @@ export default function Home() {
       }`}
     >
       <HomeStructuredData />
+      <QuestionBatchAnnouncement
+        enabled={gameState === "menu" && !settingsOpen}
+        onPlay={startClassic}
+        onCategories={() => setGameState("category-select")}
+      />
       <AchievementToast queue={achievementQueue} onDismiss={dismissToast} />
       <Particles
         trigger={particleTrigger}
