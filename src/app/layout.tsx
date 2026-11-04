@@ -5,6 +5,7 @@ import { SITE_URL } from "@/lib/site";
 import GoogleAnalytics from "@/components/GoogleAnalytics";
 import GoogleAdsense from "@/components/GoogleAdsense";
 import ConsentBanner from "@/components/ConsentBanner";
+import { Analytics } from "@vercel/analytics/next";
 
 const pressStart = Press_Start_2P({
   variable: "--font-pixel-heading",
@@ -69,6 +70,7 @@ export default function RootLayout({
         {children}
         <GoogleAnalytics />
         <GoogleAdsense />
+        <Analytics />
       </body>
     </html>
   );
