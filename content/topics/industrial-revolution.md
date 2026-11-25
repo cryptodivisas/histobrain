@@ -1,43 +1,28 @@
 ---
 title: Industrial Revolution
-era: 1760–1840
-summary: A period of rapid mechanization and factory growth that transformed production, labor, transport, and daily life.
+era: circa 1760–1840 in Britain
+summary: "Follow a strand of cotton from household spinning to the factory floor, and see how mechanization changed work, trade, and the law."
+updatedAt: "2026-11-25"
 ---
 
 ## Overview
 
-The Industrial Revolution was a major period of economic and technological change that began in Britain around 1760 and spread to Europe and North America. It marked the shift from hand production and small workshops to machine-based manufacturing in factories. New power sources, especially water and steam, allowed goods to be produced faster, cheaper, and in far greater quantities than before.
+The Industrial Revolution changed how people made and moved goods. In Britain, the shift took hold from the later eighteenth century and unfolded over decades. Coal, iron, steam power, and improved transport all mattered. Cotton offers a close-up view of one change within that larger story: moving the spinning of yarn into mills changed who set the pace of work, where workers had to be, and how their hours were recorded.
 
-This transformation affected nearly every part of society. Textile making, iron production, coal mining, and transportation all changed rapidly. The Industrial Revolution also reshaped cities, labor systems, and global trade. Although it brought higher productivity and long-term economic growth, it also created harsh working conditions, crowded urban housing, and environmental damage.
+## From a spinning wheel to a water frame
 
-## Background
+Spinning turns loose fibres into yarn. Weaving crosses yarns to make cloth. Before powered spinning spread, households did much of the spinning by hand for merchants. Richard Arkwright’s water frame used pairs of rollers to draw out fibres before twisting them into yarn. The Science Museum Group holds a surviving example from 1775. Water supplied the power, while people fed the machine, changed full bobbins, and rejoined broken threads. That division of work helps explain the jump in output: the same rotating mechanism operated several spindles, and workers kept it running. [Science Museum Group’s 1775 water frame](https://collection.sciencemuseumgroup.org.uk/objects/co44832/arkwrights-water-frame-1775) · [Science and Industry Museum’s explanation of the machinery](https://blog.scienceandindustrymuseum.org.uk/preserving-history-thanks/)
 
-Several factors helped Britain become the birthplace of the Industrial Revolution. The country had large coal and iron deposits, a growing population, and access to global markets through trade and empire. Agricultural improvements had increased food production, which supported population growth and freed some workers for industrial jobs.
+A family could operate its own spinning wheel at home. A powered mill brought machinery, workers, and a shared source of power together. When workers came to the mill, the hours of a shift and the pace of the machinery governed more of their day. The change was uneven. Spinning and weaving mechanized at different rates, and domestic work persisted alongside mills. Steam later made it possible to run factories in places without a suitable water supply. [Science and Industry Museum’s guide to water power and cotton](https://blog.scienceandindustrymuseum.org.uk/iconic-duos/)
 
-Britain also had strong financial institutions and a culture of invention. Investors could fund new machinery and factories, while inventors tested ways to improve production. Earlier scientific thinking and practical engineering encouraged experimentation, leading to a wave of useful innovations.
+## Follow the cotton beyond the mill
 
-## Key Developments
+Higher spinning capacity meant a greater demand for raw cotton. Industrial Manchester depended on long-distance trade, including cotton grown by enslaved workers on plantations in the Americas. A piece of cloth therefore connects two very different workplaces: the plantation where the fibres were grown and the mill where they were spun. Looking only at British inventions obscures the forced labour that helped supply this industry. [Science and Industry Museum’s research on Manchester, cotton, and slavery](https://blog.scienceandindustrymuseum.org.uk/manchesters-runway/)
 
-Textiles were at the center of early industrialization. Inventions such as the spinning jenny, water frame, and spinning mule greatly increased yarn production. Edmund Cartwright’s power loom later sped up weaving. These machines moved textile work out of homes and into factories, where employers could supervise workers and machinery more easily.
+## What the Factory Act changed
 
-Steam power became another defining feature of the era. James Watt’s improvements to the steam engine in the late 18th century made it more efficient and useful in many industries. Steam engines pumped water from mines, powered factory machines, and eventually drove locomotives and steamships.
+The 1833 Factory Act set minimum ages and working-hour limits for children in covered textile mills and required schooling for younger workers. It also created an inspectorate. Four inspectors were initially responsible for thousands of mills, so a legal limit and an enforceable limit could be very different things. In an 1836 report preserved by the UK National Archives, an inspector describes interviewing boys separately and consulting their employer’s time book after they reported an exceptionally long period of work. The testimony and the time book show what an inspector could investigate that the text of the law alone could never tell us. [UK Parliament’s overview of the 1833 Factory Act](https://www.parliament.uk/about/living-heritage/transformingsociety/livinglearning/19thcentury/overview/factoryact/) · [Factory inspector’s report from 1836](https://www.nationalarchives.gov.uk/education/resources/1833-factory-act/source-1/)
 
-Iron production also advanced. Abraham Darby’s use of coke instead of charcoal helped make iron cheaper, while Henry Cort’s puddling and rolling processes improved quality and output. Better iron supported machinery, tools, bridges, and railways.
+## Read the two kinds of evidence together
 
-Transportation changed dramatically as roads, canals, and railways expanded. Railroads in particular reduced travel time and lowered shipping costs, linking industrial centers with ports, mines, and markets.
-
-## Impact and Legacy
-
-The Industrial Revolution created a new industrial economy. Factory owners, merchants, and investors gained influence, while many workers left rural areas to seek employment in towns and cities. Urbanization accelerated, and places like Manchester became symbols of industrial growth.
-
-Working conditions were often severe. Men, women, and children labored long hours in dangerous factories and mines for low wages. These conditions led to protests, trade union activity, and eventually government reforms, including laws regulating child labor and factory safety.
-
-Its global legacy was enormous. Industrial methods spread across Europe, the United States, and later much of the world. The Industrial Revolution laid the foundation for modern manufacturing, mass transportation, and capitalist economies. It also widened the gap between industrialized and non-industrialized regions, shaping global power in the 19th century and beyond.
-
-## Did You Know?
-
-- The spinning jenny, invented by James Hargreaves, allowed one worker to spin multiple spools of thread at once.
-- Early factories often employed children because they were paid less and could handle small machines.
-- Britain’s first public steam railway to use locomotives, the Stockton and Darlington Railway, opened in 1825.
-- Manchester became known as “Cottonopolis” because of its huge textile industry.
-- The Industrial Revolution began in Britain before spreading to Belgium, France, Germany, and the United States.
+Open the photograph of the 1775 water frame and the 1836 inspector’s report. Find a task the machine could do repeatedly, then identify a task that still depended on people. Finally, ask what the photograph can tell you about daily working hours. The machine explains how output grew. To understand what that growth meant for workers, you need records of what happened on the factory floor.
