@@ -1,30 +1,18 @@
 ---
 title: The Kiss
-era: 1907–1908
-summary: Gustav Klimt’s celebrated painting of an embracing couple, renowned for its gold surfaces and blend of intimacy and decoration.
+era: "1908–1909"
+summary: "Look past Klimt’s gold surface to see how costume patterns, exposed skin, and the edge of a meadow shape The Kiss."
+updatedAt: "2026-11-25"
 ---
 
+## Where do the two figures meet?
 
+Gustav Klimt’s *The Kiss*, also known as *Lovers*, shows a couple embracing against a gold field. The Belvedere dates it to 1908–09 and holds it in Vienna. At a distance the figures seem to form one large gold shape. Move closer and the heads, hands, and carved-out areas of skin make the bodies separate again. The painting makes that oscillation between a single shape and two people part of the experience. [Belvedere, permanent collection](https://www.belvedere.at/en/permanent-collection)
 
-## Overview
+## Gold as space, pattern as structure
 
-The Kiss is one of the most famous paintings of the early 20th century and the best-known work of Austrian artist Gustav Klimt. Created between 1907 and 1908, it depicts a couple locked in a close embrace, wrapped in radiant gold and elaborate ornament. The painting has become an enduring symbol of romantic love, sensuality, and artistic luxury.
+Start at the necks and look down. The man’s garment contains long, dark rectangles. On the woman’s side, circles, floral forms, and smaller marks pull the eye in different directions. Those repeated designs distinguish the robes even where it becomes difficult to tell one body from the other. The gold field behind them gives few clues about where they stand. The flowered ground at the bottom supplies just enough of a setting for the knees and feet to make sense. A photograph can show the arrangement of the patterns, while a visit to the painting can reveal how light changes the appearance of the metallic surface.
 
-## Creation and Context
+## Try looking from the edge inward
 
-The work was painted during Klimt’s so-called Golden Phase, when he made frequent use of gold leaf and richly decorative surfaces. This style was shaped partly by his interest in Byzantine mosaics, especially those he saw in Ravenna, Italy. At the same time, Klimt was closely connected to the Vienna Secession, a movement that challenged academic art and embraced new forms of design and symbolism. The Kiss reflects both modern experimentation and a fascination with sacred, timeless beauty.
-
-## Style and Meaning
-
-The painting combines realism and abstraction in a striking way. The faces and hands of the couple are softly rendered, while their robes dissolve into patterned shapes and golden fields. The man’s cloak is decorated with angular forms, while the woman’s garment features circles and floral motifs, suggesting contrast and union. The background offers little sense of ordinary space, turning the embrace into something dreamlike and almost spiritual.
-
-## Legacy
-
-The Kiss remains one of the most reproduced and recognized paintings in the world. It is admired not only for its beauty but also for the way it merges intimacy, symbolism, and decorative innovation. Today it stands as a masterpiece of Viennese modernism and a defining image of love in art history.
-
-## Did You Know?
-
-- Klimt used gold leaf extensively in the painting.  
-- The work belongs to his famous Golden Phase.  
-- Byzantine mosaics helped inspire its shimmering style.  
-- It is housed in the Österreichische Galerie Belvedere in Vienna.
+Find the woman’s feet near the edge of the flowered ground and follow the line up to her hands. Then start over at the upper corners and move inward from the plain gold background. The first route puts the weight and balance of the figures in view. The second makes the embrace read like a jewel set into a flat field. Both are present in the same image. You can describe the effect without assigning the couple an identity or treating their expressions as evidence of a single story. [Belvedere, collection guide](https://www.belvedere.at/sites/default/files/jart-files/Galeriefuehrer-Belvedere-Engl.pdf)

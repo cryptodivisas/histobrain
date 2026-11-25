@@ -1,30 +1,20 @@
 ---
 title: Parthenon
 era: 447–432 BC
-summary: Ancient Greek temple on the Acropolis of Athens, celebrated as a masterpiece of classical architecture and civic symbolism.
+summary: "Learn where the Parthenon’s pediments, metopes, and frieze originally sat, then see how the Acropolis Museum preserves their relationship."
+updatedAt: "2026-11-25"
 ---
 
+## Why the sculptures look different in different places
 
+The Parthenon was built on the Acropolis in fifth-century BCE Athens and dedicated to Athena. Its sculpture was distributed in several zones around the building. Looking at a close-up of one figure can hide the reason it was carved in that particular shape. A figure in a triangular gable faced a different problem of space from a figure in a narrow band running around the building. [Acropolis Museum, Parthenon Gallery](https://www.theacropolismuseum.gr/en/exhibit-halls/parthenon-gallery)
 
-## Overview
+## Three places to look
 
-The Parthenon is one of the most famous monuments of the ancient world and a defining symbol of classical Greece. Standing atop the Acropolis in Athens, it was built as a temple dedicated to Athena, the city’s patron goddess. Its architectural refinement, political meaning, and artistic influence have made it one of the most studied buildings in history.
+The **pediments** occupied the triangular ends beneath the roof. The east group depicted Athena’s birth, while the west showed her contest with Poseidon for Attica. A sculptor had more height near the center of a pediment, so figures at its low ends had to fit a much narrower space.
 
-## Historical Background
+The **metopes** were separate rectangular panels on the exterior. The divisions between them let individual encounters stand on their own. The **frieze** formed a continuous band around the upper part of the inner building. The Acropolis Museum presents it as a representation of the Panathenaic procession. Look for riders, people on foot, and groups standing or seated. Unlike the metopes, the long band can carry your eye from one group into the next. [Acropolis Museum, the frieze](https://www.theacropolismuseum.gr/en/sculptural-decoration/frieze)
 
-The Parthenon was built during the 5th century BC, in the age of Athenian power following the Persian Wars. It formed part of a major building program promoted by Pericles, who sought to glorify Athens and its democratic leadership. The temple was constructed on the site of earlier religious structures and was intended to express both devotion to Athena and the city’s cultural supremacy.
+## Reconstruct the position before interpreting the detail
 
-## Architecture and Art
-
-Designed primarily in the Doric order, the Parthenon also incorporates Ionic elements, creating a sophisticated blend of styles. Its architects, Ictinus and Callicrates, used subtle visual adjustments known as optical refinements, including slight curves and inclinations, to make the structure appear more perfectly balanced to the human eye. The temple once housed a monumental statue of Athena made by Phidias, and its sculptural decoration included metopes, friezes, and pediments depicting mythological scenes and civic identity.
-
-## Legacy
-
-Over the centuries, the Parthenon has served as a temple, church, mosque, and ruin, yet it has never lost its symbolic power. It remains a benchmark of classical architecture and continues to shape ideas about beauty, proportion, and cultural heritage. For many people, it stands not only for ancient Greece but also for the enduring legacy of art, democracy, and public life.
-
-## Did You Know?
-
-- The Parthenon was dedicated to Athena, protector of Athens.  
-- Its designers used optical refinements to improve visual harmony.  
-- A giant statue of Athena once stood inside the temple.  
-- It remains one of the most influential buildings in architectural history.
+In the museum, the central structure of the Parthenon Gallery follows the orientation and dimensions of the original temple’s inner building. Surviving sculptures appear beside casts where appropriate, and many pieces of the original decoration are held elsewhere. Use the gallery plan to place a fragment before looking more closely. Was it carved for a long procession or for a triangular corner? That question gives even a fragment of drapery a job to do. The architectural setting tells you part of the story that an isolated picture of the marble cannot.

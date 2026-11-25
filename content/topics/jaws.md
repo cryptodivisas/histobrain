@@ -1,35 +1,18 @@
 ---
 title: Jaws
 era: 1975
-summary: Steven Spielberg’s suspense thriller about a shark threatening a seaside community, often credited with defining the summer blockbuster.
+summary: "Compare sound, point of view, and editing in the beach sequence to understand how Jaws directs attention before the shark appears."
+updatedAt: "2026-11-25"
 ---
 
-## Overview
+## What are we watching for on the beach?
 
-*Jaws* is a 1975 thriller directed by Steven Spielberg and based on Peter Benchley’s novel. When a great white shark attacks swimmers near the resort town of Amity Island, police chief Martin Brody, marine biologist Matt Hooper, and shark hunter Quint set out to stop it. The film turns a simple threat into a study of fear, civic denial, and men under pressure.
+Steven Spielberg’s *Jaws* (1975), adapted from Peter Benchley’s novel, follows a police chief who must convince a resort town to act after a swimmer is killed. Roy Scheider plays Chief Brody, with Richard Dreyfuss as marine scientist Matt Hooper and Robert Shaw as Quint. The story begins with a public argument about risk before it narrows to the three men at sea. The shift matters: on land Brody needs other people to believe him, while aboard the boat uncertainty is something the men share. [Academy of Motion Picture Arts and Sciences, Jaws collection](https://www.oscars.org/collection-highlights/jaws?page=1)
 
-## Key Facts
+## Suspense comes from incomplete information
 
-- Directed by Steven Spielberg
-- Stars Roy Scheider, Robert Shaw, and Richard Dreyfuss
-- Music composed by John Williams
-- Filmed extensively around Martha’s Vineyard, Massachusetts
+In the crowded beach scene, look at the gap between the space Brody is monitoring and what the audience can make out. Bathers move through the foreground, and ordinary activity competes with the thing Brody is looking for. A cut from the water to his face tells you what he is paying attention to without giving you a clear answer. John Williams’s score can add a cue before a distinct image confirms the threat. The score, editing, and Brody’s gaze make the audience do much of the work of searching the frame.
 
-## Production and History
+## Try listening, then looking
 
-The production used mechanical sharks nicknamed Bruce, but salt water and technical failures frequently made them unusable. Spielberg responded by showing the shark less often and suggesting it through point-of-view shots, floating barrels, editing, and music. The limitation produced a more suspenseful film than the originally planned creature showcase.
-
-## Story Structure and Style
-
-The film has two broad movements. The first follows Brody’s attempt to protect the town while officials fear economic damage; the second becomes a sea adventure aboard Quint’s boat, the Orca. Williams’s alternating two-note theme signals the predator’s approach, teaching the audience to fear what it cannot yet see.
-
-## Impact / Legacy
-
-*Jaws* became a record-breaking hit through a wide summer release and major television advertising campaign. It helped establish the modern summer blockbuster and influenced decades of creature features and suspense filmmaking. Its success also contributed to widespread public fear of sharks.
-
-## Did You Know?
-
-- The mechanical shark’s repeated failures shaped the film’s restrained approach.
-- Quint’s Indianapolis speech recalls a real wartime disaster.
-- John Williams initially played the shark motif for Spielberg on a piano.
-- The famous beach zoom uses a simultaneous camera move and lens change known as a dolly zoom.
+Watch a short stretch first without audio, then with the sound restored. Mark the first moment you anticipate a threat in each viewing. If the moment changes, ask whether it was the music, the change in ambient sound, the cut, or a reaction that tipped you off. The exercise separates several kinds of suspense that can feel like one effect. At the 1976 Academy Awards, *Jaws* won for film editing, original score, and sound. Those categories line up with three of the choices worth tracking in the scene. [Academy of Motion Picture Arts and Sciences, 1976 awards](https://www.oscars.org/oscars/ceremonies/1976)

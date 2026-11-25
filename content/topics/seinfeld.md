@@ -1,35 +1,18 @@
 ---
 title: Seinfeld
 era: 1989–1998
-summary: Influential American sitcom that turns social rules, minor irritations, and selfish behavior into tightly connected comedy.
+summary: "Use The Chinese Restaurant to see how a single location and three competing priorities turn waiting for a table into a sitcom plot."
+updatedAt: "2026-11-25"
 ---
 
-## Overview
+## How can waiting for a table carry an episode?
 
-*Seinfeld* is an American sitcom created by Larry David and Jerry Seinfeld. A fictionalized Jerry shares everyday adventures in New York with George Costanza, Elaine Benes, and Cosmo Kramer. Often described as a “show about nothing,” it is more precisely a comedy about unwritten social rules and the trouble caused by characters who analyze, exploit, or ignore them.
+*Seinfeld* follows a fictional version of comedian Jerry Seinfeld and his New York friends George Costanza, Elaine Benes, and Cosmo Kramer. The show often gives ordinary encounters the weight a sitcom might give a grand romantic or family crisis. In *The Chinese Restaurant*, Jerry, George, and Elaine wait to be seated before going to a movie. The restaurant lobby supplies a narrow set of resources: attention from the host, a telephone, time before the film, and access to food. The characters disagree about which of these matters most. [Television Academy, series record](https://www.televisionacademy.com/shows/seinfeld) · [Apple TV, licensed episode listing](https://tv.apple.com/us/episode/the-chinese-restaurant/umc.cmc.sb4o37725ijtak2uh2xjxuqw?showId=umc.cmc.7wi0fpx37shx0bfxau56ufps)
 
-## Key Facts
+## One room, three different deadlines
 
-- Aired for nine seasons on NBC
-- Stars Jerry Seinfeld, Jason Alexander, Julia Louis-Dreyfus, and Michael Richards
-- Created by Larry David and Jerry Seinfeld
-- Combines observational comedy with interlocking plots
+Elaine is hungry. George wants to make a call. Jerry wants to get to the movie and has his own social complication when he recognizes someone. Because the action stays in the waiting area, there is nowhere for any of these problems to disappear. A new arrival or another exchange at the host stand changes several small situations at once. The running joke about how soon a table will be ready gets funnier as its promise becomes less useful. The characters keep treating the next update as though it might solve the problem.
 
-## History and Development
+## A small test for sitcom structure
 
-The series began with a low-rated pilot and developed gradually rather than becoming an immediate hit. Larry David’s experiences and anxieties inspired many plots, particularly those involving George. As the audience grew, the writers became increasingly confident in building episodes around trivial objects, awkward language, and characters’ refusal to learn conventional lessons.
-
-## Format and Structure
-
-Episodes often give each main character a separate problem, then bring the plots together through coincidence and cause and effect. A discarded object, misunderstood phrase, or minor lie can connect every storyline. Earlier episodes include stand-up segments that comment on the action; later seasons rely more heavily on the ensemble’s elaborate plot machinery.
-
-## Impact / Legacy
-
-*Seinfeld* changed sitcom rhythm and subject matter by refusing sentimental resolutions and treating small social frustrations as worthy of complex storytelling. Its phrases entered everyday speech, and its influence can be seen in comedies built around flawed characters and escalating embarrassment.
-
-## Did You Know?
-
-- The original pilot was titled *The Seinfeld Chronicles*.
-- Kramer was inspired partly by Larry David’s former neighbor Kenny Kramer.
-- George’s habit of doing the opposite becomes the premise of a famous episode.
-- The four central characters are held accountable for their behavior in the series finale.
+When you watch, track one character’s goal and jot down each time it collides with someone else’s. Then try the same thing for another character. The episode’s energy comes from these brief collisions and from the fact that leaving is always possible but never quite appealing. This is more precise than calling the show a comedy about nothing. An ordinary situation gives the writers rules the viewer already understands, so changes in who waits, who gives up, and who gets served can carry the story.

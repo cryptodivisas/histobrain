@@ -1,35 +1,18 @@
 ---
 title: Casablanca
 era: 1942
-summary: Wartime romantic drama about love, sacrifice, and resistance centered on Rick’s nightclub in Vichy-controlled Morocco.
+summary: "Follow the letters of transit, the Paris flashback, and the final airport decision to see how Casablanca turns a romance into a wartime choice."
+updatedAt: "2026-11-25"
 ---
 
-## Overview
+## Why are the letters of transit at the center?
 
-*Casablanca* is a 1942 romantic drama set in Morocco during World War II. Humphrey Bogart plays Rick Blaine, an American nightclub owner who encounters former lover Ilsa Lund, played by Ingrid Bergman. When Ilsa arrives with resistance leader Victor Laszlo, Rick must choose between personal desire and a larger moral cause.
+Michael Curtiz’s *Casablanca* opened in 1942, while World War II was underway. In the film, refugees gather in a Moroccan city under Vichy French authority, looking for a route out. Humphrey Bogart’s Rick runs a nightclub frequented by people with different stakes in who leaves and who stays. When Ilsa Lund arrives with resistance leader Victor Laszlo, the letters that could let them escape are in Rick’s hands. They turn a question about his past with Ilsa into a practical decision about another person’s future. [Library of Congress National Film Registry essay](https://www.loc.gov/static/programs/national-film-preservation-board/documents/casablanca1.pdf)
 
-## Key Facts
+## Why the story goes back to Paris
 
-- Directed by Michael Curtiz
-- Stars Humphrey Bogart, Ingrid Bergman, and Paul Henreid
-- Based on the unproduced play *Everybody Comes to Rick’s*
-- Won the Academy Award for Best Picture
+The film first lets viewers meet the guarded Rick in his café. When the flashback shows him and Ilsa together in Paris, his reserve acquires a history. The earlier city is under the pressure of an approaching German occupation, and leaving Paris separates the couple. In Casablanca, flight again threatens to separate them. The film uses the repetition to revise the question: this time Rick understands more about what leaving means for the other people involved. Notice how Sam’s song connects the two places and gives the memory a cue the audience can recognize.
 
-## Production and History
+## The airport puts a private choice in public context
 
-Warner Bros. developed the film quickly while the war was still unfolding. Several screenwriters contributed to its sharp dialogue and political balance. Many performers in the supporting cast were European refugees or émigrés, giving scenes about visas, exile, and occupation an emotional reality beyond the fictional story.
-
-## Story Structure and Style
-
-Rick’s café functions as a crossroads where refugees, officials, opportunists, and resistance figures compete for scarce exit papers. A Paris flashback explains Rick’s bitterness without interrupting the main story for long. The film’s central triangle is resolved through sacrifice: Rick regains his ideals by giving up the future he wants.
-
-## Impact / Legacy
-
-*Casablanca* became a defining Hollywood romance and a model of economical studio storytelling. Its dialogue and final scenes are frequently quoted, while the mixture of cynicism, humor, suspense, and idealism keeps the film emotionally accessible.
-
-## Did You Know?
-
-- “As Time Goes By” was written years before the film.
-- Dooley Wilson, who played Sam, was a drummer rather than the pianist heard on the soundtrack.
-- The film premiered in New York in 1942 before its wider 1943 release.
-- The final airport sequence used forced perspective to make the set appear larger.
+The final scene brings together the film’s practical question about passage and its emotional question about loyalty. Compare Rick’s earlier reluctance to get involved with his decision at the airport. What changed in the evidence he had about Ilsa? What changed in his willingness to act on behalf of somebody else? The story works because the answers affect which characters get out of the city. The film won Academy Awards for Outstanding Motion Picture, directing, and screenplay at the 1944 ceremony. [Academy of Motion Picture Arts and Sciences, 1944 awards](https://www.oscars.org/oscars/ceremonies/1944)

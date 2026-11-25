@@ -1,30 +1,18 @@
 ---
 title: Statue of Liberty
 era: dedicated 1886
-summary: Colossal neoclassical copper statue on Liberty Island in New York Harbor, a gift from France and a global symbol of freedom.
+summary: "See how the Statue of Liberty’s thin copper skin stands up and how a poem added an immigration meaning to the monument."
+updatedAt: "2026-11-25"
 ---
 
+## Two things to notice at the harbor
 
+The Statue of Liberty was dedicated in New York Harbor in 1886. France provided the statue and the United States provided the pedestal. The sculptor Frédéric Auguste Bartholdi gave the figure a torch and a tablet dated July 4, 1776. The tablet refers to a specific event, the Declaration of Independence. The torch is more open-ended. Together they set up two ways of reading the same work: as a commemoration of an American anniversary and as an image of liberty with a wider audience. [National Park Service, Statue of Liberty facts](https://www.nps.gov/stli/learn/statue-of-liberty-facts.htm)
 
-## Overview
+## The copper is a skin
 
-The Statue of Liberty is a 93-meter copper-and-steel colossus standing on Liberty Island in New York Harbor. Given to the United States by the people of France and dedicated in 1886, it depicts the Roman goddess Libertas holding a torch aloft and cradling a tablet inscribed with the date of American independence. More than a monument, it became the first sight for millions of immigrants arriving by ship through Ellis Island and has since grown into one of the most recognized symbols of liberty, democracy, and the immigrant experience in the world.
+The figure looks solid from across the harbor, but it was made by hammering relatively thin copper sheets into shape and fastening them to an internal support system. Gustave Eiffel and his team worked on the structure inside. That distinction helps explain how the figure could be made in France, shipped in pieces, and reassembled in New York. The sculpted exterior and the engineering hidden behind it solve different problems. Look at the raised arm and ask which parts of the silhouette need support and which parts are there to shape the surface. [National Park Service, Creating the Statue of Liberty](https://www.nps.gov/stli/learn/historyculture/places_creating_statue.htm)
 
-## Design and Construction
+## A poem adds a new reading
 
-The idea for the statue was proposed by the French jurist Édouard de Laboulaye in the 1860s as a gift commemorating the centenary of American independence and the abolition of slavery. The sculptor Frédéric Auguste Bartholdi designed the figure, inspired in part by his mother's features and by the colossal ancient statues of the Mediterranean. The internal iron framework — essential for supporting the thin, hammered copper skin — was engineered by Gustave Eiffel, later famous for the Eiffel Tower. The statue was built in Paris, disassembled into 350 pieces, packed into 214 crates, and shipped across the Atlantic in 1885. The pedestal, paid for by American donors — including pennies from schoolchildren after a fundraising campaign led by the publisher Joseph Pulitzer — was designed by the architect Richard Morris Hunt.
-
-## Symbolism
-
-The statue's iconography is dense with meaning. The seven rays of her crown represent the seven continents and seven seas. The tablet in her left hand is inscribed "July IV, MDCCLXXVI" — July 4, 1776, the date of American independence. Broken shackles lie at her feet, a reference to the end of slavery that is often missed by visitors. In 1903, the poet Emma Lazarus's sonnet "The New Colossus" was mounted on a bronze plaque inside the pedestal, transforming the meaning of the monument for a new era of immigration: "Give me your tired, your poor, / Your huddled masses yearning to breathe free." That line, not part of the original conception, became the statue's most famous inscription.
-
-## Legacy
-
-The statue is made of copper only 2.4 millimeters thick — about the thickness of two pennies stacked together. That copper oxidized over several decades to form the characteristic green patina. Lightning has struck the statue many times; it is designed to absorb the strikes safely through its iron framework. A major restoration in 1986 replaced the corroded torch, and a new base was built after the September 11 attacks closed the interior to the public. Designated a National Monument in 1924 and a UNESCO World Heritage Site in 1984, the statue receives over four million visitors annually.
-
-## Did You Know?
-
-- The statue's copper skin is only about 2.4 millimeters thick.
-- She originally had a brown coppery finish before oxidizing green.
-- Gustave Eiffel — of Eiffel Tower fame — engineered her internal skeleton.
-- The broken shackles at her feet represent the end of slavery.
+Emma Lazarus wrote *The New Colossus* for an 1883 fundraiser for the pedestal. A plaque with the poem was installed in 1903. Its welcome to people arriving from abroad became closely associated with the statue as an immigration symbol. The dates are worth keeping distinct: a fundraising poem preceded the dedication, and its permanent display came later. Compare its vision of welcome with the date on the tablet. The writing on the figure points back to independence, while the writing inside the pedestal helped later audiences see the figure as a host. [National Park Service, Emma Lazarus](https://www.nps.gov/stli/learn/historyculture/emma-lazarus.htm)

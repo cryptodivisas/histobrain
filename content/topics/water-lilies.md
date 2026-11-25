@@ -1,30 +1,18 @@
 ---
 title: Water Lilies
 era: 1890s–1920s
-summary: Claude Monet’s celebrated series of paintings of his garden pond, exploring light, color, reflection, and modern painting.
+summary: "Compare Monet’s large Water Lilies panels in Paris and New York to see how the pond and the room both shape the viewing experience."
+updatedAt: "2026-11-25"
 ---
 
+## Where is the horizon?
 
+Claude Monet painted the pond in his garden at Giverny repeatedly, making works at different scales over many years. *Water Lilies* usually refers to this group of paintings. In many of the late views, there is no distant shoreline or conventional horizon to organize the picture. A lily pad marks the surface of the pond, while a cloud or branch can appear in the same area as a reflection. The viewer has to decide which marks belong to the water’s surface and which suggest a world above it. [Musée de l’Orangerie, history of the Water Lilies cycle](https://www.musee-orangerie.fr/en/node/33)
 
-## Overview
+## The room is part of the experience in Paris
 
-Water Lilies is the name commonly given to Claude Monet’s famous series of paintings inspired by the pond in his garden at Giverny. Across dozens of canvases, Monet returned again and again to floating lilies, reflections, sky, and changing light. The series became one of the defining achievements of Impressionism and a major bridge toward modern abstraction.
+At the Musée de l’Orangerie, eight large decorative compositions occupy two oval rooms. The arrangement invites people to move, turn, and notice details spread across a long painted surface. It also changes how the pond can be understood. In a reproduction your gaze can take in the edges at once. Walking inside an oval room makes the next portion of the painting become visible as you turn. The museum opened the installation in 1927, after Monet’s death. [Musée de l’Orangerie, the building and installation](https://www.musee-orangerie.fr/en/node/24)
 
-## Creation and Background
+## Compare the Paris rooms with a New York triptych
 
-Monet created his water lily paintings over several decades, especially in the later part of his life. At Giverny, he carefully designed a garden with a Japanese bridge, pond, and water plants that became both his refuge and his artistic laboratory. Rather than painting a single fixed scene, he explored how atmosphere changed from hour to hour and season to season. This made the subject ideal for his lifelong interest in light and perception.
-
-## Style and Technique
-
-In the Water Lilies series, Monet gradually moved away from traditional perspective and clear horizon lines. Many canvases focus almost entirely on the water’s surface, where reflections of clouds, trees, and flowers merge into shimmering patterns of color. This gave the paintings a strikingly immersive quality. Loose brushwork, subtle tonal variation, and repeated observation allowed Monet to transform a garden pond into a vast field of visual experimentation.
-
-## Legacy
-
-The Water Lilies paintings had a lasting impact on 20th-century art. Later painters admired their scale, atmosphere, and near-abstract handling of space. Today, the series is seen not only as a masterpiece of Impressionism but also as an important step toward modern art’s freedom in color and composition.
-
-## Did You Know?
-
-- Monet painted more than 200 works connected to his water lily theme.  
-- His garden at Giverny was designed partly as a subject for painting.  
-- Some of the largest Water Lilies canvases are displayed in Paris’s Musée de l’Orangerie.  
-- The series influenced later abstract and color-focused painters.
+MoMA’s *Water Lilies*, dated 1914–26, consists of three panels. Start at one side and track a color or reflection across an adjoining panel. What continues across the join, and what changes? Then imagine making the same comparison in Paris, where the room has a curve and you have to turn your body. The New York work makes its panels legible within one long view. The Paris installation extends the act of looking around the room. Both ask for more time than a small reproduction suggests. [Museum of Modern Art, Water Lilies](https://www.moma.org/collection/works/80220)

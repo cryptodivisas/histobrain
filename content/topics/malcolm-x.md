@@ -1,29 +1,18 @@
 ---
 title: Malcolm X
 era: 1925–1965
-summary: American Muslim minister and civil rights leader whose uncompromising critique of racism made him one of the most influential figures of the twentieth century.
+summary: "Trace Malcolm X’s change in organizational strategy in 1964 using his speeches and the surviving papers of the organizations he founded."
+updatedAt: "2026-11-25"
 ---
 
+## Why 1964 is a turning point
 
-## Overview
+Malcolm X (1925–1965), born Malcolm Little, became a minister and public spokesman for the Nation of Islam after his release from prison in 1952. He spoke about the violence of white supremacy and the need for Black self-determination. His break with the Nation in 1964 opened a brief period in which he could build organizations of his own. That year he went on the Hajj to Mecca and traveled in Africa. After his pilgrimage he spoke differently about who might be an ally in the struggle against racism. [Schomburg Center, Malcolm X papers and biographical note](https://archives.nypl.org/scm/21896)
 
-Malcolm X, born Malcolm Little, was an American Muslim minister, political thinker, and civil rights leader whose sharp critique of white supremacy and call for Black self-determination made him one of the most influential figures of the twentieth century. While Martin Luther King Jr. emphasized integration and nonviolent protest, Malcolm X argued for self-defense, racial pride, and Black economic independence. The tension and eventual convergence of their ideas shaped the modern Black freedom struggle and continues to influence activists around the world.
+## Two organizations with different jobs
 
-## Early Life
+Malcolm founded Muslim Mosque, Inc. and the Organization of Afro-American Unity. The names can be easy to confuse when reading a timeline. The first was a religious organization. The second was a secular political organization and could pursue a broader set of alliances. Its name echoed the Organization of African Unity. Malcolm argued that American racism should be framed as a human rights issue with an international audience, alongside the domestic struggle for civil rights. Reading the OAAU as an organizational project helps explain why his travel and his work in Harlem belonged to the same period of his life. [Columbia University, Malcolm X Project](https://columbia.edu/cu/ccbh/html/ccbh_proj_mxp.html) · [Schomburg Center, papers of the two organizations](https://archives.nypl.org/scm/21896)
 
-Malcolm was born in 1925 in Omaha, Nebraska, into a family deeply involved in Black activism. His father, Earl Little, was a Baptist minister and organizer for Marcus Garvey's Universal Negro Improvement Association. White supremacist violence shaped Malcolm's childhood: the family fled Omaha after threats from the Ku Klux Klan, and Earl Little died in 1931 under circumstances the family and many historians attribute to the racist Black Legion, though officially ruled an accident. Malcolm was placed in foster care after his mother was institutionalized, dropped out of school at fifteen, and eventually drifted into petty crime in Boston and Harlem. In 1946, at age twenty, he was sentenced to up to ten years in prison for burglary.
+## Read a speech and an organizational document
 
-## The Nation of Islam
-
-In prison, Malcolm encountered the Nation of Islam, a Black religious and political movement led by Elijah Muhammad, and he underwent an intellectual transformation through intense self-study in the prison library. After his release in 1952, he rose rapidly within the Nation, taking the surname "X" to repudiate his slave-era family name. As a minister and national spokesman, he electrified audiences with speeches that fused theology, political analysis, and withering indictments of American racism. He built temples in cities across the country and became the Nation's most visible public face. His 1964 speech "The Ballot or the Bullet" remains a landmark of American political oratory.
-
-## Break with the Nation and Assassination
-
-In 1964 Malcolm X broke publicly with Elijah Muhammad, whose personal conduct he had come to distrust. That year he made the Hajj pilgrimage to Mecca, where he prayed alongside Muslims of every race. The experience shifted his thinking: he began to distinguish white supremacy, which he still condemned, from individual white people, and he dropped the Nation's racial theology for orthodox Sunni Islam. He founded the Muslim Mosque, Inc. and the Organization of Afro-American Unity and began arguing that the Black struggle in the United States should be framed as a global human rights issue. On February 21, 1965, he was assassinated while giving a speech at the Audubon Ballroom in Harlem. Three members of the Nation of Islam were convicted; two were later exonerated in 2021.
-
-## Did You Know?
-
-- *The Autobiography of Malcolm X*, written with Alex Haley, became one of the most widely read American books of the twentieth century.
-- He learned to read seriously by copying the dictionary by hand in prison.
-- After his pilgrimage to Mecca, he took the name El-Hajj Malik El-Shabazz.
-- Two of the three men convicted of his assassination were exonerated in 2021.
+Use the Schomburg finding aid to locate speeches and the OAAU papers. Ask who each document addresses, what action it proposes, and what context a reader needs to understand it. A speech can show how Malcolm framed an issue for a particular audience. An organizational document can reveal how he and his colleagues tried to build something that would outlast one speech. Malcolm X was assassinated on February 21, 1965, at the Audubon Ballroom in New York. The records from the months before his death show work still taking shape, including beliefs and strategies he continued to reassess.

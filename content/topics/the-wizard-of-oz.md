@@ -1,35 +1,18 @@
 ---
 title: The Wizard of Oz
 era: 1939
-summary: Musical fantasy in which Dorothy travels from Kansas to Oz, creating some of Hollywood’s most enduring images and songs.
+summary: "See how Dorothy’s film journey uses a doorway, a change of color, and one adaptation from Baum’s novel to make Oz feel unfamiliar."
+updatedAt: "2026-11-25"
 ---
 
-## Overview
+## What happens when Dorothy opens the door?
 
-*The Wizard of Oz* is a 1939 American musical fantasy based on L. Frank Baum’s children’s novel. Judy Garland plays Dorothy Gale, who is carried from Kansas to the magical land of Oz. With the Scarecrow, Tin Man, and Cowardly Lion, she follows the yellow brick road in search of the Wizard and a way home.
+In MGM’s 1939 musical *The Wizard of Oz*, Dorothy Gale lives in Kansas with Aunt Em and Uncle Henry. A tornado carries her house into Oz. When she opens the door, muted Kansas gives way to a vividly colored landscape. The doorway makes the color change part of an action Dorothy performs. The audience crosses the threshold with her rather than learning from a title card that the setting has changed. [Library of Congress exhibition on the 1939 film](https://www.loc.gov/exhibits/oz/ozsect2.html)
 
-## Key Facts
+## A silver shoe becomes a ruby slipper
 
-- Directed principally by Victor Fleming
-- Stars Judy Garland as Dorothy
-- Features the song “Over the Rainbow”
-- Based on *The Wonderful Wizard of Oz*, published in 1900
+The movie adapts L. Frank Baum’s *The Wonderful Wizard of Oz*, published in 1900. The shoes Dorothy inherits in the book are silver. In the film they are ruby red, a color conspicuous against the yellow road. This is an adaptation choice you can see on screen. Footwear Dorothy has to keep becomes a repeated red accent that can guide the eye in a busy shot. Looking for the slippers while watching the film also helps you follow a story question: what Dorothy already possesses that can help her get home. [Library of Congress exhibition objects and adaptation materials](https://www.loc.gov/exhibits/oz/ozobject.html)
 
-## Production and History
+## What the companions ask for
 
-The film was a major Metro-Goldwyn-Mayer production involving several directors and extensive studio craftsmanship. Sets, painted backdrops, costumes, makeup, choreography, and optical effects created Oz almost entirely on soundstages. Its reputation grew through repeated theatrical releases and annual television broadcasts, which introduced it to generations of families.
-
-## Story Structure and Style
-
-Kansas is presented in sepia-toned imagery, while Oz appears in vivid three-strip Technicolor. This contrast makes Dorothy’s arrival a visual transformation as well as a narrative one. The companions’ separate wishes form a repeating structure, and the journey reveals that each already demonstrates the quality he believes he lacks.
-
-## Impact / Legacy
-
-The film’s songs, characters, costumes, and phrases became deeply embedded in popular culture. “Over the Rainbow” is one of the most celebrated film songs, and Dorothy’s journey has inspired adaptations, reinterpretations, stage productions, and scholarly debate.
-
-## Did You Know?
-
-- “Over the Rainbow” won the Academy Award for Best Original Song.
-- The ruby slippers were silver in Baum’s novel.
-- Multiple pairs of ruby slippers were made for production.
-- The tornado was created with a fabric funnel filmed on a miniature set.
+The Scarecrow, Tin Man, and Cowardly Lion each name something they lack. As the journey goes on, watch for decisions that already show intelligence, care, or courage. The gap between how the companions describe themselves and what they do gives the journey its comedy and emotional shape. A useful comparison is to return to Dorothy’s song about a place beyond Kansas after watching the ending. At the start, the imagined place is somewhere she wants to reach. After Oz, home has a meaning she could not have articulated before leaving it. The color transition gives the trip a visible boundary, while the songs and decisions show how her understanding changes.
