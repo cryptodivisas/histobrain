@@ -1,30 +1,28 @@
 ---
 title: Julius Caesar
 era: 100–44 BCE
-summary: Roman general, statesman, and dictator whose conquests and political reforms helped end the Roman Republic and reshape the ancient world.
+summary: "How Julius Caesar moved from elected consul to dictator for life, and what two Roman coins reveal about the struggle over his legacy."
+updatedAt: "2026-11-25"
 ---
-
-
 
 ## Overview
 
-Gaius Julius Caesar was a Roman general, politician, and writer whose career marked the turning point between the Roman Republic and the Roman Empire. He extended Roman rule across Gaul, seized power in a civil war, and ruled as dictator of Rome until his assassination on the Ides of March in 44 BCE. Through his political heir Octavian, later known as Augustus, Caesar's legacy became the foundation of more than five centuries of Roman imperial rule.
+Julius Caesar (100–44 BCE) held elected office in the Roman Republic, commanded armies in Gaul, and defeated Pompey in civil war. His career is easiest to follow by distinguishing three kinds of power: the authority he gained through republican offices, the army he commanded as a provincial governor, and the permanent dictatorship he held shortly before his assassination.
 
-## Early Career
+## From consul to civil war
 
-Caesar was born in 100 BCE to a patrician family that traced its mythical descent from the goddess Venus. Although his family was old and noble, it was neither wealthy nor politically powerful. He rose through Rome's traditional political ladder — quaestor, aedile, praetor, and finally consul in 59 BCE — by combining oratorical skill, lavish spending on public games, and shrewd alliances. The most important of these was the so-called First Triumvirate, an informal pact with the wealthy Marcus Licinius Crassus and the brilliant general Pompey the Great. This coalition dominated Roman politics for most of the 50s BCE.
+Caesar was consul in 59 BCE and then took up a provincial command. Campaigns in Gaul gave him experienced troops and a political position that rivals in Rome sought to bring to an end. In 49 BCE, he led troops into Italy across the Rubicon, the boundary of his province. The crossing turned a struggle over his command and political future into an armed conflict. In 48 BCE he defeated Pompey at Pharsalus in Greece, though fighting against his opponents continued elsewhere.
 
-## The Gallic Wars and Civil War
+Caesar describes the breakdown of negotiations in his own *Civil Wars*. Read the opening chapters with an eye to whom he names as responsible for the crisis. The account has the detail of a participant’s testimony, but it is also the argument of a commander defending his choices. The famous line about casting the die comes from later ancient accounts, including Suetonius. [Caesar’s *Civil Wars*](https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Caesar/Civil_Wars/home.html) · [Suetonius, *Life of Julius Caesar*](https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Suetonius/12Caesars/Julius%2A.html)
 
-As governor of Gaul from 58 BCE, Caesar fought an extended series of campaigns that he chronicled in his clear, terse *Commentarii de Bello Gallico*. Over nine years he subdued the Gallic tribes, invaded Britain twice, and brought a vast new province under Roman control. His success — and the immense wealth and army loyalty it produced — alarmed his political rivals in Rome. In 49 BCE, ordered to disband his legions and return as a private citizen, he instead crossed the Rubicon River with a single legion, famously declaring *alea iacta est* ("the die is cast"). The civil war that followed carried him to victory over Pompey at Pharsalus in 48 BCE and left him the unchallenged master of Rome.
+## Read the politics on two coins
 
-## Dictatorship and Assassination
+A silver denarius dated to 44 BCE in the Detroit Institute of Arts shows Caesar’s portrait and the legend *DICT PERPETVO*. The inscription announces his standing as dictator in perpetuity. Roman dictatorship was traditionally a temporary office. Putting a living leader’s portrait beside a permanent title made the concentration of authority visible on an object people could pass from hand to hand. [Detroit Institute of Arts coin record](https://dia.org/collection/denarius-depicting-julius-caesar/59293)
 
-As dictator, Caesar introduced reforms that outlasted him: he overhauled the Roman calendar (the Julian calendar that remained in use for sixteen centuries), expanded Roman citizenship, settled veterans in new colonies, and restructured debts. In February of 44 BCE he was named *dictator perpetuo* — dictator for life. A month later, on March 15, a group of senators led by Marcus Junius Brutus and Gaius Cassius Longinus stabbed him to death at a meeting of the Senate, hoping to restore the Republic. Instead, their act plunged Rome into another round of civil wars, which ended only when Caesar's grand-nephew and adopted son Octavian became the first Roman emperor.
+Brutus issued a very different denarius after Caesar’s assassination on March 15, 44 BCE. One side bears Brutus’s own portrait. The other shows two daggers around a cap associated with freedom and names the Ides of March. The design presents the killing as an act of liberation. Compare the two coins: Caesar’s presents an official title, while Brutus’s invites the holder to interpret a disputed act. Both use a portrait to put an individual at the center of the message. [Metropolitan Museum of Art record for Brutus’s denarius](https://www.metmuseum.org/art/collection/search/259194)
 
-## Did You Know?
+## What happened after the Ides of March?
 
-- Caesar's given name, Caesar, became the title used by later Roman and European monarchs — Kaiser and Tsar both derive from it.
-- He was stabbed twenty-three times by as many as sixty conspirators.
-- The Julian calendar he introduced shaped Western timekeeping for over 1,600 years.
-- Caesar was an accomplished author, and his writings are still read in Latin classrooms worldwide.
+The assassination reopened the struggle for control of Rome. Caesar’s adopted heir Octavian eventually defeated his remaining rivals. In 27 BCE the Senate gave him the name Augustus, the conventional starting point of the Roman Empire. This chronology helps explain a common quiz mix-up: Julius Caesar was dictator for life in the late Republic, and Augustus is conventionally considered Rome’s first emperor. [Metropolitan Museum of Art’s Roman Empire chronology](https://www.metmuseum.org/de/essays/the-roman-empire-27-b-c-393-a-d)
+
+For two other perspectives, read about [Cleopatra](/topics/cleopatra), a ruler whose position was shaped by Roman civil wars, and [Marcus Aurelius](/topics/marcus-aurelius), who governed the empire roughly two centuries later.

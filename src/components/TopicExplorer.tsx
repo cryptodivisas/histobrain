@@ -10,6 +10,7 @@ export interface TopicExplorerItem {
   title: string;
   era?: string;
   image: string | null;
+  isArticle: boolean;
   category: Category | "Other";
 }
 
@@ -23,6 +24,7 @@ export default function TopicExplorer({
 }) {
   const [query, setQuery] = useState("");
   const [category, setCategory] = useState<(typeof FILTERS)[number]>("All");
+  const [articlesOnly, setArticlesOnly] = useState(false);
 
   useEffect(() => {
     const timer = window.setTimeout(() => {
@@ -41,9 +43,9 @@ export default function TopicExplorer({
         normalized === "" ||
         topic.title.toLocaleLowerCase().includes(normalized) ||
         topic.era?.toLocaleLowerCase().includes(normalized);
-      return categoryMatch && queryMatch;
+      return categoryMatch && queryMatch && (!articlesOnly || topic.isArticle);
     });
-  }, [category, query, topics]);
+  }, [articlesOnly, category, query, topics]);
 
   return (
     <section aria-labelledby="topic-explorer" className="flex flex-col gap-5">
@@ -71,6 +73,16 @@ export default function TopicExplorer({
             placeholder="SEARCH PEOPLE, PLACES, EVENTS..."
             className="w-full bg-[var(--hb-bg)] border-2 border-[var(--hb-border)] focus:border-[var(--hb-accent)] outline-none px-4 py-3 text-[var(--hb-text)] placeholder:text-[var(--hb-muted)] text-base tracking-wider"
           />
+        </label>
+
+        <label className="flex w-fit items-center gap-2 text-[var(--hb-text)]">
+          <input
+            type="checkbox"
+            checked={articlesOnly}
+            onChange={(event) => setArticlesOnly(event.target.checked)}
+            className="size-4 accent-[var(--hb-accent)]"
+          />
+          In-depth articles only
         </label>
 
         <div className="flex gap-2 overflow-x-auto pb-2" aria-label="Filter topics by category">
@@ -129,7 +141,7 @@ export default function TopicExplorer({
                   )}
                   <div className="p-3 flex flex-col gap-1">
                     <span className="text-[9px] tracking-widest uppercase" style={{ color }}>
-                      {topic.category}
+                      {topic.category}{!topic.isArticle && " · Study notes"}
                     </span>
                     <p className="text-xs tracking-widest text-[var(--hb-text)] group-hover:text-[var(--hb-accent)] transition-colors" style={hf}>
                       {topic.title.toUpperCase()}
@@ -155,6 +167,7 @@ export default function TopicExplorer({
             onClick={() => {
               setQuery("");
               setCategory("All");
+              setArticlesOnly(false);
             }}
             className="mt-4 text-[var(--hb-accent)] text-xs tracking-widest hover:underline"
             style={hf}

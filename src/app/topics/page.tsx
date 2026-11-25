@@ -27,6 +27,7 @@ export default async function TopicsIndexPage() {
   const topics = await getAllTopics();
 
   const totalTopics = topics.length;
+  const articleCount = topics.filter((topic) => topic.indexable).length;
   const explorerTopics: TopicExplorerItem[] = topics
     .map((topic) => {
       const name = nameForSlug(topic.slug);
@@ -35,10 +36,11 @@ export default async function TopicsIndexPage() {
         title: topic.title,
         era: topic.era,
         image: topic.image,
+        isArticle: topic.indexable,
         category: topic.category ?? (name ? categoryOf(name) : null) ?? UNCATEGORIZED,
       };
     })
-    .sort((a, b) => a.title.localeCompare(b.title));
+    .sort((a, b) => Number(b.isArticle) - Number(a.isArticle) || a.title.localeCompare(b.title));
 
   return (
     <div className="min-h-screen flex flex-col items-center px-4 py-10 pixel-font">
@@ -55,12 +57,12 @@ export default async function TopicsIndexPage() {
             &gt; ALL TOPICS
           </h1>
           <p className="text-[var(--hb-muted)] text-sm tracking-wider" style={hf}>
-            {totalTopics} articles · organized by category
+            {articleCount} articles · {totalTopics - articleCount} study notes
           </p>
           <p className="text-base leading-relaxed">
             The full library of people, places, events, artifacts, music,
-            movies, and TV series covered on History Brain. Pick any topic to
-            read its deep-dive article, or{" "}
+            movies, and TV series covered on History Brain. Browse in-depth
+            articles and quick study notes, or{" "}
             <Link href="/" className="text-[var(--hb-accent)] underline">
               jump back into the game
             </Link>

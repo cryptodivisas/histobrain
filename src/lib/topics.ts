@@ -21,6 +21,7 @@ export interface TopicFrontmatter {
   title: string;
   era?: string;
   summary?: string;
+  updatedAt?: string;
 }
 
 export interface Topic extends TopicFrontmatter {
@@ -32,19 +33,13 @@ export interface Topic extends TopicFrontmatter {
   /** Local /questions/<hash>.jpg image path if the topic exists in questions.json. */
   image: string | null;
   category?: Category;
-  updatedAt: string;
+  generated: boolean;
   /** Only substantive editorial articles are submitted for search indexing. */
   indexable: boolean;
 }
 
 const CONTENT_DIR = path.join(process.cwd(), "content", "topics");
 const MIN_INDEXABLE_TOPIC_WORDS = 250;
-
-const LEGACY_TOPIC_SLUGS = [
-  "beyoncé",
-  "“father-of-our-country”",
-  "“father-of-the-constitution”",
-];
 
 interface QuestionEntry {
   name: string;
@@ -89,8 +84,6 @@ const SLUG_TO_CATEGORY: Record<string, Category> = (() => {
   }
   return map;
 })();
-
-void LEGACY_TOPIC_SLUGS;
 
 const GENERATED_TOPIC_CATEGORIES = new Set<Category>([
   "Citizenship",
@@ -243,11 +236,18 @@ export function getAllTopicSlugs(): string[] {
  * Short study cards remain available to players but are not submitted for
  * indexing until they have been expanded and reviewed as full articles.
  */
-export function getIndexableTopicSlugs(): string[] {
-  return getAllTopicSlugs().filter((slug) => {
+export function getIndexableTopicEntries(): Array<{ slug: string; updatedAt?: string }> {
+  return getAllTopicSlugs().flatMap((slug) => {
     const raw = readTopicFile(slug);
-    return raw !== null && wordCount(raw) >= MIN_INDEXABLE_TOPIC_WORDS;
+    if (!raw || wordCount(raw) < MIN_INDEXABLE_TOPIC_WORDS) return [];
+    return [{ slug, updatedAt: topicUpdateDate(matter(raw).data.updatedAt) }];
   });
+}
+
+function topicUpdateDate(value: unknown): string | undefined {
+  if (typeof value !== "string" || !/^\d{4}-\d{2}-\d{2}$/.test(value)) return;
+  const date = new Date(value);
+  if (!Number.isNaN(date.getTime()) && date.toISOString().slice(0, 10) === value) return value;
 }
 
 /** Load a single topic by slug. Returns null if the file is missing. */
@@ -277,7 +277,7 @@ export async function getTopicBySlug(slug: string): Promise<Topic | null> {
       excerpt,
       image: NAME_TO_IMAGE[name] ?? null,
       category,
-      updatedAt: "2026-07-05T00:00:00.000Z",
+      generated: true,
       indexable: false,
     };
   }
@@ -298,7 +298,8 @@ export async function getTopicBySlug(slug: string): Promise<Topic | null> {
     excerpt,
     image,
     category: SLUG_TO_CATEGORY[canonicalSlug],
-    updatedAt: fs.statSync(path.join(CONTENT_DIR, `${canonicalSlug}.md`)).mtime.toISOString(),
+    updatedAt: topicUpdateDate(fm.updatedAt),
+    generated: false,
     indexable: wordCount(raw) >= MIN_INDEXABLE_TOPIC_WORDS,
   };
 }

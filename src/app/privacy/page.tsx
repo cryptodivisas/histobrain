@@ -29,7 +29,7 @@ export default function PrivacyPage() {
           </h1>
 
           <p className="text-sm text-[var(--hb-muted)] tracking-wider" style={hf}>
-            Last updated: April 25, 2026
+            Last updated: November 25, 2026
           </p>
 
           <Section title="Your Choices">
@@ -38,8 +38,9 @@ export default function PrivacyPage() {
               opt-in. On your first visit a banner asks whether to{" "}
               <strong>Accept All</strong> or <strong>Reject All</strong>; we
               implement this with Google&apos;s{" "}
-              <strong>Consent Mode v2</strong>, so when you reject, Google
-              Analytics only receives anonymous, cookieless signals.
+              <strong>Consent Mode v2</strong>. When analytics storage is
+              denied, Google Analytics may still receive cookieless measurement
+              signals.
             </p>
             <p>
               You can change your choice at any time from this page:
@@ -51,9 +52,9 @@ export default function PrivacyPage() {
             <p>
               History Brain is a free, browser-based trivia game. We do{" "}
               <strong>not</strong> require an account, we do{" "}
-              <strong>not</strong> collect personal data for ourselves, and we
-              do <strong>not</strong> sell anything. Your game progress stays on
-              your own device.
+              require an email address to play. Game progress is saved in your
+              browser. The analytics, score sharing, and contact features are
+              described below.
             </p>
             <p>
               Advertising is currently disabled. If it is enabled in the
@@ -67,14 +68,15 @@ export default function PrivacyPage() {
             <ul className="list-disc pl-6 flex flex-col gap-2">
               <li>
                 Your game progress, achievements, score and settings are saved
-                in your browser&apos;s <strong>localStorage</strong>. This data
-                never leaves your device.
+                in your browser&apos;s <strong>localStorage</strong>. If you
+                share a score, the link includes the score and round details
+                needed to display the result.
               </li>
               <li>
                 No account, email, or login is required.
               </li>
               <li>
-                You can wipe all stored data at any time via{" "}
+                You can clear game progress via{" "}
                 <strong>CFG → Reset Progress</strong> in the app, or by
                 clearing your browser&apos;s site data.
               </li>
@@ -86,7 +88,8 @@ export default function PrivacyPage() {
               History Brain itself does <strong>not</strong> set first-party
               cookies for tracking. Our own client-side storage is limited to{" "}
               <code className="text-[var(--hb-accent)]">localStorage</code>,
-              which holds your game progress, settings and best score locally.
+              which holds game progress, settings, your cookie choice, and
+              whether you dismissed a site announcement.
             </p>
             <p>
               Third-party services embedded on the site set their own cookies
@@ -153,10 +156,10 @@ export default function PrivacyPage() {
               </li>
               <li>
                 Third-party ad servers or ad networks may also use technologies
-                like cookies, JavaScript, or web beacons in the advertisements
-                and links that appear on History Brain, which are sent directly
-                to your browser. Their use is subject to their own privacy
-                policies.
+                like cookies or web beacons and may process IP addresses,
+                device information, or other identifiers for ad delivery and
+                measurement. See Google&apos;s partner-sites policy below for
+                how Google uses this information.
               </li>
             </ul>
           </Section>
@@ -164,9 +167,9 @@ export default function PrivacyPage() {
           <Section title="Third-Party Content">
             <ul className="list-disc pl-6 flex flex-col gap-2">
               <li>
-                <strong>Wikimedia Commons</strong> — question images are
-                fetched from Wikimedia&apos;s public CDN. Your browser contacts
-                Wikimedia directly to load these images. See{" "}
+                <strong>Wikimedia</strong> — the quiz serves its image files
+                from History Brain. Following an external Wikimedia link takes
+                you to a site governed by{" "}
                 <a
                   href="https://foundation.wikimedia.org/wiki/Policy:Privacy_policy"
                   target="_blank"
@@ -182,9 +185,8 @@ export default function PrivacyPage() {
                 data is sent to Google Fonts at runtime.
               </li>
               <li>
-                Wikipedia &quot;Learn More&quot; links open Wikipedia articles
-                in a new tab. Once you click, Wikipedia&apos;s privacy policy
-                applies.
+                Topic articles can link to external sources. Those sites
+                handle visits under their own privacy policies.
               </li>
             </ul>
           </Section>
@@ -203,13 +205,13 @@ export default function PrivacyPage() {
             <ul className="list-disc pl-6 flex flex-col gap-2">
               <li>
                 GA4 collects usage data such as pages viewed, session length,
-                approximate geographic location (derived from IP and then
-                discarded), device/browser information, and referrer.
+                approximate geographic location, device/browser information,
+                and referrer. Google may process IP addresses to derive
+                location.
               </li>
               <li>
-                We do <strong>not</strong> ask GA4 to collect any personal
-                identifiers, and IP addresses are anonymised by Google before
-                storage.
+                We do <strong>not</strong> send account details to GA4. See
+                Google&apos;s partner-sites policy for its data handling.
               </li>
               <li>
                 You can opt out of Google Analytics across all sites by
@@ -254,17 +256,17 @@ export default function PrivacyPage() {
 
           <Section title="Your Rights">
             <p>
-              Because we don&apos;t collect personal data, there is nothing to
-              request, export, or delete on our servers. You retain full
-              control over your local game data via your browser.
+              You can manage local game data through your browser and change
+              your cookie choice on this page. If you contact us, your email
+              and message are available to us so we can respond. Use the
+              contact link below for privacy requests.
             </p>
           </Section>
 
           <Section title="Changes">
             <p>
-              If this policy ever changes (for example, if analytics are added
-              in the future), the &quot;Last updated&quot; date above will
-              change and a notice will appear on the main page.
+              The date at the top of this page records the latest policy
+              update.
             </p>
           </Section>
 

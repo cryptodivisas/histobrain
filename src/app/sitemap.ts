@@ -1,68 +1,16 @@
 import type { MetadataRoute } from "next";
-import { getIndexableTopicSlugs } from "@/lib/topics";
+import { getIndexableTopicEntries } from "@/lib/topics";
 import { SITE_URL } from "@/lib/site";
 
 export const dynamic = "force-static";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const now = new Date();
-  const staticRoutes: MetadataRoute.Sitemap = [
-    {
-      url: `${SITE_URL}/`,
-      lastModified: now,
-      changeFrequency: "weekly",
-      priority: 1,
-    },
-    {
-      url: `${SITE_URL}/topics`,
-      lastModified: now,
-      changeFrequency: "weekly",
-      priority: 0.9,
-    },
-    {
-      url: `${SITE_URL}/about`,
-      lastModified: now,
-      changeFrequency: "monthly",
-      priority: 0.5,
-    },
-    {
-      url: `${SITE_URL}/how-it-works`,
-      lastModified: now,
-      changeFrequency: "monthly",
-      priority: 0.5,
-    },
-    {
-      url: `${SITE_URL}/learn`,
-      lastModified: now,
-      changeFrequency: "monthly",
-      priority: 0.8,
-    },
-    {
-      url: `${SITE_URL}/editorial`,
-      lastModified: now,
-      changeFrequency: "monthly",
-      priority: 0.5,
-    },
-    {
-      url: `${SITE_URL}/contact`,
-      lastModified: now,
-      changeFrequency: "yearly",
-      priority: 0.4,
-    },
-    {
-      url: `${SITE_URL}/privacy`,
-      lastModified: now,
-      changeFrequency: "yearly",
-      priority: 0.3,
-    },
+  const pages = ["/", "/topics", "/about", "/how-it-works", "/learn", "/editorial", "/contact", "/privacy"];
+  return [
+    ...pages.map((page) => ({ url: `${SITE_URL}${page}` })),
+    ...getIndexableTopicEntries().map(({ slug, updatedAt }) => ({
+      url: `${SITE_URL}/topics/${slug}`,
+      lastModified: updatedAt,
+    })),
   ];
-
-  const topicRoutes: MetadataRoute.Sitemap = getIndexableTopicSlugs().map((slug) => ({
-    url: `${SITE_URL}/topics/${slug}`,
-    lastModified: now,
-    changeFrequency: "monthly",
-    priority: 0.7,
-  }));
-
-  return [...staticRoutes, ...topicRoutes];
 }

@@ -10,11 +10,11 @@ import {
   getAllTopics,
   getTopicBySlug,
   nameForSlug,
-  slugify,
   type Topic,
 } from "@/lib/topics";
 import { eraOf } from "@/lib/eras";
 import { categoryOf, CATEGORY_COLORS } from "@/lib/categories";
+import { SITE_URL } from "@/lib/site";
 
 const hf = { fontFamily: "var(--font-pixel-heading), monospace" };
 
@@ -44,7 +44,7 @@ export async function generateMetadata({
     openGraph: {
       title: socialTitle,
       description,
-      type: "article",
+      type: topic.indexable ? "article" : "website",
       images: topic.image ? [{ url: topic.image }] : undefined,
     },
     twitter: {
@@ -82,7 +82,7 @@ export default async function TopicPage({
     "@type": "Article",
     headline: topic.title,
     description: topic.excerpt,
-    image: topic.image ? [topic.image] : undefined,
+    image: topic.image ? [new URL(topic.image, SITE_URL).href] : undefined,
     dateModified: topic.updatedAt,
     author: {
       "@type": "Person",
@@ -97,10 +97,12 @@ export default async function TopicPage({
 
   return (
     <div className="min-h-screen flex flex-col items-center px-4 py-10 pixel-font">
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
-      />
+      {topic.indexable && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd).replace(/</g, "\\u003c") }}
+        />
+      )}
       <div className="w-full max-w-3xl flex flex-col gap-6">
         <header className="flex items-center justify-between">
           <Link
@@ -111,11 +113,11 @@ export default async function TopicPage({
             HISTORY_BRAIN
           </Link>
           <Link
-            href="/"
+            href="/topics"
             className="border-2 border-[var(--hb-border)] hover:border-[var(--hb-accent)] text-[var(--hb-accent)] px-3 py-2 transition-colors cursor-pointer text-xs"
             style={hf}
           >
-            &lt; BACK
+            &lt; TOPICS
           </Link>
         </header>
 
@@ -173,7 +175,7 @@ export default async function TopicPage({
               </p>
             )}
             <div className="flex flex-wrap gap-x-4 gap-y-1 text-sm text-[var(--hb-muted)]">
-              <span>
+              {topic.generated ? <span>Quick study notes from the quiz bank</span> : <span>
                 Written and maintained by{" "}
                 <a
                   href="https://www.henrymontilla.com"
@@ -183,8 +185,8 @@ export default async function TopicPage({
                 >
                   Henry Montilla
                 </a>
-              </span>
-              <span>
+              </span>}
+              {topic.updatedAt && <span>
                 Page updated{" "}
                 <time dateTime={topic.updatedAt}>
                   {new Intl.DateTimeFormat("en-US", {
@@ -194,7 +196,7 @@ export default async function TopicPage({
                     timeZone: "UTC",
                   }).format(new Date(topic.updatedAt))}
                 </time>
-              </span>
+              </span>}
             </div>
           </div>
 
@@ -205,12 +207,14 @@ export default async function TopicPage({
 
           <aside className="bg-[var(--hb-bg)] border-2 border-[var(--hb-border)] p-4 flex flex-col gap-2">
             <h2 className="text-[var(--hb-accent-2)] text-xs tracking-widest" style={hf}>
-              &gt; SOURCES &amp; EDITORIAL NOTE
+              &gt; EDITORIAL STANDARDS
             </h2>
             <p className="text-base leading-relaxed">
-              History Brain prioritizes primary records, museums, archives, and
-              established reference works. This page may summarize several
-              references rather than cite every sentence individually.
+              Spot a factual error or have a source to suggest?{" "}
+              <Link href="/contact" className="text-[var(--hb-accent)] underline">
+                Send a correction
+              </Link>
+              .
             </p>
             <Link href="/editorial" className="text-[var(--hb-accent)] text-xs tracking-widest hover:underline" style={hf}>
               REVIEW OUR RESEARCH STANDARD →
@@ -272,33 +276,15 @@ export default async function TopicPage({
 }
 
 /**
- * Pick a few related topics. Prefers same category; falls back to random
- * other topics so every page has something to click.
+ * Prefer published articles within the same category.
  */
 async function getRelatedTopics(
   currentSlug: string,
   category: ReturnType<typeof categoryOf>
 ): Promise<Topic[]> {
   const all = await getAllTopics();
-  const others = all.filter((t) => t.slug !== currentSlug);
-
-  if (category) {
-    const sameCat = others.filter((t) => {
-      const name = nameForSlug(t.slug);
-      return (t.category ?? (name ? categoryOf(name) : null)) === category;
-    });
-    if (sameCat.length >= 3) return sameCat.slice(0, 6);
-    // Mix same-category + a few random to reach 6.
-    const filler = others
-      .filter((t) => !sameCat.some((s) => s.slug === t.slug))
-      .sort(() => Math.random() - 0.5)
-      .slice(0, 6 - sameCat.length);
-    return [...sameCat, ...filler];
-  }
-
-  return others.sort(() => Math.random() - 0.5).slice(0, 6);
+  const articles = all.filter((topic) => topic.slug !== currentSlug && topic.indexable);
+  const sameCategory = articles.filter((topic) => topic.category === category);
+  const otherCategories = articles.filter((topic) => topic.category !== category);
+  return [...sameCategory, ...otherCategories].slice(0, 6);
 }
-
-// Referenced so the import survives tree-shaking even if related lookups are
-// short-circuited.
-void slugify;

@@ -1,4 +1,5 @@
 import Script from "next/script";
+import { CONSENT_STORAGE_KEY, CONSENT_TTL_MS } from "@/lib/consent";
 
 export const GA_MEASUREMENT_ID = "G-WJLBZ09E3D";
 
@@ -6,8 +7,7 @@ export const GA_MEASUREMENT_ID = "G-WJLBZ09E3D";
  * Google Analytics 4 loader wired for Consent Mode v2.
  *
  * All ad_* and analytics_storage signals start as "denied". GA will still
- * fire cookie-less pings in this state (that's the whole point of Consent
- * Mode v2), so AdSense approval remains possible and EU traffic is safe.
+ * send cookieless signals while analytics storage is denied.
  *
  * When the user accepts via our ConsentBanner, we push
  *   gtag('consent', 'update', { ...all granted })
@@ -33,10 +33,11 @@ export default function GoogleAnalytics() {
             wait_for_update: 500
           });
           try {
-            var raw = window.localStorage.getItem('hb_consent_v1');
+            var raw = window.localStorage.getItem(${JSON.stringify(CONSENT_STORAGE_KEY)});
             if (raw) {
               var rec = JSON.parse(raw);
-              if (rec && rec.mode === 'granted') {
+              if (rec && rec.mode === 'granted' && Number.isFinite(rec.ts) &&
+                  Date.now() - rec.ts <= ${CONSENT_TTL_MS}) {
                 gtag('consent', 'update', {
                   ad_storage: 'granted',
                   ad_user_data: 'granted',

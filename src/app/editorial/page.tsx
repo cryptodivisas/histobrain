@@ -32,13 +32,13 @@ export default function EditorialPage() {
             Primary documents and official archives come first when available, followed by museums, universities, government institutions, and established reference publications.
           </Standard>
           <Standard title="Writing and review">
-            Questions and articles are written and maintained by Henry Montilla. New material is checked for chronology, answer ambiguity, internal consistency, and whether each clue fairly supports its answer.
+            Henry Montilla maintains History Brain. The archive includes in-depth articles and short study notes compiled from quiz clues and answer explanations. For new or revised articles, we aim to link to the records and references readers can use to check the claims.
           </Standard>
           <Standard title="Images and licenses">
             Historical images are primarily drawn from Wikimedia Commons and other openly licensed or public-domain collections, subject to their respective licenses.
           </Standard>
           <Standard title="Dates and revisions">
-            Topic pages display their latest page-update date. Changes may include factual corrections, expanded context, clearer wording, or improved sourcing.
+            Topic pages display a revision date when an editorial update has been recorded. Changes may include factual corrections, expanded context, clearer wording, or improved sourcing.
           </Standard>
           <Standard title="Corrections">
             If something looks wrong or incomplete, send the topic title, disputed passage, and a reliable supporting source through the correction channel.

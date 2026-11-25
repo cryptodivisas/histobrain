@@ -7,25 +7,6 @@ const nextConfig: NextConfig = {
   images: {
     unoptimized: true,
   },
-  async redirects() {
-    return [
-      {
-        source: "/topics/beyonc\u00e9",
-        destination: "/topics/beyonce",
-        permanent: true,
-      },
-      {
-        source: "/topics/\u201cfather-of-our-country\u201d",
-        destination: "/topics/father-of-our-country",
-        permanent: true,
-      },
-      {
-        source: "/topics/\u201cfather-of-the-constitution\u201d",
-        destination: "/topics/father-of-the-constitution",
-        permanent: true,
-      },
-    ];
-  },
 };
 
 export default nextConfig;
